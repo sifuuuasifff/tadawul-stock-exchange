@@ -1,0 +1,16 @@
+{
+  "generated": "2026-06-05T19:49:01.072769",
+  "batch": "Telecom",
+  "results": [
+    {
+      "symbol": "7020",
+      "name": "Mobily",
+      "days": 3994,
+      "accuracy": 63.4,
+      "baseline": 68.3,
+      "edge": -4.9,
+      "hyp_acc": 3,
+      "mistakes": 18
+    }
+  ]
+}

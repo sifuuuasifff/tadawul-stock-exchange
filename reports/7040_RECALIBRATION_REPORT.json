@@ -1,0 +1,24 @@
+{
+  "sym": "7040",
+  "name": "Etihad Atheeb",
+  "generated": "2026-06-05T19:50:19.808722",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=23.09%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 13.6%",
+      "evidence": "Systematic underestimate: predicted=2.68%, actual=16.26%"
+    }
+  ],
+  "bias": 13.58,
+  "before_accuracy": 31.7
+}

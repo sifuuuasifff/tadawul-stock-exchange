@@ -1,0 +1,19 @@
+{
+  "sym": "7030",
+  "name": "Zain Saudi",
+  "generated": "2026-06-05T19:50:00.767953",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=3.38%"
+    }
+  ],
+  "bias": 1.19,
+  "before_accuracy": 51.2
+}
