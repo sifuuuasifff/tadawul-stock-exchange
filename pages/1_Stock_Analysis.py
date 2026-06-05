@@ -69,10 +69,11 @@ ALL STOCKS SNAPSHOT: {json.dumps(snap, default=str)}
 SIGNAL WEIGHTS: Environment 45% | Technical 30% | Fundamental 25%
 
 INSTRUCTIONS:
-- Answer in plain English. User is non-technical.
-- Respond in Arabic if asked in Arabic.
+- ALWAYS respond in English by default, regardless of how the question is phrased.
+- Only switch to Arabic if the user explicitly says "respond in Arabic" or "أجب بالعربي".
 - Be direct. Give numbers. No unnecessary disclaimers.
 - Do NOT give financial advice — research and evidence only.
+- User is non-technical — use plain English, avoid jargon.
 """
 
 
