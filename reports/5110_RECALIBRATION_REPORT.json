@@ -1,0 +1,19 @@
+{
+  "sym": "5110",
+  "name": "Saudi Telecom Infra",
+  "generated": "2026-06-05T20:14:44.449914",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-9.83%"
+    }
+  ],
+  "bias": 0.18,
+  "before_accuracy": 63.4
+}

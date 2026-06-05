@@ -1,0 +1,94 @@
+{
+  "generated": "2026-06-05T20:14:47.163562",
+  "batch": "Batch 9 \u2014 Cement",
+  "results": [
+    {
+      "symbol": "3010",
+      "name": "Yamama Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "accuracy": 51.2,
+      "baseline": 43.9,
+      "edge": 7.3,
+      "hyp_acc": 5,
+      "mistakes": 20
+    },
+    {
+      "symbol": "3020",
+      "name": "Saudi Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "accuracy": 39.0,
+      "baseline": 41.5,
+      "edge": -2.4,
+      "hyp_acc": 4,
+      "mistakes": 20
+    },
+    {
+      "symbol": "3030",
+      "name": "Qassim Cement",
+      "sector": "Cement",
+      "days": 3995,
+      "accuracy": 51.2,
+      "baseline": 48.8,
+      "edge": 2.4,
+      "hyp_acc": 2,
+      "mistakes": 18
+    },
+    {
+      "symbol": "3040",
+      "name": "Southern Province Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "accuracy": 48.8,
+      "baseline": 43.9,
+      "edge": 4.9,
+      "hyp_acc": 3,
+      "mistakes": 16
+    },
+    {
+      "symbol": "3050",
+      "name": "Yanbu Cement",
+      "sector": "Cement",
+      "days": 3993,
+      "accuracy": 43.9,
+      "baseline": 34.1,
+      "edge": 9.8,
+      "hyp_acc": 5,
+      "mistakes": 21
+    },
+    {
+      "symbol": "3060",
+      "name": "City Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "accuracy": 48.8,
+      "baseline": 34.1,
+      "edge": 14.6,
+      "hyp_acc": 1,
+      "mistakes": 24
+    },
+    {
+      "symbol": "3080",
+      "name": "Tabuk Cement",
+      "sector": "Cement",
+      "days": 3993,
+      "accuracy": 56.1,
+      "baseline": 51.2,
+      "edge": 4.9,
+      "hyp_acc": 4,
+      "mistakes": 19
+    },
+    {
+      "symbol": "3090",
+      "name": "Arabian Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "accuracy": 48.8,
+      "baseline": 48.8,
+      "edge": 0.0,
+      "hyp_acc": 4,
+      "mistakes": 21
+    }
+  ]
+}

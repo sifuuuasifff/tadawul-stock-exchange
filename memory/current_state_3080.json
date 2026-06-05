@@ -1,0 +1,60 @@
+{
+  "symbol": "3080",
+  "name": "Tabuk Cement",
+  "sector": "Cement",
+  "as_of": "2026-06-05",
+  "price": 24.85,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3993,
+  "rsi": 41.4,
+  "bb_pct": 0.506,
+  "ret_20d_pct": -0.9,
+  "ret_5d_pct": 1.7,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -17.3,
+  "dist_from_52w_low_pct": 14.2,
+  "vol_ratio": 0.86,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 42,
+  "fund_score": 50,
+  "composite": 61.1,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "41.4 neutral",
+    "bb": "mid band (0.51)",
+    "momentum": "-0.9% neutral",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.9,
+    "bear_90d_pct": -2.9,
+    "target_30d": 25.45,
+    "target_60d": 25.89,
+    "target_90d": 26.34,
+    "bull_target": 28.55,
+    "bear_target": 24.13,
+    "confidence": 63,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 1152,
+    "avg_90d": 1.5,
+    "win_pct": 48.6
+  }
+}

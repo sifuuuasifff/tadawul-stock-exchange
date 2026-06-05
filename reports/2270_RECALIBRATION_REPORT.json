@@ -1,0 +1,19 @@
+{
+  "sym": "2270",
+  "name": "Savola Group",
+  "generated": "2026-06-05T20:08:53.927535",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=16.93%"
+    }
+  ],
+  "bias": 1.53,
+  "before_accuracy": 41.5
+}

@@ -1,0 +1,24 @@
+{
+  "sym": "2100",
+  "name": "Wafrah for Industry",
+  "generated": "2026-06-05T20:08:57.483788",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-6.17%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.9%",
+      "evidence": "Systematic underestimate: predicted=2.4%, actual=6.34%"
+    }
+  ],
+  "bias": 3.94,
+  "before_accuracy": 39.0
+}

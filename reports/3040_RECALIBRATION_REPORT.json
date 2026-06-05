@@ -1,0 +1,19 @@
+{
+  "sym": "3040",
+  "name": "Southern Province Cement",
+  "generated": "2026-06-05T20:11:50.591984",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-5.4%"
+    }
+  ],
+  "bias": -0.85,
+  "before_accuracy": 48.8
+}

@@ -1,0 +1,60 @@
+{
+  "symbol": "2200",
+  "name": "Arabian Food Industries",
+  "sector": "Food & Beverages",
+  "as_of": "2026-06-05",
+  "price": 7.68,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3995,
+  "rsi": 76.8,
+  "bb_pct": 1.099,
+  "ret_20d_pct": 9.9,
+  "ret_5d_pct": 11.3,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": 0.0,
+  "dist_from_52w_low_pct": 79.4,
+  "vol_ratio": 1.51,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 15,
+  "fund_score": 50,
+  "composite": 53.0,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "76.8 overbought (-12)",
+    "bb": "near upper band (1.10) (-15)",
+    "momentum": "9.9% neutral",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 1.7,
+    "base_60d_pct": 2.9,
+    "base_90d_pct": 4.2,
+    "bull_90d_pct": 13.9,
+    "bear_90d_pct": -5.5,
+    "target_30d": 7.81,
+    "target_60d": 7.91,
+    "target_90d": 8.0,
+    "bull_target": 8.75,
+    "bear_target": 7.26,
+    "confidence": 50,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 602,
+    "avg_90d": 3.5,
+    "win_pct": 54.8
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "generated": "2026-06-05T20:14:47.161349",
+  "batch": "Batch 8 \u2014 Food & Beverages",
+  "results": [
+    {
+      "symbol": "2270",
+      "name": "Savola Group",
+      "sector": "Food & Beverages",
+      "days": 3994,
+      "accuracy": 41.5,
+      "baseline": 58.5,
+      "edge": -17.1,
+      "hyp_acc": 3,
+      "mistakes": 26
+    },
+    {
+      "symbol": "2050",
+      "name": "Saudi Arabia Fertilizers",
+      "sector": "Food & Beverages",
+      "days": 3996,
+      "accuracy": 51.2,
+      "baseline": 53.7,
+      "edge": -2.4,
+      "hyp_acc": 2,
+      "mistakes": 25
+    },
+    {
+      "symbol": "6020",
+      "name": "Halwani Brothers",
+      "sector": "Food & Beverages",
+      "days": 3995,
+      "accuracy": 51.2,
+      "baseline": 39.0,
+      "edge": 12.2,
+      "hyp_acc": 5,
+      "mistakes": 17
+    },
+    {
+      "symbol": "2100",
+      "name": "Wafrah for Industry",
+      "sector": "Food & Beverages",
+      "days": 4029,
+      "accuracy": 39.0,
+      "baseline": 43.9,
+      "edge": -4.9,
+      "hyp_acc": 7,
+      "mistakes": 31
+    },
+    {
+      "symbol": "6010",
+      "name": "NADEC",
+      "sector": "Food & Beverages",
+      "days": 3994,
+      "accuracy": 46.3,
+      "baseline": 51.2,
+      "edge": -4.9,
+      "hyp_acc": 7,
+      "mistakes": 22
+    },
+    {
+      "symbol": "2200",
+      "name": "Arabian Food Industries",
+      "sector": "Food & Beverages",
+      "days": 3995,
+      "accuracy": 39.0,
+      "baseline": 46.3,
+      "edge": -7.3,
+      "hyp_acc": 6,
+      "mistakes": 29
+    }
+  ]
+}

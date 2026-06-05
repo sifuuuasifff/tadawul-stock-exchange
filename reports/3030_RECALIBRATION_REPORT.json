@@ -1,0 +1,13 @@
+{
+  "sym": "3030",
+  "name": "Qassim Cement",
+  "generated": "2026-06-05T20:11:49.172078",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [],
+  "bias": -1.59,
+  "before_accuracy": 51.2
+}

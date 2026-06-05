@@ -1,0 +1,19 @@
+{
+  "sym": "3080",
+  "name": "Tabuk Cement",
+  "generated": "2026-06-05T20:11:54.944197",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-2.96%"
+    }
+  ],
+  "bias": -0.25,
+  "before_accuracy": 56.1
+}

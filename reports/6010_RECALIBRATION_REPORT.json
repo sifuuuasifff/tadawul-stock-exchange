@@ -1,0 +1,19 @@
+{
+  "sym": "6010",
+  "name": "NADEC",
+  "generated": "2026-06-05T20:08:58.554507",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=15.65%"
+    }
+  ],
+  "bias": 2.72,
+  "before_accuracy": 46.3
+}

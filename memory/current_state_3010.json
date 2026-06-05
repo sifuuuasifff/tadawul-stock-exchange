@@ -1,0 +1,59 @@
+{
+  "symbol": "3010",
+  "name": "Yamama Cement",
+  "sector": "Cement",
+  "as_of": "2026-06-05",
+  "price": 22.75,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3994,
+  "rsi": 66.7,
+  "bb_pct": 0.415,
+  "ret_20d_pct": -2.6,
+  "ret_5d_pct": -0.3,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -4.1,
+  "dist_from_52w_low_pct": 15.2,
+  "vol_ratio": 1.08,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 50,
+  "fund_score": 50,
+  "composite": 63.5,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "66.7 neutral",
+    "bb": "mid band (0.41)",
+    "momentum": "-2.6% neutral"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.7,
+    "bear_90d_pct": -2.7,
+    "target_30d": 23.3,
+    "target_60d": 23.71,
+    "target_90d": 24.12,
+    "bull_target": 26.08,
+    "bear_target": 22.15,
+    "confidence": 66,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 928,
+    "avg_90d": 6.5,
+    "win_pct": 56.2
+  }
+}

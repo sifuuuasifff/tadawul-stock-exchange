@@ -1,0 +1,60 @@
+{
+  "symbol": "4280",
+  "name": "Tabreed",
+  "sector": "Utilities",
+  "as_of": "2026-06-05",
+  "price": 14.6,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3993,
+  "rsi": 81.1,
+  "bb_pct": 0.849,
+  "ret_20d_pct": 36.2,
+  "ret_5d_pct": 18.2,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -5.1,
+  "dist_from_52w_low_pct": 111.9,
+  "vol_ratio": 4.76,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 2,
+  "fund_score": 50,
+  "composite": 49.1,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "81.1 extreme overbought (-20)",
+    "bb": "mid band (0.85)",
+    "momentum": "36.2% strong rally \u2014 caution (-20)",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 0.7,
+    "base_60d_pct": 1.3,
+    "base_90d_pct": 1.8,
+    "bull_90d_pct": 11.7,
+    "bear_90d_pct": -8.1,
+    "target_30d": 14.71,
+    "target_60d": 14.78,
+    "target_90d": 14.86,
+    "bull_target": 16.31,
+    "bear_target": 13.42,
+    "confidence": 46,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 386,
+    "avg_90d": 2.0,
+    "win_pct": 47.7
+  }
+}

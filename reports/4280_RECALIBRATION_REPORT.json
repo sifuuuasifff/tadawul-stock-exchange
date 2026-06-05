@@ -1,0 +1,19 @@
+{
+  "sym": "4280",
+  "name": "Tabreed",
+  "generated": "2026-06-05T20:14:47.094600",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-10.13%"
+    }
+  ],
+  "bias": -2.17,
+  "before_accuracy": 51.2
+}

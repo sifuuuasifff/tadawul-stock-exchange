@@ -1,0 +1,19 @@
+{
+  "sym": "6020",
+  "name": "Halwani Brothers",
+  "generated": "2026-06-05T20:08:56.327728",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-6.41%"
+    }
+  ],
+  "bias": -2.11,
+  "before_accuracy": 51.2
+}

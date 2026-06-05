@@ -1,0 +1,86 @@
+{
+  "generated": "2026-06-05T20:03:40.317734",
+  "batch": "Healthcare",
+  "results": [
+    {
+      "symbol": "4013",
+      "name": "Dr Sulaiman Al Habib",
+      "days": 1549,
+      "accuracy": 52.4,
+      "baseline": 61.9,
+      "edge": -9.5,
+      "hyp_acc": 6,
+      "mistakes": 8
+    },
+    {
+      "symbol": "4002",
+      "name": "Mouwasat Medical",
+      "days": 4120,
+      "accuracy": 61.0,
+      "baseline": 61.0,
+      "edge": 0.0,
+      "hyp_acc": 5,
+      "mistakes": 20
+    },
+    {
+      "symbol": "4004",
+      "name": "Dallah Healthcare",
+      "days": 3378,
+      "accuracy": 53.7,
+      "baseline": 58.5,
+      "edge": -4.9,
+      "hyp_acc": 8,
+      "mistakes": 17
+    },
+    {
+      "symbol": "4345",
+      "name": "Saudi German Health",
+      "days": 1968,
+      "accuracy": 53.6,
+      "baseline": 39.3,
+      "edge": 14.3,
+      "hyp_acc": 5,
+      "mistakes": 8
+    },
+    {
+      "symbol": "4007",
+      "name": "Al Hammadi",
+      "days": 3007,
+      "accuracy": 51.2,
+      "baseline": 51.2,
+      "edge": 0.0,
+      "hyp_acc": 7,
+      "mistakes": 21
+    },
+    {
+      "symbol": "4005",
+      "name": "National Medical Care",
+      "days": 3315,
+      "accuracy": 46.3,
+      "baseline": 58.5,
+      "edge": -12.2,
+      "hyp_acc": 5,
+      "mistakes": 22
+    },
+    {
+      "symbol": "4006",
+      "name": "Specialized Medical",
+      "days": 3007,
+      "accuracy": 36.6,
+      "baseline": 39.0,
+      "edge": -2.4,
+      "hyp_acc": 6,
+      "mistakes": 26
+    },
+    {
+      "symbol": "2070",
+      "name": "Saudi Pharmaceutical",
+      "days": 3994,
+      "accuracy": 43.9,
+      "baseline": 46.3,
+      "edge": -2.4,
+      "hyp_acc": 4,
+      "mistakes": 16
+    }
+  ]
+}

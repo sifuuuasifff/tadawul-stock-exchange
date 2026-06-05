@@ -1,0 +1,19 @@
+{
+  "sym": "2200",
+  "name": "Arabian Food Industries",
+  "generated": "2026-06-05T20:08:59.647082",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=25.63%"
+    }
+  ],
+  "bias": 1.85,
+  "before_accuracy": 39.0
+}

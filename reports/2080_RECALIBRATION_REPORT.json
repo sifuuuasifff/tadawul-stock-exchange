@@ -1,0 +1,24 @@
+{
+  "sym": "2080",
+  "name": "Saudi Electricity",
+  "generated": "2026-06-05T20:14:43.005090",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=5.88%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 4.5%",
+      "evidence": "Systematic underestimate: predicted=2.06%, actual=6.58%"
+    }
+  ],
+  "bias": 4.52,
+  "before_accuracy": 56.1
+}
