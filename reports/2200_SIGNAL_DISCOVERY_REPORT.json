@@ -1,7 +1,7 @@
 {
   "sym": "2200",
   "name": "Arabian Pipes Co.",
-  "generated": "2026-06-06T01:58:24.369529",
+  "generated": "2026-06-06T02:23:47.393206",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,47 +648,36 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": -6.62,
-      "pct_positive_90d": 33.3,
-      "p_value_90d": 0.575,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 620,
+      "avg_return_90d": 2.28,
+      "pct_positive_90d": 42.3,
+      "p_value_90d": 0.031,
+      "significant_90d": true,
+      "edge_vs_base": -0.88,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 725,
+      "avg_return_90d": 1.17,
+      "pct_positive_90d": 42.2,
+      "p_value_90d": 0.246,
       "significant_90d": false,
-      "edge_vs_base": -9.78,
+      "edge_vs_base": -1.99,
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 12,
-      "avg_return_90d": 4.93,
-      "pct_positive_90d": 58.3,
-      "p_value_90d": 0.475,
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 890,
+      "avg_return_90d": 0.38,
+      "pct_positive_90d": 43.0,
+      "p_value_90d": 0.655,
       "significant_90d": false,
-      "edge_vs_base": 1.77,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": -1.45,
-      "pct_positive_90d": 33.3,
-      "p_value_90d": 0.901,
-      "significant_90d": false,
-      "edge_vs_base": -4.62,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 3.89,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.623,
-      "significant_90d": false,
-      "edge_vs_base": 0.73,
+      "edge_vs_base": -2.78,
       "reliability_label": "LOW"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "2310",
   "name": "Sahara International Petrochem",
-  "generated": "2026-06-06T01:57:15.297434",
+  "generated": "2026-06-06T02:20:29.375550",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,59 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 7.7,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.277,
-      "significant_90d": false,
-      "edge_vs_base": 4.71,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2350,
+      "avg_return_90d": 3.02,
+      "pct_positive_90d": 50.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.04,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 3.42,
-      "pct_positive_90d": 40.0,
-      "p_value_90d": 0.67,
-      "significant_90d": false,
-      "edge_vs_base": 0.44,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3517,
+      "avg_return_90d": 2.09,
+      "pct_positive_90d": 48.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.89,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 15,
-      "avg_return_90d": 7.17,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.211,
-      "significant_90d": false,
-      "edge_vs_base": 4.19,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3585,
+      "avg_return_90d": 2.85,
+      "pct_positive_90d": 49.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.14,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 130,
+      "avg_return_90d": -11.72,
+      "pct_positive_90d": 16.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -14.71,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 12,
+      "avg_return_90d": -21.58,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -24.56,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

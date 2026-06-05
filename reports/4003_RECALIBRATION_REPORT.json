@@ -1,7 +1,7 @@
 {
   "sym": "4003",
   "name": "United Electronics (Extra)",
-  "generated": "2026-06-06T01:57:31.963596",
+  "generated": "2026-06-06T02:21:21.814340",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -16,14 +16,14 @@
     {
       "factor": "Base return magnitude",
       "action": "Adjust upward by 7.6%",
-      "evidence": "Systematic underestimate: predicted=3.41%, actual=11.01%"
+      "evidence": "Systematic underestimate: predicted=3.38%, actual=11.01%"
     },
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "14/21 large errors were upside misses"
+      "evidence": "16/23 large errors were upside misses"
     }
   ],
-  "bias": 7.6,
+  "bias": 7.63,
   "before_accuracy": 63.4
 }

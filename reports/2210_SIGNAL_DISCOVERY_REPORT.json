@@ -1,7 +1,7 @@
 {
   "sym": "2210",
   "name": "Nama Chemicals",
-  "generated": "2026-06-06T01:57:16.559187",
+  "generated": "2026-06-06T02:20:33.130465",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -1.02,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.911,
-      "significant_90d": false,
-      "edge_vs_base": -9.23,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 90,
+      "avg_return_90d": -11.7,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -19.91,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 13,
-      "avg_return_90d": 3.55,
-      "pct_positive_90d": 38.5,
-      "p_value_90d": 0.582,
-      "significant_90d": false,
-      "edge_vs_base": -4.66,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 367,
+      "avg_return_90d": -3.22,
+      "pct_positive_90d": 51.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -11.44,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 13,
-      "avg_return_90d": 3.93,
-      "pct_positive_90d": 46.2,
-      "p_value_90d": 0.55,
-      "significant_90d": false,
-      "edge_vs_base": -4.29,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 367,
+      "avg_return_90d": -3.22,
+      "pct_positive_90d": 51.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -11.44,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

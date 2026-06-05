@@ -1,7 +1,7 @@
 {
   "sym": "4012",
   "name": "Thob Al Aseel",
-  "generated": "2026-06-06T01:57:32.985833",
+  "generated": "2026-06-06T02:21:24.379359",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=12.13%"
     }
   ],
-  "bias": -1.89,
+  "bias": -1.43,
   "before_accuracy": 40.9
 }

@@ -1,7 +1,7 @@
 {
   "sym": "2270",
   "name": "SADAFCO (Saudia Dairy)",
-  "generated": "2026-06-06T01:58:02.105308",
+  "generated": "2026-06-06T02:22:42.430162",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 2.46,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.548,
-      "significant_90d": false,
-      "edge_vs_base": -3.95,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2916,
+      "avg_return_90d": 8.19,
+      "pct_positive_90d": 69.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.79,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 9.22,
-      "pct_positive_90d": 75.0,
-      "p_value_90d": 0.105,
-      "significant_90d": false,
-      "edge_vs_base": 2.81,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3513,
+      "avg_return_90d": 7.46,
+      "pct_positive_90d": 65.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.05,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 6.57,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.191,
-      "significant_90d": false,
-      "edge_vs_base": 0.16,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3904,
+      "avg_return_90d": 6.41,
+      "pct_positive_90d": 62.5,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "2270",
   "name": "SADAFCO (Saudia Dairy)",
-  "generated": "2026-06-06T01:58:02.802577",
+  "generated": "2026-06-06T02:22:43.111454",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=16.93%"
     }
   ],
-  "bias": -0.14,
+  "bias": 0.33,
   "before_accuracy": 41.5
 }

@@ -1,7 +1,7 @@
 {
   "sym": "2030",
   "name": "SARCO",
-  "generated": "2026-06-06T01:57:19.160710",
+  "generated": "2026-06-06T02:20:40.941843",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,59 @@
       "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 8.83,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.365,
-      "significant_90d": false,
-      "edge_vs_base": 4.47,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 3.05,
-      "pct_positive_90d": 30.0,
-      "p_value_90d": 0.782,
-      "significant_90d": false,
-      "edge_vs_base": -1.31,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -13.59,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.011,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 497,
+      "avg_return_90d": 18.9,
+      "pct_positive_90d": 64.4,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": -17.94,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": 14.55,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 914,
+      "avg_return_90d": 7.43,
+      "pct_positive_90d": 49.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 3.07,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1213,
+      "avg_return_90d": 6.1,
+      "pct_positive_90d": 48.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.74,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1868,
+      "avg_return_90d": -0.06,
+      "pct_positive_90d": 36.9,
+      "p_value_90d": 0.924,
+      "significant_90d": false,
+      "edge_vs_base": -4.41,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1012,
+      "avg_return_90d": 0.34,
+      "pct_positive_90d": 29.5,
+      "p_value_90d": 0.73,
+      "significant_90d": false,
+      "edge_vs_base": -4.02,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

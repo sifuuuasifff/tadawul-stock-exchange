@@ -1,7 +1,7 @@
 {
   "sym": "6004",
   "name": "Saudi Airlines Catering",
-  "generated": "2026-06-06T01:58:20.923619",
+  "generated": "2026-06-06T02:23:35.415966",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -3.6%",
-      "evidence": "Systematic overestimate: predicted=3.51%, actual=-0.13%"
+      "action": "Adjust upward by -3.0%",
+      "evidence": "Systematic overestimate: predicted=2.91%, actual=-0.13%"
     }
   ],
-  "bias": -3.64,
+  "bias": -3.04,
   "before_accuracy": 48.8
 }

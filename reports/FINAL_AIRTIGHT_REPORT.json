@@ -1,0 +1,324 @@
+{
+  "generated": "2026-06-06T02:19:12.312709",
+  "model_layers": {
+    "environment": {
+      "weight": "40%",
+      "backtested": true,
+      "history": "2010-2026"
+    },
+    "technical": {
+      "weight": "25%",
+      "backtested": true,
+      "history": "2010-2026"
+    },
+    "fundamental": {
+      "weight": "20%",
+      "backtested": true,
+      "history": "2015-2026"
+    },
+    "valuation": {
+      "weight": "15%",
+      "backtested": true,
+      "history": "reconstructed"
+    }
+  },
+  "results": [],
+  "failed": [
+    {
+      "sym": "1120",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1180",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1010",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1060",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1080",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1050",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1150",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1140",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2222",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2380",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2010",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2020",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2290",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2350",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2310",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2210",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2060",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2030",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2250",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1211",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2230",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "7010",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "7020",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "7030",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "7040",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "7200",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4190",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4003",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4012",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4161",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4001",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4006",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4300",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4220",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4322",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4323",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4020",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4250",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4100",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4090",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4345",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4013",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4002",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4004",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4007",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4005",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4163",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2070",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4015",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2280",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2050",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2270",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2100",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "6010",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "6020",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3010",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3020",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3030",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3040",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3050",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3060",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3080",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "3090",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4030",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "6004",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "5110",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2080",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2200",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4140",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4110",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "2180",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4082",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "4280",
+      "error": "name 'income_df' is not defined"
+    },
+    {
+      "sym": "1830",
+      "error": "name 'income_df' is not defined"
+    }
+  ]
+}

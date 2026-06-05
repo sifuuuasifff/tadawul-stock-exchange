@@ -6,24 +6,24 @@
       "actual_90d": -12.6,
       "error": 13.6,
       "direction_correct": "False",
-      "composite_score": 45.1,
-      "fund_score": 22,
+      "composite_score": 47.8,
+      "val_score": 44,
       "rate_regime": "stable",
       "rsi": 69.2,
-      "vix": 15.8,
+      "pe_at_prediction": "P/E=20.6",
       "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2025-10-09",
-      "predicted_90d": 5.0,
+      "predicted_90d": 5.5,
       "actual_90d": -13.9,
-      "error": 18.9,
+      "error": 19.4,
       "direction_correct": "False",
-      "composite_score": 60.1,
-      "fund_score": 22,
+      "composite_score": 60.2,
+      "val_score": 44,
       "rate_regime": "stable",
       "rsi": 22.5,
-      "vix": 16.4,
+      "pe_at_prediction": "P/E=51.8",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -32,11 +32,11 @@
       "actual_90d": -16.4,
       "error": 19.4,
       "direction_correct": "False",
-      "composite_score": 55.6,
-      "fund_score": 42,
+      "composite_score": 57.0,
+      "val_score": 54,
       "rate_regime": "stable",
       "rsi": 42.9,
-      "vix": 15.4,
+      "pe_at_prediction": "P/E=N/A",
       "root_cause": "Model underestimated downside"
     }
   ]

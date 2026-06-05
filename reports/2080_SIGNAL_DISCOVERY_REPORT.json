@@ -1,7 +1,7 @@
 {
   "sym": "2080",
   "name": "National Gas & Industrialization (GASCO)",
-  "generated": "2026-06-06T01:58:22.969927",
+  "generated": "2026-06-06T02:23:43.625400",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": -3.49,
-      "pct_positive_90d": 33.3,
-      "p_value_90d": 0.409,
-      "significant_90d": false,
-      "edge_vs_base": -9.39,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2964,
+      "avg_return_90d": 6.77,
+      "pct_positive_90d": 60.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.86,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 12,
-      "avg_return_90d": 0.47,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.889,
-      "significant_90d": false,
-      "edge_vs_base": -5.43,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3641,
+      "avg_return_90d": 6.44,
+      "pct_positive_90d": 59.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.54,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3822,
+      "avg_return_90d": 6.11,
+      "pct_positive_90d": 58.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.21,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "4280",
   "name": "Kingdom Holding",
-  "generated": "2026-06-06T01:58:31.195338",
+  "generated": "2026-06-06T02:24:05.843690",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-10.13%"
     }
   ],
-  "bias": -2.75,
+  "bias": -2.64,
   "before_accuracy": 51.2
 }

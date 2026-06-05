@@ -1,7 +1,7 @@
 {
   "sym": "2050",
   "name": "Savola Group",
-  "generated": "2026-06-06T01:58:00.705565",
+  "generated": "2026-06-06T02:22:38.407423",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 8.1,
-      "pct_positive_90d": 62.5,
-      "p_value_90d": 0.226,
-      "significant_90d": false,
-      "edge_vs_base": 3.95,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 5.26,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.267,
-      "significant_90d": false,
-      "edge_vs_base": 1.11,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 14.49,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.007,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3655,
+      "avg_return_90d": 3.9,
+      "pct_positive_90d": 53.0,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 10.34,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": -0.25,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3669,
+      "avg_return_90d": 4.09,
+      "pct_positive_90d": 53.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.06,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3761,
+      "avg_return_90d": 4.65,
+      "pct_positive_90d": 54.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.5,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

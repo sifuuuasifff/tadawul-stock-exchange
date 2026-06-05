@@ -1,7 +1,7 @@
 {
   "sym": "1060",
   "name": "Saudi Awwal Bank (SABB)",
-  "generated": "2026-06-06T01:57:01.945539",
+  "generated": "2026-06-06T02:19:39.857692",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 6.04,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.367,
-      "significant_90d": false,
-      "edge_vs_base": 2.28,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3072,
+      "avg_return_90d": 3.93,
+      "pct_positive_90d": 60.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.17,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": -1.79,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.848,
-      "significant_90d": false,
-      "edge_vs_base": -5.54,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3492,
+      "avg_return_90d": 4.34,
+      "pct_positive_90d": 61.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.59,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 3.82,
-      "pct_positive_90d": 62.5,
-      "p_value_90d": 0.601,
-      "significant_90d": false,
-      "edge_vs_base": 0.07,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 6.1,
-      "pct_positive_90d": 57.1,
-      "p_value_90d": 0.3,
-      "significant_90d": false,
-      "edge_vs_base": 2.34,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3903,
+      "avg_return_90d": 3.75,
+      "pct_positive_90d": 59.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

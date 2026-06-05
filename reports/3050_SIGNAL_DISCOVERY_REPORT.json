@@ -1,7 +1,7 @@
 {
   "sym": "3050",
   "name": "Southern Province Cement",
-  "generated": "2026-06-06T01:58:13.343992",
+  "generated": "2026-06-06T02:23:14.873772",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,25 +648,36 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": -1.85,
-      "pct_positive_90d": 40.0,
-      "p_value_90d": 0.755,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3604,
+      "avg_return_90d": 0.93,
+      "pct_positive_90d": 43.5,
+      "p_value_90d": 0.001,
+      "significant_90d": true,
+      "edge_vs_base": 0.84,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3821,
+      "avg_return_90d": 0.27,
+      "pct_positive_90d": 41.3,
+      "p_value_90d": 0.307,
       "significant_90d": false,
-      "edge_vs_base": -1.94,
+      "edge_vs_base": 0.18,
       "reliability_label": "LOW"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 2.01,
-      "pct_positive_90d": 55.6,
-      "p_value_90d": 0.741,
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3868,
+      "avg_return_90d": 0.21,
+      "pct_positive_90d": 40.9,
+      "p_value_90d": 0.415,
       "significant_90d": false,
-      "edge_vs_base": 1.93,
+      "edge_vs_base": 0.12,
       "reliability_label": "LOW"
     }
   ],

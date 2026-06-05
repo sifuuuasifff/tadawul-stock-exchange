@@ -1,7 +1,7 @@
 {
   "sym": "7010",
   "name": "STC",
-  "generated": "2026-06-06T01:57:24.191440",
+  "generated": "2026-06-06T02:20:58.465726",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": -1.84,
-      "pct_positive_90d": 25.0,
-      "p_value_90d": 0.697,
-      "significant_90d": false,
-      "edge_vs_base": -6.69,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3758,
+      "avg_return_90d": 4.95,
+      "pct_positive_90d": 59.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.1,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 15,
-      "avg_return_90d": 7.74,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.056,
-      "significant_90d": false,
-      "edge_vs_base": 2.89,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3839,
+      "avg_return_90d": 4.93,
+      "pct_positive_90d": 60.7,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.08,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3905,
+      "avg_return_90d": 4.85,
+      "pct_positive_90d": 60.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

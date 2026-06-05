@@ -1,7 +1,7 @@
 {
   "sym": "1150",
   "name": "Alinma Bank",
-  "generated": "2026-06-06T01:57:05.632880",
+  "generated": "2026-06-06T02:19:54.568310",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,36 +648,47 @@
       "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 11,
-      "avg_return_90d": 13.89,
-      "pct_positive_90d": 63.6,
-      "p_value_90d": 0.042,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2298,
+      "avg_return_90d": 7.46,
+      "pct_positive_90d": 68.8,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 8.32,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": 1.89,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 5.41,
-      "pct_positive_90d": 42.9,
-      "p_value_90d": 0.229,
-      "significant_90d": false,
-      "edge_vs_base": -0.16,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3168,
+      "avg_return_90d": 6.17,
+      "pct_positive_90d": 66.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.61,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 18.56,
-      "pct_positive_90d": 75.0,
-      "p_value_90d": 0.041,
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3841,
+      "avg_return_90d": 6.22,
+      "pct_positive_90d": 62.0,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 12.99,
+      "edge_vs_base": 0.65,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 14,
+      "avg_return_90d": -45.14,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -50.71,
       "reliability_label": "MEDIUM"
     }
   ],

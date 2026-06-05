@@ -1,7 +1,7 @@
 {
   "sym": "4140",
   "name": "Saudi Industrial Export",
-  "generated": "2026-06-06T01:58:26.236879",
+  "generated": "2026-06-06T02:23:51.982949",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 4.0%",
-      "evidence": "Systematic underestimate: predicted=2.88%, actual=6.93%"
+      "action": "Adjust upward by 4.9%",
+      "evidence": "Systematic underestimate: predicted=1.99%, actual=6.93%"
     }
   ],
-  "bias": 4.05,
+  "bias": 4.94,
   "before_accuracy": 48.8
 }

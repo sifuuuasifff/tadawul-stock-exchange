@@ -1,7 +1,7 @@
 {
   "sym": "4082",
   "name": "MRNA",
-  "generated": "2026-06-06T01:58:29.852491",
+  "generated": "2026-06-06T02:24:01.594240",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -10,10 +10,10 @@
   "log": [
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -6.7%",
-      "evidence": "Systematic overestimate: predicted=1.5%, actual=-5.16%"
+      "action": "Adjust upward by -7.2%",
+      "evidence": "Systematic overestimate: predicted=2.06%, actual=-5.16%"
     }
   ],
-  "bias": -6.66,
+  "bias": -7.22,
   "before_accuracy": 37.5
 }

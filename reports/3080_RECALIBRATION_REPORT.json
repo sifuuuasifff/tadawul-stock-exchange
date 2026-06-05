@@ -1,7 +1,7 @@
 {
   "sym": "3080",
   "name": "Eastern Province Cement",
-  "generated": "2026-06-06T01:58:16.718531",
+  "generated": "2026-06-06T02:23:23.680737",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-2.96%"
     }
   ],
-  "bias": -0.97,
-  "before_accuracy": 53.7
+  "bias": -0.99,
+  "before_accuracy": 56.1
 }

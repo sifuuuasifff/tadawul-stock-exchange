@@ -1,7 +1,7 @@
 {
   "sym": "4006",
   "name": "Saudi Marketing Co.",
-  "generated": "2026-06-06T01:57:36.614538",
+  "generated": "2026-06-06T02:21:34.266431",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -4.1%",
-      "evidence": "Systematic overestimate: predicted=3.46%, actual=-0.63%"
+      "action": "Adjust upward by -3.7%",
+      "evidence": "Systematic overestimate: predicted=3.04%, actual=-0.63%"
     }
   ],
-  "bias": -4.09,
+  "bias": -3.67,
   "before_accuracy": 39.0
 }

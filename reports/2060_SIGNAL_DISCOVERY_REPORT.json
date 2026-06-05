@@ -1,7 +1,7 @@
 {
   "sym": "2060",
   "name": "National Industrialization",
-  "generated": "2026-06-06T01:57:17.845153",
+  "generated": "2026-06-06T02:20:37.127697",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,59 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 11.15,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.329,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1912,
+      "avg_return_90d": 0.99,
+      "pct_positive_90d": 47.6,
+      "p_value_90d": 0.051,
       "significant_90d": false,
-      "edge_vs_base": 10.48,
-      "reliability_label": "LOW"
+      "edge_vs_base": 0.31,
+      "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 13,
-      "avg_return_90d": -1.38,
-      "pct_positive_90d": 30.8,
-      "p_value_90d": 0.779,
-      "significant_90d": false,
-      "edge_vs_base": -2.06,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2061,
+      "avg_return_90d": 0.97,
+      "pct_positive_90d": 47.3,
+      "p_value_90d": 0.042,
+      "significant_90d": true,
+      "edge_vs_base": 0.29,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 4.04,
-      "pct_positive_90d": 40.0,
-      "p_value_90d": 0.505,
-      "significant_90d": false,
-      "edge_vs_base": 3.36,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2380,
+      "avg_return_90d": 1.31,
+      "pct_positive_90d": 48.6,
+      "p_value_90d": 0.003,
+      "significant_90d": true,
+      "edge_vs_base": 0.64,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 0.29,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.978,
-      "significant_90d": false,
-      "edge_vs_base": -0.38,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 489,
+      "avg_return_90d": -11.57,
+      "pct_positive_90d": 24.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -12.24,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 130,
+      "avg_return_90d": -24.46,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -25.13,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

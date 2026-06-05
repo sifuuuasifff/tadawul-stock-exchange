@@ -1,7 +1,7 @@
 {
   "sym": "4007",
   "name": "Al Hammadi Hospitals",
-  "generated": "2026-06-06T01:57:53.404823",
+  "generated": "2026-06-06T02:22:18.866995",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=13.72%"
     }
   ],
-  "bias": -1.6,
+  "bias": -0.92,
   "before_accuracy": 53.7
 }

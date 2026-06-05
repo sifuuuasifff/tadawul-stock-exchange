@@ -1,7 +1,7 @@
 {
   "sym": "4005",
   "name": "National Medical Care",
-  "generated": "2026-06-06T01:57:54.674216",
+  "generated": "2026-06-06T02:22:22.607641",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=22.39%"
     }
   ],
-  "bias": 1.4,
-  "before_accuracy": 43.9
+  "bias": 2.02,
+  "before_accuracy": 46.3
 }

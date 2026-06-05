@@ -1,7 +1,7 @@
 {
   "sym": "4002",
   "name": "Mouwasat Medical",
-  "generated": "2026-06-06T01:57:49.962786",
+  "generated": "2026-06-06T02:22:10.917554",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -632,26 +632,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 13.22,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.092,
-      "significant_90d": false,
-      "edge_vs_base": 6.43,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1334,
+      "avg_return_90d": 15.56,
+      "pct_positive_90d": 86.7,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 8.77,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 6.19,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.097,
-      "significant_90d": false,
-      "edge_vs_base": -0.6,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3216,
+      "avg_return_90d": 8.67,
+      "pct_positive_90d": 71.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.88,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 4003,
+      "avg_return_90d": 6.97,
+      "pct_positive_90d": 66.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.18,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

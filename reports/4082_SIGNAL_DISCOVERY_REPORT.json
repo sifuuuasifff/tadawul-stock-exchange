@@ -1,7 +1,7 @@
 {
   "sym": "4082",
   "name": "MRNA",
-  "generated": "2026-06-06T01:58:29.375350",
+  "generated": "2026-06-06T02:24:01.060883",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -550,6 +550,61 @@
       "group": "Technical \u2014 Momentum",
       "occurrences": 3,
       "reliability_label": "INSUFFICIENT"
+    },
+    {
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 325,
+      "avg_return_90d": 1.49,
+      "pct_positive_90d": 59.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 5.73,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 462,
+      "avg_return_90d": -1.12,
+      "pct_positive_90d": 47.4,
+      "p_value_90d": 0.008,
+      "significant_90d": true,
+      "edge_vs_base": 3.13,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 498,
+      "avg_return_90d": -1.3,
+      "pct_positive_90d": 45.4,
+      "p_value_90d": 0.001,
+      "significant_90d": true,
+      "edge_vs_base": 2.94,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 131,
+      "avg_return_90d": -13.79,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -9.55,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 66,
+      "avg_return_90d": -16.49,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -12.24,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

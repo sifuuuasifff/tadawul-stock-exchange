@@ -1,7 +1,7 @@
 {
   "sym": "3010",
   "name": "Arabian Cement",
-  "generated": "2026-06-06T01:58:07.430723",
+  "generated": "2026-06-06T02:22:58.468532",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,37 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 11,
-      "avg_return_90d": 5.18,
-      "pct_positive_90d": 54.5,
-      "p_value_90d": 0.495,
-      "significant_90d": false,
-      "edge_vs_base": 1.98,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3758,
+      "avg_return_90d": 3.55,
+      "pct_positive_90d": 51.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.35,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 11,
-      "avg_return_90d": 8.09,
-      "pct_positive_90d": 72.7,
-      "p_value_90d": 0.247,
-      "significant_90d": false,
-      "edge_vs_base": 4.89,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3904,
+      "avg_return_90d": 3.2,
+      "pct_positive_90d": 49.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3904,
+      "avg_return_90d": 3.2,
+      "pct_positive_90d": 49.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

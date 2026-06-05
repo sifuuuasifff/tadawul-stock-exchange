@@ -1,7 +1,7 @@
 {
   "sym": "7200",
   "name": "Al Moammar Info Systems",
-  "generated": "2026-06-06T01:57:28.900522",
+  "generated": "2026-06-06T02:21:12.906300",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -630,6 +630,61 @@
       "avg_alpha_90d": -4.06,
       "reliability_score": 10,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 420,
+      "avg_return_90d": 30.88,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 16.37,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 632,
+      "avg_return_90d": 35.41,
+      "pct_positive_90d": 83.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 20.9,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 985,
+      "avg_return_90d": 24.92,
+      "pct_positive_90d": 70.7,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 10.41,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 284,
+      "avg_return_90d": 3.51,
+      "pct_positive_90d": 62.7,
+      "p_value_90d": 0.002,
+      "significant_90d": true,
+      "edge_vs_base": -11.01,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 16,
+      "avg_return_90d": 10.14,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -4.37,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

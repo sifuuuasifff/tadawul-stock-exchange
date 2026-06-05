@@ -1,7 +1,7 @@
 {
   "sym": "4300",
   "name": "Dar Al Arkan",
-  "generated": "2026-06-06T01:57:37.257984",
+  "generated": "2026-06-06T02:21:37.691126",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,48 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 10.75,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.207,
-      "significant_90d": false,
-      "edge_vs_base": 7.53,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2136,
+      "avg_return_90d": 3.95,
+      "pct_positive_90d": 51.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.73,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 11,
-      "avg_return_90d": 7.84,
-      "pct_positive_90d": 63.6,
-      "p_value_90d": 0.274,
-      "significant_90d": false,
-      "edge_vs_base": 4.62,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2907,
+      "avg_return_90d": 2.29,
+      "pct_positive_90d": 50.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.93,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 7.28,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.358,
-      "significant_90d": false,
-      "edge_vs_base": 4.05,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3256,
+      "avg_return_90d": 2.65,
+      "pct_positive_90d": 50.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.57,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 149,
+      "avg_return_90d": -8.56,
+      "pct_positive_90d": 18.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -11.78,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

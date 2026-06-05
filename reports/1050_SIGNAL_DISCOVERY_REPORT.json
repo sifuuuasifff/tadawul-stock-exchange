@@ -1,7 +1,7 @@
 {
   "sym": "1050",
   "name": "BSF (Saudi Fransi)",
-  "generated": "2026-06-06T01:57:04.323913",
+  "generated": "2026-06-06T02:19:49.410854",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 5.58,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.49,
-      "significant_90d": false,
-      "edge_vs_base": 2.5,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 9.64,
-      "pct_positive_90d": 87.5,
-      "p_value_90d": 0.041,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.08,
+      "pct_positive_90d": 55.1,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 6.56,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": -1.59,
-      "pct_positive_90d": 37.5,
-      "p_value_90d": 0.784,
-      "significant_90d": false,
-      "edge_vs_base": -4.67,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.08,
+      "pct_positive_90d": 55.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.08,
+      "pct_positive_90d": 55.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

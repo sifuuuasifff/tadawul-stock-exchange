@@ -1,7 +1,7 @@
 {
   "sym": "1120",
   "name": "Al Rajhi Bank",
-  "generated": "2026-06-06T01:56:58.363674",
+  "generated": "2026-06-06T02:19:28.175905",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -604,26 +604,48 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 0.31,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.964,
-      "significant_90d": false,
-      "edge_vs_base": -5.73,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2983,
+      "avg_return_90d": 7.31,
+      "pct_positive_90d": 61.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.27,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 10.91,
-      "pct_positive_90d": 88.9,
-      "p_value_90d": 0.055,
-      "significant_90d": false,
-      "edge_vs_base": 4.87,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3479,
+      "avg_return_90d": 6.32,
+      "pct_positive_90d": 59.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.28,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3690,
+      "avg_return_90d": 6.02,
+      "pct_positive_90d": 60.7,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.02,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 193,
+      "avg_return_90d": 6.38,
+      "pct_positive_90d": 71.5,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.34,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

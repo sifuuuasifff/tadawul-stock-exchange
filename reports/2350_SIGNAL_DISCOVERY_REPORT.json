@@ -1,7 +1,7 @@
 {
   "sym": "2350",
   "name": "Saudi Kayan Petrochem",
-  "generated": "2026-06-06T01:57:13.995071",
+  "generated": "2026-06-06T02:20:25.493689",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,59 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 4.16,
-      "pct_positive_90d": 44.4,
-      "p_value_90d": 0.521,
-      "significant_90d": false,
-      "edge_vs_base": 5.11,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 15,
+      "avg_return_90d": 17.75,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 18.7,
+      "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": -6.31,
-      "pct_positive_90d": 22.2,
-      "p_value_90d": 0.122,
-      "significant_90d": false,
-      "edge_vs_base": -5.36,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 337,
+      "avg_return_90d": 12.51,
+      "pct_positive_90d": 56.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 13.46,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 0.59,
-      "pct_positive_90d": 14.3,
-      "p_value_90d": 0.923,
-      "significant_90d": false,
-      "edge_vs_base": 1.54,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 495,
+      "avg_return_90d": 6.55,
+      "pct_positive_90d": 46.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 7.51,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": -1.94,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.733,
-      "significant_90d": false,
-      "edge_vs_base": -0.99,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 877,
+      "avg_return_90d": -1.39,
+      "pct_positive_90d": 36.8,
+      "p_value_90d": 0.003,
+      "significant_90d": true,
+      "edge_vs_base": -0.44,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 816,
+      "avg_return_90d": -3.24,
+      "pct_positive_90d": 32.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -2.29,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

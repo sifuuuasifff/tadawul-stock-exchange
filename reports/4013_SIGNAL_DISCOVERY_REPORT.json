@@ -1,7 +1,7 @@
 {
   "sym": "4013",
   "name": "Dr Sulaiman Al Habib",
-  "generated": "2026-06-06T01:57:48.525578",
+  "generated": "2026-06-06T02:22:06.828318",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -616,15 +616,48 @@
       "reliability_label": "INSUFFICIENT"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 20.38,
-      "pct_positive_90d": 71.4,
-      "p_value_90d": 0.092,
-      "significant_90d": false,
-      "edge_vs_base": 9.8,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 51,
+      "avg_return_90d": 61.6,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 51.03,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 125,
+      "avg_return_90d": 42.34,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 31.77,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 266,
+      "avg_return_90d": 37.26,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 26.68,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 296,
+      "avg_return_90d": -3.5,
+      "pct_positive_90d": 31.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -14.08,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

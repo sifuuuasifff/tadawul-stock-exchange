@@ -1,7 +1,7 @@
 {
   "sym": "7030",
   "name": "Zain Saudi",
-  "generated": "2026-06-06T01:57:26.609589",
+  "generated": "2026-06-06T02:21:06.487052",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,47 +648,36 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 5.83,
-      "pct_positive_90d": 40.0,
-      "p_value_90d": 0.683,
-      "significant_90d": false,
-      "edge_vs_base": 3.24,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 431,
+      "avg_return_90d": 2.82,
+      "pct_positive_90d": 43.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.23,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 16.34,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.146,
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 930,
+      "avg_return_90d": 0.83,
+      "pct_positive_90d": 44.0,
+      "p_value_90d": 0.094,
       "significant_90d": false,
-      "edge_vs_base": 13.74,
-      "reliability_label": "LOW"
+      "edge_vs_base": -1.77,
+      "reliability_label": "MEDIUM"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 5.78,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.487,
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1263,
+      "avg_return_90d": 0.09,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.805,
       "significant_90d": false,
-      "edge_vs_base": 3.18,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 22.25,
-      "pct_positive_90d": 71.4,
-      "p_value_90d": 0.157,
-      "significant_90d": false,
-      "edge_vs_base": 19.66,
+      "edge_vs_base": -2.5,
       "reliability_label": "LOW"
     }
   ],

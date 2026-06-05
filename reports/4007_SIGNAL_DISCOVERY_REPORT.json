@@ -1,7 +1,7 @@
 {
   "sym": "4007",
   "name": "Al Hammadi Hospitals",
-  "generated": "2026-06-06T01:57:52.747451",
+  "generated": "2026-06-06T02:22:18.081094",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -632,15 +632,59 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 37.53,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.281,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 308,
+      "avg_return_90d": 8.5,
+      "pct_positive_90d": 51.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 8.69,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1546,
+      "avg_return_90d": 2.26,
+      "pct_positive_90d": 47.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 2.45,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2192,
+      "avg_return_90d": 0.32,
+      "pct_positive_90d": 43.8,
+      "p_value_90d": 0.441,
       "significant_90d": false,
-      "edge_vs_base": 37.72,
+      "edge_vs_base": 0.52,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 176,
+      "avg_return_90d": -14.84,
+      "pct_positive_90d": 32.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -14.64,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 24,
+      "avg_return_90d": -8.46,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -8.26,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

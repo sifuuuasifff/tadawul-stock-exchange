@@ -1,7 +1,7 @@
 {
   "sym": "4002",
   "name": "Mouwasat Medical",
-  "generated": "2026-06-06T01:57:50.669192",
+  "generated": "2026-06-06T02:22:11.675105",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -19,6 +19,6 @@
       "evidence": "11/18 large errors were upside misses"
     }
   ],
-  "bias": 1.57,
-  "before_accuracy": 58.5
+  "bias": 2.43,
+  "before_accuracy": 61.0
 }

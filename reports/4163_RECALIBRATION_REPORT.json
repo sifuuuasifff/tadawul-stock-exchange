@@ -1,7 +1,7 @@
 {
   "sym": "4163",
   "name": "Al Dawaa Medical (Nahdi)",
-  "generated": "2026-06-06T01:57:55.906897",
+  "generated": "2026-06-06T02:22:24.656233",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -4.6%",
-      "evidence": "Systematic overestimate: predicted=3.31%, actual=-1.29%"
+      "action": "Adjust upward by -3.9%",
+      "evidence": "Systematic overestimate: predicted=2.58%, actual=-1.29%"
     }
   ],
-  "bias": -4.6,
+  "bias": -3.87,
   "before_accuracy": 23.1
 }

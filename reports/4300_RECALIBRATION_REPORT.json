@@ -1,7 +1,7 @@
 {
   "sym": "4300",
   "name": "Dar Al Arkan",
-  "generated": "2026-06-06T01:57:37.872710",
+  "generated": "2026-06-06T02:21:38.411578",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=6.48%"
     }
   ],
-  "bias": 0.74,
-  "before_accuracy": 56.1
+  "bias": 0.93,
+  "before_accuracy": 53.7
 }

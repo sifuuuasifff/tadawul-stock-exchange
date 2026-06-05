@@ -1,7 +1,7 @@
 {
   "sym": "6020",
   "name": "Al Gassim Investment",
-  "generated": "2026-06-06T01:58:06.732873",
+  "generated": "2026-06-06T02:22:55.091921",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-6.41%"
     }
   ],
-  "bias": -1.83,
-  "before_accuracy": 56.1
+  "bias": -1.41,
+  "before_accuracy": 53.7
 }

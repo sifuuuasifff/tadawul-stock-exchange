@@ -1,7 +1,7 @@
 {
   "sym": "4012",
   "name": "Thob Al Aseel",
-  "generated": "2026-06-06T01:57:32.506819",
+  "generated": "2026-06-06T02:21:23.746656",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -632,15 +632,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -1.77,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.817,
-      "significant_90d": false,
-      "edge_vs_base": -5.66,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 858,
+      "avg_return_90d": 13.34,
+      "pct_positive_90d": 76.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 9.45,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1506,
+      "avg_return_90d": 4.39,
+      "pct_positive_90d": 51.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.5,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1550,
+      "avg_return_90d": 3.89,
+      "pct_positive_90d": 50.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

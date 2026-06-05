@@ -1,7 +1,7 @@
 {
   "sym": "1010",
   "name": "Riyad Bank",
-  "generated": "2026-06-06T01:57:01.359795",
+  "generated": "2026-06-06T02:19:36.441415",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -19,6 +19,6 @@
       "evidence": "11/16 large errors were upside misses"
     }
   ],
-  "bias": 2.88,
+  "bias": 2.94,
   "before_accuracy": 68.3
 }

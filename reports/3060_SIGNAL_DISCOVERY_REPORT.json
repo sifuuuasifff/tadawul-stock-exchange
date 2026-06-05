@@ -1,7 +1,7 @@
 {
   "sym": "3060",
   "name": "Yanbu Cement",
-  "generated": "2026-06-06T01:58:14.678400",
+  "generated": "2026-06-06T02:23:19.024922",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": -2.18,
-      "pct_positive_90d": 33.3,
-      "p_value_90d": 0.841,
-      "significant_90d": false,
-      "edge_vs_base": -4.1,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3339,
+      "avg_return_90d": 3.61,
+      "pct_positive_90d": 56.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.69,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 1.89,
-      "pct_positive_90d": 55.6,
-      "p_value_90d": 0.744,
-      "significant_90d": false,
-      "edge_vs_base": -0.03,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3806,
+      "avg_return_90d": 2.32,
+      "pct_positive_90d": 52.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.39,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 12,
-      "avg_return_90d": -0.58,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.912,
-      "significant_90d": false,
-      "edge_vs_base": -2.5,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3897,
+      "avg_return_90d": 1.96,
+      "pct_positive_90d": 50.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.04,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "4005",
   "name": "National Medical Care",
-  "generated": "2026-06-06T01:57:54.062306",
+  "generated": "2026-06-06T02:22:21.895994",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 4.58,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.638,
-      "significant_90d": false,
-      "edge_vs_base": -0.17,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1219,
+      "avg_return_90d": 8.43,
+      "pct_positive_90d": 63.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 3.68,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": -0.68,
-      "pct_positive_90d": 57.1,
-      "p_value_90d": 0.958,
-      "significant_90d": false,
-      "edge_vs_base": -5.43,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2645,
+      "avg_return_90d": 5.44,
+      "pct_positive_90d": 54.3,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.7,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2939,
+      "avg_return_90d": 5.52,
+      "pct_positive_90d": 53.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.78,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "7040",
   "name": "Go (formerly Etihad Atheeb)",
-  "generated": "2026-06-06T01:57:27.820301",
+  "generated": "2026-06-06T02:21:10.185110",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,48 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 72.39,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.156,
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 88,
+      "avg_return_90d": 3.3,
+      "pct_positive_90d": 60.2,
+      "p_value_90d": 0.003,
+      "significant_90d": true,
+      "edge_vs_base": -10.78,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 214,
+      "avg_return_90d": -0.84,
+      "pct_positive_90d": 50.5,
+      "p_value_90d": 0.324,
       "significant_90d": false,
-      "edge_vs_base": 58.31,
+      "edge_vs_base": -14.92,
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 13.37,
-      "pct_positive_90d": 37.5,
-      "p_value_90d": 0.491,
-      "significant_90d": false,
-      "edge_vs_base": -0.71,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 66,
+      "avg_return_90d": -11.71,
+      "pct_positive_90d": 15.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -25.8,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 50.03,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.136,
-      "significant_90d": false,
-      "edge_vs_base": 35.95,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 66,
+      "avg_return_90d": -11.71,
+      "pct_positive_90d": 15.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -25.8,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

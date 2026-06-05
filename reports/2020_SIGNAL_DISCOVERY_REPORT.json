@@ -1,7 +1,7 @@
 {
   "sym": "2020",
   "name": "SAFCO (Saudi Fertilizers)",
-  "generated": "2026-06-06T01:57:11.465614",
+  "generated": "2026-06-06T02:20:17.558582",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 2.33,
-      "pct_positive_90d": 42.9,
-      "p_value_90d": 0.686,
-      "significant_90d": false,
-      "edge_vs_base": -1.43,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3362,
+      "avg_return_90d": 2.52,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -1.24,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": -4.09,
-      "pct_positive_90d": 20.0,
-      "p_value_90d": 0.375,
-      "significant_90d": false,
-      "edge_vs_base": -7.85,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3788,
+      "avg_return_90d": 3.77,
+      "pct_positive_90d": 58.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.01,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": -1.97,
-      "pct_positive_90d": 22.2,
-      "p_value_90d": 0.756,
-      "significant_90d": false,
-      "edge_vs_base": -5.73,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3888,
+      "avg_return_90d": 3.8,
+      "pct_positive_90d": 58.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.04,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

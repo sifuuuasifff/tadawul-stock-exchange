@@ -1,7 +1,7 @@
 {
   "sym": "2070",
   "name": "Saudi Pharmaceutical Ind.",
-  "generated": "2026-06-06T01:57:57.311370",
+  "generated": "2026-06-06T02:22:28.602738",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=7.11%"
     }
   ],
-  "bias": 1.33,
-  "before_accuracy": 41.5
+  "bias": 1.3,
+  "before_accuracy": 43.9
 }

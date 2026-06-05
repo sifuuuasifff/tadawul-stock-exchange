@@ -1,7 +1,7 @@
 {
   "sym": "1080",
   "name": "Arab National Bank",
-  "generated": "2026-06-06T01:57:03.148204",
+  "generated": "2026-06-06T02:19:44.543363",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -5.72,
-      "pct_positive_90d": 40.0,
-      "p_value_90d": 0.513,
-      "significant_90d": false,
-      "edge_vs_base": -9.21,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.5,
+      "pct_positive_90d": 60.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 2.15,
-      "pct_positive_90d": 62.5,
-      "p_value_90d": 0.763,
-      "significant_90d": false,
-      "edge_vs_base": -1.34,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.5,
+      "pct_positive_90d": 60.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -0.12,
-      "pct_positive_90d": 60.0,
-      "p_value_90d": 0.985,
-      "significant_90d": false,
-      "edge_vs_base": -3.62,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3906,
+      "avg_return_90d": 3.5,
+      "pct_positive_90d": 60.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

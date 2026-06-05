@@ -1,7 +1,7 @@
 {
   "sym": "2200",
   "name": "Arabian Pipes Co.",
-  "generated": "2026-06-06T01:58:24.948574",
+  "generated": "2026-06-06T02:23:48.119986",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,8 +12,13 @@
       "factor": "Rising rate penalty",
       "action": "REDUCE \u2014 rising rates help this stock",
       "evidence": "H01: rising rates help: diff=25.63%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.2%",
+      "evidence": "Systematic underestimate: predicted=0.88%, actual=4.11%"
     }
   ],
-  "bias": 2.79,
+  "bias": 3.23,
   "before_accuracy": 29.3
 }

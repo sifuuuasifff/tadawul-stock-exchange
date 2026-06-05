@@ -1,7 +1,7 @@
 {
   "sym": "3060",
   "name": "Yanbu Cement",
-  "generated": "2026-06-06T01:58:15.365627",
+  "generated": "2026-06-06T02:23:19.677957",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -4.5%",
-      "evidence": "Systematic overestimate: predicted=3.76%, actual=-0.74%"
+      "action": "Adjust upward by -4.4%",
+      "evidence": "Systematic overestimate: predicted=3.62%, actual=-0.74%"
     }
   ],
-  "bias": -4.5,
+  "bias": -4.36,
   "before_accuracy": 48.8
 }

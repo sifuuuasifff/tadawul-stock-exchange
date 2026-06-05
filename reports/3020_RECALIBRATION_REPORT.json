@@ -1,7 +1,7 @@
 {
   "sym": "3020",
   "name": "Yamama Cement",
-  "generated": "2026-06-06T01:58:09.748425",
+  "generated": "2026-06-06T02:23:03.383879",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=5.18%"
     }
   ],
-  "bias": -1.58,
+  "bias": -1.47,
   "before_accuracy": 39.0
 }

@@ -1,7 +1,7 @@
 {
   "sym": "4220",
   "name": "Emaar The Economic City",
-  "generated": "2026-06-06T01:57:38.501415",
+  "generated": "2026-06-06T02:21:41.648542",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,26 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 6.52,
-      "pct_positive_90d": 77.8,
-      "p_value_90d": 0.414,
-      "significant_90d": false,
-      "edge_vs_base": 5.94,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1195,
+      "avg_return_90d": -2.8,
+      "pct_positive_90d": 42.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -3.38,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 1.7,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.794,
-      "significant_90d": false,
-      "edge_vs_base": 1.12,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 3.04,
-      "pct_positive_90d": 50.0,
-      "p_value_90d": 0.728,
-      "significant_90d": false,
-      "edge_vs_base": 2.46,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 3.72,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.582,
-      "significant_90d": false,
-      "edge_vs_base": 3.14,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 748,
+      "avg_return_90d": -8.72,
+      "pct_positive_90d": 32.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -9.3,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

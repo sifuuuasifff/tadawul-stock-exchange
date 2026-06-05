@@ -1,7 +1,7 @@
 {
   "sym": "7020",
   "name": "Mobily (Etihad Etisalat)",
-  "generated": "2026-06-06T01:57:25.457435",
+  "generated": "2026-06-06T02:21:02.787038",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,37 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 12.73,
-      "pct_positive_90d": 88.9,
-      "p_value_90d": 0.015,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1949,
+      "avg_return_90d": -1.71,
+      "pct_positive_90d": 53.4,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 9.43,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": -5.01,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 2.23,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.766,
-      "significant_90d": false,
-      "edge_vs_base": -1.06,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 10,
-      "avg_return_90d": 11.17,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.021,
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2552,
+      "avg_return_90d": 0.94,
+      "pct_positive_90d": 60.7,
+      "p_value_90d": 0.007,
       "significant_90d": true,
-      "edge_vs_base": 7.87,
-      "reliability_label": "MEDIUM"
+      "edge_vs_base": -2.36,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 6,
-      "avg_return_90d": 2.46,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.743,
-      "significant_90d": false,
-      "edge_vs_base": -0.84,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2653,
+      "avg_return_90d": 1.19,
+      "pct_positive_90d": 60.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -2.11,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

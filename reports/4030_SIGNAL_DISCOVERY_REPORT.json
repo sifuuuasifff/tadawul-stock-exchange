@@ -1,7 +1,7 @@
 {
   "sym": "4030",
   "name": "BAHRI (National Shipping)",
-  "generated": "2026-06-06T01:58:18.796622",
+  "generated": "2026-06-06T02:23:30.562555",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,37 @@
       "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 9,
-      "avg_return_90d": 5.16,
-      "pct_positive_90d": 44.4,
-      "p_value_90d": 0.292,
-      "significant_90d": false,
-      "edge_vs_base": -0.78,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3592,
+      "avg_return_90d": 6.35,
+      "pct_positive_90d": 58.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.42,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 6.6,
-      "pct_positive_90d": 42.9,
-      "p_value_90d": 0.448,
-      "significant_90d": false,
-      "edge_vs_base": 0.66,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3905,
+      "avg_return_90d": 5.93,
+      "pct_positive_90d": 59.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 16,
-      "avg_return_90d": 4.7,
-      "pct_positive_90d": 43.8,
-      "p_value_90d": 0.272,
-      "significant_90d": false,
-      "edge_vs_base": -1.23,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3905,
+      "avg_return_90d": 5.93,
+      "pct_positive_90d": 59.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.0,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

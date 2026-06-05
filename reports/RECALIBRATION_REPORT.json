@@ -1,7 +1,7 @@
 {
   "sym": "1120",
   "name": "Al Rajhi Bank",
-  "generated": "2026-06-06T01:56:59.016249",
+  "generated": "2026-06-06T02:19:29.002387",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,15 +15,15 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 3.6%",
-      "evidence": "Systematic underestimate: predicted=4.24%, actual=7.85%"
+      "action": "Adjust upward by 4.0%",
+      "evidence": "Systematic underestimate: predicted=3.87%, actual=7.85%"
     },
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "11/16 large errors were upside misses"
+      "evidence": "12/17 large errors were upside misses"
     }
   ],
-  "bias": 3.61,
-  "before_accuracy": 73.2
+  "bias": 3.98,
+  "before_accuracy": 78.0
 }

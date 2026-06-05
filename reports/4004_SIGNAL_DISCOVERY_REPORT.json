@@ -1,7 +1,7 @@
 {
   "sym": "4004",
   "name": "Dallah Healthcare",
-  "generated": "2026-06-06T01:57:51.386150",
+  "generated": "2026-06-06T02:22:14.630435",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,59 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": 5.65,
-      "pct_positive_90d": 57.1,
-      "p_value_90d": 0.534,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 648,
+      "avg_return_90d": 7.35,
+      "pct_positive_90d": 70.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.4,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1773,
+      "avg_return_90d": 7.68,
+      "pct_positive_90d": 69.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.73,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2322,
+      "avg_return_90d": 7.28,
+      "pct_positive_90d": 67.7,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 1.33,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 277,
+      "avg_return_90d": -0.42,
+      "pct_positive_90d": 39.0,
+      "p_value_90d": 0.595,
       "significant_90d": false,
-      "edge_vs_base": -0.3,
+      "edge_vs_base": -6.37,
       "reliability_label": "LOW"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
       "occurrences": 9,
-      "avg_return_90d": 12.9,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.114,
-      "significant_90d": false,
-      "edge_vs_base": 6.95,
-      "reliability_label": "LOW"
+      "avg_return_90d": -13.76,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -19.71,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

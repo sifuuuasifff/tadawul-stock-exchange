@@ -1,7 +1,7 @@
 {
   "sym": "2280",
   "name": "Almarai",
-  "generated": "2026-06-06T01:57:59.315541",
+  "generated": "2026-06-06T02:22:33.982862",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,14 +648,36 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 17,
-      "avg_return_90d": 7.46,
-      "pct_positive_90d": 76.5,
-      "p_value_90d": 0.022,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1865,
+      "avg_return_90d": 7.73,
+      "pct_positive_90d": 68.0,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 4.47,
+      "edge_vs_base": 4.73,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3695,
+      "avg_return_90d": 3.53,
+      "pct_positive_90d": 57.9,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.53,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 3870,
+      "avg_return_90d": 3.14,
+      "pct_positive_90d": 56.1,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.14,
       "reliability_label": "HIGH"
     }
   ],

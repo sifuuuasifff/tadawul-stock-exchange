@@ -1,7 +1,7 @@
 {
   "sym": "4280",
   "name": "Kingdom Holding",
-  "generated": "2026-06-06T01:58:30.508379",
+  "generated": "2026-06-06T02:24:05.122502",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,48 +648,59 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Annual NI growth >20% YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 12.16,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.158,
-      "significant_90d": false,
-      "edge_vs_base": 8.98,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 7,
-      "avg_return_90d": -9.56,
-      "pct_positive_90d": 14.3,
-      "p_value_90d": 0.075,
-      "significant_90d": false,
-      "edge_vs_base": -12.74,
-      "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": -14.46,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.021,
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 617,
+      "avg_return_90d": 2.48,
+      "pct_positive_90d": 45.2,
+      "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": -17.63,
+      "edge_vs_base": -0.69,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1569,
+      "avg_return_90d": 2.34,
+      "pct_positive_90d": 50.5,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.83,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2063,
+      "avg_return_90d": 1.94,
+      "pct_positive_90d": 48.4,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -1.23,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1034,
+      "avg_return_90d": 0.83,
+      "pct_positive_90d": 39.5,
+      "p_value_90d": 0.097,
+      "significant_90d": false,
+      "edge_vs_base": -2.34,
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Low cash flow quality (OCF/NI <0.3)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 0.78,
-      "pct_positive_90d": 75.0,
-      "p_value_90d": 0.877,
-      "significant_90d": false,
-      "edge_vs_base": -2.39,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 698,
+      "avg_return_90d": 1.51,
+      "pct_positive_90d": 35.2,
+      "p_value_90d": 0.01,
+      "significant_90d": true,
+      "edge_vs_base": -1.67,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "4100",
   "name": "Makkah Construction",
-  "generated": "2026-06-06T01:57:44.647964",
+  "generated": "2026-06-06T02:21:57.549785",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,26 +648,59 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Annual NI decline YoY",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 8,
-      "avg_return_90d": 10.75,
-      "pct_positive_90d": 87.5,
-      "p_value_90d": 0.054,
-      "significant_90d": false,
-      "edge_vs_base": 5.86,
-      "reliability_label": "MEDIUM"
+      "signal": "Historical P/E <6 (cheap)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 720,
+      "avg_return_90d": 12.68,
+      "pct_positive_90d": 83.5,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 7.79,
+      "reliability_label": "HIGH"
     },
     {
-      "signal": "High cash flow quality (OCF/NI >1.2)",
-      "group": "Fundamental \u2014 Financial",
-      "occurrences": 5,
-      "avg_return_90d": 5.86,
-      "pct_positive_90d": 80.0,
-      "p_value_90d": 0.213,
-      "significant_90d": false,
-      "edge_vs_base": 0.98,
-      "reliability_label": "LOW"
+      "signal": "Historical P/E <9",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 1763,
+      "avg_return_90d": 10.14,
+      "pct_positive_90d": 79.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 5.25,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E <12",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 2657,
+      "avg_return_90d": 4.91,
+      "pct_positive_90d": 61.8,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 0.02,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >18 (expensive)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 930,
+      "avg_return_90d": 3.94,
+      "pct_positive_90d": 57.6,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": -0.95,
+      "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Historical P/E >25 (very exp)",
+      "group": "Valuation \u2014 P/E",
+      "occurrences": 588,
+      "avg_return_90d": 9.12,
+      "pct_positive_90d": 68.2,
+      "p_value_90d": 0.0,
+      "significant_90d": true,
+      "edge_vs_base": 4.23,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {
