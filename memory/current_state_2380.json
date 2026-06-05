@@ -1,0 +1,59 @@
+{
+  "symbol": "2380",
+  "name": "Petro Rabigh",
+  "sector": "Petrochemicals",
+  "as_of": "2026-06-05",
+  "price": 15.03,
+  "price_history": "2010-03-03 \u2192 2026-06-04",
+  "trading_days": 3995,
+  "rsi": 35.9,
+  "bb_pct": 0.218,
+  "ret_20d_pct": 7.4,
+  "ret_5d_pct": -5.9,
+  "above_ma20": 0,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -7.1,
+  "dist_from_52w_low_pct": 132.7,
+  "vol_ratio": 1.42,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 58,
+  "fund_score": 50,
+  "composite": 65.9,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "35.9 low (+8)",
+    "bb": "mid band (0.22)",
+    "momentum": "7.4% neutral"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.4,
+    "bear_90d_pct": -2.4,
+    "target_30d": 15.39,
+    "target_60d": 15.66,
+    "target_90d": 15.93,
+    "bull_target": 17.2,
+    "bear_target": 14.67,
+    "confidence": 70,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 1004,
+    "avg_90d": 4.7,
+    "win_pct": 50.8
+  }
+}

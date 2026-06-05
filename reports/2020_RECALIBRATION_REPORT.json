@@ -1,0 +1,29 @@
+{
+  "sym": "2020",
+  "name": "SABIC Agri-Nutrients",
+  "generated": "2026-06-05T17:36:51.996375",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-3.19%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.4%",
+      "evidence": "Systematic underestimate: predicted=2.35%, actual=5.79%"
+    },
+    {
+      "factor": "Upside capture",
+      "action": "Model consistently underestimates upside \u2014 increase bull spread",
+      "evidence": "10/14 large errors were upside misses"
+    }
+  ],
+  "bias": 3.44,
+  "before_accuracy": 63.4
+}

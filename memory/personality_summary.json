@@ -1,0 +1,90 @@
+{
+  "stock": "Al Rajhi Bank (1120.SR)",
+  "built": "2026-06-05T15:52:59.552323",
+  "personality_rules": [
+    {
+      "rank": 1,
+      "rule": "Al Rajhi is a mean-reversion stock",
+      "evidence": "RSI oversold (20-30) produces +13% avg 90d return, n=119, p=0.001. Significant.",
+      "confidence": "HIGH",
+      "applies_to": "all rate regimes"
+    },
+    {
+      "rank": 2,
+      "rule": "Rising rates are systematically bad",
+      "evidence": "During rising rate periods: avg 90d return = -5.6%, win rate = 25%. Only 294 days but consistent.",
+      "confidence": "MEDIUM",
+      "applies_to": "rate regime"
+    },
+    {
+      "rank": 3,
+      "rule": "Stable rates are the ideal environment",
+      "evidence": "3,400 days with stable rates: avg 90d = +7.2%, win rate = 65%, alpha vs TASI = +4.9%",
+      "confidence": "HIGH",
+      "applies_to": "environment score"
+    },
+    {
+      "rank": 4,
+      "rule": "High VIX (fear) = buying opportunity",
+      "evidence": "VIX > 30: avg 90d = +10.0%, win rate = 75%, n=242.",
+      "confidence": "HIGH",
+      "applies_to": "macro timing"
+    },
+    {
+      "rank": 5,
+      "rule": "Do not chase momentum",
+      "evidence": "After >10% 20-day rally: avg 90d = -16.3%, win rate = 43%, n=49, p=0.003.",
+      "confidence": "HIGH",
+      "applies_to": "technical timing"
+    },
+    {
+      "rank": 6,
+      "rule": "Bollinger Band lower touch is a strong buy signal",
+      "evidence": "BB lower 5%: avg 30d = +8.3%, avg 90d = +9.1%, n=82, p=0.008.",
+      "confidence": "HIGH",
+      "applies_to": "entry timing"
+    },
+    {
+      "rank": 7,
+      "rule": "Outperformance vs TASI predicts underperformance",
+      "evidence": "After >5% outperformance: avg 90d = -8.4%, n=69, p=0.036.",
+      "confidence": "MEDIUM",
+      "applies_to": "relative strength timing"
+    },
+    {
+      "rank": 8,
+      "rule": "Dividend announcements have no predictive edge",
+      "evidence": "29 events: avg 30d = +2.9%, barely above baseline. Not significant.",
+      "confidence": "MEDIUM",
+      "applies_to": "event scoring"
+    },
+    {
+      "rank": 9,
+      "rule": "Oil rising is mildly positive but not critical",
+      "evidence": "Oil uptrend: avg 90d = +7.6%, alpha = +6% vs TASI. Correlated but not causal.",
+      "confidence": "MEDIUM",
+      "applies_to": "environment score"
+    },
+    {
+      "rank": 10,
+      "rule": "Technical indicators are timing tools, not direction tools",
+      "evidence": "RSI, BB signals peak at 30-60d horizons. Environment (rates, VIX) dominates at 90d.",
+      "confidence": "MEDIUM",
+      "applies_to": "framework weighting"
+    }
+  ],
+  "known_weaknesses": [
+    "Quarterly fundamental data pre-2022 is annual only \u2014 execution memory is partial",
+    "SAIBOR 3M not available \u2014 NIM sensitivity not directly testable",
+    "Only 16 years of data \u2014 some rate cycle combinations have small sample sizes"
+  ],
+  "signal_weights_initial": {
+    "environment_score": 0.35,
+    "technical_timing": 0.3,
+    "fundamental_execution": 0.2,
+    "event_reaction": 0.15
+  },
+  "current_signals": {
+    "note": "Current signal values updated by forecasting phase"
+  }
+}

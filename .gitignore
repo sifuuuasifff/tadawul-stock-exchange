@@ -1,0 +1,31 @@
+# Secrets — never commit
+.streamlit/secrets.toml
+config/secrets_local.py
+
+# Raw data (too large for GitHub — regenerate with phase0b_sahmk_extract.py)
+data/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Temp files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/

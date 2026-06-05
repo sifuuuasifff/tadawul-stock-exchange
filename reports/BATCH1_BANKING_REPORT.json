@@ -1,0 +1,178 @@
+{
+  "generated": "2026-06-05T17:05:53.377606",
+  "batch": "Banking Sector",
+  "stocks": [
+    "1180",
+    "1010",
+    "1060",
+    "1080",
+    "1050",
+    "1150",
+    "1140"
+  ],
+  "results": [
+    {
+      "symbol": "1180",
+      "name": "Saudi National Bank (SNB)",
+      "days": 2918,
+      "accuracy": 68.3,
+      "baseline": 65.9,
+      "edge": 2.4,
+      "hyp_acc": 7,
+      "hyp_total": 20,
+      "mistakes": 13,
+      "mae": 11.37
+    },
+    {
+      "symbol": "1010",
+      "name": "Riyad Bank",
+      "days": 3527,
+      "accuracy": 65.9,
+      "baseline": 63.4,
+      "edge": 2.4,
+      "hyp_acc": 7,
+      "hyp_total": 20,
+      "mistakes": 18,
+      "mae": 13.03
+    },
+    {
+      "symbol": "1060",
+      "name": "Saudi British Bank (SABB)",
+      "days": 3993,
+      "accuracy": 73.2,
+      "baseline": 63.4,
+      "edge": 9.8,
+      "hyp_acc": 6,
+      "hyp_total": 20,
+      "mistakes": 16,
+      "mae": 11.17
+    },
+    {
+      "symbol": "1080",
+      "name": "Arab National Bank",
+      "days": 3996,
+      "accuracy": 61.0,
+      "baseline": 63.4,
+      "edge": -2.4,
+      "hyp_acc": 3,
+      "hyp_total": 20,
+      "mistakes": 16,
+      "mae": 11.47
+    },
+    {
+      "symbol": "1050",
+      "name": "Banque Saudi Fransi",
+      "days": 3996,
+      "accuracy": 61.0,
+      "baseline": 56.1,
+      "edge": 4.9,
+      "hyp_acc": 5,
+      "hyp_total": 20,
+      "mistakes": 18,
+      "mae": 12.79
+    },
+    {
+      "symbol": "1150",
+      "name": "Alinma Bank",
+      "days": 4031,
+      "accuracy": 63.4,
+      "baseline": 61.0,
+      "edge": 2.4,
+      "hyp_acc": 4,
+      "hyp_total": 20,
+      "mistakes": 17,
+      "mae": 13.24
+    },
+    {
+      "symbol": "1140",
+      "name": "Bank Albilad",
+      "days": 3995,
+      "accuracy": 65.9,
+      "baseline": 63.4,
+      "edge": 2.4,
+      "hyp_acc": 5,
+      "hyp_total": 20,
+      "mistakes": 18,
+      "mae": 12.71
+    }
+  ],
+  "pull_logs": {
+    "1180": {
+      "sym": "1180",
+      "name": "Saudi National Bank (SNB)",
+      "price_sahmk": 1000,
+      "price_yahoo": 2918,
+      "income_quarters": 28,
+      "balance_quarters": 18,
+      "ratio_periods": 18,
+      "dividends": 22,
+      "events": 142
+    },
+    "1010": {
+      "sym": "1010",
+      "name": "Riyad Bank",
+      "price_sahmk": 1000,
+      "price_yahoo": 3527,
+      "income_quarters": 31,
+      "balance_quarters": 17,
+      "ratio_periods": 17,
+      "dividends": 50,
+      "events": 121
+    },
+    "1060": {
+      "sym": "1060",
+      "name": "Saudi British Bank (SABB)",
+      "price_sahmk": 1000,
+      "price_yahoo": 3993,
+      "income_quarters": 28,
+      "balance_quarters": 18,
+      "ratio_periods": 18,
+      "dividends": 42,
+      "events": 122
+    },
+    "1080": {
+      "sym": "1080",
+      "name": "Arab National Bank",
+      "price_sahmk": 1000,
+      "price_yahoo": 3996,
+      "income_quarters": 31,
+      "balance_quarters": 18,
+      "ratio_periods": 18,
+      "dividends": 38,
+      "events": 109
+    },
+    "1050": {
+      "sym": "1050",
+      "name": "Banque Saudi Fransi",
+      "price_sahmk": 1000,
+      "price_yahoo": 3996,
+      "income_quarters": 29,
+      "balance_quarters": 22,
+      "ratio_periods": 21,
+      "dividends": 42,
+      "events": 109
+    },
+    "1150": {
+      "sym": "1150",
+      "name": "Alinma Bank",
+      "price_sahmk": 1000,
+      "price_yahoo": 4031,
+      "income_quarters": 23,
+      "balance_quarters": 21,
+      "ratio_periods": 21,
+      "dividends": 21,
+      "events": 137
+    },
+    "1140": {
+      "sym": "1140",
+      "name": "Bank Albilad",
+      "price_sahmk": 1000,
+      "price_yahoo": 3995,
+      "income_quarters": 26,
+      "balance_quarters": 21,
+      "ratio_periods": 21,
+      "dividends": 13,
+      "events": 97
+    }
+  }
+}

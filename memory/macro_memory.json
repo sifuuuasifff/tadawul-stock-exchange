@@ -1,0 +1,457 @@
+{
+  "built": "2026-06-05T15:52:58.670402",
+  "regime_profiles": [
+    {
+      "regime_type": "Saudi Interest Rate",
+      "regime_label": "Rising",
+      "n_days": 294,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 294,
+          "avg_pct": -2.27,
+          "median_pct": -1.98,
+          "pct_positive": 39.1,
+          "std_pct": 7.46,
+          "max_gain_pct": 19.34,
+          "max_loss_pct": -26.85,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 294,
+          "avg_pct": -4.02,
+          "median_pct": -3.17,
+          "pct_positive": 18.0,
+          "std_pct": 5.54,
+          "max_gain_pct": 17.57,
+          "max_loss_pct": -23.45,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 294,
+          "avg_pct": -5.61,
+          "median_pct": -6.37,
+          "pct_positive": 25.2,
+          "std_pct": 8.6,
+          "max_gain_pct": 42.34,
+          "max_loss_pct": -23.89,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "alpha_vs_tasi_90d": -3.23,
+      "interpretation": "Counterintuitive \u2014 rising rates hurt Al Rajhi. 25% win rate. Avoid or reduce exposure."
+    },
+    {
+      "regime_type": "Saudi Interest Rate",
+      "regime_label": "Stable",
+      "n_days": 3400,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 3400,
+          "avg_pct": 3.02,
+          "median_pct": 1.14,
+          "pct_positive": 56.2,
+          "std_pct": 22.37,
+          "max_gain_pct": 330.06,
+          "max_loss_pct": -75.02,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 3400,
+          "avg_pct": 4.97,
+          "median_pct": 3.16,
+          "pct_positive": 61.3,
+          "std_pct": 24.12,
+          "max_gain_pct": 343.4,
+          "max_loss_pct": -76.23,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 3400,
+          "avg_pct": 7.2,
+          "median_pct": 4.19,
+          "pct_positive": 64.6,
+          "std_pct": 25.52,
+          "max_gain_pct": 335.5,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "alpha_vs_tasi_90d": 4.87,
+      "interpretation": "Best environment. Stable rates = best win rate (65%) and best alpha vs TASI."
+    },
+    {
+      "regime_type": "Saudi Interest Rate",
+      "regime_label": "Falling",
+      "n_days": 247,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 247,
+          "avg_pct": 2.5,
+          "median_pct": 2.94,
+          "pct_positive": 68.4,
+          "std_pct": 4.67,
+          "max_gain_pct": 14.26,
+          "max_loss_pct": -9.01,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 247,
+          "avg_pct": 4.68,
+          "median_pct": 5.41,
+          "pct_positive": 69.2,
+          "std_pct": 7.37,
+          "max_gain_pct": 21.01,
+          "max_loss_pct": -18.21,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 247,
+          "avg_pct": 3.99,
+          "median_pct": 3.12,
+          "pct_positive": 56.7,
+          "std_pct": 11.52,
+          "max_gain_pct": 28.71,
+          "max_loss_pct": -19.16,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "alpha_vs_tasi_90d": 4.52,
+      "interpretation": "Mixed. Falling rates help valuations but may signal economic weakness."
+    },
+    {
+      "regime_type": "Global Risk (VIX)",
+      "regime_label": "VIX > 30 (High Fear)",
+      "n_days": 242,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 242,
+          "avg_pct": 4.38,
+          "median_pct": 1.57,
+          "pct_positive": 63.6,
+          "std_pct": 26.31,
+          "max_gain_pct": 269.23,
+          "max_loss_pct": -73.11,
+          "p_value": 0.01,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 242,
+          "avg_pct": 9.99,
+          "median_pct": 7.91,
+          "pct_positive": 75.2,
+          "std_pct": 24.33,
+          "max_gain_pct": 295.79,
+          "max_loss_pct": -67.39,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Global Risk (VIX)",
+      "regime_label": "VIX 20-30 (Elevated)",
+      "n_days": 868,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 868,
+          "avg_pct": 3.73,
+          "median_pct": 2.34,
+          "pct_positive": 63.0,
+          "std_pct": 18.02,
+          "max_gain_pct": 279.42,
+          "max_loss_pct": -70.64,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 868,
+          "avg_pct": 9.36,
+          "median_pct": 5.15,
+          "pct_positive": 63.7,
+          "std_pct": 24.37,
+          "max_gain_pct": 297.82,
+          "max_loss_pct": -68.99,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Global Risk (VIX)",
+      "regime_label": "VIX < 20 (Normal)",
+      "n_days": 2831,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 2831,
+          "avg_pct": 2.09,
+          "median_pct": 0.66,
+          "pct_positive": 52.7,
+          "std_pct": 21.27,
+          "max_gain_pct": 330.06,
+          "max_loss_pct": -75.02,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 2831,
+          "avg_pct": 4.68,
+          "median_pct": 2.5,
+          "pct_positive": 59.2,
+          "std_pct": 24.05,
+          "max_gain_pct": 335.5,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Global Risk (VIX)",
+      "regime_label": "VIX < 15 (Calm)",
+      "n_days": 1424,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 1424,
+          "avg_pct": 0.95,
+          "median_pct": 0.75,
+          "pct_positive": 53.2,
+          "std_pct": 12.37,
+          "max_gain_pct": 330.06,
+          "max_loss_pct": -74.48,
+          "p_value": 0.004,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 1424,
+          "avg_pct": 2.96,
+          "median_pct": 2.3,
+          "pct_positive": 60.1,
+          "std_pct": 19.11,
+          "max_gain_pct": 335.5,
+          "max_loss_pct": -74.39,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Combined Environment",
+      "regime_label": "Stable rates + VIX < 20",
+      "n_days": 2584,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 2584,
+          "avg_pct": 2.23,
+          "median_pct": 0.5,
+          "pct_positive": 52.4,
+          "std_pct": 22.2,
+          "max_gain_pct": 330.06,
+          "max_loss_pct": -75.02,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 2584,
+          "avg_pct": 5.38,
+          "median_pct": 2.98,
+          "pct_positive": 61.4,
+          "std_pct": 24.95,
+          "max_gain_pct": 335.5,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Combined Environment",
+      "regime_label": "Stable rates + VIX > 20",
+      "n_days": 813,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 813,
+          "avg_pct": 5.54,
+          "median_pct": 3.08,
+          "pct_positive": 68.3,
+          "std_pct": 22.77,
+          "max_gain_pct": 279.42,
+          "max_loss_pct": -73.11,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 813,
+          "avg_pct": 12.97,
+          "median_pct": 11.52,
+          "pct_positive": 74.8,
+          "std_pct": 26.48,
+          "max_gain_pct": 297.82,
+          "max_loss_pct": -68.99,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Combined Environment",
+      "regime_label": "Rising rates + VIX > 25",
+      "n_days": 95,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 95,
+          "avg_pct": -3.6,
+          "median_pct": -1.94,
+          "pct_positive": 43.2,
+          "std_pct": 10.43,
+          "max_gain_pct": 19.34,
+          "max_loss_pct": -26.85,
+          "p_value": 0.001,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 95,
+          "avg_pct": -6.95,
+          "median_pct": -8.81,
+          "pct_positive": 26.3,
+          "std_pct": 11.65,
+          "max_gain_pct": 42.34,
+          "max_loss_pct": -23.89,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Combined Environment",
+      "regime_label": "Falling rates + VIX > 30",
+      "n_days": 63,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 63,
+          "avg_pct": 4.17,
+          "median_pct": 3.95,
+          "pct_positive": 77.8,
+          "std_pct": 5.35,
+          "max_gain_pct": 14.26,
+          "max_loss_pct": -8.16,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 63,
+          "avg_pct": 16.35,
+          "median_pct": 19.25,
+          "pct_positive": 88.9,
+          "std_pct": 9.29,
+          "max_gain_pct": 28.71,
+          "max_loss_pct": -5.95,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "regime_type": "Combined Environment",
+      "regime_label": "Stable rates + Oil rising",
+      "n_days": 957,
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 957,
+          "avg_pct": 3.7,
+          "median_pct": 1.44,
+          "pct_positive": 58.8,
+          "std_pct": 19.26,
+          "max_gain_pct": 296.54,
+          "max_loss_pct": -75.02,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 957,
+          "avg_pct": 8.21,
+          "median_pct": 4.76,
+          "pct_positive": 60.5,
+          "std_pct": 21.46,
+          "max_gain_pct": 252.76,
+          "max_loss_pct": -75.33,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    }
+  ],
+  "correlations": {
+    "Saudi Repo Rate_vs_30d_return": {
+      "pearson_r": -0.041,
+      "p_value": 0.0098,
+      "significant": true,
+      "interpretation": "negative = higher value \u2192 worse forward return"
+    },
+    "Saudi Repo Rate_vs_90d_return": {
+      "pearson_r": -0.034,
+      "p_value": 0.0312,
+      "significant": true,
+      "interpretation": "negative = higher value \u2192 worse forward return"
+    },
+    "Brent Oil_vs_30d_return": {
+      "pearson_r": -0.011,
+      "p_value": 0.4706,
+      "significant": false,
+      "interpretation": "negative = higher value \u2192 worse forward return"
+    },
+    "Brent Oil_vs_90d_return": {
+      "pearson_r": -0.122,
+      "p_value": 0.0,
+      "significant": true,
+      "interpretation": "negative = higher value \u2192 worse forward return"
+    },
+    "VIX_vs_30d_return": {
+      "pearson_r": 0.049,
+      "p_value": 0.0019,
+      "significant": true,
+      "interpretation": "positive = higher value \u2192 better forward return"
+    },
+    "VIX_vs_90d_return": {
+      "pearson_r": 0.096,
+      "p_value": 0.0,
+      "significant": true,
+      "interpretation": "positive = higher value \u2192 better forward return"
+    }
+  }
+}

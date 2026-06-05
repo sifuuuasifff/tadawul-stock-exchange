@@ -1,0 +1,148 @@
+{
+  "mistakes": [
+    {
+      "prediction_date": "2016-09-27",
+      "predicted_90d": 3.0,
+      "actual_90d": 26.4,
+      "error": 23.4,
+      "direction_correct": "True",
+      "composite_score": 58.8,
+      "rate_regime": "stable",
+      "rsi": 63.6,
+      "vix": 13.1,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2017-06-25",
+      "predicted_90d": 1.0,
+      "actual_90d": -26.3,
+      "error": 27.3,
+      "direction_correct": "False",
+      "composite_score": 42.2,
+      "rate_regime": "stable",
+      "rsi": 89.7,
+      "vix": 10.5,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2017-09-24",
+      "predicted_90d": 5.0,
+      "actual_90d": -10.9,
+      "error": 15.9,
+      "direction_correct": "False",
+      "composite_score": 66.2,
+      "rate_regime": "stable",
+      "rsi": 21.3,
+      "vix": 9.7,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2018-06-19",
+      "predicted_90d": 3.0,
+      "actual_90d": -21.7,
+      "error": 24.7,
+      "direction_correct": "False",
+      "composite_score": 57.2,
+      "rate_regime": "stable",
+      "rsi": 48.4,
+      "vix": 13.4,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2018-12-16",
+      "predicted_90d": 3.0,
+      "actual_90d": 15.5,
+      "error": 12.5,
+      "direction_correct": "True",
+      "composite_score": 55.1,
+      "rate_regime": "stable",
+      "rsi": 74.5,
+      "vix": 20.6,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2020-03-10",
+      "predicted_90d": 7.5,
+      "actual_90d": 35.4,
+      "error": 27.9,
+      "direction_correct": "True",
+      "composite_score": 77.8,
+      "rate_regime": "stable",
+      "rsi": 28.7,
+      "vix": 47.3,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2021-03-07",
+      "predicted_90d": 5.0,
+      "actual_90d": 17.7,
+      "error": 12.7,
+      "direction_correct": "True",
+      "composite_score": 66.2,
+      "rate_regime": "stable",
+      "rsi": 41.0,
+      "vix": 28.6,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2021-09-01",
+      "predicted_90d": 3.0,
+      "actual_90d": -16.8,
+      "error": 19.8,
+      "direction_correct": "False",
+      "composite_score": 59.5,
+      "rate_regime": "stable",
+      "rsi": 68.0,
+      "vix": 16.1,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2023-02-23",
+      "predicted_90d": -4.0,
+      "actual_90d": 24.1,
+      "error": 28.1,
+      "direction_correct": "False",
+      "composite_score": 43.0,
+      "rate_regime": "rising",
+      "rsi": 51.0,
+      "vix": 21.1,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2023-05-24",
+      "predicted_90d": -4.0,
+      "actual_90d": 12.0,
+      "error": 16.0,
+      "direction_correct": "False",
+      "composite_score": 45.4,
+      "rate_regime": "rising",
+      "rsi": 30.4,
+      "vix": 20.0,
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2023-08-22",
+      "predicted_90d": 5.0,
+      "actual_90d": -12.8,
+      "error": 17.8,
+      "direction_correct": "False",
+      "composite_score": 65.5,
+      "rate_regime": "stable",
+      "rsi": 52.3,
+      "vix": 17.0,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2025-11-09",
+      "predicted_90d": 5.0,
+      "actual_90d": -9.8,
+      "error": 14.8,
+      "direction_correct": "False",
+      "composite_score": 64.0,
+      "rate_regime": "stable",
+      "rsi": 40.5,
+      "vix": 19.5,
+      "root_cause": "Model underestimated downside"
+    }
+  ]
+}

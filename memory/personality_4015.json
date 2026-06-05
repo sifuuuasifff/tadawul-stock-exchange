@@ -1,0 +1,143 @@
+{
+  "stock": "Jamjoom Pharma",
+  "symbol": "4015",
+  "sector": "Pharmaceuticals",
+  "built": "2026-06-05T16:08:42.552054",
+  "price_history": "2023-07-23 \u2192 2026-06-04",
+  "n_trading_days": 720,
+  "latest_price": 156.2,
+  "baseline_90d": {
+    "avg_pct": 5.59,
+    "win_pct": 59.2,
+    "n": 630
+  },
+  "key_signals": {
+    "baseline_90d": {
+      "avg_pct": 5.59,
+      "win_pct": 59.2,
+      "n": 630
+    },
+    "rsi_oversold": {
+      "n": 69,
+      "avg_pct": 7.77,
+      "win_pct": 58.0,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rsi_overbought": {
+      "n": 73,
+      "avg_pct": 0.22,
+      "win_pct": 52.1,
+      "p_value": 0.889,
+      "significant": false
+    },
+    "bb_lower": {
+      "n": 50,
+      "avg_pct": 9.14,
+      "win_pct": 64.0,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_up": {
+      "n": 98,
+      "avg_pct": -5.42,
+      "win_pct": 30.6,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_dn": {
+      "n": 34,
+      "avg_pct": 8.22,
+      "win_pct": 67.6,
+      "p_value": 0.003,
+      "significant": true
+    },
+    "stable_rates": {
+      "n": 509,
+      "avg_pct": 5.83,
+      "win_pct": 54.6,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rising_rates": {
+      "n": 0,
+      "insufficient": true
+    },
+    "vix_fear": {
+      "n": 13,
+      "avg_pct": 7.53,
+      "win_pct": 100.0,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "oil_bull": {
+      "n": 34,
+      "avg_pct": 22.42,
+      "win_pct": 82.4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "all_below_mas": {
+      "n": 203,
+      "avg_pct": 10.68,
+      "win_pct": 69.0,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "tasi_uptrend": {
+      "n": 50,
+      "avg_pct": 4.03,
+      "win_pct": 60.0,
+      "p_value": 0.11,
+      "significant": false
+    },
+    "regime_breakdown": {
+      "stable": {
+        "n": 509,
+        "avg_90d": 5.83,
+        "win_pct": 54.6
+      },
+      "falling": {
+        "n": 121,
+        "avg_90d": 4.61,
+        "win_pct": 78.5
+      }
+    }
+  },
+  "personality_rules": [
+    {
+      "rule": "Mean-reversion tendency: RSI oversold produces above-average returns",
+      "evidence": "RSI<30: avg=7.77% vs baseline=5.59%, n=69",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Strong momentum (>10% 20-day rally) does not continue \u2014 mean reversion observed",
+      "evidence": "After >10% rally: avg=-5.42%, win=30.6%, n=98",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "fundamentals_summary": {
+    "n_income_periods": 13,
+    "latest_net_income_bn": 0.17,
+    "earliest_date": "2019-12-31",
+    "latest_date": "2026-03-31"
+  },
+  "events_summary": {
+    "total": 100,
+    "by_type": {
+      "DIVIDEND_ANNOUNCEMENT": 11,
+      "REGULAR": 4,
+      "FINANCIAL_REPORT": 37,
+      "OTHER": 20,
+      "MARKET_EXPANSION": 6,
+      "PARTNERSHIP": 6,
+      "PRODUCT_LAUNCH": 4,
+      "REGULATORY_ACTION": 1,
+      "NEW_LISTING": 1,
+      "MANAGEMENT_CHANGE": 2,
+      "ANALYST_RATING_CHANGE": 2,
+      "EARNINGS_SURPRISE": 5,
+      "STOCK_PRICE_MOVEMENT": 1
+    }
+  }
+}

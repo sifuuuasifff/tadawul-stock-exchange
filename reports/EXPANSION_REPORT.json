@@ -1,0 +1,95 @@
+{
+  "generated": "2026-06-05T16:06:06.538179",
+  "new_stocks": [
+    {
+      "symbol": "2230",
+      "name": "Saudi Chemical",
+      "sector": "Chemicals / Healthcare Dist.",
+      "trading_days": 3995,
+      "date_range": "2010-03-03 \u2192 2026-06-04",
+      "latest_price": 8.66,
+      "baseline_90d_avg": 6.42,
+      "baseline_win_pct": 53.1,
+      "stable_regime_90d": 6.28,
+      "rising_regime_90d": 13.01,
+      "rsi_oversold_90d": 4.34,
+      "momentum_signal": 13.14
+    },
+    {
+      "symbol": "1211",
+      "name": "Maaden",
+      "sector": "Mining",
+      "trading_days": 3997,
+      "date_range": "2010-03-03 \u2192 2026-06-04",
+      "latest_price": 63.1,
+      "baseline_90d_avg": 7.56,
+      "baseline_win_pct": 65.6,
+      "stable_regime_90d": 8.49,
+      "rising_regime_90d": 1.0,
+      "rsi_oversold_90d": 11.0,
+      "momentum_signal": 2.69
+    }
+  ],
+  "data_logs": {
+    "2230": {
+      "price_sahmk": {
+        "rows": 1000,
+        "start": "2010-03-03",
+        "end": "2026-03-03"
+      },
+      "price_yahoo": {
+        "rows": 3995
+      },
+      "financials": {
+        "income_quarters": 25,
+        "balance_quarters": 9
+      },
+      "ratios": {
+        "periods": 25
+      },
+      "dividends": {
+        "events": 27
+      },
+      "events": {
+        "count": 50
+      }
+    },
+    "1211": {
+      "price_sahmk": {
+        "rows": 1000,
+        "start": "2010-03-03",
+        "end": "2026-03-03"
+      },
+      "price_yahoo": {
+        "rows": 3997
+      },
+      "financials": {
+        "income_quarters": 23,
+        "balance_quarters": 15
+      },
+      "ratios": {
+        "periods": 22
+      },
+      "dividends": {
+        "events": 0
+      },
+      "events": {
+        "count": 104
+      }
+    },
+    "4139": {
+      "price_sahmk": {
+        "error": "404 Client Error: Not Found for url: https://app.sahmk.sa/api/v1/historical/4139/?from=2010-01-01&to=2026-06-05&interval=1d"
+      },
+      "price_yahoo": {
+        "rows": 0
+      },
+      "financials": {
+        "error": "404 Client Error: Not Found for url: https://app.sahmk.sa/api/v1/financials/4139/?type=all&period=quarterly&history=max&metrics=extended"
+      },
+      "events": {
+        "count": 0
+      }
+    }
+  }
+}

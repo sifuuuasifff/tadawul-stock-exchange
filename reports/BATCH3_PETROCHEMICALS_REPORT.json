@@ -1,0 +1,96 @@
+{
+  "generated": "2026-06-05T17:37:13.041831",
+  "batch": "Petrochemicals",
+  "results": [
+    {
+      "symbol": "2020",
+      "name": "SABIC Agri-Nutrients",
+      "days": 3993,
+      "accuracy": 63.4,
+      "baseline": 65.9,
+      "edge": -2.4,
+      "hyp_acc": 6,
+      "mistakes": 14
+    },
+    {
+      "symbol": "2290",
+      "name": "Yanbu National Petro",
+      "days": 3994,
+      "accuracy": 70.7,
+      "baseline": 63.4,
+      "edge": 7.3,
+      "hyp_acc": 5,
+      "mistakes": 20
+    },
+    {
+      "symbol": "2350",
+      "name": "Saudi Kayan Petrochem",
+      "days": 3993,
+      "accuracy": 53.7,
+      "baseline": 51.2,
+      "edge": 2.4,
+      "hyp_acc": 7,
+      "mistakes": 26
+    },
+    {
+      "symbol": "2310",
+      "name": "Sipchem",
+      "days": 3994,
+      "accuracy": 51.2,
+      "baseline": 51.2,
+      "edge": 0.0,
+      "hyp_acc": 7,
+      "mistakes": 26
+    },
+    {
+      "symbol": "2380",
+      "name": "Petro Rabigh",
+      "days": 3995,
+      "accuracy": 65.9,
+      "baseline": 58.5,
+      "edge": 7.3,
+      "hyp_acc": 6,
+      "mistakes": 18
+    },
+    {
+      "symbol": "2210",
+      "name": "Nama Chemicals",
+      "days": 3994,
+      "accuracy": 41.5,
+      "baseline": 41.5,
+      "edge": 0.0,
+      "hyp_acc": 8,
+      "mistakes": 25
+    },
+    {
+      "symbol": "2060",
+      "name": "National Industrialization",
+      "days": 3993,
+      "accuracy": 58.5,
+      "baseline": 53.7,
+      "edge": 4.9,
+      "hyp_acc": 6,
+      "mistakes": 27
+    },
+    {
+      "symbol": "2030",
+      "name": "Advanced Petrochem",
+      "days": 3994,
+      "accuracy": 51.2,
+      "baseline": 46.3,
+      "edge": 4.9,
+      "hyp_acc": 9,
+      "mistakes": 21
+    },
+    {
+      "symbol": "2250",
+      "name": "Saudi Industrial Investment",
+      "days": 3996,
+      "accuracy": 63.4,
+      "baseline": 58.5,
+      "edge": 4.9,
+      "hyp_acc": 5,
+      "mistakes": 23
+    }
+  ]
+}

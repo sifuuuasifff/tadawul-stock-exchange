@@ -1,0 +1,83 @@
+{
+  "built": "2026-06-05T15:52:59.185831",
+  "peer_correlations": {
+    "1180": {
+      "name": "Saudi National Bank (SNB)",
+      "correlation_20d": 0.689,
+      "p_value": 0.0,
+      "significant": true,
+      "n_periods": 2909,
+      "alrajhi_when_peer_up_avg": 7.34,
+      "alrajhi_when_peer_down_avg": -5.12
+    },
+    "1050": {
+      "name": "Banque Saudi Fransi",
+      "correlation_20d": 0.328,
+      "p_value": 0.0,
+      "significant": true,
+      "n_periods": 4011,
+      "alrajhi_when_peer_up_avg": 6.65,
+      "alrajhi_when_peer_down_avg": -3.74
+    },
+    "1060": {
+      "name": "Saudi British Bank (SABB)",
+      "correlation_20d": 0.067,
+      "p_value": 0.0,
+      "significant": true,
+      "n_periods": 4010,
+      "alrajhi_when_peer_up_avg": 5.51,
+      "alrajhi_when_peer_down_avg": -3.3
+    },
+    "1080": {
+      "name": "Arab National Bank",
+      "correlation_20d": 0.321,
+      "p_value": 0.0,
+      "significant": true,
+      "n_periods": 4011,
+      "alrajhi_when_peer_up_avg": 7.22,
+      "alrajhi_when_peer_down_avg": -4.86
+    },
+    "1010": {
+      "name": "Riyad Bank",
+      "correlation_20d": 0.259,
+      "p_value": 0.0,
+      "significant": true,
+      "n_periods": 3529,
+      "alrajhi_when_peer_up_avg": 6.47,
+      "alrajhi_when_peer_down_avg": -6.09
+    }
+  },
+  "sector_regimes": [
+    {
+      "rate_regime": "rising",
+      "tasi_correlation": 0.885,
+      "n": 294,
+      "interpretation": "In rising rate environment: Al Rajhi-TASI correlation = 0.885"
+    },
+    {
+      "rate_regime": "stable",
+      "tasi_correlation": 0.242,
+      "n": 3470,
+      "interpretation": "In stable rate environment: Al Rajhi-TASI correlation = 0.242"
+    },
+    {
+      "rate_regime": "falling",
+      "tasi_correlation": 0.845,
+      "n": 247,
+      "interpretation": "In falling rate environment: Al Rajhi-TASI correlation = 0.845"
+    }
+  ],
+  "tasi_correlation": {
+    "correlation_20d": 0.264,
+    "p_value": 0.0,
+    "significant": true,
+    "n": 4011,
+    "interpretation": "High correlation = Al Rajhi moves with TASI. Low = independent.",
+    "lag_-5d_r": 0.196,
+    "lag_-3d_r": 0.222,
+    "lag_-1d_r": 0.251,
+    "lag_1d_r": 0.26,
+    "lag_3d_r": 0.251,
+    "lag_5d_r": 0.227
+  }
+}

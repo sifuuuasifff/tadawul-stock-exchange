@@ -1,0 +1,154 @@
+[
+  {
+    "dataset": "Al Rajhi Daily Price (SAHMK)",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": "2010-03-03 \u2192 2026-03-03",
+    "error": null,
+    "timestamp": "2026-06-05T15:44:39.739740"
+  },
+  {
+    "dataset": "TASI Daily (SAHMK)",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": "2010-01-04 \u2192 2026-04-15",
+    "error": null,
+    "timestamp": "2026-06-05T15:44:41.525428"
+  },
+  {
+    "dataset": "Al Rajhi Quarterly Financials",
+    "status": "OK",
+    "rows": 34,
+    "coverage": "2002-12-31 \u2192 2026-03-31",
+    "error": null,
+    "timestamp": "2026-06-05T15:44:43.326480"
+  },
+  {
+    "dataset": "Al Rajhi Annual Financials",
+    "status": "OK",
+    "rows": 24,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:45.076762"
+  },
+  {
+    "dataset": "Al Rajhi Ratios (Quarterly)",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:46.546470"
+  },
+  {
+    "dataset": "Al Rajhi Dividends (SAHMK)",
+    "status": "OK",
+    "rows": 44,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:48.035704"
+  },
+  {
+    "dataset": "Al Rajhi Events (SAHMK)",
+    "status": "OK",
+    "rows": 0,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:49.629167"
+  },
+  {
+    "dataset": "Al Rajhi Company Profile",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:51.164738"
+  },
+  {
+    "dataset": "Saudi National Bank (SNB) Daily Price",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:52.878096"
+  },
+  {
+    "dataset": "Banque Saudi Fransi Daily Price",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:54.605954"
+  },
+  {
+    "dataset": "Saudi British Bank (SABB) Daily Price",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:56.321355"
+  },
+  {
+    "dataset": "Arab National Bank Daily Price",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:58.032872"
+  },
+  {
+    "dataset": "Riyad Bank Daily Price",
+    "status": "OK",
+    "rows": 1000,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:44:59.735298"
+  },
+  {
+    "dataset": "Saudi National Bank (SNB) Quarterly Financials",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:01.510228"
+  },
+  {
+    "dataset": "Banque Saudi Fransi Quarterly Financials",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:03.084165"
+  },
+  {
+    "dataset": "Saudi British Bank (SABB) Quarterly Financials",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:04.697406"
+  },
+  {
+    "dataset": "Arab National Bank Quarterly Financials",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:06.308543"
+  },
+  {
+    "dataset": "Riyad Bank Quarterly Financials",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:08.046964"
+  },
+  {
+    "dataset": "TASI Sectors",
+    "status": "OK",
+    "rows": null,
+    "coverage": null,
+    "error": null,
+    "timestamp": "2026-06-05T15:45:09.598760"
+  }
+]

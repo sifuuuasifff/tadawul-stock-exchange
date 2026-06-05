@@ -1,0 +1,1939 @@
+{
+  "built": "2026-06-05T15:52:58.809678",
+  "events": [
+    {
+      "event_date": "2026-05-21",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.0,
+        "ret_10d": 0.08
+      }
+    },
+    {
+      "event_date": "2026-05-19",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.75,
+        "ret_10d": -0.6
+      }
+    },
+    {
+      "event_date": "2026-05-13",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.21,
+        "ret_10d": 0.45
+      }
+    },
+    {
+      "event_date": "2026-05-28",
+      "event_type": "REGULATORY_ACTION",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.89
+      }
+    },
+    {
+      "event_date": "2026-05-12",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.67,
+        "ret_10d": 1.22
+      }
+    },
+    {
+      "event_date": "2026-05-10",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.12,
+        "ret_10d": -0.67
+      }
+    },
+    {
+      "event_date": "2026-05-07",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -2.14,
+        "ret_10d": -1.7,
+        "ret_20d": -1.62
+      }
+    },
+    {
+      "event_date": "2026-04-27",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.51,
+        "ret_10d": -2.97,
+        "ret_20d": -3.62
+      }
+    },
+    {
+      "event_date": "2026-04-22",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.95,
+        "ret_10d": -3.2,
+        "ret_20d": -2.33,
+        "ret_30d": -2.84
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "MERGER_ACQUISITION",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-20",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.63,
+        "ret_10d": -4.11,
+        "ret_20d": -7.39,
+        "ret_30d": -6.97
+      }
+    },
+    {
+      "event_date": "2026-04-20",
+      "event_type": "DIVIDEND_ANNOUNCEMENT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.63,
+        "ret_10d": -4.11,
+        "ret_20d": -7.39,
+        "ret_30d": -6.97
+      }
+    },
+    {
+      "event_date": "2026-04-21",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.64,
+        "ret_10d": -4.7,
+        "ret_20d": -4.77,
+        "ret_30d": -5.05
+      }
+    },
+    {
+      "event_date": "2026-04-20",
+      "event_type": "DIVIDEND_ANNOUNCEMENT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.63,
+        "ret_10d": -4.11,
+        "ret_20d": -7.39,
+        "ret_30d": -6.97
+      }
+    },
+    {
+      "event_date": "2026-04-16",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.36,
+        "ret_10d": -3.57,
+        "ret_20d": -6.73,
+        "ret_30d": -6.31
+      }
+    },
+    {
+      "event_date": "2026-04-16",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.36,
+        "ret_10d": -3.57,
+        "ret_20d": -6.73,
+        "ret_30d": -6.31
+      }
+    },
+    {
+      "event_date": "2026-04-13",
+      "event_type": "REGULATORY_ACTION",
+      "importance": "important",
+      "sentiment": "negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.02,
+        "ret_10d": -2.61,
+        "ret_20d": -5.5,
+        "ret_30d": -6.14
+      }
+    },
+    {
+      "event_date": "2026-04-13",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.02,
+        "ret_10d": -2.61,
+        "ret_20d": -5.5,
+        "ret_30d": -6.14
+      }
+    },
+    {
+      "event_date": "2026-04-12",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.74,
+        "ret_10d": -2.07,
+        "ret_20d": -3.98,
+        "ret_30d": -5.61
+      }
+    },
+    {
+      "event_date": "2026-04-12",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.74,
+        "ret_10d": -2.07,
+        "ret_20d": -3.98,
+        "ret_30d": -5.61
+      }
+    },
+    {
+      "event_date": "2026-04-09",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.02,
+        "ret_10d": -3.09,
+        "ret_20d": -6.05,
+        "ret_30d": -6.05
+      }
+    },
+    {
+      "event_date": "2026-04-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.67,
+        "ret_10d": 2.19,
+        "ret_20d": 0.04,
+        "ret_30d": -3.38
+      }
+    },
+    {
+      "event_date": "2026-03-31",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "critical",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.6,
+        "ret_10d": 1.6,
+        "ret_20d": -1.06,
+        "ret_30d": -5.57
+      }
+    },
+    {
+      "event_date": "2026-04-20",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.63,
+        "ret_10d": -4.11,
+        "ret_20d": -7.39,
+        "ret_30d": -6.97
+      }
+    },
+    {
+      "event_date": "2026-04-20",
+      "event_type": "DIVIDEND_ANNOUNCEMENT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.63,
+        "ret_10d": -4.11,
+        "ret_20d": -7.39,
+        "ret_30d": -6.97
+      }
+    },
+    {
+      "event_date": "2026-03-24",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "slightly_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.62,
+        "ret_10d": -0.1,
+        "ret_20d": 4.23,
+        "ret_30d": -2.68
+      }
+    },
+    {
+      "event_date": "2026-03-09",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.4,
+        "ret_10d": 3.17,
+        "ret_20d": 6.75,
+        "ret_30d": 4.54
+      }
+    },
+    {
+      "event_date": "2026-03-04",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.0,
+        "ret_10d": 3.86,
+        "ret_20d": 6.63,
+        "ret_30d": 6.06,
+        "ret_60d": 0.78
+      }
+    },
+    {
+      "event_date": "2026-03-03",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.56,
+        "ret_10d": 5.29,
+        "ret_20d": 5.59,
+        "ret_30d": 10.16,
+        "ret_60d": 2.48
+      }
+    },
+    {
+      "event_date": "2026-02-27",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.54,
+        "ret_10d": 3.74,
+        "ret_20d": 9.07,
+        "ret_30d": 11.94,
+        "ret_60d": 4.11
+      }
+    },
+    {
+      "event_date": "2026-02-24",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -4.35,
+        "ret_10d": -1.56,
+        "ret_20d": 4.1,
+        "ret_30d": 5.66,
+        "ret_60d": -0.82
+      }
+    },
+    {
+      "event_date": "2026-02-21",
+      "event_type": "OTHER",
+      "importance": "important",
+      "sentiment": "negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -5.57,
+        "ret_10d": -0.48,
+        "ret_20d": 0.68,
+        "ret_30d": 4.65,
+        "ret_60d": -1.68
+      }
+    },
+    {
+      "event_date": "2026-02-16",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.43,
+        "ret_10d": -6.36,
+        "ret_20d": -0.1,
+        "ret_30d": 0.19,
+        "ret_60d": -2.47
+      }
+    },
+    {
+      "event_date": "2026-02-14",
+      "event_type": "STOCK_PERFORMANCE",
+      "importance": "important",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.5,
+        "ret_10d": -7.71,
+        "ret_20d": -3.78,
+        "ret_30d": 1.14,
+        "ret_60d": -4.35
+      }
+    },
+    {
+      "event_date": "2026-02-12",
+      "event_type": "REGULAR",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.5,
+        "ret_10d": -7.71,
+        "ret_20d": -3.78,
+        "ret_30d": 1.14,
+        "ret_60d": -4.35
+      }
+    },
+    {
+      "event_date": "2026-02-11",
+      "event_type": "MERGER_ACQUISITION",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.13,
+        "ret_10d": -4.9,
+        "ret_20d": -4.71,
+        "ret_30d": 0.19,
+        "ret_60d": -4.8
+      }
+    },
+    {
+      "event_date": "2026-01-27",
+      "event_type": "OTHER",
+      "importance": "critical",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.29,
+        "ret_10d": -2.39,
+        "ret_20d": -5.71,
+        "ret_30d": -7.0,
+        "ret_60d": -2.62
+      }
+    },
+    {
+      "event_date": "2026-01-27",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "critical",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.29,
+        "ret_10d": -2.39,
+        "ret_20d": -5.71,
+        "ret_30d": -7.0,
+        "ret_60d": -2.62
+      }
+    },
+    {
+      "event_date": "2026-01-27",
+      "event_type": "DIVIDEND_ANNOUNCEMENT",
+      "importance": "critical",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.29,
+        "ret_10d": -2.39,
+        "ret_20d": -5.71,
+        "ret_30d": -7.0,
+        "ret_60d": -2.62
+      }
+    },
+    {
+      "event_date": "2026-01-27",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "critical",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.29,
+        "ret_10d": -2.39,
+        "ret_20d": -5.71,
+        "ret_30d": -7.0,
+        "ret_60d": -2.62
+      }
+    },
+    {
+      "event_date": "2026-01-26",
+      "event_type": "REGULATORY_ACTION",
+      "importance": "important",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.37,
+        "ret_10d": -1.29,
+        "ret_20d": -4.89,
+        "ret_30d": -7.01,
+        "ret_60d": -2.79
+      }
+    },
+    {
+      "event_date": "2026-01-22",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.56,
+        "ret_10d": -0.74,
+        "ret_20d": -5.38,
+        "ret_30d": -4.64,
+        "ret_60d": -2.25
+      }
+    },
+    {
+      "event_date": "2026-01-22",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "critical",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.56,
+        "ret_10d": -0.74,
+        "ret_20d": -5.38,
+        "ret_30d": -4.64,
+        "ret_60d": -2.25
+      }
+    },
+    {
+      "event_date": "2026-01-15",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.82,
+        "ret_10d": 5.1,
+        "ret_20d": 4.12,
+        "ret_30d": -4.36,
+        "ret_60d": 6.27
+      }
+    },
+    {
+      "event_date": "2026-01-15",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.82,
+        "ret_10d": 5.1,
+        "ret_20d": 4.12,
+        "ret_30d": -4.36,
+        "ret_60d": 6.27
+      }
+    },
+    {
+      "event_date": "2026-01-14",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.79,
+        "ret_10d": 6.58,
+        "ret_20d": 4.02,
+        "ret_30d": -0.88,
+        "ret_60d": 7.16
+      }
+    },
+    {
+      "event_date": "2026-01-14",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.79,
+        "ret_10d": 6.58,
+        "ret_20d": 4.02,
+        "ret_30d": -0.88,
+        "ret_60d": 7.16
+      }
+    },
+    {
+      "event_date": "2026-01-14",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.79,
+        "ret_10d": 6.58,
+        "ret_20d": 4.02,
+        "ret_30d": -0.88,
+        "ret_60d": 7.16
+      }
+    },
+    {
+      "event_date": "2026-01-14",
+      "event_type": "STOCK_SPLIT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.79,
+        "ret_10d": 6.58,
+        "ret_20d": 4.02,
+        "ret_30d": -0.88,
+        "ret_60d": 7.16
+      }
+    },
+    {
+      "event_date": "2026-01-08",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.19,
+        "ret_10d": 5.16,
+        "ret_20d": 6.26,
+        "ret_30d": 1.29,
+        "ret_60d": 7.35
+      }
+    },
+    {
+      "event_date": "2026-01-08",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.19,
+        "ret_10d": 5.16,
+        "ret_20d": 6.26,
+        "ret_30d": 1.29,
+        "ret_60d": 7.35
+      }
+    },
+    {
+      "event_date": "2026-01-07",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.71,
+        "ret_10d": 2.91,
+        "ret_20d": 7.41,
+        "ret_30d": 5.21,
+        "ret_60d": 8.12
+      }
+    },
+    {
+      "event_date": "2026-01-07",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.71,
+        "ret_10d": 2.91,
+        "ret_20d": 7.41,
+        "ret_30d": 5.21,
+        "ret_60d": 8.12
+      }
+    },
+    {
+      "event_date": "2026-01-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.27,
+        "ret_10d": 3.78,
+        "ret_20d": 8.01,
+        "ret_30d": 5.39,
+        "ret_60d": 8.51
+      }
+    },
+    {
+      "event_date": "2026-01-05",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 4.85,
+        "ret_10d": 7.66,
+        "ret_20d": 12.56,
+        "ret_30d": 10.16,
+        "ret_60d": 9.22
+      }
+    },
+    {
+      "event_date": "2025-12-31",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.59,
+        "ret_10d": 5.94,
+        "ret_20d": 11.16,
+        "ret_30d": 8.5,
+        "ret_60d": 8.9
+      }
+    },
+    {
+      "event_date": "2025-12-27",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "slightly_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.77,
+        "ret_10d": 3.96,
+        "ret_20d": 10.31,
+        "ret_30d": 11.46,
+        "ret_60d": 8.33
+      }
+    },
+    {
+      "event_date": "2025-12-23",
+      "event_type": "INSIDER_TRADING",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.51,
+        "ret_10d": -1.18,
+        "ret_20d": 6.08,
+        "ret_30d": 10.4,
+        "ret_60d": 8.03
+      }
+    },
+    {
+      "event_date": "2025-12-18",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.04,
+        "ret_10d": 1.72,
+        "ret_20d": 6.09,
+        "ret_30d": 11.61,
+        "ret_60d": 5.88
+      }
+    },
+    {
+      "event_date": "2025-12-13",
+      "event_type": "OTHER",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.84,
+        "ret_10d": -0.61,
+        "ret_20d": 2.2,
+        "ret_30d": 8.45,
+        "ret_60d": 5.27
+      }
+    },
+    {
+      "event_date": "2025-12-10",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.49,
+        "ret_10d": -1.87,
+        "ret_20d": 0.3,
+        "ret_30d": 3.79,
+        "ret_60d": 2.07
+      }
+    },
+    {
+      "event_date": "2025-12-09",
+      "event_type": "ANALYST_RATING_CHANGE",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -2.2,
+        "ret_10d": 0.2,
+        "ret_20d": -1.84,
+        "ret_30d": 5.37,
+        "ret_60d": 1.53
+      }
+    },
+    {
+      "event_date": "2025-11-18",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.11,
+        "ret_10d": -3.71,
+        "ret_20d": -4.11,
+        "ret_30d": -3.11,
+        "ret_60d": 6.32
+      }
+    },
+    {
+      "event_date": "2025-11-18",
+      "event_type": "REGULAR",
+      "importance": "regular",
+      "sentiment": "slightly_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -3.11,
+        "ret_10d": -3.71,
+        "ret_20d": -4.11,
+        "ret_30d": -3.11,
+        "ret_60d": 6.32
+      }
+    },
+    {
+      "event_date": "2025-11-15",
+      "event_type": "OTHER",
+      "importance": "important",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.85,
+        "ret_10d": -4.44,
+        "ret_20d": -1.35,
+        "ret_30d": -3.24,
+        "ret_60d": 6.68
+      }
+    },
+    {
+      "event_date": "2025-11-11",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.3,
+        "ret_10d": -4.92,
+        "ret_20d": -3.25,
+        "ret_30d": -3.59,
+        "ret_60d": 5.51
+      }
+    },
+    {
+      "event_date": "2025-11-08",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "regular",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.56,
+        "ret_10d": -3.07,
+        "ret_20d": -6.43,
+        "ret_30d": -6.58,
+        "ret_60d": 4.48
+      }
+    },
+    {
+      "event_date": "2025-11-05",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.97,
+        "ret_10d": -2.83,
+        "ret_20d": -6.58,
+        "ret_30d": -6.92,
+        "ret_60d": 5.85
+      }
+    },
+    {
+      "event_date": "2025-11-01",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "slightly_negative",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.48,
+        "ret_10d": -2.04,
+        "ret_20d": -7.03,
+        "ret_30d": -4.03,
+        "ret_60d": 2.72
+      }
+    },
+    {
+      "event_date": "2025-10-30",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.48,
+        "ret_10d": -2.04,
+        "ret_20d": -7.03,
+        "ret_30d": -4.03,
+        "ret_60d": 2.72
+      }
+    },
+    {
+      "event_date": "2025-10-30",
+      "event_type": "REGULATORY_ACTION",
+      "importance": "important",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.48,
+        "ret_10d": -2.04,
+        "ret_20d": -7.03,
+        "ret_30d": -4.03,
+        "ret_60d": 2.72
+      }
+    },
+    {
+      "event_date": "2025-10-25",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.31,
+        "ret_10d": -4.2,
+        "ret_20d": -7.14,
+        "ret_30d": -10.36,
+        "ret_60d": -4.86
+      }
+    },
+    {
+      "event_date": "2025-10-22",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.85,
+        "ret_10d": -5.65,
+        "ret_20d": -7.69,
+        "ret_30d": -11.25,
+        "ret_60d": -4.17
+      }
+    },
+    {
+      "event_date": "2025-10-21",
+      "event_type": "INSIDER_TRADING",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.93,
+        "ret_10d": -5.09,
+        "ret_20d": -6.2,
+        "ret_30d": -11.11,
+        "ret_60d": -5.09
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "MARKET_EXPANSION",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "OTHER",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-20",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.96,
+        "ret_10d": -2.62,
+        "ret_20d": -6.45,
+        "ret_30d": -9.87,
+        "ret_60d": -5.89
+      }
+    },
+    {
+      "event_date": "2025-10-13",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.94,
+        "ret_10d": 2.25,
+        "ret_20d": -4.88,
+        "ret_30d": -8.54,
+        "ret_60d": -9.24
+      }
+    },
+    {
+      "event_date": "2025-10-12",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.56,
+        "ret_10d": 0.09,
+        "ret_20d": -4.11,
+        "ret_30d": -6.45,
+        "ret_60d": -10.28
+      }
+    },
+    {
+      "event_date": "2025-10-11",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.08,
+        "ret_10d": 1.89,
+        "ret_20d": -3.21,
+        "ret_30d": -6.18,
+        "ret_60d": -7.83
+      }
+    },
+    {
+      "event_date": "2025-10-07",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "neutral",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.09,
+        "ret_10d": 0.19,
+        "ret_20d": -3.94,
+        "ret_30d": -5.06,
+        "ret_60d": -9.47
+      }
+    },
+    {
+      "event_date": "2025-10-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.28,
+        "ret_10d": 0.84,
+        "ret_20d": -2.44,
+        "ret_30d": -6.28,
+        "ret_60d": -9.18
+      }
+    },
+    {
+      "event_date": "2025-10-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.28,
+        "ret_10d": 0.84,
+        "ret_20d": -2.44,
+        "ret_30d": -6.28,
+        "ret_60d": -9.18
+      }
+    },
+    {
+      "event_date": "2025-10-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.28,
+        "ret_10d": 0.84,
+        "ret_20d": -2.44,
+        "ret_30d": -6.28,
+        "ret_60d": -9.18
+      }
+    },
+    {
+      "event_date": "2025-10-06",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.28,
+        "ret_10d": 0.84,
+        "ret_20d": -2.44,
+        "ret_30d": -6.28,
+        "ret_60d": -9.18
+      }
+    },
+    {
+      "event_date": "2025-10-05",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.56,
+        "ret_10d": 0.94,
+        "ret_20d": -3.28,
+        "ret_30d": -5.91,
+        "ret_60d": -9.94
+      }
+    },
+    {
+      "event_date": "2025-10-05",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.56,
+        "ret_10d": 0.94,
+        "ret_20d": -3.28,
+        "ret_30d": -5.91,
+        "ret_60d": -9.94
+      }
+    },
+    {
+      "event_date": "2025-10-02",
+      "event_type": "FINANCIAL_REPORT",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.61,
+        "ret_10d": 2.27,
+        "ret_20d": -0.09,
+        "ret_30d": -4.54,
+        "ret_60d": -8.27
+      }
+    },
+    {
+      "event_date": "2025-09-29",
+      "event_type": "OTHER",
+      "importance": "important",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.56,
+        "ret_10d": -0.19,
+        "ret_20d": 1.68,
+        "ret_30d": -5.41,
+        "ret_60d": -8.96
+      }
+    },
+    {
+      "event_date": "2025-09-28",
+      "event_type": "PARTNERSHIP",
+      "importance": "important",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.47,
+        "ret_10d": 0.66,
+        "ret_20d": 1.71,
+        "ret_30d": -2.56,
+        "ret_60d": -8.78
+      }
+    },
+    {
+      "event_date": "2025-09-28",
+      "event_type": "REGULATORY_ACTION",
+      "importance": "critical",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.47,
+        "ret_10d": 0.66,
+        "ret_20d": 1.71,
+        "ret_30d": -2.56,
+        "ret_60d": -8.78
+      }
+    },
+    {
+      "event_date": "2025-09-27",
+      "event_type": "MARKET_EXPANSION",
+      "importance": "important",
+      "sentiment": "very_positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.74,
+        "ret_10d": 5.91,
+        "ret_20d": 6.4,
+        "ret_30d": 1.08,
+        "ret_60d": -5.57
+      }
+    },
+    {
+      "event_date": "2025-09-25",
+      "event_type": "OTHER",
+      "importance": "regular",
+      "sentiment": "positive",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.74,
+        "ret_10d": 5.91,
+        "ret_20d": 6.4,
+        "ret_30d": 1.08,
+        "ret_60d": -5.57
+      }
+    }
+  ],
+  "event_type_summary": {
+    "OTHER": {
+      "n": 20,
+      "avg_30d_pct": -0.6,
+      "pct_positive": 45.0,
+      "max_pct": 11.94,
+      "min_pct": -11.25
+    },
+    "REGULATORY_ACTION": {
+      "n": 4,
+      "avg_30d_pct": -4.93,
+      "pct_positive": 0.0,
+      "max_pct": -2.56,
+      "min_pct": -7.01
+    },
+    "FINANCIAL_REPORT": {
+      "n": 43,
+      "avg_30d_pct": -3.81,
+      "pct_positive": 16.3,
+      "max_pct": 10.16,
+      "min_pct": -10.36
+    },
+    "PARTNERSHIP": {
+      "n": 5,
+      "avg_30d_pct": 0.52,
+      "pct_positive": 40.0,
+      "max_pct": 8.5,
+      "min_pct": -4.03
+    },
+    "STOCK_SPLIT": {
+      "n": 6,
+      "avg_30d_pct": -3.43,
+      "pct_positive": 16.7,
+      "max_pct": 0.19,
+      "min_pct": -6.97
+    },
+    "DIVIDEND_ANNOUNCEMENT": {
+      "n": 4,
+      "avg_30d_pct": -6.98,
+      "pct_positive": 0.0,
+      "max_pct": -6.97,
+      "min_pct": -7.0
+    }
+  },
+  "dividend_event_summary": {
+    "n": 44,
+    "avg_30d_after_announcement": 5.65,
+    "pct_positive_30d": 72.7,
+    "interpretation": "Dividend announcements show near-baseline returns \u2014 dividend yield is not a timing signal"
+  },
+  "dividend_events": [
+    {
+      "announcement_date": "2026-01-27",
+      "dividend_value": 1.75,
+      "period": "H2",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.37,
+        "ret_10d": -1.29,
+        "ret_20d": -4.89,
+        "ret_30d": -7.01
+      }
+    },
+    {
+      "announcement_date": "2025-09-15",
+      "dividend_value": 0.75,
+      "period": "H1",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.2,
+        "ret_10d": 16.65,
+        "ret_20d": 18.53,
+        "ret_30d": 20.75
+      }
+    },
+    {
+      "announcement_date": "2025-01-29",
+      "dividend_value": 1.46,
+      "period": "H2",
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 6.6,
+        "ret_10d": 4.19,
+        "ret_20d": 5.55,
+        "ret_30d": 5.34
+      }
+    },
+    {
+      "announcement_date": "2024-08-05",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.14,
+        "ret_10d": 0.28,
+        "ret_20d": 7.03,
+        "ret_30d": 7.15
+      }
+    },
+    {
+      "announcement_date": "2024-02-25",
+      "dividend_value": 1.15,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.89,
+        "ret_10d": -4.45,
+        "ret_20d": -2.0,
+        "ret_30d": -4.66
+      }
+    },
+    {
+      "announcement_date": "2023-07-24",
+      "dividend_value": 1.15,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.49,
+        "ret_10d": -2.15,
+        "ret_20d": 0.47,
+        "ret_30d": -0.77
+      }
+    },
+    {
+      "announcement_date": "2023-01-15",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.26,
+        "ret_10d": 3.85,
+        "ret_20d": -0.77,
+        "ret_30d": -8.86
+      }
+    },
+    {
+      "announcement_date": "2021-06-30",
+      "dividend_value": 1.4,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.72,
+        "ret_10d": -1.83,
+        "ret_20d": 8.02,
+        "ret_30d": 11.3
+      }
+    },
+    {
+      "announcement_date": "2021-03-01",
+      "dividend_value": 1.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.86,
+        "ret_10d": 11.68,
+        "ret_20d": 7.1,
+        "ret_30d": 10.21
+      }
+    },
+    {
+      "announcement_date": "2020-02-03",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.37,
+        "ret_10d": -3.34,
+        "ret_20d": -9.57,
+        "ret_30d": -18.54
+      }
+    },
+    {
+      "announcement_date": "2019-07-21",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.98,
+        "ret_10d": -3.55,
+        "ret_20d": -4.12,
+        "ret_30d": -13.68
+      }
+    },
+    {
+      "announcement_date": "2019-01-06",
+      "dividend_value": 2.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 5.0,
+        "ret_10d": 8.7,
+        "ret_20d": 10.0,
+        "ret_30d": 10.22
+      }
+    },
+    {
+      "announcement_date": "2018-07-15",
+      "dividend_value": 2.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.08,
+        "ret_10d": 4.13,
+        "ret_20d": 1.8,
+        "ret_30d": -2.05
+      }
+    },
+    {
+      "announcement_date": "2018-02-18",
+      "dividend_value": 2.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.13,
+        "ret_10d": -1.07,
+        "ret_20d": -0.94,
+        "ret_30d": 4.34
+      }
+    },
+    {
+      "announcement_date": "2017-07-12",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.15,
+        "ret_10d": -0.32,
+        "ret_20d": -0.79,
+        "ret_30d": 2.97
+      }
+    },
+    {
+      "announcement_date": "2017-01-19",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 3.17,
+        "ret_10d": 5.56,
+        "ret_20d": 3.17,
+        "ret_30d": 1.19
+      }
+    },
+    {
+      "announcement_date": "2016-07-20",
+      "dividend_value": 0.75,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.01,
+        "ret_10d": -1.71,
+        "ret_20d": -1.28,
+        "ret_30d": -2.57
+      }
+    },
+    {
+      "announcement_date": "2016-01-21",
+      "dividend_value": 1.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 4.78,
+        "ret_10d": 8.95,
+        "ret_20d": 15.81,
+        "ret_30d": 16.05
+      }
+    },
+    {
+      "announcement_date": "2015-07-08",
+      "dividend_value": 0.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 5.64,
+        "ret_10d": 9.35,
+        "ret_20d": 6.39,
+        "ret_30d": 0.39
+      }
+    },
+    {
+      "announcement_date": "2015-01-15",
+      "dividend_value": 0.75,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -1.85,
+        "ret_10d": 5.09,
+        "ret_20d": 15.28,
+        "ret_30d": 16.13
+      }
+    },
+    {
+      "announcement_date": "2014-07-15",
+      "dividend_value": 1.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.36,
+        "ret_10d": 3.77,
+        "ret_20d": 7.53,
+        "ret_30d": 16.93
+      }
+    },
+    {
+      "announcement_date": "2014-01-19",
+      "dividend_value": 1.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.35,
+        "ret_10d": 0.0,
+        "ret_20d": -1.74,
+        "ret_30d": -0.35
+      }
+    },
+    {
+      "announcement_date": "2013-07-03",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.32,
+        "ret_10d": 0.67,
+        "ret_20d": 2.02,
+        "ret_30d": 9.45
+      }
+    },
+    {
+      "announcement_date": "2013-01-16",
+      "dividend_value": 2.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -0.72,
+        "ret_10d": 0.36,
+        "ret_20d": -2.52,
+        "ret_30d": -1.8
+      }
+    },
+    {
+      "announcement_date": "2012-07-10",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.68,
+        "ret_10d": -0.02,
+        "ret_20d": 2.77,
+        "ret_30d": 2.77
+      }
+    },
+    {
+      "announcement_date": "2012-01-17",
+      "dividend_value": 2.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.35,
+        "ret_10d": 1.05,
+        "ret_20d": 3.15,
+        "ret_30d": 9.79
+      }
+    },
+    {
+      "announcement_date": "2011-07-11",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": -2.32,
+        "ret_10d": -1.98,
+        "ret_20d": -8.38,
+        "ret_30d": -6.02
+      }
+    },
+    {
+      "announcement_date": "2011-01-19",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 0.31,
+        "ret_10d": 0.31,
+        "ret_20d": -6.44,
+        "ret_30d": -10.74
+      }
+    },
+    {
+      "announcement_date": "2010-07-10",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 1.98,
+        "ret_10d": 0.31,
+        "ret_20d": 5.31,
+        "ret_30d": 2.31
+      }
+    },
+    {
+      "announcement_date": "2010-01-18",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2009-07-14",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2009-01-19",
+      "dividend_value": 1.75,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2008-06-29",
+      "dividend_value": 1.25,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2008-01-21",
+      "dividend_value": 0.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2007-07-10",
+      "dividend_value": 1.5,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2007-01-21",
+      "dividend_value": 1.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2006-01-25",
+      "dividend_value": 5.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2005-10-05",
+      "dividend_value": 5.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2005-07-06",
+      "dividend_value": 5.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2004-12-26",
+      "dividend_value": 35.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2004-01-25",
+      "dividend_value": 35.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2003-02-01",
+      "dividend_value": 28.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2002-01-28",
+      "dividend_value": 28.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    },
+    {
+      "announcement_date": "2001-02-12",
+      "dividend_value": 28.0,
+      "period": NaN,
+      "reactions": {
+        "ret_1d": 0.0,
+        "ret_5d": 2.31,
+        "ret_10d": 2.97,
+        "ret_20d": 11.88,
+        "ret_30d": 11.88
+      }
+    }
+  ]
+}

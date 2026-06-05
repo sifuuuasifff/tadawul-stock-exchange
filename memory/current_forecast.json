@@ -1,0 +1,52 @@
+{
+  "forecast_date": "2026-06-05",
+  "price": 66.65,
+  "rsi": 56.6,
+  "vix": 15.4,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "oil": 95.03,
+  "env_score": 80,
+  "tech_score": 58,
+  "fund_score": 65,
+  "composite": 68.5,
+  "price_at_forecast": 66.65,
+  "composite_score": 68.5,
+  "base_30d_pct": 2.0,
+  "base_60d_pct": 3.5,
+  "base_90d_pct": 5.0,
+  "target_30d": 67.98,
+  "target_60d": 68.98,
+  "target_90d": 69.98,
+  "bull_90d_pct": 13.1,
+  "bear_90d_pct": -3.1,
+  "bull_target_90d": 75.41,
+  "bear_target_90d": 64.55,
+  "confidence": 72,
+  "confidence_label": "HIGH",
+  "env_signals": {
+    "rate_regime": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "ma": "price below all MAs (+8)"
+  },
+  "fund_signals": {
+    "net_income_growth": "+25.7% YoY strong (+15)"
+  },
+  "similar_setups": {
+    "n_similar_setups": 57,
+    "avg_90d_return": 3.1,
+    "pct_positive_90d": 82.5,
+    "date_range": "2025-05-13 \u2192 2026-01-12"
+  },
+  "main_drivers": [
+    "[Environment] rate_regime: stable (+20)",
+    "[Environment] oil: uptrend (+10)",
+    "[Technical] ma: price below all MAs (+8)",
+    "[Fundamental] net_income_growth: +25.7% YoY strong (+15)"
+  ],
+  "key_risks": [
+    "No major technical risk flags at current levels"
+  ]
+}

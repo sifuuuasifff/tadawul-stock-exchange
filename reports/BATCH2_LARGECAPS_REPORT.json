@@ -1,0 +1,54 @@
+{
+  "generated": "2026-06-05T17:14:34.832574",
+  "batch": "Large Caps",
+  "results": [
+    {
+      "symbol": "2222",
+      "name": "Saudi Aramco",
+      "sector": "Energy",
+      "days": 1619,
+      "accuracy": 63.6,
+      "baseline": 59.1,
+      "edge": 4.5,
+      "hyp_acc": 4,
+      "hyp_total": 20,
+      "mistakes": 4
+    },
+    {
+      "symbol": "2010",
+      "name": "SABIC",
+      "sector": "Petrochemicals",
+      "days": 4002,
+      "accuracy": 63.4,
+      "baseline": 53.7,
+      "edge": 9.8,
+      "hyp_acc": 3,
+      "hyp_total": 20,
+      "mistakes": 16
+    },
+    {
+      "symbol": "7010",
+      "name": "STC",
+      "sector": "Telecom",
+      "days": 3995,
+      "accuracy": 58.5,
+      "baseline": 58.5,
+      "edge": 0.0,
+      "hyp_acc": 5,
+      "hyp_total": 20,
+      "mistakes": 11
+    },
+    {
+      "symbol": "2280",
+      "name": "Almarai",
+      "sector": "Food & Beverages",
+      "days": 3993,
+      "accuracy": 46.3,
+      "baseline": 61.0,
+      "edge": -14.6,
+      "hyp_acc": 4,
+      "hyp_total": 20,
+      "mistakes": 12
+    }
+  ]
+}

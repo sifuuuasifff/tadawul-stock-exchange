@@ -1,0 +1,566 @@
+{
+  "sym": "2010",
+  "name": "SABIC",
+  "generated": "2026-06-05T17:14:28.338677",
+  "technical": [
+    {
+      "label": "RSI Oversold",
+      "outcomes": {
+        "30d": {
+          "n": 554,
+          "avg_pct": -0.16,
+          "median_pct": 0.0,
+          "pct_positive": 48.2,
+          "std_pct": 10.58,
+          "max_gain_pct": 41.87,
+          "max_loss_pct": -28.16,
+          "p_value": 0.728,
+          "significant": false
+        },
+        "90d": {
+          "n": 554,
+          "avg_pct": 2.67,
+          "median_pct": 1.62,
+          "pct_positive": 52.7,
+          "std_pct": 14.22,
+          "max_gain_pct": 47.32,
+          "max_loss_pct": -28.57,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rising": {
+          "n": 49,
+          "avg_90d": -2.53
+        },
+        "stable": {
+          "n": 469,
+          "avg_90d": 3.87
+        },
+        "falling": {
+          "n": 36,
+          "avg_90d": -5.93
+        }
+      }
+    },
+    {
+      "label": "RSI Neutral",
+      "outcomes": {
+        "30d": {
+          "n": 2619,
+          "avg_pct": 0.47,
+          "median_pct": 0.98,
+          "pct_positive": 56.4,
+          "std_pct": 7.94,
+          "max_gain_pct": 39.21,
+          "max_loss_pct": -31.6,
+          "p_value": 0.002,
+          "significant": true
+        },
+        "90d": {
+          "n": 2619,
+          "avg_pct": 1.18,
+          "median_pct": 1.42,
+          "pct_positive": 54.8,
+          "std_pct": 12.61,
+          "max_gain_pct": 43.14,
+          "max_loss_pct": -41.0,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rising": {
+          "n": 211,
+          "avg_90d": -4.95
+        },
+        "stable": {
+          "n": 2228,
+          "avg_90d": 2.17
+        },
+        "falling": {
+          "n": 180,
+          "avg_90d": -3.93
+        }
+      }
+    },
+    {
+      "label": "RSI Overbought",
+      "outcomes": {
+        "30d": {
+          "n": 673,
+          "avg_pct": -0.25,
+          "median_pct": -0.1,
+          "pct_positive": 48.1,
+          "std_pct": 7.54,
+          "max_gain_pct": 19.17,
+          "max_loss_pct": -27.51,
+          "p_value": 0.397,
+          "significant": false
+        },
+        "90d": {
+          "n": 673,
+          "avg_pct": -1.34,
+          "median_pct": 1.18,
+          "pct_positive": 53.3,
+          "std_pct": 14.04,
+          "max_gain_pct": 28.14,
+          "max_loss_pct": -43.58,
+          "p_value": 0.013,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rising": {
+          "n": 34,
+          "avg_90d": -4.98
+        },
+        "stable": {
+          "n": 608,
+          "avg_90d": -1.59
+        },
+        "falling": {
+          "n": 31,
+          "avg_90d": 7.56
+        }
+      }
+    }
+  ],
+  "regime_profiles": [
+    {
+      "type": "Rate Regime",
+      "label": "rising",
+      "n_days": 295,
+      "outcomes": {
+        "30d": {
+          "n": 295,
+          "avg_pct": -2.07,
+          "median_pct": -2.53,
+          "pct_positive": 36.3,
+          "std_pct": 7.44,
+          "max_gain_pct": 20.25,
+          "max_loss_pct": -21.09,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "n": 295,
+          "avg_pct": -4.55,
+          "median_pct": -4.06,
+          "pct_positive": 26.8,
+          "std_pct": 9.57,
+          "max_gain_pct": 20.29,
+          "max_loss_pct": -26.78,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "type": "Rate Regime",
+      "label": "stable",
+      "n_days": 3370,
+      "outcomes": {
+        "30d": {
+          "n": 3370,
+          "avg_pct": 0.49,
+          "median_pct": 1.07,
+          "pct_positive": 56.4,
+          "std_pct": 8.31,
+          "max_gain_pct": 41.87,
+          "max_loss_pct": -31.6,
+          "p_value": 0.001,
+          "significant": true
+        },
+        "90d": {
+          "n": 3370,
+          "avg_pct": 1.86,
+          "median_pct": 2.59,
+          "pct_positive": 58.8,
+          "std_pct": 12.94,
+          "max_gain_pct": 43.92,
+          "max_loss_pct": -43.58,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "type": "Rate Regime",
+      "label": "falling",
+      "n_days": 247,
+      "outcomes": {
+        "30d": {
+          "n": 247,
+          "avg_pct": 1.53,
+          "median_pct": -0.54,
+          "pct_positive": 43.7,
+          "std_pct": 8.79,
+          "max_gain_pct": 32.75,
+          "max_loss_pct": -11.99,
+          "p_value": 0.007,
+          "significant": true
+        },
+        "90d": {
+          "n": 247,
+          "avg_pct": -2.78,
+          "median_pct": -8.01,
+          "pct_positive": 30.4,
+          "std_pct": 16.9,
+          "max_gain_pct": 47.32,
+          "max_loss_pct": -33.33,
+          "p_value": 0.01,
+          "significant": true
+        }
+      }
+    },
+    {
+      "type": "VIX Regime",
+      "label": "High Fear (VIX>30)",
+      "n_days": 248,
+      "outcomes": {
+        "90d": {
+          "n": 248,
+          "avg_pct": 8.29,
+          "median_pct": 7.66,
+          "pct_positive": 71.8,
+          "std_pct": 16.31,
+          "max_gain_pct": 47.32,
+          "max_loss_pct": -28.09,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "type": "VIX Regime",
+      "label": "Normal (VIX 15-30)",
+      "n_days": 2247,
+      "outcomes": {
+        "90d": {
+          "n": 2247,
+          "avg_pct": 1.05,
+          "median_pct": 0.78,
+          "pct_positive": 51.9,
+          "std_pct": 12.87,
+          "max_gain_pct": 43.92,
+          "max_loss_pct": -43.58,
+          "p_value": 0.0,
+          "significant": true
+        }
+      }
+    },
+    {
+      "type": "VIX Regime",
+      "label": "Calm (VIX<15)",
+      "n_days": 1417,
+      "outcomes": {
+        "90d": {
+          "n": 1417,
+          "avg_pct": -0.12,
+          "median_pct": 1.49,
+          "pct_positive": 55.8,
+          "std_pct": 12.56,
+          "max_gain_pct": 26.42,
+          "max_loss_pct": -42.37,
+          "p_value": 0.721,
+          "significant": false
+        }
+      }
+    }
+  ],
+  "fundamental": [
+    {
+      "year": 2002,
+      "report_date": "2002-12-31",
+      "net_income_bn": 2.85,
+      "ni_yoy_pct": null
+    },
+    {
+      "year": 2003,
+      "report_date": "2003-12-31",
+      "net_income_bn": 6.7,
+      "ni_yoy_pct": 135.1
+    },
+    {
+      "year": 2004,
+      "report_date": "2004-12-31",
+      "net_income_bn": 14.21,
+      "ni_yoy_pct": 112.3
+    },
+    {
+      "year": 2005,
+      "report_date": "2005-12-31",
+      "net_income_bn": 19.16,
+      "ni_yoy_pct": 34.8
+    },
+    {
+      "year": 2006,
+      "report_date": "2006-12-31",
+      "net_income_bn": 20.29,
+      "ni_yoy_pct": 5.9
+    },
+    {
+      "year": 2007,
+      "report_date": "2007-12-31",
+      "net_income_bn": 27.02,
+      "ni_yoy_pct": 33.2
+    },
+    {
+      "year": 2008,
+      "report_date": "2008-12-31",
+      "net_income_bn": 22.03,
+      "ni_yoy_pct": -18.5
+    },
+    {
+      "year": 2009,
+      "report_date": "2009-12-31",
+      "net_income_bn": 9.07,
+      "ni_yoy_pct": -58.8
+    },
+    {
+      "year": 2010,
+      "report_date": "2010-12-31",
+      "net_income_bn": 21.53,
+      "ni_yoy_pct": 137.3
+    },
+    {
+      "year": 2011,
+      "report_date": "2011-12-31",
+      "net_income_bn": 29.24,
+      "ni_yoy_pct": 35.8
+    },
+    {
+      "year": 2012,
+      "report_date": "2012-12-31",
+      "net_income_bn": 24.78,
+      "ni_yoy_pct": -15.3
+    },
+    {
+      "year": 2013,
+      "report_date": "2013-12-31",
+      "net_income_bn": 25.28,
+      "ni_yoy_pct": 2.0
+    },
+    {
+      "year": 2014,
+      "report_date": "2014-12-31",
+      "net_income_bn": 23.35,
+      "ni_yoy_pct": -7.6
+    },
+    {
+      "year": 2015,
+      "report_date": "2015-12-31",
+      "net_income_bn": 18.77,
+      "ni_yoy_pct": -19.6
+    },
+    {
+      "year": 2016,
+      "report_date": "2016-12-31",
+      "net_income_bn": 17.84,
+      "ni_yoy_pct": -5.0
+    },
+    {
+      "year": 2017,
+      "report_date": "2017-12-31",
+      "net_income_bn": 18.43,
+      "ni_yoy_pct": 3.3
+    },
+    {
+      "year": 2018,
+      "report_date": "2018-12-31",
+      "net_income_bn": 21.52,
+      "ni_yoy_pct": 16.8
+    },
+    {
+      "year": 2019,
+      "report_date": "2019-12-31",
+      "net_income_bn": 5.56,
+      "ni_yoy_pct": -74.1
+    },
+    {
+      "year": 2020,
+      "report_date": "2020-12-31",
+      "net_income_bn": 0.07,
+      "ni_yoy_pct": -98.8
+    },
+    {
+      "year": 2021,
+      "report_date": "2021-12-31",
+      "net_income_bn": 23.07,
+      "ni_yoy_pct": 34417.0
+    },
+    {
+      "year": 2022,
+      "report_date": "2022-12-31",
+      "net_income_bn": 16.53,
+      "ni_yoy_pct": -28.3
+    },
+    {
+      "year": 2023,
+      "report_date": "2023-12-31",
+      "net_income_bn": 1.3,
+      "ni_yoy_pct": -92.1
+    },
+    {
+      "year": 2024,
+      "report_date": "2024-12-31",
+      "net_income_bn": 1.54,
+      "ni_yoy_pct": 17.9
+    },
+    {
+      "year": 2025,
+      "report_date": "2025-12-31",
+      "net_income_bn": -25.78,
+      "ni_yoy_pct": -1775.6
+    }
+  ],
+  "events": {
+    "summary": {
+      "FINANCIAL_REPORT": {
+        "n": 57,
+        "avg_30d_pct": -1.79,
+        "pct_positive": 28.1
+      },
+      "OTHER": {
+        "n": 16,
+        "avg_30d_pct": 1.59,
+        "pct_positive": 50.0
+      },
+      "DIVIDEND_ANNOUNCEMENT": {
+        "n": 10,
+        "avg_30d_pct": 1.4,
+        "pct_positive": 50.0
+      },
+      "RESTRUCTURING": {
+        "n": 6,
+        "avg_30d_pct": 4.32,
+        "pct_positive": 83.3
+      },
+      "PARTNERSHIP": {
+        "n": 4,
+        "avg_30d_pct": 4.19,
+        "pct_positive": 75.0
+      },
+      "REGULAR": {
+        "n": 3,
+        "avg_30d_pct": -2.75,
+        "pct_positive": 33.3
+      },
+      "MERGER_ACQUISITION": {
+        "n": 6,
+        "avg_30d_pct": 0.05,
+        "pct_positive": 50.0
+      },
+      "MARKET_EXPANSION": {
+        "n": 3,
+        "avg_30d_pct": -0.74,
+        "pct_positive": 33.3
+      },
+      "REGULATORY_ACTION": {
+        "n": 6,
+        "avg_30d_pct": 0.16,
+        "pct_positive": 33.3
+      },
+      "EARNINGS_SURPRISE": {
+        "n": 7,
+        "avg_30d_pct": -2.85,
+        "pct_positive": 14.3
+      }
+    },
+    "total_events": 135
+  },
+  "dividends": {
+    "n": 50,
+    "avg_30d": 6.12,
+    "win_pct": 72.0
+  },
+  "regime_combos": [
+    {
+      "id": "rsi_oversold_rate_rising",
+      "n": 49,
+      "avg_30d": -2.78,
+      "avg_90d": -2.53,
+      "win_90d": 49.0
+    },
+    {
+      "id": "rsi_oversold_rate_stable",
+      "n": 469,
+      "avg_30d": 0.11,
+      "avg_90d": 3.87,
+      "win_90d": 56.7
+    },
+    {
+      "id": "rsi_oversold_rate_falling",
+      "n": 36,
+      "avg_30d": -0.01,
+      "avg_90d": -5.93,
+      "win_90d": 5.6
+    },
+    {
+      "id": "rsi_neutral_rate_rising",
+      "n": 105,
+      "avg_30d": -1.46,
+      "avg_90d": -4.82,
+      "win_90d": 21.9
+    },
+    {
+      "id": "rsi_neutral_rate_stable",
+      "n": 1192,
+      "avg_30d": 0.97,
+      "avg_90d": 2.83,
+      "win_90d": 62.4
+    },
+    {
+      "id": "rsi_neutral_rate_falling",
+      "n": 106,
+      "avg_30d": 0.29,
+      "avg_90d": -7.83,
+      "win_90d": 17.0
+    },
+    {
+      "id": "rsi_overbought_rate_rising",
+      "n": 34,
+      "avg_30d": -3.74,
+      "avg_90d": -4.98,
+      "win_90d": 26.5
+    },
+    {
+      "id": "rsi_overbought_rate_stable",
+      "n": 608,
+      "avg_30d": -0.23,
+      "avg_90d": -1.59,
+      "win_90d": 53.3
+    },
+    {
+      "id": "rsi_overbought_rate_falling",
+      "n": 31,
+      "avg_30d": 3.28,
+      "avg_90d": 7.56,
+      "win_90d": 83.9
+    }
+  ],
+  "personality_rules": [
+    {
+      "rule": "RSI oversold produces above-average returns",
+      "evidence": "RSI<30: avg=2.7% vs baseline=1.1%, n=554, p=0.000",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Stable rates better than rising rates by 6.4%",
+      "evidence": "Stable: 1.9% avg, n=3370 | Rising: -4.6%, n=295 | p=0.000",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Strong 20-day momentum (>10% rally) reverses",
+      "evidence": "After >10% rally: avg=-4.0% vs baseline=1.1%, n=234",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "baseline_90d": {
+    "avg_pct": 1.08,
+    "win_pct": 54.6,
+    "n": 3912
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "symbol": "1150",
+  "name": "Alinma Bank",
+  "sector": "Banking",
+  "as_of": "2026-06-05",
+  "price": 24.04,
+  "price_history": "2010-03-03 \u2192 2026-06-04",
+  "trading_days": 4031,
+  "rsi": 77.5,
+  "bb_pct": 0.759,
+  "ret_20d_pct": 2.2,
+  "ret_5d_pct": 0.2,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -4.6,
+  "dist_from_52w_low_pct": 21.2,
+  "vol_ratio": 0.97,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 30,
+  "fund_score": 50,
+  "composite": 57.5,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "77.5 overbought (-12)",
+    "bb": "mid band (0.76)",
+    "momentum": "2.2% neutral",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 1.7,
+    "base_60d_pct": 2.9,
+    "base_90d_pct": 4.2,
+    "bull_90d_pct": 13.4,
+    "bear_90d_pct": -5.1,
+    "target_30d": 24.44,
+    "target_60d": 24.75,
+    "target_90d": 25.05,
+    "bull_target": 27.27,
+    "bear_target": 22.83,
+    "confidence": 57,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 710,
+    "avg_90d": 6.3,
+    "win_pct": 66.6
+  }
+}

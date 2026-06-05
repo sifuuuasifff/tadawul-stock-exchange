@@ -1,0 +1,155 @@
+{
+  "stock": "Maaden",
+  "symbol": "1211",
+  "sector": "Mining",
+  "built": "2026-06-05T16:06:06.432975",
+  "price_history": "2010-03-03 \u2192 2026-06-04",
+  "n_trading_days": 3997,
+  "latest_price": 63.1,
+  "baseline_90d": {
+    "avg_pct": 7.56,
+    "win_pct": 65.6,
+    "n": 3907
+  },
+  "key_signals": {
+    "baseline_90d": {
+      "avg_pct": 7.56,
+      "win_pct": 65.6,
+      "n": 3907
+    },
+    "rsi_oversold": {
+      "n": 487,
+      "avg_pct": 11.0,
+      "win_pct": 69.2,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rsi_overbought": {
+      "n": 764,
+      "avg_pct": 3.1,
+      "win_pct": 57.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "bb_lower": {
+      "n": 278,
+      "avg_pct": 13.24,
+      "win_pct": 72.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_up": {
+      "n": 670,
+      "avg_pct": 2.69,
+      "win_pct": 58.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_dn": {
+      "n": 310,
+      "avg_pct": 17.41,
+      "win_pct": 78.4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "stable_rates": {
+      "n": 3366,
+      "avg_pct": 8.49,
+      "win_pct": 67.8,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rising_rates": {
+      "n": 294,
+      "avg_pct": 1.0,
+      "win_pct": 43.5,
+      "p_value": 0.328,
+      "significant": false
+    },
+    "vix_fear": {
+      "n": 243,
+      "avg_pct": 17.25,
+      "win_pct": 87.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "oil_bull": {
+      "n": 995,
+      "avg_pct": 7.11,
+      "win_pct": 65.3,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "all_below_mas": {
+      "n": 798,
+      "avg_pct": 11.66,
+      "win_pct": 67.9,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "tasi_uptrend": {
+      "n": 593,
+      "avg_pct": 4.15,
+      "win_pct": 61.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "regime_breakdown": {
+      "rising": {
+        "n": 294,
+        "avg_90d": 1.0,
+        "win_pct": 43.5
+      },
+      "stable": {
+        "n": 3366,
+        "avg_90d": 8.49,
+        "win_pct": 67.8
+      },
+      "falling": {
+        "n": 247,
+        "avg_90d": 2.61,
+        "win_pct": 61.5
+      }
+    }
+  },
+  "personality_rules": [
+    {
+      "rule": "Mean-reversion tendency: RSI oversold produces above-average returns",
+      "evidence": "RSI<30: avg=11.0% vs baseline=7.56%, n=487",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Rate regime matters: stable=8.49% avg vs rising=1.0% avg (\u0394=+7.5%)",
+      "evidence": "n_stable=3366, n_rising=294",
+      "confidence": "HIGH"
+    },
+    {
+      "rule": "Strong momentum (>10% 20-day rally) does not continue \u2014 mean reversion observed",
+      "evidence": "After >10% rally: avg=2.69%, win=58.7%, n=670",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "fundamentals_summary": {
+    "n_income_periods": 23,
+    "latest_net_income_bn": 0.0,
+    "earliest_date": "2007-12-31",
+    "latest_date": "2026-03-31"
+  },
+  "events_summary": {
+    "total": 104,
+    "by_type": {
+      "FINANCIAL_REPORT": 37,
+      "REGULATORY_ACTION": 3,
+      "MERGER_ACQUISITION": 6,
+      "OTHER": 30,
+      "REGULAR": 3,
+      "PARTNERSHIP": 9,
+      "MARKET_EXPANSION": 9,
+      "MANAGEMENT_CHANGE": 1,
+      "RESTRUCTURING": 2,
+      "PRODUCT_LAUNCH": 1,
+      "EARNINGS_SURPRISE": 2,
+      "NEW_LISTING": 1
+    }
+  }
+}

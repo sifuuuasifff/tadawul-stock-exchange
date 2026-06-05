@@ -1,0 +1,19 @@
+{
+  "generated": "2026-06-05T15:57:26.267099",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "signal_adjustments": {
+    "rising_rate_vix_bonus": "reduce VIX bonus from +15 to +5 when rate_regime=rising",
+    "stable_rate_magnitude": "base estimates increased by +2% for stable rate regime"
+  },
+  "weak_signals_demoted": [
+    "Oil price rising improves Al Rajhi forward returns vs oil falling",
+    "Price near Bollinger Band lower bound predicts positive 30d returns",
+    "Underperforming TASI by >5% over 20 days predicts outperformance over next 90 da",
+    "Al Rajhi above ALL moving averages predicts negative 90d returns (overbought)",
+    "Volume surges (>2.5x average) are predictive of 30d forward returns"
+  ]
+}

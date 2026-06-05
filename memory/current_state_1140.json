@@ -1,0 +1,60 @@
+{
+  "symbol": "1140",
+  "name": "Bank Albilad",
+  "sector": "Banking",
+  "as_of": "2026-06-05",
+  "price": 24.3,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3995,
+  "rsi": 39.0,
+  "bb_pct": 0.273,
+  "ret_20d_pct": -0.9,
+  "ret_5d_pct": -0.3,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 0,
+  "dist_from_52w_high_pct": -17.2,
+  "dist_from_52w_low_pct": 7.3,
+  "vol_ratio": 1.81,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 66,
+  "fund_score": 50,
+  "composite": 68.3,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "39.0 low (+8)",
+    "bb": "mid band (0.27)",
+    "momentum": "-0.9% neutral",
+    "ma": "below all MAs (+8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.2,
+    "bear_90d_pct": -2.2,
+    "target_30d": 24.88,
+    "target_60d": 25.32,
+    "target_90d": 25.76,
+    "bull_target": 27.74,
+    "bear_target": 23.77,
+    "confidence": 74,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 1017,
+    "avg_90d": 8.2,
+    "win_pct": 70.7
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sym": "1060",
+  "name": "Saudi British Bank (SABB)",
+  "generated": "2026-06-05T17:05:44.950739",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-6.95%"
+    }
+  ],
+  "bias": 2.41,
+  "before_accuracy": 73.2
+}

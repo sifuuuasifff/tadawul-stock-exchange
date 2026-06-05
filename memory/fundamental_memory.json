@@ -1,0 +1,498 @@
+{
+  "built": "2026-06-05T15:52:58.784386",
+  "annual_history": [
+    {
+      "year": 2002,
+      "report_date": "2002-12-31",
+      "net_income_bn": 1.41,
+      "ni_yoy_growth": null
+    },
+    {
+      "year": 2003,
+      "report_date": "2003-12-31",
+      "net_income_bn": 2.04,
+      "ni_yoy_growth": 44.2
+    },
+    {
+      "year": 2004,
+      "report_date": "2004-12-31",
+      "net_income_bn": 2.94,
+      "ni_yoy_growth": 44.1
+    },
+    {
+      "year": 2005,
+      "report_date": "2005-12-31",
+      "net_income_bn": 5.63,
+      "ni_yoy_growth": 91.9
+    },
+    {
+      "year": 2006,
+      "report_date": "2006-12-31",
+      "net_income_bn": 7.3,
+      "ni_yoy_growth": 29.6
+    },
+    {
+      "year": 2007,
+      "report_date": "2007-12-31",
+      "net_income_bn": 6.45,
+      "ni_yoy_growth": -11.7
+    },
+    {
+      "year": 2008,
+      "report_date": "2008-12-31",
+      "net_income_bn": 6.52,
+      "ni_yoy_growth": 1.2
+    },
+    {
+      "year": 2009,
+      "report_date": "2009-12-31",
+      "net_income_bn": 6.77,
+      "ni_yoy_growth": 3.7
+    },
+    {
+      "year": 2010,
+      "report_date": "2010-12-31",
+      "net_income_bn": 6.77,
+      "ni_yoy_growth": 0.1
+    },
+    {
+      "year": 2011,
+      "report_date": "2011-12-31",
+      "net_income_bn": 7.38,
+      "ni_yoy_growth": 9.0
+    },
+    {
+      "year": 2012,
+      "report_date": "2012-12-31",
+      "net_income_bn": 7.88,
+      "ni_yoy_growth": 6.9
+    },
+    {
+      "year": 2013,
+      "report_date": "2013-12-31",
+      "net_income_bn": 7.44,
+      "ni_yoy_growth": -5.7
+    },
+    {
+      "year": 2014,
+      "report_date": "2014-12-31",
+      "net_income_bn": 6.84,
+      "ni_yoy_growth": -8.1
+    },
+    {
+      "year": 2015,
+      "report_date": "2015-12-31",
+      "net_income_bn": 7.13,
+      "ni_yoy_growth": 4.3
+    },
+    {
+      "year": 2016,
+      "report_date": "2016-12-31",
+      "net_income_bn": 8.13,
+      "ni_yoy_growth": 14.0
+    },
+    {
+      "year": 2017,
+      "report_date": "2017-12-31",
+      "net_income_bn": 9.12,
+      "ni_yoy_growth": 12.2
+    },
+    {
+      "year": 2018,
+      "report_date": "2018-12-31",
+      "net_income_bn": 10.3,
+      "ni_yoy_growth": 12.9
+    },
+    {
+      "year": 2019,
+      "report_date": "2019-12-31",
+      "net_income_bn": 10.16,
+      "ni_yoy_growth": -1.3
+    },
+    {
+      "year": 2020,
+      "report_date": "2020-12-31",
+      "net_income_bn": 10.6,
+      "ni_yoy_growth": 4.3
+    },
+    {
+      "year": 2021,
+      "report_date": "2021-12-31",
+      "net_income_bn": 14.75,
+      "ni_yoy_growth": 39.2
+    },
+    {
+      "year": 2022,
+      "report_date": "2022-12-31",
+      "net_income_bn": 17.15,
+      "ni_yoy_growth": 16.3
+    },
+    {
+      "year": 2023,
+      "report_date": "2023-12-31",
+      "net_income_bn": 16.62,
+      "ni_yoy_growth": -3.1
+    },
+    {
+      "year": 2024,
+      "report_date": "2024-12-31",
+      "net_income_bn": 19.72,
+      "ni_yoy_growth": 18.7
+    },
+    {
+      "year": 2025,
+      "report_date": "2025-12-31",
+      "net_income_bn": 24.79,
+      "ni_yoy_growth": 25.7
+    }
+  ],
+  "balance_history": [
+    {
+      "report_date": "2015-12-31",
+      "total_assets_bn": 315.6,
+      "equity_bn": 46.6,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2016-12-31",
+      "total_assets_bn": 339.7,
+      "equity_bn": 51.9,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2017-12-31",
+      "total_assets_bn": 343.1,
+      "equity_bn": 55.8,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2018-12-31",
+      "total_assets_bn": 365.0,
+      "equity_bn": 48.6,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2019-12-31",
+      "total_assets_bn": 384.1,
+      "equity_bn": 51.2,
+      "assets_growth_yoy": 21.7
+    },
+    {
+      "report_date": "2020-12-31",
+      "total_assets_bn": 468.8,
+      "equity_bn": 58.1,
+      "assets_growth_yoy": 38.0
+    },
+    {
+      "report_date": "2021-12-31",
+      "total_assets_bn": 623.7,
+      "equity_bn": 67.3,
+      "assets_growth_yoy": 81.8
+    },
+    {
+      "report_date": "2022-09-30",
+      "total_assets_bn": 740.6,
+      "equity_bn": 86.1,
+      "assets_growth_yoy": 102.9
+    },
+    {
+      "report_date": "2022-12-31",
+      "total_assets_bn": 762.4,
+      "equity_bn": 100.2,
+      "assets_growth_yoy": 98.5
+    },
+    {
+      "report_date": "2023-03-31",
+      "total_assets_bn": 113.9,
+      "equity_bn": 16.5,
+      "assets_growth_yoy": -75.7
+    },
+    {
+      "report_date": "2023-06-30",
+      "total_assets_bn": 784.5,
+      "equity_bn": 41.9,
+      "assets_growth_yoy": 25.8
+    },
+    {
+      "report_date": "2023-09-30",
+      "total_assets_bn": 801.5,
+      "equity_bn": 41.9,
+      "assets_growth_yoy": 8.2
+    },
+    {
+      "report_date": "2023-12-31",
+      "total_assets_bn": 808.1,
+      "equity_bn": 106.8,
+      "assets_growth_yoy": 6.0
+    },
+    {
+      "report_date": "2024-03-31",
+      "total_assets_bn": 836.0,
+      "equity_bn": 41.9,
+      "assets_growth_yoy": 633.8
+    },
+    {
+      "report_date": "2024-06-30",
+      "total_assets_bn": 120.5,
+      "equity_bn": 116.4,
+      "assets_growth_yoy": -84.6
+    },
+    {
+      "report_date": "2024-09-30",
+      "total_assets_bn": 902.6,
+      "equity_bn": 117.8,
+      "assets_growth_yoy": 12.6
+    },
+    {
+      "report_date": "2024-12-31",
+      "total_assets_bn": null,
+      "equity_bn": 123.1,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2025-03-31",
+      "total_assets_bn": 1023.1,
+      "equity_bn": 134.0,
+      "assets_growth_yoy": 22.4
+    },
+    {
+      "report_date": "2025-06-30",
+      "total_assets_bn": 1039.0,
+      "equity_bn": 133.9,
+      "assets_growth_yoy": 761.9
+    },
+    {
+      "report_date": "2025-09-30",
+      "total_assets_bn": 196.8,
+      "equity_bn": 59.1,
+      "assets_growth_yoy": -78.2
+    },
+    {
+      "report_date": "2025-12-31",
+      "total_assets_bn": 1043.3,
+      "equity_bn": 142.9,
+      "assets_growth_yoy": null
+    },
+    {
+      "report_date": "2026-03-31",
+      "total_assets_bn": 1051.3,
+      "equity_bn": 152.5,
+      "assets_growth_yoy": 2.8
+    }
+  ],
+  "growth_patterns": [
+    {
+      "label": "Strong growth (>20% YoY)",
+      "occurrences": 6,
+      "years": [
+        2003,
+        2004,
+        2005,
+        2006,
+        2021,
+        2025
+      ],
+      "avg_net_income_bn": 9.57,
+      "note": "Stock price outcomes require price data alignment \u2014 see regime memory for context"
+    },
+    {
+      "label": "Solid growth (10-20% YoY)",
+      "occurrences": 5,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2022,
+        2024
+      ],
+      "avg_net_income_bn": 12.88,
+      "note": "Stock price outcomes require price data alignment \u2014 see regime memory for context"
+    },
+    {
+      "label": "Weak growth (0-10% YoY)",
+      "occurrences": 7,
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2015,
+        2020
+      ],
+      "avg_net_income_bn": 7.58,
+      "note": "Stock price outcomes require price data alignment \u2014 see regime memory for context"
+    },
+    {
+      "label": "Decline (<0% YoY)",
+      "occurrences": 5,
+      "years": [
+        2007,
+        2013,
+        2014,
+        2019,
+        2023
+      ],
+      "avg_net_income_bn": 9.5,
+      "note": "Stock price outcomes require price data alignment \u2014 see regime memory for context"
+    }
+  ],
+  "ratios_history": [
+    {
+      "report_date": "2026-03-31",
+      "roe": 4.88,
+      "roa": 0.71,
+      "net_income": 7440000000.0,
+      "total_assets": 1051268000000.0
+    },
+    {
+      "report_date": "2025-12-31",
+      "roe": 17.35,
+      "roa": 2.38,
+      "net_income": 24791754000.0,
+      "total_assets": 1043268297000.0
+    },
+    {
+      "report_date": "2025-09-30",
+      "roe": 10.15,
+      "roa": 3.05,
+      "net_income": 6000000000.0,
+      "total_assets": 196767176449.0
+    },
+    {
+      "report_date": "2025-06-30",
+      "roe": 4.59,
+      "roa": 0.59,
+      "net_income": 6151011000.0,
+      "total_assets": 1038988397000.0
+    },
+    {
+      "report_date": "2025-03-31",
+      "roe": 4.41,
+      "roa": 0.58,
+      "net_income": 5906040000.0,
+      "total_assets": 1023079507000.0
+    },
+    {
+      "report_date": "2024-12-31",
+      "roe": 16.02,
+      "roa": 2.02,
+      "net_income": 19722206000.0,
+      "total_assets": 974386656000.0
+    },
+    {
+      "report_date": "2024-09-30",
+      "roe": 4.33,
+      "roa": 0.57,
+      "net_income": 5103432000.0,
+      "total_assets": 902570599000.0
+    },
+    {
+      "report_date": "2024-06-30",
+      "roe": -4.62,
+      "roa": -4.46,
+      "net_income": -5380280000.0,
+      "total_assets": 120548151000.0
+    },
+    {
+      "report_date": "2024-03-31",
+      "roe": 12.39,
+      "roa": 0.62,
+      "net_income": 5191000000.0,
+      "total_assets": 835991983000.0
+    },
+    {
+      "report_date": "2023-12-31",
+      "roe": 15.57,
+      "roa": 2.06,
+      "net_income": 16621159000.0,
+      "total_assets": 808098272000.0
+    },
+    {
+      "report_date": "2023-09-30",
+      "roe": 12.39,
+      "roa": 0.65,
+      "net_income": 5191000000.0,
+      "total_assets": 801483269000.0
+    },
+    {
+      "report_date": "2023-06-30",
+      "roe": 12.39,
+      "roa": 0.66,
+      "net_income": 5191000000.0,
+      "total_assets": 784520250000.0
+    },
+    {
+      "report_date": "2023-03-31",
+      "roe": 83.69,
+      "roa": 12.12,
+      "net_income": 13810667000.0,
+      "total_assets": 113925737000.0
+    },
+    {
+      "report_date": "2022-12-31",
+      "roe": 17.11,
+      "roa": 2.25,
+      "net_income": 17150825000.0,
+      "total_assets": 762366022000.0
+    },
+    {
+      "report_date": "2021-12-31",
+      "roe": 21.91,
+      "roa": 2.36,
+      "net_income": 14746211000.0,
+      "total_assets": 623671915000.0
+    },
+    {
+      "report_date": "2020-12-31",
+      "roe": 18.23,
+      "roa": 2.26,
+      "net_income": 10595548000.0,
+      "total_assets": 468824723000.0
+    },
+    {
+      "report_date": "2019-12-31",
+      "roe": 19.84,
+      "roa": 2.64,
+      "net_income": 10158527000.0,
+      "total_assets": 384086576000.0
+    },
+    {
+      "report_date": "2018-12-31",
+      "roe": 21.21,
+      "roa": 2.82,
+      "net_income": 10296867000.0,
+      "total_assets": 365003830000.0
+    },
+    {
+      "report_date": "2017-12-31",
+      "roe": 16.36,
+      "roa": 2.66,
+      "net_income": 9120726000.0,
+      "total_assets": 343116528000.0
+    },
+    {
+      "report_date": "2016-12-31",
+      "roe": 15.64,
+      "roa": 2.39,
+      "net_income": 8125960000.0,
+      "total_assets": 339711817000.0
+    },
+    {
+      "report_date": "2015-12-31",
+      "roe": 15.29,
+      "roa": 2.26,
+      "net_income": 7130075000.0,
+      "total_assets": 315619648000.0
+    }
+  ],
+  "latest_snapshot": {
+    "as_of": "2026-06-05",
+    "net_income_bn": 24.79,
+    "ni_yoy_growth_pct": 25.7,
+    "total_assets_bn": 1051.3,
+    "equity_bn": 152.5,
+    "roe": 15.29,
+    "roa": 2.26
+  }
+}

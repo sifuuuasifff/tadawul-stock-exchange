@@ -1,0 +1,24 @@
+{
+  "sym": "2210",
+  "name": "Nama Chemicals",
+  "generated": "2026-06-05T17:37:00.322367",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-15.77%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 6.2%",
+      "evidence": "Systematic underestimate: predicted=2.41%, actual=8.64%"
+    }
+  ],
+  "bias": 6.23,
+  "before_accuracy": 41.5
+}

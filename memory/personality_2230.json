@@ -1,0 +1,145 @@
+{
+  "stock": "Saudi Chemical",
+  "symbol": "2230",
+  "sector": "Chemicals / Healthcare Dist.",
+  "built": "2026-06-05T16:06:06.032130",
+  "price_history": "2010-03-03 \u2192 2026-06-04",
+  "n_trading_days": 3995,
+  "latest_price": 8.66,
+  "baseline_90d": {
+    "avg_pct": 6.42,
+    "win_pct": 53.1,
+    "n": 3905
+  },
+  "key_signals": {
+    "baseline_90d": {
+      "avg_pct": 6.42,
+      "win_pct": 53.1,
+      "n": 3905
+    },
+    "rsi_oversold": {
+      "n": 540,
+      "avg_pct": 4.34,
+      "win_pct": 60.4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rsi_overbought": {
+      "n": 685,
+      "avg_pct": 6.18,
+      "win_pct": 53.7,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "bb_lower": {
+      "n": 269,
+      "avg_pct": 3.49,
+      "win_pct": 53.9,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_up": {
+      "n": 432,
+      "avg_pct": 13.14,
+      "win_pct": 58.6,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "momentum_strong_dn": {
+      "n": 315,
+      "avg_pct": 10.32,
+      "win_pct": 70.5,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "stable_rates": {
+      "n": 3364,
+      "avg_pct": 6.28,
+      "win_pct": 54.5,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "rising_rates": {
+      "n": 294,
+      "avg_pct": 13.01,
+      "win_pct": 54.4,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "vix_fear": {
+      "n": 241,
+      "avg_pct": 11.36,
+      "win_pct": 67.6,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "oil_bull": {
+      "n": 995,
+      "avg_pct": 2.36,
+      "win_pct": 48.0,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "all_below_mas": {
+      "n": 1053,
+      "avg_pct": 4.07,
+      "win_pct": 58.5,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "tasi_uptrend": {
+      "n": 594,
+      "avg_pct": 7.86,
+      "win_pct": 46.5,
+      "p_value": 0.0,
+      "significant": true
+    },
+    "regime_breakdown": {
+      "rising": {
+        "n": 294,
+        "avg_90d": 13.01,
+        "win_pct": 54.4
+      },
+      "stable": {
+        "n": 3364,
+        "avg_90d": 6.28,
+        "win_pct": 54.5
+      },
+      "falling": {
+        "n": 247,
+        "avg_90d": 0.41,
+        "win_pct": 31.2
+      }
+    }
+  },
+  "personality_rules": [
+    {
+      "rule": "Rate regime matters: stable=6.28% avg vs rising=13.01% avg (\u0394=-6.7%)",
+      "evidence": "n_stable=3364, n_rising=294",
+      "confidence": "HIGH"
+    }
+  ],
+  "fundamentals_summary": {
+    "n_income_periods": 25,
+    "latest_net_income_bn": 0.09,
+    "earliest_date": "2005-12-31",
+    "latest_date": "2026-03-31"
+  },
+  "events_summary": {
+    "total": 50,
+    "by_type": {
+      "FINANCIAL_REPORT": 9,
+      "DIVIDEND_ANNOUNCEMENT": 6,
+      "REGULATORY_ACTION": 4,
+      "OTHER": 14,
+      "MARKET_EXPANSION": 3,
+      "NEW_LISTING": 4,
+      "MANAGEMENT_CHANGE": 4,
+      "PRODUCT_LAUNCH": 1,
+      "EARNINGS_SURPRISE": 2,
+      "REGULAR": 1,
+      "PARTNERSHIP": 1,
+      "INSIDER_TRADING": 1
+    }
+  }
+}

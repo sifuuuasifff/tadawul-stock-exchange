@@ -1,0 +1,24 @@
+{
+  "sym": "1080",
+  "name": "Arab National Bank",
+  "generated": "2026-06-05T17:05:46.655541",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-8.13%"
+    },
+    {
+      "factor": "Upside capture",
+      "action": "Model consistently underestimates upside \u2014 increase bull spread",
+      "evidence": "10/16 large errors were upside misses"
+    }
+  ],
+  "bias": 2.77,
+  "before_accuracy": 61.0
+}

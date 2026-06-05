@@ -1,0 +1,59 @@
+{
+  "symbol": "1060",
+  "name": "Saudi British Bank (SABB)",
+  "sector": "Banking",
+  "as_of": "2026-06-05",
+  "price": 33.38,
+  "price_history": "2010-03-04 \u2192 2026-06-04",
+  "trading_days": 3993,
+  "rsi": 35.3,
+  "bb_pct": -0.057,
+  "ret_20d_pct": -2.3,
+  "ret_5d_pct": -2.2,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -9.4,
+  "dist_from_52w_low_pct": 14.4,
+  "vol_ratio": 0.87,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 78,
+  "fund_score": 50,
+  "composite": 71.9,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "35.3 low (+8)",
+    "bb": "near lower band (-0.06) (+20)",
+    "momentum": "-2.3% neutral"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.9,
+    "base_60d_pct": 5.0,
+    "base_90d_pct": 7.2,
+    "bull_90d_pct": 15.0,
+    "bear_90d_pct": -0.6,
+    "target_30d": 34.34,
+    "target_60d": 35.06,
+    "target_90d": 35.78,
+    "bull_target": 38.39,
+    "bear_target": 33.18,
+    "confidence": 79,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 1013,
+    "avg_90d": 3.5,
+    "win_pct": 59.0
+  }
+}

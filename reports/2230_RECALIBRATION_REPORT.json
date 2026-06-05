@@ -1,0 +1,24 @@
+{
+  "sym": "2230",
+  "name": "Saudi Chemical",
+  "generated": "2026-06-05T16:50:32.531783",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=6.73%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.2%",
+      "evidence": "Systematic underestimate: predicted=2.77%, actual=5.99%"
+    }
+  ],
+  "bias": 3.22,
+  "before_accuracy": 46.3
+}

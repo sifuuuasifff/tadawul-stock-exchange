@@ -1,0 +1,113 @@
+{
+  "generated": "2026-06-05T15:57:26.268246",
+  "changes": [
+    {
+      "change_id": "RC01",
+      "factor": "Environment weight",
+      "old_value": 0.4,
+      "new_value": 0.45,
+      "evidence": "H02 ACCEPTED: stable rates produce +8.4% edge. H01 REJECTED: rising rates systematically hurt. Environment is the strongest predictor.",
+      "regime": "all",
+      "direction": "increase"
+    },
+    {
+      "change_id": "RC02",
+      "factor": "Technical weight",
+      "old_value": 0.35,
+      "new_value": 0.3,
+      "evidence": "16/18 large errors were model underestimating magnitude. Technical signals (RSI, BB) are timing tools, not magnitude tools. Reducing weight to reflect this.",
+      "regime": "all",
+      "direction": "decrease"
+    },
+    {
+      "change_id": "RC03",
+      "factor": "Fundamental weight",
+      "old_value": 0.25,
+      "new_value": 0.25,
+      "evidence": "Fundamental weight unchanged \u2014 limited quarterly data pre-2022 means increasing weight would add noise. Revisit when full quarterly data is integrated.",
+      "regime": "all",
+      "direction": "hold"
+    },
+    {
+      "change_id": "RC04",
+      "factor": "Rising rate penalty in environment score",
+      "old_value": -25,
+      "new_value": -25,
+      "evidence": "CONFIRMED: H01 rejected with p=0.000, \u0394=-12.8%. H14: RSI oversold in rising rates gives -2.1% vs +10.2% in stable rates. Penalty is appropriate. No change.",
+      "regime": "rising_rates",
+      "direction": "hold"
+    },
+    {
+      "change_id": "RC05",
+      "factor": "VIX fear bonus \u2014 conditional on rate regime",
+      "old_value": "+15 pts unconditional",
+      "new_value": "+15 pts in stable/falling rates, +5 pts in rising rates",
+      "evidence": "2022-02-28 error: VIX=30.1 (fear bonus triggered) but rate hikes began causing -19% actual. H05 confirmed overall but VIX fear signal is weaker in rising rate environments.",
+      "regime": "rising_rates",
+      "direction": "conditional_reduce"
+    },
+    {
+      "change_id": "RC06",
+      "factor": "Base 90d return estimate in stable rate regime",
+      "old_value": "composite >70 \u2192 7.5%; composite 60-70 \u2192 5%; composite 50-60 \u2192 3%",
+      "new_value": "composite >70 \u2192 9.5%; composite 60-70 \u2192 7%; composite 50-60 \u2192 5%",
+      "evidence": "Systematic underestimate: avg predicted=2.6% vs actual=7.8% over 41 quarters. Model consistently too conservative in stable rate environment which is the norm (3,400/4,031 days).",
+      "regime": "stable_rates",
+      "direction": "increase"
+    }
+  ],
+  "weak_signals": [
+    {
+      "signal": "Oil price rising improves Al Rajhi forward returns vs oil falling",
+      "reason": "Difference too small to matter (1.17%) even if p=0.342",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "Price near Bollinger Band lower bound predicts positive 30d returns",
+      "reason": "Difference too small to matter (1.71%) even if p=0.328",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "Underperforming TASI by >5% over 20 days predicts outperformance over next 90 days",
+      "reason": "Difference too small to matter (-1.79%) even if p=0.256",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "Al Rajhi above ALL moving averages predicts negative 90d returns (overbought)",
+      "reason": "Difference too small to matter (-0.89%) even if p=0.210",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "Volume surges (>2.5x average) are predictive of 30d forward returns",
+      "reason": "Difference too small to matter (1.79%) even if p=0.666",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "RSI oversold + VIX < 25 is a better signal than RSI oversold alone",
+      "reason": "Difference too small to matter (1.74%) even if p=0.438",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "Oil bear markets hurt Al Rajhi more than oil bull markets help it (asymmetry)",
+      "reason": "Difference too small to matter (-1.17%) even if p=0.342",
+      "action": "demote \u2014 effect too small to matter"
+    },
+    {
+      "signal": "RSI neutral zone (40-60) combined with stable rates is a reliable low-risk accumulation zone",
+      "reason": "Difference too small to matter (1.58%) even if p=0.023",
+      "action": "demote \u2014 effect too small to matter"
+    }
+  ],
+  "final_weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "before_accuracy": 78.0,
+  "systematic_bias": {
+    "avg_predicted": 2.62,
+    "avg_actual": 7.85,
+    "bias": 5.23,
+    "action": "Increase base return estimates by ~2.5% in stable rate regime"
+  }
+}

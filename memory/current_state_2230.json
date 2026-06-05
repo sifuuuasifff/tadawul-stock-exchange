@@ -1,0 +1,64 @@
+{
+  "symbol": "2230",
+  "name": "Saudi Chemical",
+  "sector": "Chemicals",
+  "as_of": "2026-06-05",
+  "price": 8.66,
+  "price_history": "2010-03-03 \u2192 2026-06-04",
+  "trading_days": 3995,
+  "rsi": 68.8,
+  "bb_pct": 0.729,
+  "ret_20d_pct": 8.1,
+  "ret_5d_pct": 2.5,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -2.3,
+  "dist_from_52w_low_pct": 43.7,
+  "vol_ratio": 0.42,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 42,
+  "fund_score": 38,
+  "composite": 58.1,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "68.8 neutral",
+    "bb": "mid band (0.73)",
+    "momentum": "8.1% neutral",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {
+    "baseline_90d_avg": "6.42%",
+    "baseline_win_pct": "53.1%",
+    "net_income": "-73.8% QoQ declining (-12)"
+  },
+  "baseline_90d_avg": 6.42,
+  "baseline_win_pct": 53.1,
+  "regime_90d_avg": 6.3,
+  "forecast": {
+    "base_30d_pct": 1.8,
+    "base_60d_pct": 3.1,
+    "base_90d_pct": 4.4,
+    "bull_90d_pct": 13.6,
+    "bear_90d_pct": -4.8,
+    "target_30d": 8.81,
+    "target_60d": 8.93,
+    "target_90d": 9.04,
+    "bull_target": 9.84,
+    "bear_target": 8.24,
+    "confidence": 61,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 1072,
+    "avg_90d": 8.5,
+    "win_pct": 54.9
+  }
+}

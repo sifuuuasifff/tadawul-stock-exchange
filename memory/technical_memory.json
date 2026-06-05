@@ -1,0 +1,782 @@
+{
+  "built": "2026-06-05T15:52:58.488867",
+  "patterns": [
+    {
+      "type": "RSI Zone",
+      "label": "RSI Extreme Oversold (0-20)",
+      "condition": "RSI between 0 and 20",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 144,
+          "avg_pct": 5.77,
+          "median_pct": 1.3,
+          "pct_positive": 56.9,
+          "std_pct": 35.13,
+          "max_gain_pct": 309.62,
+          "max_loss_pct": -16.73,
+          "p_value": 0.051,
+          "significant": false
+        },
+        "60d": {
+          "label": "60d",
+          "n": 144,
+          "avg_pct": 9.3,
+          "median_pct": 3.11,
+          "pct_positive": 69.4,
+          "std_pct": 40.2,
+          "max_gain_pct": 273.06,
+          "max_loss_pct": -25.68,
+          "p_value": 0.006,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 144,
+          "avg_pct": 4.83,
+          "median_pct": 1.96,
+          "pct_positive": 55.6,
+          "std_pct": 14.41,
+          "max_gain_pct": 59.73,
+          "max_loss_pct": -19.45,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 28,
+          "avg_90d": -1.86,
+          "win_pct": 35.7
+        },
+        "rate_stable": {
+          "n": 115,
+          "avg_90d": 6.3,
+          "win_pct": 58.3
+        }
+      },
+      "primary_use": "timing",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Oversold (20-30)",
+      "condition": "RSI between 20 and 30",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 326,
+          "avg_pct": 3.43,
+          "median_pct": 1.64,
+          "pct_positive": 60.4,
+          "std_pct": 22.2,
+          "max_gain_pct": 277.71,
+          "max_loss_pct": -18.33,
+          "p_value": 0.006,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 326,
+          "avg_pct": 5.77,
+          "median_pct": 1.92,
+          "pct_positive": 60.4,
+          "std_pct": 29.93,
+          "max_gain_pct": 343.4,
+          "max_loss_pct": -30.24,
+          "p_value": 0.001,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 326,
+          "avg_pct": 10.25,
+          "median_pct": 5.6,
+          "pct_positive": 69.3,
+          "std_pct": 33.35,
+          "max_gain_pct": 266.89,
+          "max_loss_pct": -21.99,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 37,
+          "avg_90d": -2.28,
+          "win_pct": 45.9
+        },
+        "rate_stable": {
+          "n": 296,
+          "avg_90d": 11.78,
+          "win_pct": 68.2
+        },
+        "rate_falling": {
+          "n": 7,
+          "avg_90d": 14.77,
+          "win_pct": 100.0
+        }
+      },
+      "primary_use": "timing",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Low (30-40)",
+      "condition": "RSI between 30 and 40",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 520,
+          "avg_pct": 2.21,
+          "median_pct": 1.52,
+          "pct_positive": 57.3,
+          "std_pct": 14.12,
+          "max_gain_pct": 265.17,
+          "max_loss_pct": -19.91,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 520,
+          "avg_pct": 3.81,
+          "median_pct": 2.4,
+          "pct_positive": 58.3,
+          "std_pct": 19.11,
+          "max_gain_pct": 278.16,
+          "max_loss_pct": -32.65,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 520,
+          "avg_pct": 5.88,
+          "median_pct": 2.62,
+          "pct_positive": 60.4,
+          "std_pct": 20.86,
+          "max_gain_pct": 297.82,
+          "max_loss_pct": -22.8,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 52,
+          "avg_90d": -5.14,
+          "win_pct": 23.1
+        },
+        "rate_stable": {
+          "n": 458,
+          "avg_90d": 7.17,
+          "win_pct": 62.0
+        },
+        "rate_falling": {
+          "n": 26,
+          "avg_90d": 6.02,
+          "win_pct": 69.2
+        }
+      },
+      "primary_use": "context",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Neutral-Low (40-50)",
+      "condition": "RSI between 40 and 50",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 817,
+          "avg_pct": 4.23,
+          "median_pct": 1.65,
+          "pct_positive": 59.7,
+          "std_pct": 23.49,
+          "max_gain_pct": 280.76,
+          "max_loss_pct": -24.62,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 817,
+          "avg_pct": 5.41,
+          "median_pct": 2.36,
+          "pct_positive": 57.9,
+          "std_pct": 24.31,
+          "max_gain_pct": 292.75,
+          "max_loss_pct": -21.44,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 817,
+          "avg_pct": 7.06,
+          "median_pct": 3.76,
+          "pct_positive": 62.9,
+          "std_pct": 23.31,
+          "max_gain_pct": 331.73,
+          "max_loss_pct": -25.62,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 52,
+          "avg_90d": -6.11,
+          "win_pct": 25.0
+        },
+        "rate_stable": {
+          "n": 729,
+          "avg_90d": 8.24,
+          "win_pct": 65.7
+        },
+        "rate_falling": {
+          "n": 50,
+          "avg_90d": 3.87,
+          "win_pct": 44.0
+        }
+      },
+      "primary_use": "context",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Neutral-High (50-60)",
+      "condition": "RSI between 50 and 60",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 819,
+          "avg_pct": 3.96,
+          "median_pct": 1.57,
+          "pct_positive": 57.6,
+          "std_pct": 24.19,
+          "max_gain_pct": 296.54,
+          "max_loss_pct": -73.11,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 819,
+          "avg_pct": 5.04,
+          "median_pct": 3.23,
+          "pct_positive": 58.2,
+          "std_pct": 23.34,
+          "max_gain_pct": 301.57,
+          "max_loss_pct": -73.61,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 819,
+          "avg_pct": 5.9,
+          "median_pct": 3.81,
+          "pct_positive": 61.1,
+          "std_pct": 17.97,
+          "max_gain_pct": 244.28,
+          "max_loss_pct": -71.69,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 47,
+          "avg_90d": -5.82,
+          "win_pct": 25.5
+        },
+        "rate_stable": {
+          "n": 713,
+          "avg_90d": 6.99,
+          "win_pct": 63.5
+        },
+        "rate_falling": {
+          "n": 69,
+          "avg_90d": 2.84,
+          "win_pct": 50.7
+        }
+      },
+      "primary_use": "context",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI High (60-70)",
+      "condition": "RSI between 60 and 70",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 625,
+          "avg_pct": 1.83,
+          "median_pct": 0.7,
+          "pct_positive": 52.5,
+          "std_pct": 20.16,
+          "max_gain_pct": 330.06,
+          "max_loss_pct": -74.48,
+          "p_value": 0.024,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 625,
+          "avg_pct": 3.31,
+          "median_pct": 3.6,
+          "pct_positive": 61.4,
+          "std_pct": 16.24,
+          "max_gain_pct": 239.51,
+          "max_loss_pct": -74.0,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 625,
+          "avg_pct": 6.41,
+          "median_pct": 3.37,
+          "pct_positive": 62.4,
+          "std_pct": 28.74,
+          "max_gain_pct": 335.5,
+          "max_loss_pct": -74.57,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 49,
+          "avg_90d": -7.34,
+          "win_pct": 20.4
+        },
+        "rate_stable": {
+          "n": 547,
+          "avg_90d": 8.14,
+          "win_pct": 64.0
+        },
+        "rate_falling": {
+          "n": 50,
+          "avg_90d": 1.72,
+          "win_pct": 60.0
+        }
+      },
+      "primary_use": "context",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Overbought (70-80)",
+      "condition": "RSI between 70 and 80",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 358,
+          "avg_pct": -0.49,
+          "median_pct": -0.89,
+          "pct_positive": 43.0,
+          "std_pct": 7.08,
+          "max_gain_pct": 22.57,
+          "max_loss_pct": -20.52,
+          "p_value": 0.189,
+          "significant": false
+        },
+        "60d": {
+          "label": "60d",
+          "n": 358,
+          "avg_pct": 1.29,
+          "median_pct": 0.17,
+          "pct_positive": 50.8,
+          "std_pct": 10.41,
+          "max_gain_pct": 27.67,
+          "max_loss_pct": -26.49,
+          "p_value": 0.02,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 358,
+          "avg_pct": 2.96,
+          "median_pct": 0.55,
+          "pct_positive": 51.7,
+          "std_pct": 23.6,
+          "max_gain_pct": 277.34,
+          "max_loss_pct": -29.84,
+          "p_value": 0.018,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 20,
+          "avg_90d": -11.12,
+          "win_pct": 0.0
+        },
+        "rate_stable": {
+          "n": 316,
+          "avg_90d": 3.74,
+          "win_pct": 53.5
+        },
+        "rate_falling": {
+          "n": 31,
+          "avg_90d": 4.38,
+          "win_pct": 51.6
+        }
+      },
+      "primary_use": "timing",
+      "reliability": "HIGH"
+    },
+    {
+      "type": "RSI Zone",
+      "label": "RSI Extreme Overbought (80-100)",
+      "condition": "RSI between 80 and 100",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 308,
+          "avg_pct": -2.17,
+          "median_pct": 0.0,
+          "pct_positive": 49.4,
+          "std_pct": 15.46,
+          "max_gain_pct": 21.63,
+          "max_loss_pct": -75.02,
+          "p_value": 0.014,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 308,
+          "avg_pct": 1.75,
+          "median_pct": 4.0,
+          "pct_positive": 58.8,
+          "std_pct": 23.23,
+          "max_gain_pct": 226.53,
+          "max_loss_pct": -76.23,
+          "p_value": 0.188,
+          "significant": false
+        },
+        "90d": {
+          "label": "90d",
+          "n": 308,
+          "avg_pct": 3.18,
+          "median_pct": 4.39,
+          "pct_positive": 60.7,
+          "std_pct": 29.14,
+          "max_gain_pct": 249.14,
+          "max_loss_pct": -76.07,
+          "p_value": 0.056,
+          "significant": false
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 9,
+          "avg_90d": -8.19,
+          "win_pct": 0.0
+        },
+        "rate_stable": {
+          "n": 292,
+          "avg_90d": 3.38,
+          "win_pct": 61.0
+        },
+        "rate_falling": {
+          "n": 11,
+          "avg_90d": 7.29,
+          "win_pct": 81.8
+        }
+      },
+      "primary_use": "timing",
+      "reliability": "MEDIUM"
+    },
+    {
+      "type": "Bollinger Band",
+      "label": "BB Near Lower Band (<5%)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 270,
+          "avg_pct": 4.17,
+          "median_pct": 1.48,
+          "pct_positive": 59.3,
+          "std_pct": 28.7,
+          "max_gain_pct": 270.48,
+          "max_loss_pct": -17.17,
+          "p_value": 0.018,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 270,
+          "avg_pct": 7.86,
+          "median_pct": 3.37,
+          "pct_positive": 65.9,
+          "std_pct": 34.25,
+          "max_gain_pct": 275.99,
+          "max_loss_pct": -25.44,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 270,
+          "avg_pct": 6.57,
+          "median_pct": 3.68,
+          "pct_positive": 63.0,
+          "std_pct": 20.11,
+          "max_gain_pct": 252.76,
+          "max_loss_pct": -21.5,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 39,
+          "avg_90d": -4.14,
+          "win_pct": 35.9
+        },
+        "rate_stable": {
+          "n": 232,
+          "avg_90d": 8.45,
+          "win_pct": 64.2
+        },
+        "rate_falling": {
+          "n": 8,
+          "avg_90d": 6.62,
+          "win_pct": 87.5
+        }
+      },
+      "primary_use": "timing"
+    },
+    {
+      "type": "Bollinger Band",
+      "label": "BB Near Upper Band (>95%)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 362,
+          "avg_pct": -2.2,
+          "median_pct": 0.69,
+          "pct_positive": 53.3,
+          "std_pct": 18.23,
+          "max_gain_pct": 22.4,
+          "max_loss_pct": -75.02,
+          "p_value": 0.022,
+          "significant": true
+        },
+        "60d": {
+          "label": "60d",
+          "n": 362,
+          "avg_pct": -1.59,
+          "median_pct": 1.6,
+          "pct_positive": 55.2,
+          "std_pct": 20.55,
+          "max_gain_pct": 30.81,
+          "max_loss_pct": -76.23,
+          "p_value": 0.142,
+          "significant": false
+        },
+        "90d": {
+          "label": "90d",
+          "n": 362,
+          "avg_pct": -0.77,
+          "median_pct": 0.84,
+          "pct_positive": 53.3,
+          "std_pct": 23.34,
+          "max_gain_pct": 42.13,
+          "max_loss_pct": -76.07,
+          "p_value": 0.529,
+          "significant": false
+        }
+      },
+      "regime_breakdown": {
+        "rate_rising": {
+          "n": 21,
+          "avg_90d": -10.21,
+          "win_pct": 4.8
+        },
+        "rate_stable": {
+          "n": 328,
+          "avg_90d": -0.17,
+          "win_pct": 56.1
+        },
+        "rate_falling": {
+          "n": 17,
+          "avg_90d": -0.67,
+          "win_pct": 47.1
+        }
+      },
+      "primary_use": "timing"
+    },
+    {
+      "type": "MA Alignment",
+      "label": "All above MAs (bearish setup)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 1226,
+          "avg_pct": 0.55,
+          "median_pct": 0.94,
+          "pct_positive": 54.8,
+          "std_pct": 11.86,
+          "max_gain_pct": 23.72,
+          "max_loss_pct": -75.02,
+          "p_value": 0.102,
+          "significant": false
+        },
+        "90d": {
+          "label": "90d",
+          "n": 1226,
+          "avg_pct": 5.15,
+          "median_pct": 4.81,
+          "pct_positive": 62.6,
+          "std_pct": 20.84,
+          "max_gain_pct": 241.87,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "primary_use": "direction",
+      "note": "Counterintuitive: all above = weak forward returns; all below = strong"
+    },
+    {
+      "type": "MA Alignment",
+      "label": "All below MAs (bullish setup)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 1002,
+          "avg_pct": 6.59,
+          "median_pct": 2.27,
+          "pct_positive": 63.2,
+          "std_pct": 34.32,
+          "max_gain_pct": 309.62,
+          "max_loss_pct": -24.62,
+          "p_value": 0.0,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 1002,
+          "avg_pct": 8.42,
+          "median_pct": 3.65,
+          "pct_positive": 63.8,
+          "std_pct": 28.89,
+          "max_gain_pct": 331.73,
+          "max_loss_pct": -18.12,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "primary_use": "direction",
+      "note": "Counterintuitive: all above = weak forward returns; all below = strong"
+    },
+    {
+      "type": "Momentum",
+      "label": "Strong 20d upswing (>10%)",
+      "outcomes": {
+        "90d": {
+          "label": "90d",
+          "n": 330,
+          "avg_pct": 0.88,
+          "median_pct": 3.91,
+          "pct_positive": 60.3,
+          "std_pct": 22.9,
+          "max_gain_pct": 34.91,
+          "max_loss_pct": -76.07,
+          "p_value": 0.487,
+          "significant": false
+        }
+      },
+      "primary_use": "timing (reversal warning)",
+      "note": "Strong recent momentum predicts mean reversion, not continuation"
+    },
+    {
+      "type": "Momentum",
+      "label": "Strong 20d upswing (>20%)",
+      "outcomes": {
+        "90d": {
+          "label": "90d",
+          "n": 36,
+          "avg_pct": -29.76,
+          "median_pct": -37.18,
+          "pct_positive": 47.2,
+          "std_pct": 44.32,
+          "max_gain_pct": 29.23,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "primary_use": "timing (reversal warning)",
+      "note": "Strong recent momentum predicts mean reversion, not continuation"
+    },
+    {
+      "type": "Relative Strength vs TASI",
+      "label": "Outperforming TASI >5% (20d)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 531,
+          "avg_pct": -1.05,
+          "median_pct": 0.2,
+          "pct_positive": 51.4,
+          "std_pct": 18.71,
+          "max_gain_pct": 271.8,
+          "max_loss_pct": -75.02,
+          "p_value": 0.195,
+          "significant": false
+        },
+        "90d": {
+          "label": "90d",
+          "n": 531,
+          "avg_pct": 4.41,
+          "median_pct": 6.58,
+          "pct_positive": 62.9,
+          "std_pct": 24.32,
+          "max_gain_pct": 228.81,
+          "max_loss_pct": -76.07,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "primary_use": "timing (mean reversion)"
+    },
+    {
+      "type": "Relative Strength vs TASI",
+      "label": "Underperforming TASI >5% (20d)",
+      "outcomes": {
+        "30d": {
+          "label": "30d",
+          "n": 219,
+          "avg_pct": 4.91,
+          "median_pct": 2.03,
+          "pct_positive": 57.1,
+          "std_pct": 27.82,
+          "max_gain_pct": 309.62,
+          "max_loss_pct": -19.06,
+          "p_value": 0.01,
+          "significant": true
+        },
+        "90d": {
+          "label": "90d",
+          "n": 219,
+          "avg_pct": 5.16,
+          "median_pct": 2.54,
+          "pct_positive": 66.7,
+          "std_pct": 21.54,
+          "max_gain_pct": 277.34,
+          "max_loss_pct": -28.99,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "primary_use": "timing (mean reversion)"
+    }
+  ]
+}
