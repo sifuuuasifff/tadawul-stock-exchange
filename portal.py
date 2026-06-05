@@ -184,8 +184,9 @@ def render_sidebar(df: pd.DataFrame):
             st.markdown(f"**:{color}[{r['emoji']} {r['name']}]** {c:.0f}/100 | {r['forecast_90d']:+.1f}%")
 
         st.markdown("---")
-        st.page_link("portal.py",                    label="📊 Summary Dashboard", icon="📊")
-        st.page_link("pages/1_Stock_Analysis.py",    label="🔍 Stock Analysis & AI Chat", icon="🔍")
+        st.markdown("**Navigate:**")
+        st.markdown("📊 Summary — *this page*")
+        st.markdown("🔍 Stock Analysis — *use sidebar above*")
         st.markdown("---")
         st.caption(f"Updated: {datetime.now().strftime('%Y-%m-%d')}")
 

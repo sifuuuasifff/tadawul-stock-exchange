@@ -195,7 +195,6 @@ def render_sidebar() -> str:
             st.caption(f"Regime: {state.get('rate_regime','?').upper()} @ {state.get('repo_rate','?')}%")
 
         st.markdown("---")
-        st.page_link("portal.py",                 label="← Back to Summary", icon="📊")
 
     return sym
 
