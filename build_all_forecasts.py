@@ -25,6 +25,11 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "yahoo": "2222.SR", "sector": "Energy"},
     "2010": {"name": "SABIC", "yahoo": "2010.SR", "sector": "Petrochemicals"},
     "7010": {"name": "STC", "yahoo": "7010.SR", "sector": "Telecom"},
+    "7020": {"name": "Mobily", "yahoo": "7020.SR", "sector": "Telecom"},
+    "7030": {"name": "Zain Saudi", "yahoo": "7030.SR", "sector": "Telecom"},
+    "7040": {"name": "Etihad Atheeb", "yahoo": "7040.SR", "sector": "Telecom"},
+    "7200": {"name": "Solutions by STC", "yahoo": "7200.SR", "sector": "Telecom"},
+
     "2280": {"name": "Almarai", "yahoo": "2280.SR", "sector": "Food & Beverages"},
     # Petrochemicals
     "2020": {"name": "SABIC Agri-Nutrients", "yahoo": "2020.SR", "sector": "Petrochemicals"},

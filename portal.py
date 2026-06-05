@@ -68,6 +68,11 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "sector": "Energy", "emoji": "🛢️"},
     "2010": {"name": "SABIC", "sector": "Petrochemicals", "emoji": "⚗️"},
     "7010": {"name": "STC", "sector": "Telecom", "emoji": "📡"},
+    "7020": {"name": "Mobily", "sector": "Telecom", "emoji": "📡"},
+    "7030": {"name": "Zain Saudi", "sector": "Telecom", "emoji": "📡"},
+    "7040": {"name": "Etihad Atheeb", "sector": "Telecom", "emoji": "📡"},
+    "7200": {"name": "Solutions by STC", "sector": "Telecom", "emoji": "📡"},
+
     "2280": {"name": "Almarai", "sector": "Food & Beverages", "emoji": "🥛"},
     # Petrochemicals
     "2020": {"name": "SABIC Agri-Nutrients", "sector": "Petrochemicals", "emoji": "⚗️"},
