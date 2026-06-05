@@ -1,7 +1,7 @@
 {
   "sym": "1150",
   "name": "Alinma Bank",
-  "generated": "2026-06-06T02:19:55.437899",
+  "generated": "2026-06-06T02:26:07.014944",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 63.4,

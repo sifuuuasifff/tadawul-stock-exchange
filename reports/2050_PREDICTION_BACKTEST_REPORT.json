@@ -1,7 +1,7 @@
 {
   "sym": "2050",
   "name": "Savola Group",
-  "generated": "2026-06-06T02:22:39.151093",
+  "generated": "2026-06-06T02:28:44.951099",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 56.1,

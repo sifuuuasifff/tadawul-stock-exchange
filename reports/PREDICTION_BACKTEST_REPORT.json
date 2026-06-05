@@ -1,7 +1,7 @@
 {
   "sym": "1120",
   "name": "Al Rajhi Bank",
-  "generated": "2026-06-06T02:19:29.002242",
+  "generated": "2026-06-06T02:25:42.893759",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 78.0,

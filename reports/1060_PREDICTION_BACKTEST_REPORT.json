@@ -1,7 +1,7 @@
 {
   "sym": "1060",
   "name": "Saudi Awwal Bank (SABB)",
-  "generated": "2026-06-06T02:19:40.684433",
+  "generated": "2026-06-06T02:25:54.113625",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 70.7,

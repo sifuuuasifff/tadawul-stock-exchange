@@ -1,7 +1,7 @@
 {
   "sym": "7020",
   "name": "Mobily (Etihad Etisalat)",
-  "generated": "2026-06-06T02:21:03.396472",
+  "generated": "2026-06-06T02:27:10.186132",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 61.0,

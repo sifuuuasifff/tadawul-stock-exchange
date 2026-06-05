@@ -1,7 +1,7 @@
 {
   "sym": "2010",
   "name": "SABIC",
-  "generated": "2026-06-06T02:20:13.811741",
+  "generated": "2026-06-06T02:26:21.661698",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 58.5,

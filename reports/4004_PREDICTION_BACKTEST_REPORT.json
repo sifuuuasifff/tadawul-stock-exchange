@@ -1,7 +1,7 @@
 {
   "sym": "4004",
   "name": "Dallah Healthcare",
-  "generated": "2026-06-06T02:22:15.283501",
+  "generated": "2026-06-06T02:28:21.580132",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 53.7,

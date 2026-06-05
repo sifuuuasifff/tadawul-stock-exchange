@@ -1,7 +1,7 @@
 {
   "sym": "4082",
   "name": "MRNA",
-  "generated": "2026-06-06T02:24:01.594085",
+  "generated": "2026-06-06T02:30:13.477483",
   "validation": {
     "n_predictions": 8,
     "directional_accuracy_pct": 37.5,

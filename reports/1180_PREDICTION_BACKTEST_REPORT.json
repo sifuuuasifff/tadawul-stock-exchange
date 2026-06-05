@@ -1,7 +1,7 @@
 {
   "sym": "1180",
   "name": "Saudi National Bank (SNB)",
-  "generated": "2026-06-06T02:19:32.533537",
+  "generated": "2026-06-06T02:25:46.202958",
   "validation": {
     "n_predictions": 41,
     "directional_accuracy_pct": 73.2,
