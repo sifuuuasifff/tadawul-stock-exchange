@@ -1,0 +1,86 @@
+{
+  "generated": "2026-06-05T19:54:58.176293",
+  "batch": "Retail & Consumer",
+  "results": [
+    {
+      "symbol": "4190",
+      "name": "Jarir Bookstore",
+      "days": 3995,
+      "accuracy": 68.3,
+      "baseline": 65.9,
+      "edge": 2.4,
+      "hyp_acc": 8,
+      "mistakes": 14
+    },
+    {
+      "symbol": "4012",
+      "name": "Extra (United Electronics)",
+      "days": 1640,
+      "accuracy": 40.9,
+      "baseline": 45.5,
+      "edge": -4.5,
+      "hyp_acc": 2,
+      "mistakes": 11
+    },
+    {
+      "symbol": "4163",
+      "name": "Nahdi Medical",
+      "days": 1050,
+      "accuracy": 23.1,
+      "baseline": 38.5,
+      "edge": -15.4,
+      "hyp_acc": 4,
+      "mistakes": 8
+    },
+    {
+      "symbol": "4161",
+      "name": "BinDawood Holding",
+      "days": 1276,
+      "accuracy": 47.1,
+      "baseline": 23.5,
+      "edge": 23.5,
+      "hyp_acc": 2,
+      "mistakes": 11
+    },
+    {
+      "symbol": "4001",
+      "name": "Al Othaim Markets",
+      "days": 3994,
+      "accuracy": 51.2,
+      "baseline": 56.1,
+      "edge": -4.9,
+      "hyp_acc": 0,
+      "mistakes": 22
+    },
+    {
+      "symbol": "4082",
+      "name": "SACO",
+      "days": 735,
+      "accuracy": 50.0,
+      "baseline": 37.5,
+      "edge": 12.5,
+      "hyp_acc": 2,
+      "mistakes": 3
+    },
+    {
+      "symbol": "6004",
+      "name": "Fawaz Abdulaziz Alhokair",
+      "days": 3416,
+      "accuracy": 48.8,
+      "baseline": 46.3,
+      "edge": 2.4,
+      "hyp_acc": 2,
+      "mistakes": 16
+    },
+    {
+      "symbol": "4003",
+      "name": "Astra Industrial",
+      "days": 3443,
+      "accuracy": 63.4,
+      "baseline": 65.9,
+      "edge": -2.4,
+      "hyp_acc": 10,
+      "mistakes": 21
+    }
+  ]
+}

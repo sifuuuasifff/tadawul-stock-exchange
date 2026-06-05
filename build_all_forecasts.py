@@ -25,6 +25,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "yahoo": "2222.SR", "sector": "Energy"},
     "2010": {"name": "SABIC", "yahoo": "2010.SR", "sector": "Petrochemicals"},
     "7010": {"name": "STC", "yahoo": "7010.SR", "sector": "Telecom"},
+    # Real Estate
+    "4300": {"name": "Dar Al Arkan", "yahoo": "4300.SR", "sector": "Real Estate"},
+    "4220": {"name": "Emaar EC", "yahoo": "4220.SR", "sector": "Real Estate"},
+    "4322": {"name": "Retal Urban Dev", "yahoo": "4322.SR", "sector": "Real Estate"},
+    "4323": {"name": "Roshn Real Estate", "yahoo": "4323.SR", "sector": "Real Estate"},
+    "4020": {"name": "Saudi Real Estate", "yahoo": "4020.SR", "sector": "Real Estate"},
+    "4250": {"name": "Jabal Omar Dev", "yahoo": "4250.SR", "sector": "Real Estate"},
+    "4100": {"name": "Makkah Construction", "yahoo": "4100.SR", "sector": "Real Estate"},
+    "4090": {"name": "Arriyadh Development", "yahoo": "4090.SR", "sector": "Real Estate"},
+
     # Retail & Consumer
     "4190": {"name": "Jarir Bookstore", "yahoo": "4190.SR", "sector": "Retail"},
     "4012": {"name": "Extra (United Electronics)", "yahoo": "4012.SR", "sector": "Retail"},

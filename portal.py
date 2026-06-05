@@ -68,6 +68,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "sector": "Energy", "emoji": "🛢️"},
     "2010": {"name": "SABIC", "sector": "Petrochemicals", "emoji": "⚗️"},
     "7010": {"name": "STC", "sector": "Telecom", "emoji": "📡"},
+    # Real Estate
+    "4300": {"name": "Dar Al Arkan", "sector": "Real Estate", "emoji": "🏢"},
+    "4220": {"name": "Emaar EC", "sector": "Real Estate", "emoji": "🏢"},
+    "4322": {"name": "Retal Urban Dev", "sector": "Real Estate", "emoji": "🏢"},
+    "4323": {"name": "Roshn Real Estate", "sector": "Real Estate", "emoji": "🏢"},
+    "4020": {"name": "Saudi Real Estate", "sector": "Real Estate", "emoji": "🏢"},
+    "4250": {"name": "Jabal Omar Dev", "sector": "Real Estate", "emoji": "🏢"},
+    "4100": {"name": "Makkah Construction", "sector": "Real Estate", "emoji": "🏢"},
+    "4090": {"name": "Arriyadh Development", "sector": "Real Estate", "emoji": "🏢"},
+
     # Retail & Consumer
     "4190": {"name": "Jarir Bookstore", "sector": "Retail", "emoji": "🛒"},
     "4012": {"name": "Extra (United Electronics)", "sector": "Retail", "emoji": "🛒"},

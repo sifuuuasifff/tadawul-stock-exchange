@@ -1,0 +1,19 @@
+{
+  "sym": "4090",
+  "name": "Arriyadh Development",
+  "generated": "2026-06-05T19:59:14.573474",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-6.74%"
+    }
+  ],
+  "bias": -0.69,
+  "before_accuracy": 53.7
+}

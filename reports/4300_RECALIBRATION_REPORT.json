@@ -1,0 +1,19 @@
+{
+  "sym": "4300",
+  "name": "Dar Al Arkan",
+  "generated": "2026-06-05T19:59:06.392507",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=6.48%"
+    }
+  ],
+  "bias": 1.69,
+  "before_accuracy": 53.7
+}
