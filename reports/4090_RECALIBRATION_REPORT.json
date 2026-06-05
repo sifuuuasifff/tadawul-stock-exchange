@@ -1,7 +1,7 @@
 {
   "sym": "4090",
-  "name": "Arriyadh Development",
-  "generated": "2026-06-05T19:59:14.573474",
+  "name": "Taiba Investments",
+  "generated": "2026-06-06T01:57:46.772140",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-6.74%"
     }
   ],
-  "bias": -0.69,
+  "bias": -0.99,
   "before_accuracy": 53.7
 }

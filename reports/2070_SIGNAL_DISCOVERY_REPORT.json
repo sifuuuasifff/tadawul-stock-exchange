@@ -1,7 +1,7 @@
 {
   "sym": "2070",
-  "name": "Saudi Pharmaceutical",
-  "generated": "2026-06-05T20:03:20.333446",
+  "name": "Saudi Pharmaceutical Ind.",
+  "generated": "2026-06-06T01:57:56.636869",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.34,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 0.61,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.894,
+      "significant_90d": false,
+      "edge_vs_base": -2.58,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 3.86,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.541,
+      "significant_90d": false,
+      "edge_vs_base": 0.67,
       "reliability_label": "LOW"
     }
   ],

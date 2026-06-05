@@ -1,7 +1,7 @@
 {
   "sym": "2230",
   "name": "Saudi Chemical",
-  "generated": "2026-06-05T16:50:32.065681",
+  "generated": "2026-06-06T01:57:22.988816",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,28 @@
       "avg_alpha_90d": 0.84,
       "reliability_score": 30,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 0.19,
+      "pct_positive_90d": 37.5,
+      "p_value_90d": 0.978,
+      "significant_90d": false,
+      "edge_vs_base": -6.23,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -9.83,
+      "pct_positive_90d": 20.0,
+      "p_value_90d": 0.086,
+      "significant_90d": false,
+      "edge_vs_base": -16.25,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

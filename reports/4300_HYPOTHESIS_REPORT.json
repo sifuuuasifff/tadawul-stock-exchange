@@ -1,7 +1,7 @@
 {
   "sym": "4300",
   "name": "Dar Al Arkan",
-  "generated": "2026-06-05T19:59:06.270853",
+  "generated": "2026-06-06T01:57:37.751624",
   "results": [
     {
       "id": "H01",
@@ -85,14 +85,14 @@
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
       "n_a": 621,
-      "n_b": 1621,
+      "n_b": 1622,
       "avg_a": -1.17,
-      "avg_b": 4.59,
-      "diff": -5.76,
+      "avg_b": 4.6,
+      "diff": -5.77,
       "win_pct_a": 46.4,
       "p_value": 0.0,
       "verdict": "REJECTED",
-      "reason": "p=0.000 | A=-1.17% vs B=4.59% | reversed"
+      "reason": "p=0.000 | A=-1.17% vs B=4.6% | reversed"
     },
     {
       "id": "H08",

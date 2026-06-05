@@ -1,7 +1,7 @@
 {
   "sym": "4006",
-  "name": "Specialized Medical",
-  "generated": "2026-06-05T20:03:19.124025",
+  "name": "Saudi Marketing Co.",
+  "generated": "2026-06-06T01:57:36.055854",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -0.09,
       "reliability_score": 0,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": -2.84,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.46,
+      "significant_90d": false,
+      "edge_vs_base": -0.02,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 7.29,
+      "pct_positive_90d": 55.6,
+      "p_value_90d": 0.347,
+      "significant_90d": false,
+      "edge_vs_base": 10.11,
       "reliability_label": "LOW"
     }
   ],

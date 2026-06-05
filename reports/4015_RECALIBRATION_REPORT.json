@@ -1,13 +1,19 @@
 {
   "sym": "4015",
   "name": "Jamjoom Pharma",
-  "generated": "2026-06-05T16:50:34.763272",
+  "generated": "2026-06-06T01:57:58.402912",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
     "fundamental": 0.25
   },
-  "log": [],
-  "bias": -2.35,
-  "before_accuracy": 57.1
+  "log": [
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by -4.3%",
+      "evidence": "Systematic overestimate: predicted=5.57%, actual=1.29%"
+    }
+  ],
+  "bias": -4.28,
+  "before_accuracy": 28.6
 }

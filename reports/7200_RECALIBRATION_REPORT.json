@@ -1,7 +1,7 @@
 {
   "sym": "7200",
-  "name": "Solutions by STC",
-  "generated": "2026-06-05T19:50:38.818732",
+  "name": "Al Moammar Info Systems",
+  "generated": "2026-06-06T01:57:29.472860",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -10,8 +10,8 @@
   "log": [
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 12.6%",
-      "evidence": "Systematic underestimate: predicted=1.86%, actual=14.42%"
+      "action": "Adjust upward by 12.2%",
+      "evidence": "Systematic underestimate: predicted=2.24%, actual=14.42%"
     },
     {
       "factor": "Upside capture",
@@ -19,6 +19,6 @@
       "evidence": "11/16 large errors were upside misses"
     }
   ],
-  "bias": 12.56,
-  "before_accuracy": 60.0
+  "bias": 12.18,
+  "before_accuracy": 56.0
 }

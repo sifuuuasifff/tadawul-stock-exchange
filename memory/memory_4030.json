@@ -1,7 +1,7 @@
 {
   "sym": "4030",
-  "name": "Saudi Airlines Catering",
-  "generated": "2026-06-05T20:14:40.903114",
+  "name": "BAHRI (National Shipping)",
+  "generated": "2026-06-06T01:58:18.829486",
   "technical": [
     {
       "label": "RSI Oversold",
@@ -526,7 +526,7 @@
     },
     {
       "rule": "Strong 20-day momentum (>10% rally) reverses",
-      "evidence": "After >10% rally: avg=3.6% vs baseline=5.9%, n=551",
+      "evidence": "After >10% rally: avg=3.6% vs baseline=5.9%, n=550",
       "confidence": "MEDIUM"
     }
   ],

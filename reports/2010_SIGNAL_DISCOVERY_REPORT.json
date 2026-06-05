@@ -1,7 +1,7 @@
 {
   "sym": "2010",
   "name": "SABIC",
-  "generated": "2026-06-05T17:14:28.337512",
+  "generated": "2026-06-06T01:57:10.227382",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,28 @@
       "avg_alpha_90d": -2.11,
       "reliability_score": 0,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 7.0,
+      "pct_positive_90d": 70.0,
+      "p_value_90d": 0.161,
+      "significant_90d": false,
+      "edge_vs_base": 5.92,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 16,
+      "avg_return_90d": 5.15,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.096,
+      "significant_90d": false,
+      "edge_vs_base": 4.07,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

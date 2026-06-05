@@ -1,7 +1,7 @@
 {
   "sym": "4100",
   "name": "Makkah Construction",
-  "generated": "2026-06-05T19:59:12.702532",
+  "generated": "2026-06-06T01:57:44.647964",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,28 @@
       "avg_alpha_90d": 4.0,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 10.75,
+      "pct_positive_90d": 87.5,
+      "p_value_90d": 0.054,
+      "significant_90d": false,
+      "edge_vs_base": 5.86,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 5.86,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.213,
+      "significant_90d": false,
+      "edge_vs_base": 0.98,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

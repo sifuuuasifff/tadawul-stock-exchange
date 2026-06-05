@@ -1,7 +1,7 @@
 {
   "sym": "1180",
   "name": "Saudi National Bank (SNB)",
-  "generated": "2026-06-05T17:05:41.380403",
+  "generated": "2026-06-06T01:56:59.575222",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -1.65,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 10.01,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.339,
+      "significant_90d": false,
+      "edge_vs_base": 6.38,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 6.43,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.428,
+      "significant_90d": false,
+      "edge_vs_base": 2.8,
       "reliability_label": "LOW"
     }
   ],

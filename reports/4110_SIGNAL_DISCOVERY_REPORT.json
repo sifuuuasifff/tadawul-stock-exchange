@@ -1,7 +1,7 @@
 {
   "sym": "4110",
-  "name": "Arriyadh Dev Auth",
-  "generated": "2026-06-05T20:14:37.058021",
+  "name": "Batic Investments",
+  "generated": "2026-06-06T01:58:26.909464",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,50 @@
       "avg_alpha_90d": 7.11,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 2.2,
+      "pct_positive_90d": 33.3,
+      "p_value_90d": 0.881,
+      "significant_90d": false,
+      "edge_vs_base": -19.28,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 5.86,
+      "pct_positive_90d": 45.5,
+      "p_value_90d": 0.58,
+      "significant_90d": false,
+      "edge_vs_base": -15.62,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": -1.69,
+      "pct_positive_90d": 28.6,
+      "p_value_90d": 0.903,
+      "significant_90d": false,
+      "edge_vs_base": -23.17,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 5.68,
+      "pct_positive_90d": 45.5,
+      "p_value_90d": 0.578,
+      "significant_90d": false,
+      "edge_vs_base": -15.8,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

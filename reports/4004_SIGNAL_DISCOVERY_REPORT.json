@@ -1,7 +1,7 @@
 {
   "sym": "4004",
   "name": "Dallah Healthcare",
-  "generated": "2026-06-05T20:03:14.320778",
+  "generated": "2026-06-06T01:57:51.386150",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,28 @@
       "avg_alpha_90d": 2.21,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 5.65,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.534,
+      "significant_90d": false,
+      "edge_vs_base": -0.3,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 12.9,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.114,
+      "significant_90d": false,
+      "edge_vs_base": 6.95,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

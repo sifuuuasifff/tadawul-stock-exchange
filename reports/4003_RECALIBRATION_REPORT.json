@@ -1,7 +1,7 @@
 {
   "sym": "4003",
-  "name": "Astra Industrial",
-  "generated": "2026-06-05T19:54:40.598728",
+  "name": "United Electronics (Extra)",
+  "generated": "2026-06-06T01:57:31.963596",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,15 +15,15 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 7.9%",
-      "evidence": "Systematic underestimate: predicted=3.07%, actual=11.01%"
+      "action": "Adjust upward by 7.6%",
+      "evidence": "Systematic underestimate: predicted=3.41%, actual=11.01%"
     },
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "15/21 large errors were upside misses"
+      "evidence": "14/21 large errors were upside misses"
     }
   ],
-  "bias": 7.94,
+  "bias": 7.6,
   "before_accuracy": 63.4
 }

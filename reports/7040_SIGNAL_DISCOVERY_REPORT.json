@@ -1,7 +1,7 @@
 {
   "sym": "7040",
-  "name": "Etihad Atheeb",
-  "generated": "2026-06-05T19:50:19.228886",
+  "name": "Go (formerly Etihad Atheeb)",
+  "generated": "2026-06-06T01:57:27.820301",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": -3.69,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 72.39,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.156,
+      "significant_90d": false,
+      "edge_vs_base": 58.31,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 13.37,
+      "pct_positive_90d": 37.5,
+      "p_value_90d": 0.491,
+      "significant_90d": false,
+      "edge_vs_base": -0.71,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 50.03,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.136,
+      "significant_90d": false,
+      "edge_vs_base": 35.95,
       "reliability_label": "LOW"
     }
   ],

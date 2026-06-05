@@ -1,7 +1,7 @@
 {
   "sym": "2200",
-  "name": "Arabian Food Industries",
-  "generated": "2026-06-05T20:08:59.117098",
+  "name": "Arabian Pipes Co.",
+  "generated": "2026-06-06T01:58:24.369529",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.32,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": -6.62,
+      "pct_positive_90d": 33.3,
+      "p_value_90d": 0.575,
+      "significant_90d": false,
+      "edge_vs_base": -9.78,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 12,
+      "avg_return_90d": 4.93,
+      "pct_positive_90d": 58.3,
+      "p_value_90d": 0.475,
+      "significant_90d": false,
+      "edge_vs_base": 1.77,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": -1.45,
+      "pct_positive_90d": 33.3,
+      "p_value_90d": 0.901,
+      "significant_90d": false,
+      "edge_vs_base": -4.62,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 3.89,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.623,
+      "significant_90d": false,
+      "edge_vs_base": 0.73,
       "reliability_label": "LOW"
     }
   ],

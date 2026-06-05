@@ -1,7 +1,7 @@
 {
   "sym": "4006",
-  "name": "Specialized Medical",
-  "generated": "2026-06-05T20:03:19.600710",
+  "name": "Saudi Marketing Co.",
+  "generated": "2026-06-06T01:57:36.514970",
   "results": [
     {
       "id": "H01",
@@ -85,7 +85,7 @@
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
       "n_a": 338,
-      "n_b": 1348,
+      "n_b": 1349,
       "avg_a": 2.73,
       "avg_b": -6.31,
       "diff": 9.04,

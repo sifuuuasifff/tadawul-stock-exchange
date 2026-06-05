@@ -1,7 +1,7 @@
 {
   "sym": "6010",
   "name": "NADEC",
-  "generated": "2026-06-05T20:08:58.018405",
+  "generated": "2026-06-06T01:58:04.799146",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": 2.41,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -7.24,
+      "pct_positive_90d": 20.0,
+      "p_value_90d": 0.299,
+      "significant_90d": false,
+      "edge_vs_base": -11.26,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 9.8,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.175,
+      "significant_90d": false,
+      "edge_vs_base": 5.79,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 14,
+      "avg_return_90d": 10.0,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.115,
+      "significant_90d": false,
+      "edge_vs_base": 5.99,
       "reliability_label": "LOW"
     }
   ],

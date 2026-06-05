@@ -1,7 +1,7 @@
 {
   "sym": "4322",
   "name": "Retal Urban Dev",
-  "generated": "2026-06-05T19:59:08.619320",
+  "generated": "2026-06-06T01:57:40.295051",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 4.5%",
-      "evidence": "Systematic underestimate: predicted=3.46%, actual=7.95%"
+      "action": "Adjust upward by 4.2%",
+      "evidence": "Systematic underestimate: predicted=3.75%, actual=7.95%"
     }
   ],
-  "bias": 4.49,
+  "bias": 4.2,
   "before_accuracy": 58.3
 }

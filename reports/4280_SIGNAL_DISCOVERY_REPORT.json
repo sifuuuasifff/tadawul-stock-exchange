@@ -1,7 +1,7 @@
 {
   "sym": "4280",
-  "name": "Tabreed",
-  "generated": "2026-06-05T20:14:46.378022",
+  "name": "Kingdom Holding",
+  "generated": "2026-06-06T01:58:30.508379",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": 4.9,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 12.16,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.158,
+      "significant_90d": false,
+      "edge_vs_base": 8.98,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": -9.56,
+      "pct_positive_90d": 14.3,
+      "p_value_90d": 0.075,
+      "significant_90d": false,
+      "edge_vs_base": -12.74,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -14.46,
+      "pct_positive_90d": 0.0,
+      "p_value_90d": 0.021,
+      "significant_90d": true,
+      "edge_vs_base": -17.63,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 0.78,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.877,
+      "significant_90d": false,
+      "edge_vs_base": -2.39,
       "reliability_label": "LOW"
     }
   ],

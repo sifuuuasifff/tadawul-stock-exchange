@@ -1,7 +1,7 @@
 {
   "sym": "4030",
-  "name": "Saudi Airlines Catering",
-  "generated": "2026-06-05T20:14:41.523518",
+  "name": "BAHRI (National Shipping)",
+  "generated": "2026-06-06T01:58:19.372160",
   "results": [
     {
       "id": "H01",
@@ -84,15 +84,15 @@
     {
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
-      "n_a": 551,
+      "n_a": 550,
       "n_b": 2115,
-      "avg_a": 3.58,
+      "avg_a": 3.55,
       "avg_b": 5.27,
-      "diff": -1.69,
+      "diff": -1.72,
       "win_pct_a": 59.5,
-      "p_value": 0.043,
+      "p_value": 0.04,
       "verdict": "REJECTED",
-      "reason": "Difference too small (-1.69%)"
+      "reason": "Difference too small (-1.72%)"
     },
     {
       "id": "H08",

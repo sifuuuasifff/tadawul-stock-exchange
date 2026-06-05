@@ -1,7 +1,7 @@
 {
   "sym": "4161",
-  "name": "BinDawood Holding",
-  "generated": "2026-06-05T19:54:35.284625",
+  "name": "BinDawood",
+  "generated": "2026-06-06T01:57:33.543376",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -629,6 +629,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -8.91,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 8.67,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.322,
+      "significant_90d": false,
+      "edge_vs_base": 12.26,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 14.65,
+      "pct_positive_90d": 83.3,
+      "p_value_90d": 0.152,
+      "significant_90d": false,
+      "edge_vs_base": 18.24,
       "reliability_label": "LOW"
     }
   ],

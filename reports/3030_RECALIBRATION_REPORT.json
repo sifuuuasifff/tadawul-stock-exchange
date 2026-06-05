@@ -1,13 +1,13 @@
 {
   "sym": "3030",
-  "name": "Qassim Cement",
-  "generated": "2026-06-05T20:11:49.172078",
+  "name": "Saudi Cement Co.",
+  "generated": "2026-06-06T01:58:11.162542",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
     "fundamental": 0.25
   },
   "log": [],
-  "bias": -1.59,
-  "before_accuracy": 51.2
+  "bias": -2.25,
+  "before_accuracy": 48.8
 }

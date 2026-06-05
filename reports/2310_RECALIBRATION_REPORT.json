@@ -1,7 +1,7 @@
 {
   "sym": "2310",
-  "name": "Sipchem",
-  "generated": "2026-06-05T17:36:57.100224",
+  "name": "Sahara International Petrochem",
+  "generated": "2026-06-06T01:57:15.984913",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,13 +12,8 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-10.44%"
-    },
-    {
-      "factor": "Base return magnitude",
-      "action": "Adjust upward by 3.8%",
-      "evidence": "Systematic underestimate: predicted=2.88%, actual=6.65%"
     }
   ],
-  "bias": 3.77,
-  "before_accuracy": 51.2
+  "bias": 2.65,
+  "before_accuracy": 43.9
 }

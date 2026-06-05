@@ -1,7 +1,7 @@
 {
   "sym": "1140",
   "name": "Bank Albilad",
-  "generated": "2026-06-05T17:05:50.273764",
+  "generated": "2026-06-06T01:57:06.797012",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,28 @@
       "avg_alpha_90d": 2.17,
       "reliability_score": 20,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 14.43,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.182,
+      "significant_90d": false,
+      "edge_vs_base": 8.2,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 9.31,
+      "pct_positive_90d": 72.7,
+      "p_value_90d": 0.096,
+      "significant_90d": false,
+      "edge_vs_base": 3.08,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "4005",
   "name": "National Medical Care",
-  "generated": "2026-06-05T20:03:17.900500",
+  "generated": "2026-06-06T01:57:54.062306",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": 1.18,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 4.58,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.638,
+      "significant_90d": false,
+      "edge_vs_base": -0.17,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": -0.68,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.958,
+      "significant_90d": false,
+      "edge_vs_base": -5.43,
       "reliability_label": "LOW"
     }
   ],

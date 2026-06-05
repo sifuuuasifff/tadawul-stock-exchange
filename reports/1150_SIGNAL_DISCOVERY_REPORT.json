@@ -1,7 +1,7 @@
 {
   "sym": "1150",
   "name": "Alinma Bank",
-  "generated": "2026-06-05T17:05:48.822887",
+  "generated": "2026-06-06T01:57:05.632880",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,39 @@
       "avg_alpha_90d": 3.99,
       "reliability_score": 70,
       "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 13.89,
+      "pct_positive_90d": 63.6,
+      "p_value_90d": 0.042,
+      "significant_90d": true,
+      "edge_vs_base": 8.32,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 5.41,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.229,
+      "significant_90d": false,
+      "edge_vs_base": -0.16,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 18.56,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.041,
+      "significant_90d": true,
+      "edge_vs_base": 12.99,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

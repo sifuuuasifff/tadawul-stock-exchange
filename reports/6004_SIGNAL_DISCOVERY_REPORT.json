@@ -1,7 +1,7 @@
 {
   "sym": "6004",
-  "name": "Fawaz Abdulaziz Alhokair",
-  "generated": "2026-06-05T19:54:38.647091",
+  "name": "Saudi Airlines Catering",
+  "generated": "2026-06-06T01:58:20.174016",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.17,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 0.84,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.836,
+      "significant_90d": false,
+      "edge_vs_base": -1.4,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 8.56,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.349,
+      "significant_90d": false,
+      "edge_vs_base": 6.32,
       "reliability_label": "LOW"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "2100",
   "name": "Wafrah for Industry",
-  "generated": "2026-06-05T20:08:56.915630",
+  "generated": "2026-06-06T01:58:03.484212",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,39 @@
       "avg_alpha_90d": 6.12,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 14.55,
+      "pct_positive_90d": 40.0,
+      "p_value_90d": 0.526,
+      "significant_90d": false,
+      "edge_vs_base": 9.71,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 12,
+      "avg_return_90d": 2.61,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.656,
+      "significant_90d": false,
+      "edge_vs_base": -2.23,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 12,
+      "avg_return_90d": 1.11,
+      "pct_positive_90d": 33.3,
+      "p_value_90d": 0.884,
+      "significant_90d": false,
+      "edge_vs_base": -3.73,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

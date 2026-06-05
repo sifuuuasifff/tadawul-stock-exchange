@@ -1,7 +1,7 @@
 {
   "sym": "4012",
-  "name": "Extra (United Electronics)",
-  "generated": "2026-06-05T19:54:33.178411",
+  "name": "Thob Al Aseel",
+  "generated": "2026-06-06T01:57:32.506819",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -629,6 +629,17 @@
       "significant_90d": false,
       "avg_alpha_90d": -0.8,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -1.77,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.817,
+      "significant_90d": false,
+      "edge_vs_base": -5.66,
       "reliability_label": "LOW"
     }
   ],

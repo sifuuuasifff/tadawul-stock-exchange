@@ -1,7 +1,7 @@
 {
   "sym": "3040",
-  "name": "Southern Province Cement",
-  "generated": "2026-06-05T20:11:49.836352",
+  "name": "Qassim Cement",
+  "generated": "2026-06-06T01:58:11.958423",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": 3.98,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 4.54,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.402,
+      "significant_90d": false,
+      "edge_vs_base": 2.64,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -1.04,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.873,
+      "significant_90d": false,
+      "edge_vs_base": -2.94,
       "reliability_label": "LOW"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "1010",
   "name": "Riyad Bank",
-  "generated": "2026-06-05T17:05:43.549586",
+  "generated": "2026-06-06T01:57:01.359795",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,16 +14,11 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-9.5%"
     },
     {
-      "factor": "Base return magnitude",
-      "action": "Adjust upward by 3.8%",
-      "evidence": "Systematic underestimate: predicted=2.67%, actual=6.49%"
-    },
-    {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "11/18 large errors were upside misses"
+      "evidence": "11/16 large errors were upside misses"
     }
   ],
-  "bias": 3.82,
-  "before_accuracy": 65.9
+  "bias": 2.88,
+  "before_accuracy": 68.3
 }

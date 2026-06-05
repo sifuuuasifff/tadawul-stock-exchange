@@ -1,7 +1,7 @@
 {
   "sym": "1010",
   "name": "Riyad Bank",
-  "generated": "2026-06-05T17:05:42.778459",
+  "generated": "2026-06-06T01:57:00.775262",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": -0.14,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 6.03,
+      "pct_positive_90d": 71.4,
+      "p_value_90d": 0.524,
+      "significant_90d": false,
+      "edge_vs_base": 0.81,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 4.87,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.486,
+      "significant_90d": false,
+      "edge_vs_base": -0.34,
       "reliability_label": "LOW"
     }
   ],

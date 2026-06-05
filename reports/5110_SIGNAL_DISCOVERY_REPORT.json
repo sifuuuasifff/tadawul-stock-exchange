@@ -1,7 +1,7 @@
 {
   "sym": "5110",
-  "name": "Saudi Telecom Infra",
-  "generated": "2026-06-05T20:14:43.651419",
+  "name": "Saudi Electricity Co.",
+  "generated": "2026-06-06T01:58:21.592599",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": 3.43,
       "reliability_score": 40,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 11.81,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.005,
+      "significant_90d": true,
+      "edge_vs_base": 8.78,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": -1.15,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.823,
+      "significant_90d": false,
+      "edge_vs_base": -4.18,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 16,
+      "avg_return_90d": 6.11,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.079,
+      "significant_90d": false,
+      "edge_vs_base": 3.08,
       "reliability_label": "MEDIUM"
     }
   ],

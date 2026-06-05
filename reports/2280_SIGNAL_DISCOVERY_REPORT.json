@@ -1,7 +1,7 @@
 {
   "sym": "2280",
   "name": "Almarai",
-  "generated": "2026-06-05T17:14:31.153577",
+  "generated": "2026-06-06T01:57:59.315541",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,17 @@
       "avg_alpha_90d": 2.21,
       "reliability_score": 30,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 17,
+      "avg_return_90d": 7.46,
+      "pct_positive_90d": 76.5,
+      "p_value_90d": 0.022,
+      "significant_90d": true,
+      "edge_vs_base": 4.47,
+      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

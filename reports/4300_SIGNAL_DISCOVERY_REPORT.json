@@ -1,7 +1,7 @@
 {
   "sym": "4300",
   "name": "Dar Al Arkan",
-  "generated": "2026-06-05T19:59:05.736472",
+  "generated": "2026-06-06T01:57:37.257984",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": 3.95,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 10.75,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.207,
+      "significant_90d": false,
+      "edge_vs_base": 7.53,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 7.84,
+      "pct_positive_90d": 63.6,
+      "p_value_90d": 0.274,
+      "significant_90d": false,
+      "edge_vs_base": 4.62,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 7.28,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.358,
+      "significant_90d": false,
+      "edge_vs_base": 4.05,
       "reliability_label": "LOW"
     }
   ],

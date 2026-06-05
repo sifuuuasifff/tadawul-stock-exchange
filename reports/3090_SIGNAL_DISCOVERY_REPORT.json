@@ -1,7 +1,7 @@
 {
   "sym": "3090",
-  "name": "Arabian Cement",
-  "generated": "2026-06-05T20:11:55.621810",
+  "name": "TCC (Tabuk Cement)",
+  "generated": "2026-06-06T01:58:17.398348",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.24,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 9.04,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.19,
+      "significant_90d": false,
+      "edge_vs_base": 8.84,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 0.15,
+      "pct_positive_90d": 36.4,
+      "p_value_90d": 0.979,
+      "significant_90d": false,
+      "edge_vs_base": -0.06,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 14,
+      "avg_return_90d": 3.16,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.518,
+      "significant_90d": false,
+      "edge_vs_base": 2.96,
       "reliability_label": "LOW"
     }
   ],

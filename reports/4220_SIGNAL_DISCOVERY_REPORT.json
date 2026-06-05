@@ -1,7 +1,7 @@
 {
   "sym": "4220",
-  "name": "Emaar EC",
-  "generated": "2026-06-05T19:59:06.981629",
+  "name": "Emaar The Economic City",
+  "generated": "2026-06-06T01:57:38.501415",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": -0.53,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 6.52,
+      "pct_positive_90d": 77.8,
+      "p_value_90d": 0.414,
+      "significant_90d": false,
+      "edge_vs_base": 5.94,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 1.7,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.794,
+      "significant_90d": false,
+      "edge_vs_base": 1.12,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 3.04,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.728,
+      "significant_90d": false,
+      "edge_vs_base": 2.46,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 3.72,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.582,
+      "significant_90d": false,
+      "edge_vs_base": 3.14,
       "reliability_label": "LOW"
     }
   ],

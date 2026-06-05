@@ -1,7 +1,7 @@
 {
   "sym": "2250",
   "name": "Saudi Industrial Investment",
-  "generated": "2026-06-05T17:37:05.109584",
+  "generated": "2026-06-06T01:57:21.034808",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 9.6%",
-      "evidence": "Systematic underestimate: predicted=2.63%, actual=12.27%"
+      "action": "Adjust upward by 8.3%",
+      "evidence": "Systematic underestimate: predicted=4.0%, actual=12.27%"
     }
   ],
-  "bias": 9.64,
-  "before_accuracy": 63.4
+  "bias": 8.27,
+  "before_accuracy": 61.0
 }

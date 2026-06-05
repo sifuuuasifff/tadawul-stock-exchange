@@ -1,7 +1,7 @@
 {
   "sym": "7010",
   "name": "STC",
-  "generated": "2026-06-05T17:14:30.578131",
+  "generated": "2026-06-06T01:57:24.826463",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -16,9 +16,9 @@
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "8/11 large errors were upside misses"
+      "evidence": "8/13 large errors were upside misses"
     }
   ],
-  "bias": 1.83,
-  "before_accuracy": 58.5
+  "bias": 0.55,
+  "before_accuracy": 56.1
 }

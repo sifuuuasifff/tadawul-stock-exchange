@@ -1,7 +1,7 @@
 {
   "sym": "2270",
-  "name": "Savola Group",
-  "generated": "2026-06-05T20:08:53.277631",
+  "name": "SADAFCO (Saudia Dairy)",
+  "generated": "2026-06-06T01:58:02.105308",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,39 @@
       "avg_alpha_90d": 3.81,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 2.46,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.548,
+      "significant_90d": false,
+      "edge_vs_base": -3.95,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 9.22,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.105,
+      "significant_90d": false,
+      "edge_vs_base": 2.81,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 6.57,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.191,
+      "significant_90d": false,
+      "edge_vs_base": 0.16,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

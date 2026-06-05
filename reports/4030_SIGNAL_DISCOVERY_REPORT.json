@@ -1,7 +1,7 @@
 {
   "sym": "4030",
-  "name": "Saudi Airlines Catering",
-  "generated": "2026-06-05T20:14:40.901874",
+  "name": "BAHRI (National Shipping)",
+  "generated": "2026-06-06T01:58:18.796622",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -226,22 +226,22 @@
     {
       "signal": "Strong Momentum >10%",
       "group": "Technical \u2014 Momentum",
-      "occurrences": 48,
-      "avg_return_30d": 2.2,
-      "pct_positive_30d": 56.2,
-      "p_value_30d": 0.374,
+      "occurrences": 47,
+      "avg_return_30d": 2.18,
+      "pct_positive_30d": 55.3,
+      "p_value_30d": 0.388,
       "significant_30d": false,
-      "avg_alpha_30d": 3.34,
-      "avg_return_60d": 4.02,
-      "pct_positive_60d": 64.6,
-      "p_value_60d": 0.182,
+      "avg_alpha_30d": 3.29,
+      "avg_return_60d": 3.81,
+      "pct_positive_60d": 63.8,
+      "p_value_60d": 0.214,
       "significant_60d": false,
-      "avg_alpha_60d": 3.34,
-      "avg_return_90d": 4.57,
-      "pct_positive_90d": 64.6,
-      "p_value_90d": 0.122,
+      "avg_alpha_60d": 3.29,
+      "avg_return_90d": 4.27,
+      "pct_positive_90d": 63.8,
+      "p_value_90d": 0.154,
       "significant_90d": false,
-      "avg_alpha_90d": 3.34,
+      "avg_alpha_90d": 3.29,
       "reliability_score": 45,
       "reliability_label": "MEDIUM"
     },
@@ -646,6 +646,39 @@
       "avg_alpha_90d": 13.07,
       "reliability_score": 70,
       "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 5.16,
+      "pct_positive_90d": 44.4,
+      "p_value_90d": 0.292,
+      "significant_90d": false,
+      "edge_vs_base": -0.78,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 6.6,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.448,
+      "significant_90d": false,
+      "edge_vs_base": 0.66,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 16,
+      "avg_return_90d": 4.7,
+      "pct_positive_90d": 43.8,
+      "p_value_90d": 0.272,
+      "significant_90d": false,
+      "edge_vs_base": -1.23,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

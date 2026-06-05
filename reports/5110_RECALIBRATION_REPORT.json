@@ -1,7 +1,7 @@
 {
   "sym": "5110",
-  "name": "Saudi Telecom Infra",
-  "generated": "2026-06-05T20:14:44.449914",
+  "name": "Saudi Electricity Co.",
+  "generated": "2026-06-06T01:58:22.281277",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-9.83%"
     }
   ],
-  "bias": 0.18,
-  "before_accuracy": 63.4
+  "bias": -1.53,
+  "before_accuracy": 61.0
 }

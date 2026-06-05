@@ -1,7 +1,7 @@
 {
   "sym": "3090",
-  "name": "Arabian Cement",
-  "generated": "2026-06-05T20:11:56.304253",
+  "name": "TCC (Tabuk Cement)",
+  "generated": "2026-06-06T01:58:18.062179",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,8 +12,13 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-1.39%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by -3.1%",
+      "evidence": "Systematic overestimate: predicted=3.46%, actual=0.35%"
     }
   ],
-  "bias": -2.27,
-  "before_accuracy": 48.8
+  "bias": -3.11,
+  "before_accuracy": 51.2
 }

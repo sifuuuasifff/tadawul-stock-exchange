@@ -1,7 +1,7 @@
 {
   "sym": "2350",
   "name": "Saudi Kayan Petrochem",
-  "generated": "2026-06-05T17:36:55.370298",
+  "generated": "2026-06-06T01:57:14.542923",
   "results": [
     {
       "id": "H01",
@@ -84,15 +84,15 @@
     {
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
-      "n_a": 495,
+      "n_a": 494,
       "n_b": 1751,
-      "avg_a": -0.29,
+      "avg_a": -0.23,
       "avg_b": -0.68,
-      "diff": 0.39,
-      "win_pct_a": 41.2,
-      "p_value": 0.729,
+      "diff": 0.45,
+      "win_pct_a": 41.3,
+      "p_value": 0.692,
       "verdict": "REJECTED",
-      "reason": "Difference too small (0.39%)"
+      "reason": "Difference too small (0.45%)"
     },
     {
       "id": "H08",

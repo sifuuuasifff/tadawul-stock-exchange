@@ -1,7 +1,7 @@
 {
   "sym": "1140",
   "name": "Bank Albilad",
-  "generated": "2026-06-05T17:05:51.185600",
+  "generated": "2026-06-06T01:57:07.378739",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,13 +12,8 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-11.74%"
-    },
-    {
-      "factor": "Base return magnitude",
-      "action": "Adjust upward by 3.2%",
-      "evidence": "Systematic underestimate: predicted=3.06%, actual=6.26%"
     }
   ],
-  "bias": 3.2,
-  "before_accuracy": 65.9
+  "bias": 1.63,
+  "before_accuracy": 63.4
 }

@@ -1,7 +1,7 @@
 {
   "sym": "2380",
-  "name": "Petro Rabigh",
-  "generated": "2026-06-05T17:36:58.750607",
+  "name": "Rabigh Refining & Petrochem",
+  "generated": "2026-06-06T01:57:09.596898",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 3.7%",
-      "evidence": "Systematic underestimate: predicted=2.51%, actual=6.21%"
+      "action": "Adjust upward by 3.2%",
+      "evidence": "Systematic underestimate: predicted=3.02%, actual=6.21%"
     }
   ],
-  "bias": 3.7,
+  "bias": 3.19,
   "before_accuracy": 65.9
 }

@@ -1,7 +1,7 @@
 {
   "sym": "7020",
-  "name": "Mobily",
-  "generated": "2026-06-05T19:48:47.589692",
+  "name": "Mobily (Etihad Etisalat)",
+  "generated": "2026-06-06T01:57:25.457435",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": 4.35,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 12.73,
+      "pct_positive_90d": 88.9,
+      "p_value_90d": 0.015,
+      "significant_90d": true,
+      "edge_vs_base": 9.43,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 2.23,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.766,
+      "significant_90d": false,
+      "edge_vs_base": -1.06,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 11.17,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.021,
+      "significant_90d": true,
+      "edge_vs_base": 7.87,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 2.46,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.743,
+      "significant_90d": false,
+      "edge_vs_base": -0.84,
       "reliability_label": "LOW"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "4013",
   "name": "Dr Sulaiman Al Habib",
-  "generated": "2026-06-05T20:03:12.454411",
+  "generated": "2026-06-06T01:57:49.196827",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,15 +15,15 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 7.5%",
-      "evidence": "Systematic underestimate: predicted=2.38%, actual=9.85%"
+      "action": "Adjust upward by 5.6%",
+      "evidence": "Systematic underestimate: predicted=4.29%, actual=9.85%"
     },
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "7/8 large errors were upside misses"
+      "evidence": "6/8 large errors were upside misses"
     }
   ],
-  "bias": 7.47,
+  "bias": 5.56,
   "before_accuracy": 52.4
 }

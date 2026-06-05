@@ -1,7 +1,7 @@
 {
   "sym": "2060",
   "name": "National Industrialization",
-  "generated": "2026-06-05T17:37:01.039680",
+  "generated": "2026-06-06T01:57:17.845153",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": -5.56,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 11.15,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.329,
+      "significant_90d": false,
+      "edge_vs_base": 10.48,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 13,
+      "avg_return_90d": -1.38,
+      "pct_positive_90d": 30.8,
+      "p_value_90d": 0.779,
+      "significant_90d": false,
+      "edge_vs_base": -2.06,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 4.04,
+      "pct_positive_90d": 40.0,
+      "p_value_90d": 0.505,
+      "significant_90d": false,
+      "edge_vs_base": 3.36,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 0.29,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.978,
+      "significant_90d": false,
+      "edge_vs_base": -0.38,
       "reliability_label": "LOW"
     }
   ],

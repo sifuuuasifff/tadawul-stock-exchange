@@ -1,7 +1,7 @@
 {
   "sym": "4090",
-  "name": "Arriyadh Development",
-  "generated": "2026-06-05T19:59:13.871546",
+  "name": "Taiba Investments",
+  "generated": "2026-06-06T01:57:46.104430",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": 0.64,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 9.38,
+      "pct_positive_90d": 57.1,
+      "p_value_90d": 0.201,
+      "significant_90d": false,
+      "edge_vs_base": 4.67,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 10.15,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.204,
+      "significant_90d": false,
+      "edge_vs_base": 5.44,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 9.23,
+      "pct_positive_90d": 44.4,
+      "p_value_90d": 0.309,
+      "significant_90d": false,
+      "edge_vs_base": 4.52,
       "reliability_label": "LOW"
     }
   ],

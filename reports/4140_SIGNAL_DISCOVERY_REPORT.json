@@ -1,7 +1,7 @@
 {
   "sym": "4140",
-  "name": "Saudi Ground Services",
-  "generated": "2026-06-05T20:14:39.611276",
+  "name": "Saudi Industrial Export",
+  "generated": "2026-06-06T01:58:25.635034",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,50 @@
       "avg_alpha_90d": -3.3,
       "reliability_score": 30,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 19.72,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.256,
+      "significant_90d": false,
+      "edge_vs_base": 14.01,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": -5.4,
+      "pct_positive_90d": 40.0,
+      "p_value_90d": 0.491,
+      "significant_90d": false,
+      "edge_vs_base": -11.11,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -8.76,
+      "pct_positive_90d": 40.0,
+      "p_value_90d": 0.553,
+      "significant_90d": false,
+      "edge_vs_base": -14.47,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 34.39,
+      "pct_positive_90d": 71.4,
+      "p_value_90d": 0.07,
+      "significant_90d": false,
+      "edge_vs_base": 28.68,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

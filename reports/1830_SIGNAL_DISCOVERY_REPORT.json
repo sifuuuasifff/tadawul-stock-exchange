@@ -1,7 +1,7 @@
 {
   "sym": "1830",
   "name": "Leejam Sports",
-  "generated": "2026-06-05T20:14:45.055492",
+  "generated": "2026-06-06T01:58:31.784808",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -629,6 +629,17 @@
       "significant_90d": false,
       "avg_alpha_90d": -7.17,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": -0.9,
+      "pct_positive_90d": 37.5,
+      "p_value_90d": 0.927,
+      "significant_90d": false,
+      "edge_vs_base": -6.82,
       "reliability_label": "LOW"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "2010",
   "name": "SABIC",
-  "generated": "2026-06-05T17:14:29.144378",
+  "generated": "2026-06-06T01:57:10.848337",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,13 +12,8 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-6.41%"
-    },
-    {
-      "factor": "Upside capture",
-      "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "10/16 large errors were upside misses"
     }
   ],
-  "bias": -0.09,
-  "before_accuracy": 63.4
+  "bias": -1.55,
+  "before_accuracy": 58.5
 }

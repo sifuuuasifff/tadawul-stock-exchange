@@ -1,7 +1,7 @@
 {
   "sym": "7010",
   "name": "STC",
-  "generated": "2026-06-05T17:14:29.770154",
+  "generated": "2026-06-06T01:57:24.191440",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": true,
       "avg_alpha_90d": 5.42,
       "reliability_score": 50,
+      "reliability_label": "MEDIUM"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": -1.84,
+      "pct_positive_90d": 25.0,
+      "p_value_90d": 0.697,
+      "significant_90d": false,
+      "edge_vs_base": -6.69,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 15,
+      "avg_return_90d": 7.74,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.056,
+      "significant_90d": false,
+      "edge_vs_base": 2.89,
       "reliability_label": "MEDIUM"
     }
   ],

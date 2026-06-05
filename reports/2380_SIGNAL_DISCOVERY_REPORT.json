@@ -1,7 +1,7 @@
 {
   "sym": "2380",
-  "name": "Petro Rabigh",
-  "generated": "2026-06-05T17:36:57.838502",
+  "name": "Rabigh Refining & Petrochem",
+  "generated": "2026-06-06T01:57:09.050775",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,50 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.07,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": 17.17,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.36,
+      "significant_90d": false,
+      "edge_vs_base": 15.44,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 13.5,
+      "pct_positive_90d": 63.6,
+      "p_value_90d": 0.323,
+      "significant_90d": false,
+      "edge_vs_base": 11.76,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 15.64,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.131,
+      "significant_90d": false,
+      "edge_vs_base": 13.9,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 16.17,
+      "pct_positive_90d": 50.0,
+      "p_value_90d": 0.417,
+      "significant_90d": false,
+      "edge_vs_base": 14.44,
       "reliability_label": "LOW"
     }
   ],

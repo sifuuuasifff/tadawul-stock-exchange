@@ -1,7 +1,7 @@
 {
   "sym": "2180",
-  "name": "Fitaihi Holding",
-  "generated": "2026-06-05T20:14:38.831502",
+  "name": "Filing & Packing Materials",
+  "generated": "2026-06-06T01:58:28.689567",
   "results": [
     {
       "id": "H01",
@@ -84,15 +84,15 @@
     {
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
-      "n_a": 502,
+      "n_a": 501,
       "n_b": 1921,
-      "avg_a": 2.23,
+      "avg_a": 2.21,
       "avg_b": 0.69,
-      "diff": 1.54,
-      "win_pct_a": 54.2,
-      "p_value": 0.11,
+      "diff": 1.52,
+      "win_pct_a": 54.1,
+      "p_value": 0.115,
       "verdict": "REJECTED",
-      "reason": "Difference too small (1.54%)"
+      "reason": "Difference too small (1.52%)"
     },
     {
       "id": "H08",

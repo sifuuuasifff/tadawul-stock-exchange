@@ -1,7 +1,7 @@
 {
   "sym": "2290",
-  "name": "Yanbu National Petro",
-  "generated": "2026-06-05T17:36:52.727606",
+  "name": "Yanbu National Petrochem",
+  "generated": "2026-06-06T01:57:12.726863",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -248,24 +248,24 @@
     {
       "signal": "Weak Momentum <-10%",
       "group": "Technical \u2014 Momentum",
-      "occurrences": 30,
-      "avg_return_30d": -0.56,
-      "pct_positive_30d": 46.7,
-      "p_value_30d": 0.764,
+      "occurrences": 29,
+      "avg_return_30d": -0.5,
+      "pct_positive_30d": 48.3,
+      "p_value_30d": 0.795,
       "significant_30d": false,
-      "avg_alpha_30d": 4.12,
-      "avg_return_60d": 0.0,
-      "pct_positive_60d": 50.0,
-      "p_value_60d": 0.999,
+      "avg_alpha_30d": 3.63,
+      "avg_return_60d": -0.17,
+      "pct_positive_60d": 48.3,
+      "p_value_60d": 0.952,
       "significant_60d": false,
-      "avg_alpha_60d": 4.12,
-      "avg_return_90d": 5.18,
-      "pct_positive_90d": 53.3,
-      "p_value_90d": 0.123,
+      "avg_alpha_60d": 3.63,
+      "avg_return_90d": 4.9,
+      "pct_positive_90d": 51.7,
+      "p_value_90d": 0.157,
       "significant_90d": false,
-      "avg_alpha_90d": 4.12,
-      "reliability_score": 40,
-      "reliability_label": "MEDIUM"
+      "avg_alpha_90d": 3.63,
+      "reliability_score": 30,
+      "reliability_label": "LOW"
     },
     {
       "signal": "Below All MAs",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": 0.08,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 11,
+      "avg_return_90d": 5.76,
+      "pct_positive_90d": 63.6,
+      "p_value_90d": 0.219,
+      "significant_90d": false,
+      "edge_vs_base": 3.44,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 14,
+      "avg_return_90d": 5.9,
+      "pct_positive_90d": 64.3,
+      "p_value_90d": 0.174,
+      "significant_90d": false,
+      "edge_vs_base": 3.58,
       "reliability_label": "LOW"
     }
   ],

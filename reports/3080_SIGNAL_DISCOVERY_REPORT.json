@@ -1,7 +1,7 @@
 {
   "sym": "3080",
-  "name": "Tabuk Cement",
-  "generated": "2026-06-05T20:11:54.205782",
+  "name": "Eastern Province Cement",
+  "generated": "2026-06-06T01:58:16.052761",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,39 @@
       "significant_90d": false,
       "avg_alpha_90d": -3.73,
       "reliability_score": 20,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 6,
+      "avg_return_90d": -5.91,
+      "pct_positive_90d": 16.7,
+      "p_value_90d": 0.376,
+      "significant_90d": false,
+      "edge_vs_base": -7.36,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 6.14,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.244,
+      "significant_90d": false,
+      "edge_vs_base": 4.69,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 6.21,
+      "pct_positive_90d": 70.0,
+      "p_value_90d": 0.289,
+      "significant_90d": false,
+      "edge_vs_base": 4.75,
       "reliability_label": "LOW"
     }
   ],

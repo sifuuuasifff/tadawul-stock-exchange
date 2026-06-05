@@ -1,7 +1,7 @@
 {
   "sym": "1150",
   "name": "Alinma Bank",
-  "generated": "2026-06-05T17:05:49.570923",
+  "generated": "2026-06-06T01:57:06.203793",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 4.9%",
-      "evidence": "Systematic underestimate: predicted=3.11%, actual=7.98%"
+      "action": "Adjust upward by 3.4%",
+      "evidence": "Systematic underestimate: predicted=4.54%, actual=7.98%"
     }
   ],
-  "bias": 4.87,
-  "before_accuracy": 63.4
+  "bias": 3.44,
+  "before_accuracy": 65.9
 }

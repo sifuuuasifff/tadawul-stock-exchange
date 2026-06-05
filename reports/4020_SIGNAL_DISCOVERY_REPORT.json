@@ -1,7 +1,7 @@
 {
   "sym": "4020",
-  "name": "Saudi Real Estate",
-  "generated": "2026-06-05T19:59:10.228899",
+  "name": "Saudi Real Estate Co.",
+  "generated": "2026-06-06T01:57:42.057992",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,39 @@
       "avg_alpha_90d": 3.6,
       "reliability_score": 70,
       "reliability_label": "HIGH"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 7,
+      "avg_return_90d": 6.86,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.251,
+      "significant_90d": false,
+      "edge_vs_base": 3.5,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 5.08,
+      "pct_positive_90d": 44.4,
+      "p_value_90d": 0.482,
+      "significant_90d": false,
+      "edge_vs_base": 1.72,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": -1.31,
+      "pct_positive_90d": 20.0,
+      "p_value_90d": 0.864,
+      "significant_90d": false,
+      "edge_vs_base": -4.67,
+      "reliability_label": "LOW"
     }
   ],
   "baseline": {

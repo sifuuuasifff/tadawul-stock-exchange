@@ -1,7 +1,7 @@
 {
   "sym": "2210",
   "name": "Nama Chemicals",
-  "generated": "2026-06-05T17:37:00.135252",
+  "generated": "2026-06-06T01:57:17.047905",
   "results": [
     {
       "id": "H01",
@@ -84,15 +84,15 @@
     {
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
-      "n_a": 588,
+      "n_a": 586,
       "n_b": 1679,
-      "avg_a": 2.72,
+      "avg_a": 2.73,
       "avg_b": 6.36,
-      "diff": -3.64,
-      "win_pct_a": 42.9,
-      "p_value": 0.067,
+      "diff": -3.63,
+      "win_pct_a": 42.8,
+      "p_value": 0.068,
       "verdict": "INCONCLUSIVE",
-      "reason": "p=0.067 \u2014 not significant"
+      "reason": "p=0.068 \u2014 not significant"
     },
     {
       "id": "H08",

@@ -1,7 +1,7 @@
 {
   "sym": "7040",
-  "name": "Etihad Atheeb",
-  "generated": "2026-06-05T19:50:19.808722",
+  "name": "Go (formerly Etihad Atheeb)",
+  "generated": "2026-06-06T01:57:28.381319",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 13.6%",
-      "evidence": "Systematic underestimate: predicted=2.68%, actual=16.26%"
+      "action": "Adjust upward by 14.1%",
+      "evidence": "Systematic underestimate: predicted=2.15%, actual=16.26%"
     }
   ],
-  "bias": 13.58,
+  "bias": 14.11,
   "before_accuracy": 31.7
 }

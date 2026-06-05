@@ -1,7 +1,7 @@
 {
   "sym": "2250",
   "name": "Saudi Industrial Investment",
-  "generated": "2026-06-05T17:37:04.352280",
+  "generated": "2026-06-06T01:57:20.401259",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,6 +646,50 @@
       "avg_alpha_90d": -2.74,
       "reliability_score": 30,
       "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI growth >20% YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 8,
+      "avg_return_90d": 7.16,
+      "pct_positive_90d": 75.0,
+      "p_value_90d": 0.34,
+      "significant_90d": false,
+      "edge_vs_base": 1.37,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": 4.38,
+      "pct_positive_90d": 55.6,
+      "p_value_90d": 0.498,
+      "significant_90d": false,
+      "edge_vs_base": -1.42,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 10,
+      "avg_return_90d": 6.87,
+      "pct_positive_90d": 60.0,
+      "p_value_90d": 0.354,
+      "significant_90d": false,
+      "edge_vs_base": 1.08,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Low cash flow quality (OCF/NI <0.3)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 5,
+      "avg_return_90d": 9.47,
+      "pct_positive_90d": 100.0,
+      "p_value_90d": 0.019,
+      "significant_90d": true,
+      "edge_vs_base": 3.68,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

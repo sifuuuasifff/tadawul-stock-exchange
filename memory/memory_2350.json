@@ -1,7 +1,7 @@
 {
   "sym": "2350",
   "name": "Saudi Kayan Petrochem",
-  "generated": "2026-06-05T17:36:54.529276",
+  "generated": "2026-06-06T01:57:14.031647",
   "technical": [
     {
       "label": "RSI Oversold",
@@ -490,7 +490,7 @@
     },
     {
       "rule": "Strong 20-day momentum (>10% rally) continues",
-      "evidence": "After >10% rally: avg=-0.3% vs baseline=-1.0%, n=495",
+      "evidence": "After >10% rally: avg=-0.2% vs baseline=-1.0%, n=494",
       "confidence": "MEDIUM"
     }
   ],

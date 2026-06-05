@@ -1,7 +1,7 @@
 {
   "sym": "3020",
-  "name": "Saudi Cement",
-  "generated": "2026-06-05T20:11:47.861577",
+  "name": "Yamama Cement",
+  "generated": "2026-06-06T01:58:09.748425",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=5.18%"
     }
   ],
-  "bias": -1.06,
+  "bias": -1.58,
   "before_accuracy": 39.0
 }

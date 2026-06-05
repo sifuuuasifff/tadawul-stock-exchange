@@ -1,7 +1,7 @@
 {
   "sym": "3020",
-  "name": "Saudi Cement",
-  "generated": "2026-06-05T20:11:47.140823",
+  "name": "Yamama Cement",
+  "generated": "2026-06-06T01:58:09.063076",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,6 +645,28 @@
       "significant_90d": false,
       "avg_alpha_90d": 2.0,
       "reliability_score": 30,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "Annual NI decline YoY",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 9,
+      "avg_return_90d": -0.01,
+      "pct_positive_90d": 44.4,
+      "p_value_90d": 0.998,
+      "significant_90d": false,
+      "edge_vs_base": -1.8,
+      "reliability_label": "LOW"
+    },
+    {
+      "signal": "High cash flow quality (OCF/NI >1.2)",
+      "group": "Fundamental \u2014 Financial",
+      "occurrences": 12,
+      "avg_return_90d": 4.4,
+      "pct_positive_90d": 66.7,
+      "p_value_90d": 0.39,
+      "significant_90d": false,
+      "edge_vs_base": 2.61,
       "reliability_label": "LOW"
     }
   ],

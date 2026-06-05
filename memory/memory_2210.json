@@ -1,7 +1,7 @@
 {
   "sym": "2210",
   "name": "Nama Chemicals",
-  "generated": "2026-06-05T17:36:59.417814",
+  "generated": "2026-06-06T01:57:16.589267",
   "technical": [
     {
       "label": "RSI Oversold",
@@ -521,7 +521,7 @@
     },
     {
       "rule": "Strong 20-day momentum (>10% rally) reverses",
-      "evidence": "After >10% rally: avg=2.7% vs baseline=8.2%, n=588",
+      "evidence": "After >10% rally: avg=2.7% vs baseline=8.2%, n=586",
       "confidence": "MEDIUM"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "sym": "4030",
-  "name": "Saudi Airlines Catering",
-  "generated": "2026-06-05T20:14:41.648279",
+  "name": "BAHRI (National Shipping)",
+  "generated": "2026-06-06T01:58:19.505848",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,13 +12,8 @@
       "factor": "Rising rate penalty",
       "action": "REDUCE \u2014 rising rates help this stock",
       "evidence": "H01: rising rates help: diff=6.37%"
-    },
-    {
-      "factor": "Upside capture",
-      "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "10/16 large errors were upside misses"
     }
   ],
-  "bias": 1.53,
-  "before_accuracy": 39.0
+  "bias": -0.32,
+  "before_accuracy": 41.5
 }

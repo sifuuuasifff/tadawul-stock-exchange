@@ -1,7 +1,7 @@
 {
   "sym": "2070",
-  "name": "Saudi Pharmaceutical",
-  "generated": "2026-06-05T20:03:20.853260",
+  "name": "Saudi Pharmaceutical Ind.",
+  "generated": "2026-06-06T01:57:57.175943",
   "results": [
     {
       "id": "H01",
@@ -85,12 +85,12 @@
       "id": "H07",
       "hypothesis": "Strong 20d momentum (>10%) predicts negative 90d (mean reversion)",
       "n_a": 423,
-      "n_b": 1931,
+      "n_b": 1932,
       "avg_a": 0.8,
       "avg_b": 2.14,
       "diff": -1.34,
       "win_pct_a": 53.0,
-      "p_value": 0.204,
+      "p_value": 0.203,
       "verdict": "REJECTED",
       "reason": "Difference too small (-1.34%)"
     },

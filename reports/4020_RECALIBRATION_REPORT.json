@@ -1,7 +1,7 @@
 {
   "sym": "4020",
-  "name": "Saudi Real Estate",
-  "generated": "2026-06-05T19:59:10.922692",
+  "name": "Saudi Real Estate Co.",
+  "generated": "2026-06-06T01:57:42.684853",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.62%"
     }
   ],
-  "bias": 0.6,
-  "before_accuracy": 56.1
+  "bias": 0.83,
+  "before_accuracy": 58.5
 }
