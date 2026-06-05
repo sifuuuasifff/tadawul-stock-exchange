@@ -76,9 +76,22 @@ INSTRUCTIONS:
 """
 
 
+def get_api_key() -> str:
+    """Read key at call time — st.secrets is available after app starts."""
+    try:
+        if "ANTHROPIC_API_KEY" in st.secrets:
+            return st.secrets["ANTHROPIC_API_KEY"]
+    except Exception:
+        pass
+    return os.environ.get("ANTHROPIC_API_KEY", "")
+
+
 def ask_claude(question: str, context: str, history: list) -> str:
     try:
-        client   = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        key = get_api_key()
+        if not key:
+            return "API key not set. Add ANTHROPIC_API_KEY to Streamlit Cloud secrets."
+        client   = anthropic.Anthropic(api_key=key)
         messages = [{"role": m["role"], "content": m["content"]} for m in history[-6:]]
         messages.append({"role": "user", "content": question})
         resp = client.messages.create(
