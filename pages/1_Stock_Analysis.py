@@ -78,12 +78,23 @@ INSTRUCTIONS:
 
 def get_api_key() -> str:
     """Read key at call time — st.secrets is available after app starts."""
+    # Try st.secrets first (Streamlit Cloud)
     try:
-        if "ANTHROPIC_API_KEY" in st.secrets:
-            return st.secrets["ANTHROPIC_API_KEY"]
-    except Exception:
-        pass
-    return os.environ.get("ANTHROPIC_API_KEY", "")
+        if hasattr(st, "secrets"):
+            # Try exact key
+            if "ANTHROPIC_API_KEY" in st.secrets:
+                return st.secrets["ANTHROPIC_API_KEY"]
+            # Show available keys for debugging
+            available = list(st.secrets.keys()) if st.secrets else []
+            if available:
+                st.warning(f"DEBUG: st.secrets has keys: {available} — but not ANTHROPIC_API_KEY")
+    except Exception as ex:
+        st.warning(f"DEBUG: st.secrets error: {ex}")
+    # Try environment variable
+    env_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if env_key:
+        return env_key
+    return ""
 
 
 def ask_claude(question: str, context: str, history: list) -> str:
