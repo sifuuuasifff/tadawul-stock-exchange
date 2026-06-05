@@ -25,6 +25,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "yahoo": "2222.SR", "sector": "Energy"},
     "2010": {"name": "SABIC", "yahoo": "2010.SR", "sector": "Petrochemicals"},
     "7010": {"name": "STC", "yahoo": "7010.SR", "sector": "Telecom"},
+    # Healthcare
+    "4013": {"name": "Dr Sulaiman Al Habib", "yahoo": "4013.SR", "sector": "Healthcare"},
+    "4002": {"name": "Mouwasat Medical", "yahoo": "4002.SR", "sector": "Healthcare"},
+    "4004": {"name": "Dallah Healthcare", "yahoo": "4004.SR", "sector": "Healthcare"},
+    "4345": {"name": "Saudi German Health", "yahoo": "4345.SR", "sector": "Healthcare"},
+    "4007": {"name": "Al Hammadi", "yahoo": "4007.SR", "sector": "Healthcare"},
+    "4005": {"name": "National Medical Care", "yahoo": "4005.SR", "sector": "Healthcare"},
+    "4006": {"name": "Specialized Medical", "yahoo": "4006.SR", "sector": "Healthcare"},
+    "2070": {"name": "Saudi Pharmaceutical", "yahoo": "2070.SR", "sector": "Healthcare"},
+
     # Real Estate
     "4300": {"name": "Dar Al Arkan", "yahoo": "4300.SR", "sector": "Real Estate"},
     "4220": {"name": "Emaar EC", "yahoo": "4220.SR", "sector": "Real Estate"},

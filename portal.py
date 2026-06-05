@@ -68,6 +68,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "sector": "Energy", "emoji": "🛢️"},
     "2010": {"name": "SABIC", "sector": "Petrochemicals", "emoji": "⚗️"},
     "7010": {"name": "STC", "sector": "Telecom", "emoji": "📡"},
+    # Healthcare
+    "4013": {"name": "Dr Sulaiman Al Habib", "sector": "Healthcare", "emoji": "🏥"},
+    "4002": {"name": "Mouwasat Medical", "sector": "Healthcare", "emoji": "🏥"},
+    "4004": {"name": "Dallah Healthcare", "sector": "Healthcare", "emoji": "🏥"},
+    "4345": {"name": "Saudi German Health", "sector": "Healthcare", "emoji": "🏥"},
+    "4007": {"name": "Al Hammadi", "sector": "Healthcare", "emoji": "🏥"},
+    "4005": {"name": "National Medical Care", "sector": "Healthcare", "emoji": "🏥"},
+    "4006": {"name": "Specialized Medical", "sector": "Healthcare", "emoji": "🏥"},
+    "2070": {"name": "Saudi Pharmaceutical", "sector": "Healthcare", "emoji": "🏥"},
+
     # Real Estate
     "4300": {"name": "Dar Al Arkan", "sector": "Real Estate", "emoji": "🏢"},
     "4220": {"name": "Emaar EC", "sector": "Real Estate", "emoji": "🏢"},

@@ -1,0 +1,60 @@
+{
+  "symbol": "4345",
+  "name": "Saudi German Health",
+  "sector": "Healthcare",
+  "as_of": "2026-06-05",
+  "price": 4.81,
+  "price_history": "2018-08-06 \u2192 2026-06-04",
+  "trading_days": 1968,
+  "rsi": 57.1,
+  "bb_pct": 0.502,
+  "ret_20d_pct": 6.2,
+  "ret_5d_pct": -1.6,
+  "above_ma20": 1,
+  "above_ma50": 1,
+  "above_ma200": 1,
+  "dist_from_52w_high_pct": -2.8,
+  "dist_from_52w_low_pct": 19.3,
+  "vol_ratio": 0.48,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 42,
+  "fund_score": 50,
+  "composite": 61.1,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "57.1 neutral",
+    "bb": "mid band (0.50)",
+    "momentum": "6.2% neutral",
+    "ma": "above all MAs (-8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.9,
+    "bear_90d_pct": -2.9,
+    "target_30d": 4.93,
+    "target_60d": 5.01,
+    "target_90d": 5.1,
+    "bull_target": 5.53,
+    "bear_target": 4.67,
+    "confidence": 63,
+    "confidence_label": "MEDIUM"
+  },
+  "similar_setups": {
+    "n": 456,
+    "avg_90d": -1.6,
+    "win_pct": 38.6
+  }
+}

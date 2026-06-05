@@ -1,0 +1,19 @@
+{
+  "sym": "2070",
+  "name": "Saudi Pharmaceutical",
+  "generated": "2026-06-05T20:03:20.965215",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=7.11%"
+    }
+  ],
+  "bias": 0.44,
+  "before_accuracy": 43.9
+}

@@ -1,0 +1,60 @@
+{
+  "symbol": "4004",
+  "name": "Dallah Healthcare",
+  "sector": "Healthcare",
+  "as_of": "2026-06-05",
+  "price": 104.6,
+  "price_history": "2012-12-17 \u2192 2026-06-04",
+  "trading_days": 3378,
+  "rsi": 32.3,
+  "bb_pct": 0.041,
+  "ret_20d_pct": -11.7,
+  "ret_5d_pct": -6.5,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 0,
+  "dist_from_52w_high_pct": -32.4,
+  "dist_from_52w_low_pct": 6.9,
+  "vol_ratio": 0.99,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 94,
+  "fund_score": 50,
+  "composite": 76.7,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "32.3 low (+8)",
+    "bb": "near lower band (0.04) (+20)",
+    "momentum": "-11.7% drop (+8)",
+    "ma": "below all MAs (+8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.9,
+    "base_60d_pct": 5.0,
+    "base_90d_pct": 7.2,
+    "bull_90d_pct": 14.5,
+    "bear_90d_pct": -0.1,
+    "target_30d": 107.61,
+    "target_60d": 109.87,
+    "target_90d": 112.13,
+    "bull_target": 119.8,
+    "bear_target": 104.46,
+    "confidence": 80,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 624,
+    "avg_90d": 4.0,
+    "win_pct": 52.9
+  }
+}

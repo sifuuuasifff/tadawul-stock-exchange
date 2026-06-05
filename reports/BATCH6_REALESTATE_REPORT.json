@@ -1,0 +1,86 @@
+{
+  "generated": "2026-06-05T19:59:32.997977",
+  "batch": "Real Estate",
+  "results": [
+    {
+      "symbol": "4300",
+      "name": "Dar Al Arkan",
+      "days": 3993,
+      "accuracy": 53.7,
+      "baseline": 61.0,
+      "edge": -7.3,
+      "hyp_acc": 4,
+      "mistakes": 22
+    },
+    {
+      "symbol": "4220",
+      "name": "Emaar EC",
+      "days": 3995,
+      "accuracy": 48.8,
+      "baseline": 41.5,
+      "edge": 7.3,
+      "hyp_acc": 5,
+      "mistakes": 21
+    },
+    {
+      "symbol": "4322",
+      "name": "Retal Urban Dev",
+      "days": 978,
+      "accuracy": 58.3,
+      "baseline": 66.7,
+      "edge": -8.3,
+      "hyp_acc": 4,
+      "mistakes": 8
+    },
+    {
+      "symbol": "4323",
+      "name": "Roshn Real Estate",
+      "days": 1228,
+      "accuracy": 31.2,
+      "baseline": 37.5,
+      "edge": -6.2,
+      "hyp_acc": 6,
+      "mistakes": 10
+    },
+    {
+      "symbol": "4020",
+      "name": "Saudi Real Estate",
+      "days": 3995,
+      "accuracy": 56.1,
+      "baseline": 51.2,
+      "edge": 4.9,
+      "hyp_acc": 3,
+      "mistakes": 23
+    },
+    {
+      "symbol": "4250",
+      "name": "Jabal Omar Dev",
+      "days": 3994,
+      "accuracy": 34.1,
+      "baseline": 31.7,
+      "edge": 2.4,
+      "hyp_acc": 4,
+      "mistakes": 21
+    },
+    {
+      "symbol": "4100",
+      "name": "Makkah Construction",
+      "days": 3996,
+      "accuracy": 53.7,
+      "baseline": 46.3,
+      "edge": 7.3,
+      "hyp_acc": 4,
+      "mistakes": 15
+    },
+    {
+      "symbol": "4090",
+      "name": "Arriyadh Development",
+      "days": 4030,
+      "accuracy": 53.7,
+      "baseline": 51.2,
+      "edge": 2.4,
+      "hyp_acc": 7,
+      "mistakes": 14
+    }
+  ]
+}
