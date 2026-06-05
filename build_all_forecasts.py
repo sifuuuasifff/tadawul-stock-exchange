@@ -25,6 +25,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "yahoo": "2222.SR", "sector": "Energy"},
     "2010": {"name": "SABIC", "yahoo": "2010.SR", "sector": "Petrochemicals"},
     "7010": {"name": "STC", "yahoo": "7010.SR", "sector": "Telecom"},
+    # Retail & Consumer
+    "4190": {"name": "Jarir Bookstore", "yahoo": "4190.SR", "sector": "Retail"},
+    "4012": {"name": "Extra (United Electronics)", "yahoo": "4012.SR", "sector": "Retail"},
+    "4163": {"name": "Nahdi Medical", "yahoo": "4163.SR", "sector": "Retail"},
+    "4161": {"name": "BinDawood Holding", "yahoo": "4161.SR", "sector": "Retail"},
+    "4001": {"name": "Al Othaim Markets", "yahoo": "4001.SR", "sector": "Retail"},
+    "4082": {"name": "SACO", "yahoo": "4082.SR", "sector": "Retail"},
+    "6004": {"name": "Fawaz Abdulaziz Alhokair", "yahoo": "6004.SR", "sector": "Retail"},
+    "4003": {"name": "Astra Industrial", "yahoo": "4003.SR", "sector": "Retail"},
+
     "7020": {"name": "Mobily", "yahoo": "7020.SR", "sector": "Telecom"},
     "7030": {"name": "Zain Saudi", "yahoo": "7030.SR", "sector": "Telecom"},
     "7040": {"name": "Etihad Atheeb", "yahoo": "7040.SR", "sector": "Telecom"},

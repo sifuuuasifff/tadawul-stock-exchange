@@ -1,0 +1,60 @@
+{
+  "symbol": "4163",
+  "name": "Nahdi Medical",
+  "sector": "Retail",
+  "as_of": "2026-06-05",
+  "price": 47.06,
+  "price_history": "2022-03-16 \u2192 2026-06-04",
+  "trading_days": 1050,
+  "rsi": 51.4,
+  "bb_pct": 0.129,
+  "ret_20d_pct": -3.3,
+  "ret_5d_pct": -3.2,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 0,
+  "dist_from_52w_high_pct": -38.8,
+  "dist_from_52w_low_pct": 3.2,
+  "vol_ratio": 1.46,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 68,
+  "fund_score": 50,
+  "composite": 68.9,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "51.4 neutral",
+    "bb": "low (0.13) (+10)",
+    "momentum": "-3.3% neutral",
+    "ma": "below all MAs (+8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.4,
+    "base_60d_pct": 4.2,
+    "base_90d_pct": 6.0,
+    "bull_90d_pct": 14.1,
+    "bear_90d_pct": -2.1,
+    "target_30d": 48.19,
+    "target_60d": 49.04,
+    "target_90d": 49.88,
+    "bull_target": 53.7,
+    "bear_target": 46.07,
+    "confidence": 75,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 227,
+    "avg_90d": -5.0,
+    "win_pct": 30.8
+  }
+}

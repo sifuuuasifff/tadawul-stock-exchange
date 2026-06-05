@@ -68,6 +68,16 @@ STOCKS = {
     "2222": {"name": "Saudi Aramco", "sector": "Energy", "emoji": "🛢️"},
     "2010": {"name": "SABIC", "sector": "Petrochemicals", "emoji": "⚗️"},
     "7010": {"name": "STC", "sector": "Telecom", "emoji": "📡"},
+    # Retail & Consumer
+    "4190": {"name": "Jarir Bookstore", "sector": "Retail", "emoji": "🛒"},
+    "4012": {"name": "Extra (United Electronics)", "sector": "Retail", "emoji": "🛒"},
+    "4163": {"name": "Nahdi Medical", "sector": "Retail", "emoji": "🛒"},
+    "4161": {"name": "BinDawood Holding", "sector": "Retail", "emoji": "🛒"},
+    "4001": {"name": "Al Othaim Markets", "sector": "Retail", "emoji": "🛒"},
+    "4082": {"name": "SACO", "sector": "Retail", "emoji": "🛒"},
+    "6004": {"name": "Fawaz Abdulaziz Alhokair", "sector": "Retail", "emoji": "🛒"},
+    "4003": {"name": "Astra Industrial", "sector": "Retail", "emoji": "🛒"},
+
     "7020": {"name": "Mobily", "sector": "Telecom", "emoji": "📡"},
     "7030": {"name": "Zain Saudi", "sector": "Telecom", "emoji": "📡"},
     "7040": {"name": "Etihad Atheeb", "sector": "Telecom", "emoji": "📡"},

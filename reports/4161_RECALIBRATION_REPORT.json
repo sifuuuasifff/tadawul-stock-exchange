@@ -1,0 +1,24 @@
+{
+  "sym": "4161",
+  "name": "BinDawood Holding",
+  "generated": "2026-06-05T19:54:35.842930",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-3.54%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by -7.4%",
+      "evidence": "Systematic overestimate: predicted=0.32%, actual=-7.07%"
+    }
+  ],
+  "bias": -7.39,
+  "before_accuracy": 47.1
+}

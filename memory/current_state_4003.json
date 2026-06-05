@@ -1,0 +1,60 @@
+{
+  "symbol": "4003",
+  "name": "Astra Industrial",
+  "sector": "Retail",
+  "as_of": "2026-06-05",
+  "price": 76.65,
+  "price_history": "2012-08-26 \u2192 2026-06-04",
+  "trading_days": 3443,
+  "rsi": 31.8,
+  "bb_pct": 0.044,
+  "ret_20d_pct": -4.3,
+  "ret_5d_pct": -3.6,
+  "above_ma20": 0,
+  "above_ma50": 0,
+  "above_ma200": 0,
+  "dist_from_52w_high_pct": -14.4,
+  "dist_from_52w_low_pct": 0.9,
+  "vol_ratio": 1.58,
+  "rate_regime": "stable",
+  "repo_rate": 4.25,
+  "vix": 15.4,
+  "oil_price": 95.0,
+  "env_score": 80,
+  "tech_score": 86,
+  "fund_score": 50,
+  "composite": 74.3,
+  "env_signals": {
+    "rate": "stable (+20)",
+    "oil": "uptrend (+10)"
+  },
+  "tech_signals": {
+    "rsi": "31.8 low (+8)",
+    "bb": "near lower band (0.04) (+20)",
+    "momentum": "-4.3% neutral",
+    "ma": "below all MAs (+8)"
+  },
+  "fund_signals": {},
+  "baseline_90d_avg": 6.0,
+  "baseline_win_pct": 60.0,
+  "regime_90d_avg": 6.0,
+  "forecast": {
+    "base_30d_pct": 2.9,
+    "base_60d_pct": 5.0,
+    "base_90d_pct": 7.2,
+    "bull_90d_pct": 14.8,
+    "bear_90d_pct": -0.4,
+    "target_30d": 78.86,
+    "target_60d": 80.51,
+    "target_90d": 82.17,
+    "bull_target": 87.97,
+    "bear_target": 76.37,
+    "confidence": 80,
+    "confidence_label": "HIGH"
+  },
+  "similar_setups": {
+    "n": 585,
+    "avg_90d": 3.4,
+    "win_pct": 57.3
+  }
+}

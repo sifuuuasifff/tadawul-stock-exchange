@@ -1,0 +1,19 @@
+{
+  "sym": "4082",
+  "name": "SACO",
+  "generated": "2026-06-05T19:54:38.076422",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by -8.2%",
+      "evidence": "Systematic overestimate: predicted=3.0%, actual=-5.16%"
+    }
+  ],
+  "bias": -8.16,
+  "before_accuracy": 50.0
+}

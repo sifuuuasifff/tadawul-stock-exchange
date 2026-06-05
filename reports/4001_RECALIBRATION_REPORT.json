@@ -1,0 +1,13 @@
+{
+  "sym": "4001",
+  "name": "Al Othaim Markets",
+  "generated": "2026-06-05T19:54:37.151615",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [],
+  "bias": 2.45,
+  "before_accuracy": 51.2
+}

@@ -1,0 +1,40 @@
+{
+  "mistakes": [
+    {
+      "prediction_date": "2025-07-13",
+      "predicted_90d": 3.0,
+      "actual_90d": -12.6,
+      "error": 15.6,
+      "direction_correct": "False",
+      "composite_score": 50.8,
+      "rate_regime": "stable",
+      "rsi": 69.2,
+      "vix": 15.8,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2025-10-09",
+      "predicted_90d": 5.0,
+      "actual_90d": -13.9,
+      "error": 18.9,
+      "direction_correct": "False",
+      "composite_score": 65.8,
+      "rate_regime": "stable",
+      "rsi": 22.5,
+      "vix": 16.4,
+      "root_cause": "Model underestimated downside"
+    },
+    {
+      "prediction_date": "2026-01-07",
+      "predicted_90d": 3.0,
+      "actual_90d": -16.4,
+      "error": 19.4,
+      "direction_correct": "False",
+      "composite_score": 55.2,
+      "rate_regime": "stable",
+      "rsi": 42.9,
+      "vix": 15.4,
+      "root_cause": "Model underestimated downside"
+    }
+  ]
+}

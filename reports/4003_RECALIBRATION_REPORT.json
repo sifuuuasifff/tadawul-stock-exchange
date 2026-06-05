@@ -1,0 +1,29 @@
+{
+  "sym": "4003",
+  "name": "Astra Industrial",
+  "generated": "2026-06-05T19:54:40.598728",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "CONFIRMED \u2014 keep at -25pts",
+      "evidence": "H01 confirmed rising rates hurt: diff=-9.57%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 7.9%",
+      "evidence": "Systematic underestimate: predicted=3.07%, actual=11.01%"
+    },
+    {
+      "factor": "Upside capture",
+      "action": "Model consistently underestimates upside \u2014 increase bull spread",
+      "evidence": "15/21 large errors were upside misses"
+    }
+  ],
+  "bias": 7.94,
+  "before_accuracy": 63.4
+}

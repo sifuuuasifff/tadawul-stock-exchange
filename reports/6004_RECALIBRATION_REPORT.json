@@ -1,0 +1,19 @@
+{
+  "sym": "6004",
+  "name": "Fawaz Abdulaziz Alhokair",
+  "generated": "2026-06-05T19:54:39.315836",
+  "weights": {
+    "environment": 0.45,
+    "technical": 0.3,
+    "fundamental": 0.25
+  },
+  "log": [
+    {
+      "factor": "Rising rate penalty",
+      "action": "REDUCE \u2014 rising rates help this stock",
+      "evidence": "H01: rising rates help: diff=9.28%"
+    }
+  ],
+  "bias": -2.78,
+  "before_accuracy": 48.8
+}
