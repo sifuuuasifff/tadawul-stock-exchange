@@ -1,8 +1,6 @@
 """
 PAGE 2 — STOCK ANALYSIS & AI CHAT
-==================================
 Individual stock deep-dive: AI chat, forecast, personality, signals, hypotheses, backtest.
-Select any stock from the sidebar and explore its full engine output.
 """
 
 import sys, json, os
@@ -15,95 +13,35 @@ import streamlit as st
 import pandas as pd
 import anthropic
 
-from config.settings import MEMORY_DIR, REPORTS_DIR, DATA_RAW, ANTHROPIC_API_KEY
-os.environ.setdefault("ANTHROPIC_API_KEY", ANTHROPIC_API_KEY)
-
-# Import STOCKS registry and loaders from home page
-from portal import STOCKS, load_all_states, build_stock_df
+from shared import (STOCKS, load_all_states, load_stock_engine,
+                    CSS, MEMORY_DIR, REPORTS_DIR, ANTHROPIC_API_KEY)
 
 st.set_page_config(
     page_title="Stock Analysis — Tadawul Engine",
-    page_icon="🔍",
-    layout="wide",
+    page_icon="🔍", layout="wide",
     initial_sidebar_state="expanded",
 )
-
-st.markdown("""
-<style>
-    .main-header  { font-size:1.8rem; font-weight:700; color:#1a1a2e; margin-bottom:0.2rem; }
-    .sub-header   { font-size:0.95rem; color:#666; margin-bottom:1.5rem; }
-    .forecast-box { background:#f0f7ff; border-radius:10px; padding:1.2rem;
-                    margin:0.5rem 0; border:1px solid #cce0ff; }
-    .warning-box  { background:#fff8e1; border-radius:8px; padding:0.8rem;
-                    border-left:3px solid #ffc107; }
-    .chat-user    { background:#e8f4fd; border-radius:12px; padding:0.8rem 1rem; margin:0.4rem 0; }
-    .chat-ai      { background:#f8f9fa; border-radius:12px; padding:0.8rem 1rem;
-                    margin:0.4rem 0; border-left:3px solid #0066cc; }
-</style>
-""", unsafe_allow_html=True)
+st.markdown(CSS, unsafe_allow_html=True)
 
 
-# ── Data loaders ───────────────────────────────────────────────────────────────
-
-@st.cache_data(ttl=300)
-def load_json(path) -> dict:
-    p = Path(path)
-    if not p.exists():
-        return {}
-    with open(p, encoding="utf-8") as f:
-        return json.load(f)
-
-def load_stock_state(sym: str) -> dict:
-    return load_all_states().get(sym, {})
-
-def load_stock_engine(sym: str) -> dict:
-    prefix = f"{sym}_" if sym != "1120" else ""
-    data = {}
-    for key, fname in [
-        ("hypotheses", f"{prefix}HYPOTHESIS_REPORT.json"),
-        ("backtest",   f"{prefix}PREDICTION_BACKTEST_REPORT.json"),
-        ("signals",    f"{prefix}SIGNAL_DISCOVERY_REPORT.json"),
-        ("recal",      f"{prefix}RECALIBRATION_REPORT.json"),
-    ]:
-        p = REPORTS_DIR / fname
-        if p.exists():
-            with open(p, encoding="utf-8") as f:
-                data[key] = json.load(f)
-    for key, fname in [
-        ("memory",   f"memory_{sym}.json"),
-        ("mistakes", f"mistake_vault_{sym}.json"),
-        ("personality", f"personality_{sym}.json"),
-        ("personality_summary", "personality_summary.json"),
-    ]:
-        p = MEMORY_DIR / fname
-        if p.exists():
-            with open(p, encoding="utf-8") as f:
-                raw = json.load(f)
-                data[key] = raw.get("mistakes", raw) if key == "mistakes" else raw
-    return data
-
-
-# ── AI context ────────────────────────────────────────────────────────────────
+# ── AI ─────────────────────────────────────────────────────────────────────────
 
 def build_context(sym: str) -> str:
     states  = load_all_states()
     engine  = load_stock_engine(sym)
     info    = STOCKS.get(sym, {})
-
+    state   = states.get(sym, {})
     hyp     = engine.get("hypotheses", {})
     bt      = engine.get("backtest", {})
     mem     = engine.get("memory", {})
     pers    = engine.get("personality", engine.get("personality_summary", {}))
     mistakes= engine.get("mistakes", [])
-    state   = states.get(sym, {})
 
-    all_states_summary = {s: {
-        "price": states[s].get("price"),
-        "composite": states[s].get("composite"),
-        "rsi": states[s].get("rsi"),
-        "rate_regime": states[s].get("rate_regime"),
-        "forecast_90d": states[s].get("forecast", {}).get("base_90d_pct"),
-    } for s in list(states.keys())[:20]}
+    snap = {s: {"price": states[s].get("price"),
+                "composite": states[s].get("composite"),
+                "rsi": states[s].get("rsi"),
+                "forecast_90d": states[s].get("forecast",{}).get("base_90d_pct")}
+            for s in list(states.keys())[:25]}
 
     return f"""
 You are the AI Research Engine for a private Tadawul Stock Memory Engine.
@@ -118,21 +56,15 @@ CURRENT STATE:
 PERSONALITY RULES:
 {json.dumps(pers.get('personality_rules', []), indent=2, default=str)}
 
-HYPOTHESIS RESULTS ({hyp.get('summary',{}).get('total','?')} tested):
+HYPOTHESES ({hyp.get('summary',{}).get('total','?')} tested):
 Accepted={hyp.get('summary',{}).get('accepted','?')} | Rejected={hyp.get('summary',{}).get('rejected','?')}
 KEY ACCEPTED: {json.dumps([r for r in hyp.get('results',[]) if r.get('verdict')=='ACCEPTED'], default=str)}
 
-BACKTEST:
-{json.dumps(bt.get('validation',{}), indent=2, default=str)}
+BACKTEST: {json.dumps(bt.get('validation',{}), default=str)}
 
-MEMORY (regime profiles):
-{json.dumps(mem.get('regime_profiles',[])[:6], indent=2, default=str)}
+MISTAKES: {json.dumps(mistakes[:4], default=str)}
 
-TOP MISTAKES:
-{json.dumps(mistakes[:4], indent=2, default=str)}
-
-ALL STOCKS SNAPSHOT (composite scores):
-{json.dumps(all_states_summary, indent=2, default=str)}
+ALL STOCKS SNAPSHOT: {json.dumps(snap, default=str)}
 
 SIGNAL WEIGHTS: Environment 45% | Technical 30% | Fundamental 25%
 
@@ -141,7 +73,6 @@ INSTRUCTIONS:
 - Respond in Arabic if asked in Arabic.
 - Be direct. Give numbers. No unnecessary disclaimers.
 - Do NOT give financial advice — research and evidence only.
-- When comparing stocks, use the all-stocks snapshot above.
 """
 
 
@@ -165,41 +96,34 @@ def render_sidebar() -> str:
     with st.sidebar:
         st.markdown("### 🔍 Stock Analysis")
         st.markdown("---")
-
-        sectors = ["All"] + sorted(set(v["sector"] for v in STOCKS.values()))
-        sel_sec = st.selectbox("Filter sector", sectors, index=0)
+        sectors  = ["All"] + sorted(set(v["sector"] for v in STOCKS.values()))
+        sel_sec  = st.selectbox("Filter sector", sectors, index=0)
         filtered = STOCKS if sel_sec == "All" else {k:v for k,v in STOCKS.items() if v["sector"]==sel_sec}
-
-        sym = st.selectbox(
-            "Select stock",
-            options=list(filtered.keys()),
-            format_func=lambda s: f"{STOCKS[s]['emoji']} {STOCKS[s]['name']} ({s})",
-        )
-
+        sym = st.selectbox("Select stock", list(filtered.keys()),
+                           format_func=lambda s: f"{STOCKS[s]['emoji']} {STOCKS[s]['name']} ({s})")
         st.markdown("---")
-        state = load_stock_state(sym)
+        state = load_all_states().get(sym, {})
         if state:
             price = state.get("price", 0)
             comp  = state.get("composite", 0)
             rsi   = state.get("rsi", 50)
             fc    = state.get("forecast", {})
             color = "green" if comp > 62 else ("orange" if comp > 50 else "red")
-            c1, c2 = st.columns(2)
+            c1,c2 = st.columns(2)
             c1.metric("Price", f"{price:.2f} SAR")
-            c2.metric("RSI", f"{rsi:.1f}")
+            c2.metric("RSI",   f"{rsi:.1f}")
             st.markdown(f"Composite: **:{color}[{comp:.0f}/100]**")
             b90  = fc.get("base_90d_pct", 0)
             conf = fc.get("confidence_label", "?")
             arrow = "🟢" if b90 > 3 else ("🟡" if b90 > 0 else "🔴")
             st.markdown(f"90d: {arrow} **{b90:+.1f}%** ({conf})")
             st.caption(f"Regime: {state.get('rate_regime','?').upper()} @ {state.get('repo_rate','?')}%")
-
         st.markdown("---")
-
+        st.caption("Use sidebar navigation ↑ to go back to Summary")
     return sym
 
 
-# ── Tabs ───────────────────────────────────────────────────────────────────────
+# ── Tab functions ──────────────────────────────────────────────────────────────
 
 def tab_chat(sym: str):
     info = STOCKS.get(sym, {})
@@ -210,9 +134,8 @@ def tab_chat(sym: str):
         st.session_state.chat_history = []
 
     context = build_context(sym)
+    name    = info.get("name", sym)
 
-    # Quick questions
-    name = info.get("name", sym)
     quick = [
         f"What is the current forecast for {name}?",
         f"What signals matter most for {name}?",
@@ -229,7 +152,7 @@ def tab_chat(sym: str):
 
     st.markdown("---")
     for msg in st.session_state.chat_history:
-        css = "chat-user" if msg["role"] == "user" else "chat-ai"
+        css  = "chat-user" if msg["role"] == "user" else "chat-ai"
         icon = "🧑" if msg["role"] == "user" else "🤖"
         st.markdown(f'<div class="{css}">{icon} {msg["content"]}</div>', unsafe_allow_html=True)
 
@@ -242,8 +165,8 @@ def tab_chat(sym: str):
     if submitted and question.strip():
         with st.spinner("Thinking..."):
             answer = ask_claude(question, context, st.session_state.chat_history)
-        st.session_state.chat_history.append({"role": "user",      "content": question})
-        st.session_state.chat_history.append({"role": "assistant",  "content": answer})
+        st.session_state.chat_history.append({"role": "user",     "content": question})
+        st.session_state.chat_history.append({"role": "assistant", "content": answer})
         st.rerun()
 
     if st.session_state.chat_history:
@@ -254,11 +177,10 @@ def tab_chat(sym: str):
 
 def tab_forecast(sym: str):
     info  = STOCKS.get(sym, {})
-    state = load_stock_state(sym)
+    state = load_all_states().get(sym, {})
     st.markdown(f'<div class="main-header">🎯 Forecast — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
-
     if not state:
-        st.warning("No current state found. Run build_all_forecasts.py.")
+        st.warning("No current state found.")
         return
 
     fc = state.get("forecast", {})
@@ -271,38 +193,37 @@ def tab_forecast(sym: str):
     st.markdown("---")
     c1,c2,c3 = st.columns(3)
     for col, label, pct, tgt in [
-        (c1, "30-day target", fc.get("base_30d_pct",0), fc.get("target_30d",0)),
-        (c2, "60-day target", fc.get("base_60d_pct",0), fc.get("target_60d",0)),
-        (c3, "90-day target", fc.get("base_90d_pct",0), fc.get("target_90d",0)),
+        (c1,"30-day target", fc.get("base_30d_pct",0), fc.get("target_30d",0)),
+        (c2,"60-day target", fc.get("base_60d_pct",0), fc.get("target_60d",0)),
+        (c3,"90-day target", fc.get("base_90d_pct",0), fc.get("target_90d",0)),
     ]:
         color = "signal-good" if pct > 0 else "signal-bad"
-        col.markdown(f"""<div class="forecast-box">
-        <b>{label}</b><br>
+        col.markdown(f"""<div class="forecast-box"><b>{label}</b><br>
         <span style="font-size:1.4rem;font-weight:700;">{tgt:.2f} SAR</span><br>
-        <span class="{color}">{pct:+.1f}%</span>
-        </div>""", unsafe_allow_html=True)
+        <span class="{color}">{pct:+.1f}%</span></div>""", unsafe_allow_html=True)
 
     c1,c2 = st.columns(2)
     c1.markdown(f'<div class="warning-box">🐂 Bull (90d): {fc.get("bull_target_90d",0):.2f} SAR ({fc.get("bull_90d_pct",0):+.1f}%)</div>', unsafe_allow_html=True)
     c2.markdown(f'<div class="warning-box">🐻 Bear (90d): {fc.get("bear_target_90d",0):.2f} SAR ({fc.get("bear_90d_pct",0):+.1f}%)</div>', unsafe_allow_html=True)
-
     st.markdown(f"**Confidence:** {fc.get('confidence',0)}/100 ({fc.get('confidence_label','?')})")
+
     st.markdown("---")
     c1,c2 = st.columns(2)
     with c1:
-        st.markdown("**Main drivers:**")
-        for d in state.get("env_signals", {}).items():
-            st.markdown(f"• {d[0]}: {d[1]}")
-        for d in state.get("tech_signals", {}).items():
-            st.markdown(f"• {d[0]}: {d[1]}")
+        st.markdown("**Active signals:**")
+        for k,v in {**state.get("env_signals",{}), **state.get("tech_signals",{})}.items():
+            st.markdown(f"• {k}: {v}")
     with c2:
         st.markdown("**Key risks:**")
+        rsi = state.get("rsi", 50)
         if state.get("rate_regime") == "rising":
             st.markdown("⚠️ Rising rates — historically bad for most Tadawul stocks")
-        if state.get("rsi", 50) > 70:
+        if rsi > 70:
             st.markdown("⚠️ RSI overbought — mean reversion risk")
-        if state.get("rsi", 50) < 30:
+        if rsi < 30:
             st.markdown("✅ RSI oversold — historically a buying opportunity")
+        if not any([state.get("rate_regime")=="rising", rsi>70, rsi<30]):
+            st.markdown("No major risk flags at current levels.")
 
 
 def tab_personality(sym: str):
@@ -314,16 +235,14 @@ def tab_personality(sym: str):
     mem   = engine.get("memory", {})
     rules = pers.get("personality_rules", [])
 
-    # Baseline and regime
     baseline = mem.get("baseline_90d", {})
-    regimes  = mem.get("regime_profiles", [])
-    rate_regimes = [r for r in regimes if r.get("type") == "Rate Regime"]
+    regimes  = [r for r in mem.get("regime_profiles", []) if r.get("type") == "Rate Regime"]
     if baseline:
         st.metric("Baseline 90d avg", f"{baseline.get('avg_pct','?')}%",
                   delta=f"Win rate: {baseline.get('win_pct','?')}%", delta_color="off")
-    if rate_regimes:
-        cols = st.columns(len(rate_regimes))
-        for i, r in enumerate(rate_regimes):
+    if regimes:
+        cols = st.columns(len(regimes))
+        for i, r in enumerate(regimes):
             out = r.get("outcomes",{}).get("90d",{})
             cols[i].metric(f"{r.get('label','?')} Rates",
                            f"{out.get('avg_pct','?')}% avg",
@@ -349,32 +268,23 @@ def tab_signals(sym: str):
         st.warning("Signal report not found.")
         return
 
-    baseline = report.get("baseline", {})
-    base_90d = baseline.get("avg_90d", 6.0) or 6.0
-
-    col1,col2 = st.columns(2)
-    group_f = col1.selectbox("Group", ["All"] + sorted(set(s.get("group","") for s in signals)))
-    rel_f   = col2.selectbox("Reliability", ["All","HIGH","MEDIUM","LOW"])
-
-    filtered = [s for s in signals
-                if (group_f == "All" or s.get("group") == group_f)
-                and (rel_f == "All" or s.get("reliability_label") == rel_f)
-                and "avg_return_90d" in s]
+    base_90d = report.get("baseline", {}).get("avg_90d", 6.0) or 6.0
+    c1,c2    = st.columns(2)
+    group_f  = c1.selectbox("Group", ["All"] + sorted(set(s.get("group","") for s in signals)))
+    rel_f    = c2.selectbox("Reliability", ["All","HIGH","MEDIUM","LOW"])
 
     rows = []
-    for s in filtered:
+    for s in signals:
+        if "avg_return_90d" not in s: continue
+        if group_f != "All" and s.get("group") != group_f: continue
+        if rel_f   != "All" and s.get("reliability_label") != rel_f: continue
         edge = (s.get("avg_return_90d") or 0) - base_90d
-        rows.append({
-            "Signal":      s.get("signal","")[:55],
-            "N":           s.get("occurrences",0),
-            "Avg 30d %":   s.get("avg_return_30d"),
-            "Avg 90d %":   s.get("avg_return_90d"),
-            "Win% (90d)":  s.get("pct_positive_90d"),
-            "Edge":        f"{edge:+.1f}%",
-            "Reliability": s.get("reliability_label",""),
-            "p-value":     s.get("p_value_90d"),
-            "Sig":         "✓" if s.get("significant_90d") else "",
-        })
+        rows.append({"Signal": s.get("signal","")[:55], "N": s.get("occurrences",0),
+                     "Avg 30d %": s.get("avg_return_30d"), "Avg 90d %": s.get("avg_return_90d"),
+                     "Win% (90d)": s.get("pct_positive_90d"), "Edge": f"{edge:+.1f}%",
+                     "Reliability": s.get("reliability_label",""),
+                     "p-value": s.get("p_value_90d"),
+                     "Sig": "✓" if s.get("significant_90d") else ""})
     if rows:
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
         st.caption(f"Baseline (buy-and-hold): avg 90d = {base_90d}%")
@@ -401,18 +311,13 @@ def tab_hypotheses(sym: str):
     vf = st.selectbox("Filter", ["All","ACCEPTED","REJECTED","INCONCLUSIVE"])
     rows = []
     for r in results:
-        if vf != "All" and r.get("verdict") != vf:
-            continue
+        if vf != "All" and r.get("verdict") != vf: continue
         icon = {"ACCEPTED":"✓","REJECTED":"✗","INCONCLUSIVE":"~"}.get(r.get("verdict",""),"?")
-        rows.append({
-            "ID":         r.get("id"),
-            "Verdict":    f"{icon} {r.get('verdict','')}",
-            "Hypothesis": r.get("hypothesis","")[:65],
-            "Δ %":        r.get("diff"),
-            "p-value":    r.get("p_value"),
-            "n":          r.get("n_a"),
-            "Reason":     r.get("reason","")[:70],
-        })
+        rows.append({"ID": r.get("id"),
+                     "Verdict": f"{icon} {r.get('verdict','')}",
+                     "Hypothesis": r.get("hypothesis","")[:65],
+                     "Δ %": r.get("diff"), "p-value": r.get("p_value"),
+                     "n": r.get("n_a"), "Reason": r.get("reason","")[:70]})
     if rows:
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
 
@@ -439,7 +344,7 @@ def tab_backtest(sym: str):
     if rd:
         st.markdown("**By Rate Regime:**")
         cols = st.columns(len(rd))
-        for i, (regime, r) in enumerate(rd.items()):
+        for i,(regime,r) in enumerate(rd.items()):
             cols[i].metric(f"{regime.capitalize()} Rates",
                            f"{r.get('dir_accuracy',0)}% acc",
                            f"error {r.get('avg_error',0):+.1f}%")
@@ -450,16 +355,13 @@ def tab_backtest(sym: str):
     if mistakes:
         rows = []
         for m in sorted(mistakes, key=lambda x: -x.get("error",0)):
-            rows.append({
-                "Date":      m.get("prediction_date"),
-                "Predicted": f"{m.get('predicted_90d',0):+.1f}%",
-                "Actual":    f"{m.get('actual_90d',0):+.1f}%",
-                "Error":     f"{m.get('error',0):.1f}%",
-                "Dir OK":    "✓" if m.get("direction_correct") else "✗",
-                "RSI":       m.get("rsi"),
-                "Regime":    m.get("rate_regime"),
-                "Root Cause":m.get("root_cause","")[:65],
-            })
+            rows.append({"Date": m.get("prediction_date"),
+                         "Predicted": f"{m.get('predicted_90d',0):+.1f}%",
+                         "Actual": f"{m.get('actual_90d',0):+.1f}%",
+                         "Error": f"{m.get('error',0):.1f}%",
+                         "Dir OK": "✓" if m.get("direction_correct") else "✗",
+                         "RSI": m.get("rsi"), "Regime": m.get("rate_regime"),
+                         "Root Cause": m.get("root_cause","")[:65]})
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
         st.caption(f"{len(mistakes)} large errors catalogued")
     else:
@@ -471,25 +373,16 @@ def tab_backtest(sym: str):
 def main():
     sym  = render_sidebar()
     info = STOCKS.get(sym, {})
-
     st.markdown(f'<div class="main-header">{info.get("emoji","")} {info.get("name",sym)} ({sym})</div>', unsafe_allow_html=True)
     st.markdown(f'<div class="sub-header">{info.get("sector","?")} · Full engine analysis</div>', unsafe_allow_html=True)
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-        "💬 AI Chat",
-        "🎯 Forecast",
-        "🧠 Personality",
-        "📡 Signals",
-        "🧪 Hypotheses",
-        "📈 Backtest",
-    ])
-
-    with tab1: tab_chat(sym)
-    with tab2: tab_forecast(sym)
-    with tab3: tab_personality(sym)
-    with tab4: tab_signals(sym)
-    with tab5: tab_hypotheses(sym)
-    with tab6: tab_backtest(sym)
+    t1,t2,t3,t4,t5,t6 = st.tabs(["💬 AI Chat","🎯 Forecast","🧠 Personality","📡 Signals","🧪 Hypotheses","📈 Backtest"])
+    with t1: tab_chat(sym)
+    with t2: tab_forecast(sym)
+    with t3: tab_personality(sym)
+    with t4: tab_signals(sym)
+    with t5: tab_hypotheses(sym)
+    with t6: tab_backtest(sym)
 
 
 if __name__ == "__main__":
