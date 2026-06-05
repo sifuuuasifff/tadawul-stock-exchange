@@ -840,6 +840,218 @@ def tab_backtest():
 # MAIN APP
 # ══════════════════════════════════════════════════════════════════════════════
 
+# ══════════════════════════════════════════════════════════════════════════════
+# SUMMARY DASHBOARD
+# ══════════════════════════════════════════════════════════════════════════════
+
+def tab_summary():
+    st.markdown('<div class="main-header">📊 Tadawul Opportunity Engine — Summary</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="sub-header">74 stocks · 10 sectors · Updated {datetime.now().strftime("%Y-%m-%d")}</div>', unsafe_allow_html=True)
+
+    states = load_all_states()
+    if not states:
+        st.warning("No stock data found. Run build_all_forecasts.py first.")
+        return
+
+    # Build a flat dataframe of all stocks
+    rows = []
+    for sym, s in states.items():
+        if not s:
+            continue
+        info = STOCKS.get(sym, {})
+        fc   = s.get("forecast", {})
+        rows.append({
+            "symbol":      sym,
+            "name":        info.get("name", sym),
+            "sector":      info.get("sector", "Other"),
+            "emoji":       info.get("emoji", "📊"),
+            "price":       s.get("price", 0),
+            "rsi":         s.get("rsi", 50),
+            "composite":   s.get("composite", 0),
+            "env_score":   s.get("env_score", 0),
+            "tech_score":  s.get("tech_score", 0),
+            "fund_score":  s.get("fund_score", 0),
+            "forecast_90d":fc.get("base_90d_pct", 0),
+            "confidence":  fc.get("confidence", 0),
+            "conf_label":  fc.get("confidence_label", "?"),
+            "rate_regime": s.get("rate_regime", "stable"),
+            "repo_rate":   s.get("repo_rate", 4.25),
+            "vix":         s.get("vix", 20),
+            "oil":         s.get("oil_price", 80),
+            "target_90d":  fc.get("target_90d", 0),
+        })
+    df = pd.DataFrame(rows)
+
+    # ── Section 1: Market Environment ────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 🌍 Current Market Environment")
+
+    first = rows[0] if rows else {}
+    regime  = first.get("rate_regime", "stable")
+    vix_val = first.get("vix", 20)
+    oil_val = first.get("oil", 80)
+    rate    = first.get("repo_rate", 4.25)
+
+    regime_color = {"stable": "green", "rising": "red", "falling": "orange"}.get(regime, "gray")
+    vix_label    = "🔴 High Fear" if vix_val > 30 else ("🟡 Elevated" if vix_val > 20 else "🟢 Calm")
+    oil_label    = f"${oil_val:.0f}/bbl"
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Saudi Repo Rate",   f"{rate:.2f}%",  delta=regime.capitalize(),
+                delta_color="inverse" if regime == "rising" else "normal")
+    col2.metric("VIX (Global Risk)", f"{vix_val:.1f}", delta=vix_label, delta_color="off")
+    col3.metric("Brent Oil",         oil_label)
+    col4.metric("Stocks Monitored",  f"{len(df)}", delta="74 stocks · 10 sectors", delta_color="off")
+
+    env_msg = {
+        "stable":  "✅ **Stable rate environment** — historically the best setup for Saudi equities. Conditions favour accumulation.",
+        "rising":  "⚠️ **Rising rate environment** — historically challenging for most Tadawul stocks, especially banks. Be selective.",
+        "falling": "🟡 **Falling rate environment** — mixed signals. Monitor carefully.",
+    }.get(regime, "")
+    if vix_val > 30:
+        env_msg += " VIX is elevated — **fear creates opportunity** based on historical patterns."
+    st.info(env_msg)
+
+    # ── Section 2: Sector Scorecard ───────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 🏭 Sector Scorecard")
+
+    sector_df = df.groupby("sector").agg(
+        Stocks    = ("symbol", "count"),
+        Avg_Score = ("composite", "mean"),
+        Avg_90d   = ("forecast_90d", "mean"),
+        Best_Score= ("composite", "max"),
+    ).round(1).reset_index()
+
+    # Find best stock per sector
+    best_stock = df.loc[df.groupby("sector")["composite"].idxmax()][["sector","name","composite","forecast_90d"]]
+    sector_df  = sector_df.merge(best_stock.rename(columns={
+        "name":       "Top Pick",
+        "composite":  "Top_Composite",
+        "forecast_90d":"Top_90d",
+    }), on="sector", how="left")
+
+    sector_df = sector_df.sort_values("Avg_Score", ascending=False)
+    sector_df["Avg_Score"]    = sector_df["Avg_Score"].apply(lambda x: f"{x:.0f}/100")
+    sector_df["Avg_90d"]      = sector_df["Avg_90d"].apply(lambda x: f"{x:+.1f}%")
+    sector_df["Top_90d"]      = sector_df["Top_90d"].apply(lambda x: f"{x:+.1f}%")
+    sector_df["Top_Composite"]= sector_df["Top_Composite"].apply(lambda x: f"{x:.0f}/100")
+    sector_df.columns         = ["Sector","# Stocks","Avg Score","Avg 90d","Best Score","Top Pick","Top Composite","Top 90d Fcst"]
+
+    st.dataframe(sector_df, use_container_width=True, hide_index=True)
+
+    # ── Section 3: Top Picks ──────────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 🏆 Top Picks — Highest Engine Confidence")
+    st.caption("Stocks with composite score above 70 and positive 90d forecast, ranked by confidence")
+
+    top = df[(df["composite"] >= 68) & (df["forecast_90d"] > 0)].sort_values("composite", ascending=False).head(12)
+    if not top.empty:
+        top_rows = []
+        for _, r in top.iterrows():
+            comp = r["composite"]
+            color_tag = "🟢" if comp >= 72 else "🟡"
+            top_rows.append({
+                "":           color_tag,
+                "Stock":      r["name"],
+                "Sector":     r["sector"],
+                "Price (SAR)":f"{r['price']:.2f}",
+                "RSI":        f"{r['rsi']:.1f}",
+                "Composite":  f"{comp:.0f}/100",
+                "90d Forecast":f"{r['forecast_90d']:+.1f}%",
+                "90d Target": f"{r['target_90d']:.2f} SAR",
+                "Confidence": r["conf_label"],
+            })
+        st.dataframe(pd.DataFrame(top_rows), use_container_width=True, hide_index=True)
+    else:
+        st.info("No stocks currently meet the top picks criteria.")
+
+    # ── Section 4: Extreme RSI Alerts ────────────────────────────────────────
+    st.markdown("---")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("### 📉 Extreme Oversold (RSI < 25)")
+        st.caption("Historically a mean-reversion buying opportunity")
+        oversold = df[df["rsi"] < 25].sort_values("rsi")
+        if not oversold.empty:
+            for _, r in oversold.iterrows():
+                st.markdown(f"""<div class="forecast-box">
+                <b>{r['emoji']} {r['name']} ({r['symbol']})</b> — {r['sector']}<br>
+                Price: <b>{r['price']:.2f} SAR</b> | RSI: <b style="color:#dc3545">{r['rsi']:.1f}</b> |
+                Score: <b>{r['composite']:.0f}/100</b> | 90d: <b>{r['forecast_90d']:+.1f}%</b>
+                </div>""", unsafe_allow_html=True)
+        else:
+            st.success("No stocks in extreme oversold territory right now.")
+
+    with col2:
+        st.markdown("### 📈 Extreme Overbought (RSI > 78)")
+        st.caption("Historically a mean-reversion caution signal")
+        overbought = df[df["rsi"] > 78].sort_values("rsi", ascending=False)
+        if not overbought.empty:
+            for _, r in overbought.iterrows():
+                st.markdown(f"""<div class="warning-box">
+                <b>{r['emoji']} {r['name']} ({r['symbol']})</b> — {r['sector']}<br>
+                Price: <b>{r['price']:.2f} SAR</b> | RSI: <b style="color:#fd7e14">{r['rsi']:.1f}</b> |
+                Score: <b>{r['composite']:.0f}/100</b> | 90d: <b>{r['forecast_90d']:+.1f}%</b>
+                </div>""", unsafe_allow_html=True)
+        else:
+            st.success("No stocks in extreme overbought territory right now.")
+
+    # ── Section 5: Weakest / Avoid ────────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### ⚠️ Weakest Signals — Engine Has Low Confidence")
+    st.caption("Stocks where current signals are mixed or unfavourable")
+
+    weak = df[(df["composite"] < 55) | (df["forecast_90d"] < 0)].sort_values("composite").head(10)
+    if not weak.empty:
+        weak_rows = []
+        for _, r in weak.iterrows():
+            weak_rows.append({
+                "Stock":       r["name"],
+                "Sector":      r["sector"],
+                "Price (SAR)": f"{r['price']:.2f}",
+                "RSI":         f"{r['rsi']:.1f}",
+                "Composite":   f"{r['composite']:.0f}/100",
+                "90d Forecast":f"{r['forecast_90d']:+.1f}%",
+                "Confidence":  r["conf_label"],
+            })
+        st.dataframe(pd.DataFrame(weak_rows), use_container_width=True, hide_index=True)
+
+    # ── Section 6: Full Stock Table ───────────────────────────────────────────
+    st.markdown("---")
+    st.markdown("### 📋 All Stocks — Full Ranking")
+    st.caption("Ranked by composite score. Click column headers to sort.")
+
+    sector_filter = st.selectbox("Filter by sector", ["All"] + sorted(df["sector"].unique()), key="summary_sector")
+    display_df = df if sector_filter == "All" else df[df["sector"] == sector_filter]
+    display_df = display_df.sort_values("composite", ascending=False)
+
+    table_rows = []
+    for _, r in display_df.iterrows():
+        comp = r["composite"]
+        icon = "🟢" if comp >= 68 else ("🟡" if comp >= 55 else "🔴")
+        table_rows.append({
+            "":            icon,
+            "Stock":       r["name"],
+            "Sector":      r["sector"],
+            "Price":       f"{r['price']:.2f}",
+            "RSI":         f"{r['rsi']:.1f}",
+            "Env":         f"{r['env_score']:.0f}",
+            "Tech":        f"{r['tech_score']:.0f}",
+            "Fund":        f"{r['fund_score']:.0f}",
+            "Composite":   f"{comp:.0f}/100",
+            "90d Fcst":    f"{r['forecast_90d']:+.1f}%",
+            "Confidence":  r["conf_label"],
+        })
+    st.dataframe(pd.DataFrame(table_rows), use_container_width=True, hide_index=True)
+    st.caption(f"Showing {len(table_rows)} stocks")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MAIN APP
+# ══════════════════════════════════════════════════════════════════════════════
+
 def main():
     selected_sym = render_sidebar()
 
@@ -848,7 +1060,8 @@ def main():
     <div class="sub-header">Private AI research system — {STOCKS[selected_sym]['emoji']} {STOCKS[selected_sym]['name']} selected</div>
     """, unsafe_allow_html=True)
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    tab0, tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+        "📊 Summary",
         "💬 AI Chat",
         "🎯 Forecast",
         "🧠 Personality",
@@ -857,6 +1070,8 @@ def main():
         "📈 Backtest",
     ])
 
+    with tab0:
+        tab_summary()
     with tab1:
         tab_chat(selected_sym)
     with tab2:
