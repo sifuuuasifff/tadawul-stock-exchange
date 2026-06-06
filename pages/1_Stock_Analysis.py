@@ -26,16 +26,56 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 # ── AI ─────────────────────────────────────────────────────────────────────────
 
+def load_quarterly_financials(sym: str) -> dict:
+    """Load actual quarterly financial records to pass to AI."""
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from config.settings import DATA_RAW
+    from rebuild_engine import load_enriched_financials
+    try:
+        income_df, balance_df, cashflow_df, _, annual_df = load_enriched_financials(sym)
+        records = []
+        if not income_df.empty:
+            income_sorted = income_df.sort_values("report_date")
+            for _, r in income_sorted.tail(12).iterrows():
+                ni  = r.get("net_income")
+                rev = r.get("total_revenue")
+                records.append({
+                    "date":       r["report_date"].date().isoformat(),
+                    "quarter":    f"Q{int(r.get('fiscal_quarter',0))}" if r.get("fiscal_quarter") else "Annual",
+                    "net_income_mn": round(ni/1e6, 1) if ni and not pd.isna(ni) else None,
+                    "revenue_mn":    round(rev/1e6, 1) if rev and not pd.isna(rev) else None,
+                    "type": "Full Year" if r["report_date"].month == 12 else "Quarterly"
+                })
+
+        # TTM summary
+        ttm = {}
+        if not annual_df.empty:
+            latest = annual_df.iloc[-1]
+            ttm = {
+                "ttm_net_income_mn": round(latest.get("net_income_bn", 0) * 1000, 1),
+                "ttm_yoy_growth_pct": round(latest.get("ni_yoy", 0), 1),
+                "q1_standalone_yoy_pct": round(latest.get("_q_yoy", 0), 1) if latest.get("_q_yoy") else None,
+                "latest_q1_ni_mn": round(latest.get("_latest_q_ni", 0) / 1e6, 1) if latest.get("_latest_q_ni") else None,
+                "is_ttm": bool(latest.get("_is_ttm", False)),
+                "as_of_date": latest["report_date"].date().isoformat(),
+            }
+        return {"quarterly_records": records, "ttm_summary": ttm}
+    except Exception as e:
+        return {"error": str(e)}
+
+
 def build_context(sym: str) -> str:
-    states  = load_all_states()
-    engine  = load_stock_engine(sym)
-    info    = STOCKS.get(sym, {})
-    state   = states.get(sym, {})
-    hyp     = engine.get("hypotheses", {})
-    bt      = engine.get("backtest", {})
-    mem     = engine.get("memory", {})
-    pers    = engine.get("personality", engine.get("personality_summary", {}))
-    mistakes= engine.get("mistakes", [])
+    states   = load_all_states()
+    engine   = load_stock_engine(sym)
+    info     = STOCKS.get(sym, {})
+    state    = states.get(sym, {})
+    hyp      = engine.get("hypotheses", {})
+    bt       = engine.get("backtest", {})
+    mem      = engine.get("memory", {})
+    pers     = engine.get("personality", engine.get("personality_summary", {}))
+    mistakes = engine.get("mistakes", [])
+    fin_data = load_quarterly_financials(sym)
 
     snap = {s: {"price": states[s].get("price"),
                 "composite": states[s].get("composite"),
@@ -50,8 +90,16 @@ All {len(STOCKS)} stocks are in the engine with full backtests and hypotheses.
 
 SELECTED STOCK: {info.get('name','?')} ({sym}) — {info.get('sector','?')}
 
-CURRENT STATE:
+CURRENT STATE (scores, forecast, signals):
 {json.dumps(state, indent=2, default=str)}
+
+ACTUAL QUARTERLY FINANCIAL DATA (last 12 records — use these for specific questions about results):
+{json.dumps(fin_data.get('quarterly_records', []), indent=2, default=str)}
+
+TTM (TRAILING 12 MONTHS) SUMMARY:
+{json.dumps(fin_data.get('ttm_summary', {}), indent=2, default=str)}
+NOTE: TTM = Full Year minus prior same quarter plus latest quarter — NOT a simple Q1+Q2+Q3+Q4 sum.
+Q4/December records = Full Year totals, not standalone Q4.
 
 PERSONALITY RULES:
 {json.dumps(pers.get('personality_rules', []), indent=2, default=str)}
@@ -62,18 +110,22 @@ KEY ACCEPTED: {json.dumps([r for r in hyp.get('results',[]) if r.get('verdict')=
 
 BACKTEST: {json.dumps(bt.get('validation',{}), default=str)}
 
-MISTAKES: {json.dumps(mistakes[:4], default=str)}
+TOP MISTAKES: {json.dumps(mistakes[:4], default=str)}
 
 ALL STOCKS SNAPSHOT: {json.dumps(snap, default=str)}
 
-SIGNAL WEIGHTS: Environment 45% | Technical 30% | Fundamental 25%
+SECTOR-SPECIFIC WEIGHTS:
+{json.dumps(state.get('sector_weights_used', {}), default=str)}
 
 INSTRUCTIONS:
-- ALWAYS respond in English by default, regardless of how the question is phrased.
-- Only switch to Arabic if the user explicitly says "respond in Arabic" or "أجب بالعربي".
-- Be direct. Give numbers. No unnecessary disclaimers.
+- ALWAYS respond in English. Only use Arabic if user explicitly asks.
+- Use the ACTUAL QUARTERLY DATA above when answering questions about financial results.
+- Q4/December = Full Year total (not standalone Q4). State this if relevant.
+- The TTM figure is the correct trailing income — reference it by name.
+- Be direct. Give specific numbers from the data above.
 - Do NOT give financial advice — research and evidence only.
-- User is non-technical — use plain English, avoid jargon.
+- User is non-technical — plain English, avoid jargon.
+- Never say you don't have data if it appears in the context above.
 """
 
 
