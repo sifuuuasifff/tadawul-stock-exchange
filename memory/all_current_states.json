@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T16:07:17.826021",
+  "generated": "2026-06-06T16:55:58.108041",
   "stocks": {
     "1120": {
       "symbol": "1120",
@@ -16,9 +16,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 60,
+      "fund_score": 75,
       "val_score": 56,
-      "composite": 64.9,
+      "composite": 67.9,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -27,9 +27,9 @@
         "rsi": "56.6 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+25.7% YoY exceptional (+18)",
-        "cfq": "OCF/NI=-0.90 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.56 \u2014 moderate debt (+2)"
+        "ni_growth": "+79.0% YoY exceptional (+18)",
+        "leverage": "D/E=0.53 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=41.1% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+19.6% analyst upside (18 analysts) (+10)",
@@ -47,17 +47,17 @@
       "fair_price": 59.92,
       "sahmk_fair_upside_pct": -10.1,
       "forecast": {
-        "base_30d_pct": 2.4,
-        "base_60d_pct": 4.2,
-        "base_90d_pct": 6.0,
-        "bull_90d_pct": 14.6,
-        "bear_90d_pct": -2.5,
-        "target_30d": 68.26,
-        "target_60d": 69.47,
-        "target_90d": 70.68,
-        "bull_target_90d": 76.35,
-        "bear_target_90d": 65.0,
-        "confidence": 67,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
+        "target_30d": 68.65,
+        "target_60d": 70.15,
+        "target_90d": 71.65,
+        "bull_target_90d": 77.12,
+        "bear_target_90d": 66.18,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -76,9 +76,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 64,
+      "fund_score": 75,
       "val_score": 73,
-      "composite": 68.2,
+      "composite": 70.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -87,8 +87,9 @@
         "rsi": "67.4 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+18.0% YoY strong (+12)",
-        "leverage": "D/E=0.65 \u2014 moderate debt (+2)"
+        "ni_growth": "+76.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.67 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=33.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+26.3% analyst upside (15 analysts) (+10)",
@@ -109,14 +110,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.7,
-        "bear_90d_pct": -0.7,
+        "bull_90d_pct": 15.5,
+        "bear_90d_pct": -0.5,
         "target_30d": 40.33,
         "target_60d": 41.22,
         "target_90d": 42.1,
-        "bull_target_90d": 45.3,
-        "bear_target_90d": 38.9,
-        "confidence": 70,
+        "bull_target_90d": 45.21,
+        "bear_target_90d": 38.98,
+        "confidence": 71,
         "confidence_label": "HIGH"
       }
     },
@@ -135,9 +136,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 65,
-      "fund_score": 47,
+      "fund_score": 75,
       "val_score": 82,
-      "composite": 70.0,
+      "composite": 75.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -146,9 +147,9 @@
         "rsi": "29.8 oversold (+15)"
       },
       "fund_signals": {
-        "ni_growth": "+11.7% YoY positive (+5)",
-        "cfq": "OCF/NI=-2.29 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.64 \u2014 moderate debt (+2)"
+        "ni_growth": "+73.9% YoY exceptional (+18)",
+        "leverage": "D/E=0.65 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=33.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+35.9% analyst upside (14 analysts) (+15)",
@@ -167,17 +168,17 @@
       "fair_price": 22.48,
       "sahmk_fair_upside_pct": 12.3,
       "forecast": {
-        "base_30d_pct": 3.0,
-        "base_60d_pct": 5.2,
-        "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.5,
-        "bear_90d_pct": -0.5,
-        "target_30d": 20.61,
-        "target_60d": 21.06,
-        "target_90d": 21.51,
-        "bull_target_90d": 23.11,
-        "bear_target_90d": 19.91,
-        "confidence": 75,
+        "base_30d_pct": 4.0,
+        "base_60d_pct": 7.0,
+        "base_90d_pct": 10.0,
+        "bull_90d_pct": 17.4,
+        "bear_90d_pct": 2.6,
+        "target_30d": 20.81,
+        "target_60d": 21.41,
+        "target_90d": 22.01,
+        "bull_target_90d": 23.5,
+        "bear_target_90d": 20.52,
+        "confidence": 79,
         "confidence_label": "HIGH"
       }
     },
@@ -196,9 +197,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 78,
-      "fund_score": 67,
+      "fund_score": 79,
       "val_score": 77,
-      "composite": 76.5,
+      "composite": 78.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -208,10 +209,9 @@
         "bb": "lower band (+20)"
       },
       "fund_signals": {
-        "ni_growth": "+4.7% YoY weak (+2)",
-        "cfq": "OCF/NI=0.91 \u2014 good cash backing (+4)",
+        "ni_growth": "+75.2% YoY exceptional (+18)",
         "leverage": "D/E=0.10 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=21.2% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=31.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+26.8% analyst upside (14 analysts) (+10)",
@@ -233,14 +233,14 @@
         "base_30d_pct": 4.0,
         "base_60d_pct": 7.0,
         "base_90d_pct": 10.0,
-        "bull_90d_pct": 17.4,
-        "bear_90d_pct": 2.6,
+        "bull_90d_pct": 17.1,
+        "bear_90d_pct": 2.9,
         "target_30d": 34.72,
         "target_60d": 35.72,
         "target_90d": 36.72,
-        "bull_target_90d": 39.17,
-        "bear_target_90d": 34.26,
-        "confidence": 83,
+        "bull_target_90d": 39.09,
+        "bear_target_90d": 34.34,
+        "confidence": 84,
         "confidence_label": "HIGH"
       }
     },
@@ -259,9 +259,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 63,
+      "fund_score": 79,
       "val_score": 78,
-      "composite": 68.8,
+      "composite": 72.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -270,9 +270,9 @@
         "rsi": "47.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+3.0% YoY weak (+2)",
-        "leverage": "D/E=0.03 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=19.2% \u2014 accelerating (+5)"
+        "ni_growth": "+79.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.01 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=34.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+18.9% analyst upside (9 analysts) (+10)",
@@ -293,14 +293,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.3,
+        "bear_90d_pct": -0.3,
         "target_30d": 21.68,
         "target_60d": 22.16,
         "target_90d": 22.63,
-        "bull_target_90d": 24.34,
-        "bear_target_90d": 20.92,
-        "confidence": 70,
+        "bull_target_90d": 24.27,
+        "bear_target_90d": 20.99,
+        "confidence": 72,
         "confidence_label": "HIGH"
       }
     },
@@ -319,9 +319,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 70,
-      "fund_score": 54,
+      "fund_score": 73,
       "val_score": 78,
-      "composite": 72.0,
+      "composite": 75.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -331,9 +331,8 @@
         "bb": "lower band (+20)"
       },
       "fund_signals": {
-        "ni_growth": "+17.8% YoY strong (+12)",
-        "cfq": "OCF/NI=-2.27 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.78 \u2014 moderate debt (+2)"
+        "ni_growth": "+78.2% YoY exceptional (+18)",
+        "trend": "3yr avg growth=34.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+15.2% analyst upside (13 analysts) (+10)",
@@ -351,17 +350,17 @@
       "fair_price": 18.64,
       "sahmk_fair_upside_pct": -0.1,
       "forecast": {
-        "base_30d_pct": 3.0,
-        "base_60d_pct": 5.2,
-        "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.3,
-        "bear_90d_pct": -0.3,
-        "target_30d": 19.22,
-        "target_60d": 19.64,
-        "target_90d": 20.06,
-        "bull_target_90d": 21.51,
-        "bear_target_90d": 18.6,
-        "confidence": 77,
+        "base_30d_pct": 4.0,
+        "base_60d_pct": 7.0,
+        "base_90d_pct": 10.0,
+        "bull_90d_pct": 17.4,
+        "bear_90d_pct": 2.6,
+        "target_30d": 19.41,
+        "target_60d": 19.97,
+        "target_90d": 20.53,
+        "bull_target_90d": 21.91,
+        "bear_target_90d": 19.14,
+        "confidence": 80,
         "confidence_label": "HIGH"
       }
     },
@@ -380,9 +379,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 38,
-      "fund_score": 45,
+      "fund_score": 63,
       "val_score": 61,
-      "composite": 59.6,
+      "composite": 63.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -391,10 +390,9 @@
         "rsi": "77.5 overbought (-12)"
       },
       "fund_signals": {
-        "ni_growth": "+9.7% YoY positive (+5)",
-        "cfq": "OCF/NI=-0.34 \u2014 low cash quality (-10)",
-        "leverage": "D/E=2.60 \u2014 elevated debt (-5)",
-        "trend": "3yr avg growth=21.6% \u2014 accelerating (+5)"
+        "ni_growth": "+75.7% YoY exceptional (+18)",
+        "leverage": "D/E=3.54 \u2014 high leverage (-10)",
+        "trend": "3yr avg growth=35.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+15.5% analyst upside (15 analysts) (+10)",
@@ -412,17 +410,17 @@
       "fair_price": 21.48,
       "sahmk_fair_upside_pct": -10.6,
       "forecast": {
-        "base_30d_pct": 1.2,
-        "base_60d_pct": 2.1,
-        "base_90d_pct": 3.1,
-        "bull_90d_pct": 12.1,
-        "bear_90d_pct": -6.0,
-        "target_30d": 24.33,
-        "target_60d": 24.56,
-        "target_90d": 24.78,
-        "bull_target_90d": 26.95,
-        "bear_target_90d": 22.6,
-        "confidence": 61,
+        "base_30d_pct": 2.2,
+        "base_60d_pct": 3.9,
+        "base_90d_pct": 5.6,
+        "bull_90d_pct": 14.2,
+        "bear_90d_pct": -3.1,
+        "target_30d": 24.58,
+        "target_60d": 24.98,
+        "target_90d": 25.38,
+        "bull_target_90d": 27.46,
+        "bear_target_90d": 23.29,
+        "confidence": 63,
         "confidence_label": "MEDIUM"
       }
     },
@@ -441,9 +439,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 71,
+      "fund_score": 79,
       "val_score": 65,
-      "composite": 70.5,
+      "composite": 72.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -452,9 +450,9 @@
         "rsi": "39.0 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "+8.7% YoY positive (+5)",
-        "cfq": "OCF/NI=1.53 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.17 \u2014 low debt (+6)"
+        "ni_growth": "+77.3% YoY exceptional (+18)",
+        "leverage": "D/E=0.13 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=34.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+18.8% analyst upside (7 analysts) (+10)",
@@ -474,14 +472,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.5,
-        "bear_90d_pct": -0.5,
+        "bull_90d_pct": 15.3,
+        "bear_90d_pct": -0.3,
         "target_30d": 25.03,
         "target_60d": 25.58,
         "target_90d": 26.12,
-        "bull_target_90d": 28.06,
-        "bear_target_90d": 24.19,
-        "confidence": 73,
+        "bull_target_90d": 28.02,
+        "bear_target_90d": 24.23,
+        "confidence": 74,
         "confidence_label": "HIGH"
       }
     },
@@ -500,9 +498,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 53,
+      "fund_score": 79,
       "val_score": 52,
-      "composite": 62.9,
+      "composite": 68.1,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -511,10 +509,9 @@
         "rsi": "40.4 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-11.6% YoY declining (-8)",
-        "cfq": "OCF/NI=1.47 \u2014 high quality earnings (+10)",
+        "ni_growth": "+89.8% YoY exceptional (+18)",
         "leverage": "D/E=0.21 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-16.3% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=21.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+11.6% analyst upside (18 analysts) (+5)",
@@ -532,17 +529,17 @@
       "fair_price": 19.32,
       "sahmk_fair_upside_pct": -28.9,
       "forecast": {
-        "base_30d_pct": 0.8,
-        "base_60d_pct": 1.3,
-        "base_90d_pct": 1.9,
-        "bull_90d_pct": 10.6,
-        "bear_90d_pct": -6.8,
-        "target_30d": 27.37,
-        "target_60d": 27.53,
-        "target_90d": 27.68,
-        "bull_target_90d": 30.05,
-        "bear_target_90d": 25.32,
-        "confidence": 66,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
+        "target_30d": 27.97,
+        "target_60d": 28.59,
+        "target_90d": 29.2,
+        "bull_target_90d": 31.42,
+        "bear_target_90d": 26.97,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -561,9 +558,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 37,
+      "fund_score": 68,
       "val_score": 46,
-      "composite": 60.8,
+      "composite": 67.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -572,9 +569,7 @@
         "rsi": "35.9 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "-14.2% YoY declining (-8)",
-        "cfq": "OCF/NI=-0.55 \u2014 low cash quality (-10)",
-        "trend": "3yr avg growth=101.2% \u2014 accelerating (+5)"
+        "ni_growth": "+29.1% YoY exceptional (+18)"
       },
       "val_signals": {
         "fair_value": "SAHMK FV=-12.7% slightly rich (-4)"
@@ -593,14 +588,14 @@
         "base_30d_pct": 0.7,
         "base_60d_pct": 1.2,
         "base_90d_pct": 1.7,
-        "bull_90d_pct": 10.7,
-        "bear_90d_pct": -7.2,
+        "bull_90d_pct": 10.0,
+        "bear_90d_pct": -6.6,
         "target_30d": 15.13,
         "target_60d": 15.21,
         "target_90d": 15.29,
-        "bull_target_90d": 16.63,
-        "bear_target_90d": 13.95,
-        "confidence": 67,
+        "bull_target_90d": 16.54,
+        "bear_target_90d": 14.04,
+        "confidence": 71,
         "confidence_label": "HIGH"
       }
     },
@@ -619,9 +614,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 65,
-      "fund_score": 26,
+      "fund_score": 32,
       "val_score": 51,
-      "composite": 61.1,
+      "composite": 62.3,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -630,10 +625,9 @@
         "rsi": "21.0 oversold (+15)"
       },
       "fund_signals": {
-        "ni_growth": "-1775.6% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-0.62 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.24 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-616.6% \u2014 decelerating (-5)"
+        "ni_growth": "-37.1% YoY severe decline (-15)",
+        "leverage": "D/E=0.31 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=-598.2% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "+11.5% analyst upside (12 analysts) (+5)",
@@ -653,13 +647,13 @@
         "base_30d_pct": 0.4,
         "base_60d_pct": 0.8,
         "base_90d_pct": 1.1,
-        "bull_90d_pct": 10.0,
-        "bear_90d_pct": -7.8,
+        "bull_90d_pct": 9.8,
+        "bear_90d_pct": -7.7,
         "target_30d": 56.19,
         "target_60d": 56.37,
         "target_90d": 56.55,
-        "bull_target_90d": 61.53,
-        "bear_target_90d": 51.58,
+        "bull_target_90d": 61.46,
+        "bear_target_90d": 51.65,
         "confidence": 69,
         "confidence_label": "HIGH"
       }
@@ -679,9 +673,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 80,
-      "fund_score": 79,
+      "fund_score": 73,
       "val_score": 41,
-      "composite": 74.0,
+      "composite": 72.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -691,10 +685,9 @@
         "bb": "low BB (+10)"
       },
       "fund_signals": {
-        "ni_growth": "+29.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=1.23 \u2014 high quality earnings (+10)",
+        "ni_growth": "+24.5% YoY strong (+12)",
         "leverage": "D/E=0.01 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-14.2% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=15.1% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=11.3 neutral",
@@ -715,14 +708,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.1,
-        "bear_90d_pct": -0.1,
+        "bull_90d_pct": 15.2,
+        "bear_90d_pct": -0.2,
         "target_30d": 135.96,
         "target_60d": 138.93,
         "target_90d": 141.9,
-        "bull_target_90d": 151.94,
-        "bear_target_90d": 131.86,
-        "confidence": 81,
+        "bull_target_90d": 152.1,
+        "bear_target_90d": 131.7,
+        "confidence": 80,
         "confidence_label": "HIGH"
       }
     },
@@ -741,9 +734,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 90,
-      "fund_score": 46,
+      "fund_score": 69,
       "val_score": 32,
-      "composite": 68.5,
+      "composite": 73.1,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -753,10 +746,9 @@
         "bb": "lower band (+20)"
       },
       "fund_signals": {
-        "ni_growth": "-81.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=15.41 \u2014 high quality earnings (+10)",
+        "ni_growth": "+57.8% YoY exceptional (+18)",
         "leverage": "D/E=0.01 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-161.7% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=-70.0% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "pe": "P/E=143.3 expensive (-10)",
@@ -776,14 +768,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.7,
-        "bear_90d_pct": -0.7,
+        "bull_90d_pct": 15.2,
+        "bear_90d_pct": -0.2,
         "target_30d": 32.75,
         "target_60d": 33.47,
         "target_90d": 34.18,
-        "bull_target_90d": 36.78,
-        "bear_target_90d": 31.59,
-        "confidence": 75,
+        "bull_target_90d": 36.63,
+        "bear_target_90d": 31.74,
+        "confidence": 78,
         "confidence_label": "HIGH"
       }
     },
@@ -802,9 +794,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 65,
+      "fund_score": 79,
       "val_score": 49,
-      "composite": 64.8,
+      "composite": 67.6,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -813,10 +805,9 @@
         "rsi": "46.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+27.2% YoY exceptional (+18)",
-        "cfq": "OCF/NI=0.13 \u2014 low cash quality (-10)",
-        "leverage": "D/E=1.00 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=27.8% \u2014 accelerating (+5)"
+        "ni_growth": "+63.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.00 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=24.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pb": "P/B=1.02 near book (+3)",
@@ -833,17 +824,17 @@
       "fair_price": 4.96,
       "sahmk_fair_upside_pct": -14.8,
       "forecast": {
-        "base_30d_pct": -0.4,
-        "base_60d_pct": -0.7,
-        "base_90d_pct": -0.9,
-        "bull_90d_pct": 7.6,
-        "bear_90d_pct": -9.5,
-        "target_30d": 5.8,
-        "target_60d": 5.78,
-        "target_90d": 5.76,
-        "bull_target_90d": 6.26,
-        "bear_target_90d": 5.27,
-        "confidence": 67,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
+        "target_30d": 5.99,
+        "target_60d": 6.13,
+        "target_90d": 6.26,
+        "bull_target_90d": 6.74,
+        "bear_target_90d": 5.78,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -862,9 +853,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 80,
-      "fund_score": 26,
+      "fund_score": 69,
       "val_score": 64,
-      "composite": 66.8,
+      "composite": 75.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -874,10 +865,9 @@
         "bb": "low BB (+10)"
       },
       "fund_signals": {
-        "ni_growth": "-301.9% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-1.39 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.20 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-144.3% \u2014 decelerating (-5)"
+        "ni_growth": "+26.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.26 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=-113.2% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "+25.5% analyst upside (9 analysts) (+10)",
@@ -895,17 +885,17 @@
       "fair_price": 12.69,
       "sahmk_fair_upside_pct": -11.4,
       "forecast": {
-        "base_30d_pct": 1.2,
-        "base_60d_pct": 2.1,
-        "base_90d_pct": 3.0,
-        "bull_90d_pct": 11.3,
-        "bear_90d_pct": -5.3,
-        "target_30d": 14.5,
-        "target_60d": 14.63,
-        "target_90d": 14.76,
-        "bull_target_90d": 15.95,
-        "bear_target_90d": 13.56,
-        "confidence": 76,
+        "base_30d_pct": 4.0,
+        "base_60d_pct": 7.0,
+        "base_90d_pct": 10.0,
+        "bull_90d_pct": 17.5,
+        "bear_90d_pct": 2.5,
+        "target_30d": 14.9,
+        "target_60d": 15.33,
+        "target_90d": 15.76,
+        "bull_target_90d": 16.83,
+        "bear_target_90d": 14.69,
+        "confidence": 82,
         "confidence_label": "HIGH"
       }
     },
@@ -980,9 +970,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 22,
+      "fund_score": 65,
       "val_score": 49,
-      "composite": 56.2,
+      "composite": 64.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -991,10 +981,9 @@
         "rsi": "60.3 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-1817.1% YoY severe decline (-15)",
-        "cfq": "OCF/NI=0.12 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.59 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=-644.0% \u2014 decelerating (-5)"
+        "ni_growth": "+54.7% YoY exceptional (+18)",
+        "leverage": "D/E=0.74 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=-601.2% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "pb": "P/B=0.88 near book (+3)",
@@ -1011,18 +1000,18 @@
       "fair_price": 8.39,
       "sahmk_fair_upside_pct": -14.8,
       "forecast": {
-        "base_30d_pct": 0.1,
-        "base_60d_pct": 0.3,
-        "base_90d_pct": 0.4,
-        "bull_90d_pct": 9.7,
-        "bear_90d_pct": -9.0,
-        "target_30d": 9.86,
-        "target_60d": 9.88,
-        "target_90d": 9.89,
-        "bull_target_90d": 10.81,
-        "bear_target_90d": 8.96,
-        "confidence": 61,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 0.3,
+        "base_60d_pct": 0.5,
+        "base_90d_pct": 0.7,
+        "bull_90d_pct": 9.2,
+        "bear_90d_pct": -7.8,
+        "target_30d": 9.88,
+        "target_60d": 9.9,
+        "target_90d": 9.92,
+        "bull_target_90d": 10.75,
+        "bear_target_90d": 9.08,
+        "confidence": 67,
+        "confidence_label": "HIGH"
       }
     },
     "2030": {
@@ -1040,9 +1029,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 46,
+      "fund_score": 69,
       "val_score": 37,
-      "composite": 59.2,
+      "composite": 63.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1051,10 +1040,9 @@
         "rsi": "47.7 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+12.5% YoY positive (+5)",
-        "cfq": "OCF/NI=0.12 \u2014 low cash quality (-10)",
+        "ni_growth": "+30.6% YoY exceptional (+18)",
         "leverage": "D/E=0.00 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-284.9% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=-250.4% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "pb": "P/B=23.26 premium (-5)",
@@ -1071,18 +1059,18 @@
       "fair_price": 33.0,
       "sahmk_fair_upside_pct": -26.4,
       "forecast": {
-        "base_30d_pct": 1.0,
-        "base_60d_pct": 1.7,
-        "base_90d_pct": 2.4,
-        "bull_90d_pct": 11.5,
-        "bear_90d_pct": -6.7,
-        "target_30d": 45.25,
-        "target_60d": 45.57,
-        "target_90d": 45.89,
-        "bull_target_90d": 49.96,
-        "bear_target_90d": 41.83,
-        "confidence": 63,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 1.7,
+        "base_60d_pct": 3.1,
+        "base_90d_pct": 4.4,
+        "bull_90d_pct": 13.0,
+        "bear_90d_pct": -4.3,
+        "target_30d": 45.6,
+        "target_60d": 46.19,
+        "target_90d": 46.77,
+        "bull_target_90d": 50.64,
+        "bear_target_90d": 42.91,
+        "confidence": 67,
+        "confidence_label": "HIGH"
       }
     },
     "2250": {
@@ -1100,9 +1088,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 26,
+      "fund_score": 36,
       "val_score": 40,
-      "composite": 55.7,
+      "composite": 57.7,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1111,10 +1099,9 @@
         "rsi": "41.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-151.5% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-2.66 \u2014 low cash quality (-10)",
+        "ni_growth": "-111.3% YoY severe decline (-15)",
         "leverage": "D/E=0.00 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-43.9% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=-61.2% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "-0.1% analysts negative (3 analysts) (-5)",
@@ -1135,14 +1122,14 @@
         "base_30d_pct": 1.3,
         "base_60d_pct": 2.2,
         "base_90d_pct": 3.2,
-        "bull_90d_pct": 12.6,
-        "bear_90d_pct": -6.2,
+        "bull_90d_pct": 12.4,
+        "bear_90d_pct": -6.0,
         "target_30d": 14.29,
         "target_60d": 14.42,
         "target_90d": 14.56,
-        "bull_target_90d": 15.89,
-        "bear_target_90d": 13.23,
-        "confidence": 61,
+        "bull_target_90d": 15.86,
+        "bear_target_90d": 13.26,
+        "confidence": 62,
         "confidence_label": "MEDIUM"
       }
     },
@@ -1161,9 +1148,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 85,
+      "fund_score": 75,
       "val_score": 42,
-      "composite": 67.8,
+      "composite": 65.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1172,10 +1159,9 @@
         "rsi": "54.7 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+155.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=1.49 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.50 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=51.6% \u2014 accelerating (+5)"
+        "ni_growth": "+56.2% YoY exceptional (+18)",
+        "leverage": "D/E=0.57 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=98.0% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+6.3% analyst upside (9 analysts) (+5)",
@@ -1193,17 +1179,17 @@
       "fair_price": 44.52,
       "sahmk_fair_upside_pct": -29.4,
       "forecast": {
-        "base_30d_pct": 3.5,
-        "base_60d_pct": 6.1,
-        "base_90d_pct": 8.7,
-        "bull_90d_pct": 16.9,
-        "bear_90d_pct": 0.5,
-        "target_30d": 65.29,
-        "target_60d": 66.94,
-        "target_90d": 68.59,
-        "bull_target_90d": 73.77,
-        "bear_target_90d": 63.4,
-        "confidence": 69,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.3,
+        "base_90d_pct": 7.6,
+        "bull_90d_pct": 16.0,
+        "bear_90d_pct": -0.9,
+        "target_30d": 65.01,
+        "target_60d": 66.44,
+        "target_90d": 67.87,
+        "bull_target_90d": 73.18,
+        "bear_target_90d": 62.56,
+        "confidence": 68,
         "confidence_label": "HIGH"
       }
     },
@@ -1222,9 +1208,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 79,
+      "fund_score": 75,
       "val_score": 46,
-      "composite": 67.2,
+      "composite": 66.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1233,10 +1219,9 @@
         "rsi": "68.8 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+15.1% YoY strong (+12)",
-        "cfq": "OCF/NI=1.46 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.49 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=67.5% \u2014 accelerating (+5)"
+        "ni_growth": "+73.0% YoY exceptional (+18)",
+        "leverage": "D/E=0.43 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=49.1% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=12.6 neutral",
@@ -1253,17 +1238,17 @@
       "fair_price": 6.98,
       "sahmk_fair_upside_pct": -19.4,
       "forecast": {
-        "base_30d_pct": 3.0,
-        "base_60d_pct": 5.2,
-        "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.8,
-        "bear_90d_pct": -0.8,
-        "target_30d": 8.92,
-        "target_60d": 9.11,
-        "target_90d": 9.31,
-        "bull_target_90d": 10.03,
-        "bear_target_90d": 8.59,
-        "confidence": 69,
+        "base_30d_pct": 2.6,
+        "base_60d_pct": 4.5,
+        "base_90d_pct": 6.4,
+        "bull_90d_pct": 14.8,
+        "bear_90d_pct": -1.9,
+        "target_30d": 8.88,
+        "target_60d": 9.05,
+        "target_90d": 9.22,
+        "bull_target_90d": 9.94,
+        "bear_target_90d": 8.49,
+        "confidence": 68,
         "confidence_label": "HIGH"
       }
     },
@@ -1282,9 +1267,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 84,
+      "fund_score": 79,
       "val_score": 60,
-      "composite": 70.3,
+      "composite": 69.3,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1293,9 +1278,9 @@
         "rsi": "64.8 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+38.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=1.23 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.20 \u2014 low debt (+6)"
+        "ni_growth": "+78.6% YoY exceptional (+18)",
+        "leverage": "D/E=0.29 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=32.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+9.6% analyst upside (17 analysts) (+5)",
@@ -1315,13 +1300,13 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.5,
-        "bear_90d_pct": -0.5,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
         "target_30d": 44.99,
         "target_60d": 45.97,
         "target_90d": 46.96,
-        "bull_target_90d": 50.44,
-        "bear_target_90d": 43.47,
+        "bull_target_90d": 50.48,
+        "bear_target_90d": 43.43,
         "confidence": 71,
         "confidence_label": "HIGH"
       }
@@ -1341,9 +1326,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 60,
-      "fund_score": 72,
+      "fund_score": 75,
       "val_score": 52,
-      "composite": 69.2,
+      "composite": 69.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1353,10 +1338,9 @@
         "bb": "low BB (+10)"
       },
       "fund_signals": {
-        "ni_growth": "+11.6% YoY positive (+5)",
-        "cfq": "OCF/NI=1.92 \u2014 high quality earnings (+10)",
+        "ni_growth": "+25427.6% YoY exceptional (+18)",
         "leverage": "D/E=0.46 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=28.5% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=8492.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+22.5% analyst upside (13 analysts) (+10)",
@@ -1376,13 +1360,13 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.5,
+        "bear_90d_pct": -0.5,
         "target_30d": 64.79,
         "target_60d": 66.2,
         "target_90d": 67.62,
-        "bull_target_90d": 72.7,
-        "bear_target_90d": 62.54,
+        "bull_target_90d": 72.66,
+        "bear_target_90d": 62.57,
         "confidence": 73,
         "confidence_label": "HIGH"
       }
@@ -1402,9 +1386,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 69,
+      "fund_score": 70,
       "val_score": 54,
-      "composite": 66.4,
+      "composite": 66.6,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1413,10 +1397,8 @@
         "rsi": "62.8 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+1.2% YoY weak (+2)",
-        "cfq": "OCF/NI=2.94 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.95 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=26.3% \u2014 accelerating (+5)"
+        "ni_growth": "+65.0% YoY exceptional (+18)",
+        "leverage": "D/E=0.91 \u2014 moderate debt (+2)"
       },
       "val_signals": {
         "pe": "P/E=9.9 fair (+5)",
@@ -1437,14 +1419,14 @@
         "base_30d_pct": 1.0,
         "base_60d_pct": 1.8,
         "base_90d_pct": 2.6,
-        "bull_90d_pct": 11.0,
-        "bear_90d_pct": -5.8,
+        "bull_90d_pct": 10.9,
+        "bear_90d_pct": -5.7,
         "target_30d": 11.11,
         "target_60d": 11.2,
         "target_90d": 11.29,
-        "bull_target_90d": 12.21,
+        "bull_target_90d": 12.2,
         "bear_target_90d": 10.37,
-        "confidence": 68,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -1523,9 +1505,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 45,
+      "fund_score": 63,
       "val_score": 22,
-      "composite": 56.8,
+      "composite": 60.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1534,10 +1516,9 @@
         "rsi": "45.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-22.8% YoY severe decline (-15)",
-        "cfq": "OCF/NI=2.51 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=2.47 \u2014 elevated debt (-5)",
-        "trend": "3yr avg growth=227.4% \u2014 accelerating (+5)"
+        "ni_growth": "+94.9% YoY exceptional (+18)",
+        "leverage": "D/E=3.35 \u2014 high leverage (-10)",
+        "trend": "3yr avg growth=287.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-21.7% (only 1 analyst \u2014 low confidence) (-5)",
@@ -1556,17 +1537,17 @@
       "fair_price": 134.83,
       "sahmk_fair_upside_pct": -27.2,
       "forecast": {
-        "base_30d_pct": 3.2,
-        "base_60d_pct": 5.6,
-        "base_90d_pct": 8.0,
-        "bull_90d_pct": 17.3,
-        "bear_90d_pct": -1.3,
-        "target_30d": 191.11,
-        "target_60d": 195.55,
-        "target_90d": 199.98,
-        "bull_target_90d": 217.24,
-        "bear_target_90d": 182.72,
-        "confidence": 62,
+        "base_30d_pct": 5.8,
+        "base_60d_pct": 10.2,
+        "base_90d_pct": 14.5,
+        "bull_90d_pct": 23.5,
+        "bear_90d_pct": 5.5,
+        "target_30d": 195.95,
+        "target_60d": 204.01,
+        "target_90d": 212.07,
+        "bull_target_90d": 228.67,
+        "bear_target_90d": 195.48,
+        "confidence": 64,
         "confidence_label": "MEDIUM"
       }
     },
@@ -1585,9 +1566,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 30,
-      "fund_score": 67,
+      "fund_score": 75,
       "val_score": 40,
-      "composite": 58.9,
+      "composite": 60.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1596,9 +1577,9 @@
         "rsi": "97.9 extreme overbought (-20)"
       },
       "fund_signals": {
-        "ni_growth": "+7.7% YoY positive (+5)",
-        "cfq": "OCF/NI=1.39 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.42 \u2014 moderate debt (+2)"
+        "ni_growth": "+73.9% YoY exceptional (+18)",
+        "leverage": "D/E=0.44 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=27.2% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-5.0% analysts negative (12 analysts) (-5)",
@@ -1616,17 +1597,17 @@
       "fair_price": 15.09,
       "sahmk_fair_upside_pct": -6.7,
       "forecast": {
-        "base_30d_pct": 1.3,
-        "base_60d_pct": 2.3,
-        "base_90d_pct": 3.3,
-        "bull_90d_pct": 12.5,
-        "bear_90d_pct": -5.8,
-        "target_30d": 16.4,
-        "target_60d": 16.56,
-        "target_90d": 16.72,
-        "bull_target_90d": 18.2,
-        "bear_target_90d": 15.25,
-        "confidence": 58,
+        "base_30d_pct": 2.4,
+        "base_60d_pct": 4.3,
+        "base_90d_pct": 6.1,
+        "bull_90d_pct": 15.0,
+        "bear_90d_pct": -2.9,
+        "target_30d": 16.57,
+        "target_60d": 16.87,
+        "target_90d": 17.17,
+        "bull_target_90d": 18.61,
+        "bear_target_90d": 15.72,
+        "confidence": 59,
         "confidence_label": "MEDIUM"
       }
     },
@@ -1645,9 +1626,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 78,
-      "fund_score": 32,
+      "fund_score": 73,
       "val_score": 70,
-      "composite": 68.4,
+      "composite": 76.6,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1657,8 +1638,8 @@
         "bb": "lower band (+20)"
       },
       "fund_signals": {
-        "ni_growth": "-5.9% YoY declining (-8)",
-        "cfq": "OCF/NI=0.19 \u2014 low cash quality (-10)"
+        "ni_growth": "+60.3% YoY exceptional (+18)",
+        "trend": "3yr avg growth=29.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+43.5% analyst upside (8 analysts) (+15)",
@@ -1675,17 +1656,17 @@
       "fair_price": 77.66,
       "sahmk_fair_upside_pct": 1.3,
       "forecast": {
-        "base_30d_pct": 3.1,
-        "base_60d_pct": 5.4,
-        "base_90d_pct": 7.7,
-        "bull_90d_pct": 15.9,
-        "bear_90d_pct": -0.4,
-        "target_30d": 79.02,
-        "target_60d": 80.8,
-        "target_90d": 82.58,
-        "bull_target_90d": 88.84,
-        "bear_target_90d": 76.33,
-        "confidence": 77,
+        "base_30d_pct": 4.0,
+        "base_60d_pct": 7.0,
+        "base_90d_pct": 10.0,
+        "bull_90d_pct": 17.3,
+        "bear_90d_pct": 2.7,
+        "target_30d": 79.72,
+        "target_60d": 82.02,
+        "target_90d": 84.32,
+        "bull_target_90d": 89.94,
+        "bear_target_90d": 78.69,
+        "confidence": 83,
         "confidence_label": "HIGH"
       }
     },
@@ -1704,9 +1685,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 38,
-      "fund_score": 83,
+      "fund_score": 79,
       "val_score": 60,
-      "composite": 67.1,
+      "composite": 66.3,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1715,10 +1696,9 @@
         "rsi": "70.6 overbought (-12)"
       },
       "fund_signals": {
-        "ni_growth": "+19.3% YoY strong (+12)",
-        "cfq": "OCF/NI=2.11 \u2014 high quality earnings (+10)",
+        "ni_growth": "+147.6% YoY exceptional (+18)",
         "leverage": "D/E=0.05 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=24.1% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=58.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=6.0 cheap (+10)"
@@ -1734,17 +1714,17 @@
       "fair_price": 3.65,
       "sahmk_fair_upside_pct": -1.1,
       "forecast": {
-        "base_30d_pct": 3.0,
-        "base_60d_pct": 5.2,
-        "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.8,
-        "bear_90d_pct": -0.8,
-        "target_30d": 3.8,
-        "target_60d": 3.88,
-        "target_90d": 3.97,
-        "bull_target_90d": 4.27,
-        "bear_target_90d": 3.66,
-        "confidence": 66,
+        "base_30d_pct": 1.6,
+        "base_60d_pct": 2.7,
+        "base_90d_pct": 3.9,
+        "bull_90d_pct": 12.3,
+        "bear_90d_pct": -4.5,
+        "target_30d": 3.75,
+        "target_60d": 3.79,
+        "target_90d": 3.83,
+        "bull_target_90d": 4.14,
+        "bear_target_90d": 3.52,
+        "confidence": 65,
         "confidence_label": "HIGH"
       }
     },
@@ -1763,9 +1743,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 57,
+      "fund_score": 73,
       "val_score": 66,
-      "composite": 65.8,
+      "composite": 69.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1774,9 +1754,8 @@
         "rsi": "67.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-0.8% YoY declining (-8)",
-        "cfq": "OCF/NI=2.49 \u2014 high quality earnings (+10)",
-        "trend": "3yr avg growth=43.6% \u2014 accelerating (+5)"
+        "ni_growth": "+60.8% YoY exceptional (+18)",
+        "trend": "3yr avg growth=19.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=13.0 neutral",
@@ -1794,17 +1773,17 @@
       "fair_price": 7.25,
       "sahmk_fair_upside_pct": 46.8,
       "forecast": {
-        "base_30d_pct": -1.4,
-        "base_60d_pct": -2.5,
-        "base_90d_pct": -3.6,
-        "bull_90d_pct": 4.8,
-        "bear_90d_pct": -12.0,
-        "target_30d": 4.87,
-        "target_60d": 4.82,
-        "target_90d": 4.76,
-        "bull_target_90d": 5.18,
-        "bear_target_90d": 4.35,
-        "confidence": 68,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
+        "target_30d": 5.09,
+        "target_60d": 5.2,
+        "target_90d": 5.31,
+        "bull_target_90d": 5.71,
+        "bear_target_90d": 4.91,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -1823,9 +1802,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 35,
+      "fund_score": 52,
       "val_score": 51,
-      "composite": 59.1,
+      "composite": 62.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1834,10 +1813,9 @@
         "rsi": "50.0 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-51.1% YoY severe decline (-15)",
-        "cfq": "OCF/NI=2.96 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=2.36 \u2014 elevated debt (-5)",
-        "trend": "3yr avg growth=-34.1% \u2014 decelerating (-5)"
+        "ni_growth": "+23.4% YoY strong (+12)",
+        "leverage": "D/E=2.16 \u2014 elevated debt (-5)",
+        "trend": "3yr avg growth=-8.3% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "+15.8% analyst upside (8 analysts) (+10)",
@@ -1855,18 +1833,18 @@
       "fair_price": 5.16,
       "sahmk_fair_upside_pct": -12.8,
       "forecast": {
-        "base_30d_pct": 1.7,
-        "base_60d_pct": 3.0,
-        "base_90d_pct": 4.2,
-        "bull_90d_pct": 13.3,
-        "bear_90d_pct": -4.8,
-        "target_30d": 6.02,
-        "target_60d": 6.1,
-        "target_90d": 6.17,
-        "bull_target_90d": 6.71,
-        "bear_target_90d": 5.63,
-        "confidence": 63,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 3.1,
+        "base_60d_pct": 5.4,
+        "base_90d_pct": 7.7,
+        "bull_90d_pct": 16.5,
+        "bear_90d_pct": -1.0,
+        "target_30d": 6.1,
+        "target_60d": 6.24,
+        "target_90d": 6.38,
+        "bull_target_90d": 6.89,
+        "bear_target_90d": 5.86,
+        "confidence": 66,
+        "confidence_label": "HIGH"
       }
     },
     "4006": {
@@ -1884,9 +1862,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 52,
+      "fund_score": 75,
       "val_score": 58,
-      "composite": 63.6,
+      "composite": 68.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1895,8 +1873,9 @@
         "rsi": "65.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-3.0% YoY declining (-8)",
-        "cfq": "OCF/NI=5.45 \u2014 high quality earnings (+10)"
+        "ni_growth": "+83.6% YoY exceptional (+18)",
+        "leverage": "D/E=0.95 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=32.4% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+49.2% (only 1 analyst \u2014 low confidence) (+5)",
@@ -1914,17 +1893,17 @@
       "fair_price": 12.38,
       "sahmk_fair_upside_pct": -5.3,
       "forecast": {
-        "base_30d_pct": -1.1,
-        "base_60d_pct": -2.0,
-        "base_90d_pct": -2.8,
-        "bull_90d_pct": 5.8,
-        "bear_90d_pct": -11.5,
-        "target_30d": 12.92,
-        "target_60d": 12.81,
-        "target_90d": 12.7,
-        "bull_target_90d": 13.83,
-        "bear_target_90d": 11.57,
-        "confidence": 67,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
+        "target_30d": 13.46,
+        "target_60d": 13.76,
+        "target_90d": 14.05,
+        "bull_target_90d": 15.12,
+        "bear_target_90d": 12.98,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -1943,9 +1922,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 65,
+      "fund_score": 75,
       "val_score": 64,
-      "composite": 67.1,
+      "composite": 69.1,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -1954,10 +1933,9 @@
         "rsi": "55.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+43.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=-2.93 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.71 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=37.1% \u2014 accelerating (+5)"
+        "ni_growth": "+66.5% YoY exceptional (+18)",
+        "leverage": "D/E=0.65 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=46.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+5.3% analyst upside (4 analysts) (+5)",
@@ -1979,14 +1957,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.8,
-        "bear_90d_pct": -0.8,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
         "target_30d": 17.94,
         "target_60d": 18.33,
         "target_90d": 18.73,
-        "bull_target_90d": 20.17,
-        "bear_target_90d": 17.28,
-        "confidence": 69,
+        "bull_target_90d": 20.14,
+        "bear_target_90d": 17.32,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -2005,9 +1983,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 52,
+      "fund_score": 75,
       "val_score": 49,
-      "composite": 62.2,
+      "composite": 66.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2016,10 +1994,9 @@
         "rsi": "53.3 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-99.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=9.52 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.49 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=56.9% \u2014 accelerating (+5)"
+        "ni_growth": "+2004.3% YoY exceptional (+18)",
+        "leverage": "D/E=0.51 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=751.1% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pb": "P/B=0.99 near book (+3)",
@@ -2039,14 +2016,14 @@
         "base_30d_pct": 0.2,
         "base_60d_pct": 0.4,
         "base_90d_pct": 0.6,
-        "bull_90d_pct": 9.4,
-        "bear_90d_pct": -8.2,
+        "bull_90d_pct": 8.9,
+        "bear_90d_pct": -7.7,
         "target_30d": 10.3,
         "target_60d": 10.32,
         "target_90d": 10.34,
-        "bull_target_90d": 11.24,
-        "bear_target_90d": 9.44,
-        "confidence": 66,
+        "bull_target_90d": 11.19,
+        "bear_target_90d": 9.48,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -2065,9 +2042,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 65,
-      "fund_score": 62,
+      "fund_score": 73,
       "val_score": 46,
-      "composite": 67.5,
+      "composite": 69.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2076,8 +2053,8 @@
         "rsi": "28.6 oversold (+15)"
       },
       "fund_signals": {
-        "ni_growth": "+3.7% YoY weak (+2)",
-        "cfq": "OCF/NI=1.51 \u2014 high quality earnings (+10)"
+        "ni_growth": "+63.7% YoY exceptional (+18)",
+        "trend": "3yr avg growth=34.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+45.4% (only 2 analyst \u2014 low confidence) (+5)",
@@ -2099,14 +2076,14 @@
         "base_30d_pct": 3.7,
         "base_60d_pct": 6.4,
         "base_90d_pct": 9.1,
-        "bull_90d_pct": 17.4,
-        "bear_90d_pct": 0.9,
+        "bull_90d_pct": 17.2,
+        "bear_90d_pct": 1.1,
         "target_30d": 12.73,
         "target_60d": 13.06,
         "target_90d": 13.4,
-        "bull_target_90d": 14.41,
-        "bear_target_90d": 12.39,
-        "confidence": 73,
+        "bull_target_90d": 14.39,
+        "bear_target_90d": 12.42,
+        "confidence": 75,
         "confidence_label": "HIGH"
       }
     },
@@ -2125,9 +2102,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 83,
+      "fund_score": 79,
       "val_score": 56,
-      "composite": 69.5,
+      "composite": 68.7,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2136,10 +2113,9 @@
         "rsi": "63.1 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+27.2% YoY exceptional (+18)",
-        "cfq": "OCF/NI=0.89 \u2014 good cash backing (+4)",
+        "ni_growth": "+90.4% YoY exceptional (+18)",
         "leverage": "D/E=0.03 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=15.9% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=40.2% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=5.7 cheap (+10)",
@@ -2164,9 +2140,9 @@
         "target_30d": 30.01,
         "target_60d": 30.67,
         "target_90d": 31.33,
-        "bull_target_90d": 33.67,
-        "bear_target_90d": 28.98,
-        "confidence": 71,
+        "bull_target_90d": 33.69,
+        "bear_target_90d": 28.96,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -2185,9 +2161,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 85,
+      "fund_score": 75,
       "val_score": 47,
-      "composite": 70.5,
+      "composite": 68.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2196,10 +2172,9 @@
         "rsi": "35.7 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "+37.6% YoY exceptional (+18)",
-        "cfq": "OCF/NI=3.29 \u2014 high quality earnings (+10)",
+        "ni_growth": "+45.1% YoY exceptional (+18)",
         "leverage": "D/E=0.55 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=72.3% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=100.2% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+24.8% (only 2 analyst \u2014 low confidence) (+5)",
@@ -2220,14 +2195,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.4,
-        "bear_90d_pct": -0.4,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
         "target_30d": 16.5,
         "target_60d": 16.86,
         "target_90d": 17.22,
-        "bull_target_90d": 18.49,
-        "bear_target_90d": 15.95,
-        "confidence": 73,
+        "bull_target_90d": 18.53,
+        "bear_target_90d": 15.92,
+        "confidence": 72,
         "confidence_label": "HIGH"
       }
     },
@@ -2246,9 +2221,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 65,
+      "fund_score": 49,
       "val_score": 67,
-      "composite": 67.5,
+      "composite": 64.3,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2257,10 +2232,9 @@
         "rsi": "55.1 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+1095.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=-0.00 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.59 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=473.0% \u2014 accelerating (+5)"
+        "ni_growth": "-1.7% YoY declining (-8)",
+        "leverage": "D/E=0.57 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=509.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=7.3 fair (+5)",
@@ -2278,17 +2252,17 @@
       "fair_price": 16.71,
       "sahmk_fair_upside_pct": 14.3,
       "forecast": {
-        "base_30d_pct": 3.0,
-        "base_60d_pct": 5.2,
-        "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.7,
-        "bear_90d_pct": -0.7,
-        "target_30d": 15.06,
-        "target_60d": 15.39,
-        "target_90d": 15.72,
-        "bull_target_90d": 16.92,
-        "bear_target_90d": 14.51,
-        "confidence": 69,
+        "base_30d_pct": 0.8,
+        "base_60d_pct": 1.3,
+        "base_90d_pct": 1.9,
+        "bull_90d_pct": 10.5,
+        "bear_90d_pct": -6.6,
+        "target_30d": 14.73,
+        "target_60d": 14.82,
+        "target_90d": 14.9,
+        "bull_target_90d": 16.15,
+        "bear_target_90d": 13.65,
+        "confidence": 67,
         "confidence_label": "HIGH"
       }
     },
@@ -2307,9 +2281,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 40,
-      "fund_score": 77,
+      "fund_score": 79,
       "val_score": 42,
-      "composite": 63.7,
+      "composite": 64.1,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2319,10 +2293,9 @@
         "mom": "10.6% rally (-10)"
       },
       "fund_signals": {
-        "ni_growth": "+15.3% YoY strong (+12)",
-        "cfq": "OCF/NI=0.87 \u2014 good cash backing (+4)",
-        "leverage": "D/E=0.03 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=86.7% \u2014 accelerating (+5)"
+        "ni_growth": "+82.6% YoY exceptional (+18)",
+        "leverage": "D/E=0.24 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=40.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+23.5% (only 1 analyst \u2014 low confidence) (+5)",
@@ -2348,8 +2321,8 @@
         "target_30d": 86.71,
         "target_60d": 87.96,
         "target_90d": 89.21,
-        "bull_target_90d": 96.55,
-        "bear_target_90d": 81.87,
+        "bull_target_90d": 96.51,
+        "bear_target_90d": 81.9,
         "confidence": 64,
         "confidence_label": "MEDIUM"
       }
@@ -2369,9 +2342,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 38,
-      "fund_score": 72,
+      "fund_score": 75,
       "val_score": 42,
-      "composite": 62.2,
+      "composite": 62.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2380,10 +2353,9 @@
         "rsi": "71.4 overbought (-12)"
       },
       "fund_signals": {
-        "ni_growth": "+9.3% YoY positive (+5)",
-        "cfq": "OCF/NI=1.28 \u2014 high quality earnings (+10)",
+        "ni_growth": "+80.1% YoY exceptional (+18)",
         "leverage": "D/E=0.31 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=64.0% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=97.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+22.1% (only 1 analyst \u2014 low confidence) (+5)",
@@ -2404,13 +2376,13 @@
         "base_30d_pct": 1.9,
         "base_60d_pct": 3.3,
         "base_90d_pct": 4.7,
-        "bull_90d_pct": 13.5,
-        "bear_90d_pct": -4.1,
+        "bull_90d_pct": 13.4,
+        "bear_90d_pct": -4.0,
         "target_30d": 20.61,
         "target_60d": 20.9,
         "target_90d": 21.18,
-        "bull_target_90d": 22.96,
-        "bear_target_90d": 19.41,
+        "bull_target_90d": 22.95,
+        "bear_target_90d": 19.42,
         "confidence": 63,
         "confidence_label": "MEDIUM"
       }
@@ -2430,9 +2402,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 64,
+      "fund_score": 57,
       "val_score": 54,
-      "composite": 65.4,
+      "composite": 64.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2441,9 +2413,8 @@
         "rsi": "57.1 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+183.6% YoY exceptional (+18)",
-        "cfq": "OCF/NI=-5.51 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.07 \u2014 low debt (+6)"
+        "ni_growth": "+4.1% YoY weak (+2)",
+        "trend": "3yr avg growth=93.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pb": "P/B=0.69 below book (+8)",
@@ -2463,14 +2434,14 @@
         "base_30d_pct": -0.3,
         "base_60d_pct": -0.6,
         "base_90d_pct": -0.9,
-        "bull_90d_pct": 7.6,
-        "bear_90d_pct": -9.3,
+        "bull_90d_pct": 7.7,
+        "bear_90d_pct": -9.5,
         "target_30d": 4.79,
         "target_60d": 4.78,
         "target_90d": 4.77,
         "bull_target_90d": 5.18,
-        "bear_target_90d": 4.36,
-        "confidence": 68,
+        "bear_target_90d": 4.35,
+        "confidence": 67,
         "confidence_label": "HIGH"
       }
     },
@@ -2489,9 +2460,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 62,
+      "fund_score": 73,
       "val_score": 42,
-      "composite": 63.2,
+      "composite": 65.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2500,8 +2471,8 @@
         "rsi": "41.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+3.7% YoY weak (+2)",
-        "cfq": "OCF/NI=1.42 \u2014 high quality earnings (+10)"
+        "ni_growth": "+90.1% YoY exceptional (+18)",
+        "trend": "3yr avg growth=35.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+27.2% analyst upside (14 analysts) (+10)",
@@ -2523,14 +2494,14 @@
         "base_30d_pct": 4.2,
         "base_60d_pct": 7.4,
         "base_90d_pct": 10.6,
-        "bull_90d_pct": 19.3,
-        "bear_90d_pct": 1.9,
+        "bull_90d_pct": 19.0,
+        "bear_90d_pct": 2.1,
         "target_30d": 224.62,
         "target_60d": 231.46,
         "target_90d": 238.3,
-        "bull_target_90d": 257.01,
-        "bear_target_90d": 219.59,
-        "confidence": 66,
+        "bull_target_90d": 256.53,
+        "bear_target_90d": 220.07,
+        "confidence": 68,
         "confidence_label": "HIGH"
       }
     },
@@ -2549,9 +2520,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 84,
+      "fund_score": 79,
       "val_score": 70,
-      "composite": 71.8,
+      "composite": 70.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2560,9 +2531,9 @@
         "rsi": "55.6 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+27.3% YoY exceptional (+18)",
-        "cfq": "OCF/NI=1.43 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.25 \u2014 low debt (+6)"
+        "ni_growth": "+71.5% YoY exceptional (+18)",
+        "leverage": "D/E=0.29 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=32.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+33.8% analyst upside (12 analysts) (+15)",
@@ -2582,13 +2553,13 @@
         "base_30d_pct": 3.1,
         "base_60d_pct": 5.5,
         "base_90d_pct": 7.8,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.0,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.1,
         "target_30d": 67.55,
         "target_60d": 69.08,
         "target_90d": 70.61,
-        "bull_target_90d": 75.74,
-        "bear_target_90d": 65.49,
+        "bull_target_90d": 75.8,
+        "bear_target_90d": 65.43,
         "confidence": 72,
         "confidence_label": "HIGH"
       }
@@ -2608,9 +2579,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 86,
-      "fund_score": 64,
+      "fund_score": 75,
       "val_score": 60,
-      "composite": 75.3,
+      "composite": 77.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2621,9 +2592,9 @@
         "mom": "-11.7% drop (+8)"
       },
       "fund_signals": {
-        "ni_growth": "+14.2% YoY positive (+5)",
-        "cfq": "OCF/NI=1.03 \u2014 good cash backing (+4)",
-        "trend": "3yr avg growth=25.4% \u2014 accelerating (+5)"
+        "ni_growth": "+78.2% YoY exceptional (+18)",
+        "leverage": "D/E=0.98 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=41.1% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+25.0% analyst upside (8 analysts) (+10)",
@@ -2643,14 +2614,14 @@
         "base_30d_pct": 4.0,
         "base_60d_pct": 7.0,
         "base_90d_pct": 10.0,
-        "bull_90d_pct": 17.5,
-        "bear_90d_pct": 2.5,
+        "bull_90d_pct": 17.2,
+        "bear_90d_pct": 2.8,
         "target_30d": 108.78,
         "target_60d": 111.92,
         "target_90d": 115.06,
-        "bull_target_90d": 122.87,
-        "bear_target_90d": 107.25,
-        "confidence": 81,
+        "bull_target_90d": 122.64,
+        "bear_target_90d": 107.48,
+        "confidence": 82,
         "confidence_label": "HIGH"
       }
     },
@@ -2669,9 +2640,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 0,
-      "fund_score": 45,
+      "fund_score": 79,
       "val_score": 65,
-      "composite": 50.8,
+      "composite": 57.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2682,9 +2653,9 @@
         "mom": "15.2% strong rally (-20)"
       },
       "fund_signals": {
-        "ni_growth": "-28.6% YoY severe decline (-15)",
-        "cfq": "OCF/NI=0.88 \u2014 good cash backing (+4)",
-        "leverage": "D/E=0.14 \u2014 low debt (+6)"
+        "ni_growth": "+73.2% YoY exceptional (+18)",
+        "leverage": "D/E=0.13 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=18.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+31.6% analyst upside (6 analysts) (+15)",
@@ -2702,16 +2673,16 @@
       "sahmk_fair_upside_pct": 1.0,
       "forecast": {
         "base_30d_pct": -0.0,
-        "base_60d_pct": -0.0,
-        "base_90d_pct": -0.0,
-        "bull_90d_pct": 9.9,
-        "bear_90d_pct": -10.0,
-        "target_30d": 28.48,
-        "target_60d": 28.47,
-        "target_90d": 28.47,
-        "bull_target_90d": 31.3,
-        "bear_target_90d": 25.65,
-        "confidence": 45,
+        "base_60d_pct": -0.1,
+        "base_90d_pct": -0.1,
+        "bull_90d_pct": 9.1,
+        "bear_90d_pct": -9.3,
+        "target_30d": 28.47,
+        "target_60d": 28.46,
+        "target_90d": 28.45,
+        "bull_target_90d": 31.08,
+        "bear_target_90d": 25.82,
+        "confidence": 50,
         "confidence_label": "MEDIUM"
       }
     },
@@ -2730,9 +2701,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 23,
-      "fund_score": 66,
+      "fund_score": 75,
       "val_score": 74,
-      "composite": 62.1,
+      "composite": 63.9,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2742,9 +2713,9 @@
         "bb": "upper band (-15)"
       },
       "fund_signals": {
-        "ni_growth": "+6.8% YoY positive (+5)",
-        "leverage": "D/E=0.28 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=24.1% \u2014 accelerating (+5)"
+        "ni_growth": "+67.4% YoY exceptional (+18)",
+        "leverage": "D/E=0.38 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=32.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+46.4% analyst upside (6 analysts) (+15)",
@@ -2765,14 +2736,14 @@
         "base_30d_pct": 1.9,
         "base_60d_pct": 3.3,
         "base_90d_pct": 4.8,
-        "bull_90d_pct": 13.5,
-        "bear_90d_pct": -4.0,
+        "bull_90d_pct": 13.4,
+        "bear_90d_pct": -3.9,
         "target_30d": 108.12,
         "target_60d": 109.63,
         "target_90d": 111.14,
-        "bull_target_90d": 120.47,
-        "bear_target_90d": 101.81,
-        "confidence": 59,
+        "bull_target_90d": 120.28,
+        "bear_target_90d": 102.0,
+        "confidence": 60,
         "confidence_label": "MEDIUM"
       }
     },
@@ -2851,9 +2822,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 83,
+      "fund_score": 75,
       "val_score": 55,
-      "composite": 69.3,
+      "composite": 67.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2862,9 +2833,9 @@
         "rsi": "43.2 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+651.4% YoY exceptional (+18)",
-        "cfq": "OCF/NI=1.48 \u2014 high quality earnings (+10)",
-        "trend": "3yr avg growth=93.6% \u2014 accelerating (+5)"
+        "ni_growth": "+77.5% YoY exceptional (+18)",
+        "leverage": "D/E=0.77 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=150.0% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+6.2% analyst upside (3 analysts) (+5)",
@@ -2884,14 +2855,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
         "target_30d": 29.62,
         "target_60d": 30.27,
         "target_90d": 30.92,
-        "bull_target_90d": 33.24,
-        "bear_target_90d": 28.6,
-        "confidence": 71,
+        "bull_target_90d": 33.28,
+        "bear_target_90d": 28.55,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -2910,9 +2881,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 77,
+      "fund_score": 79,
       "val_score": 55,
-      "composite": 68.2,
+      "composite": 68.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2921,9 +2892,9 @@
         "rsi": "52.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+30.1% YoY exceptional (+18)",
-        "cfq": "OCF/NI=0.88 \u2014 good cash backing (+4)",
-        "trend": "3yr avg growth=40.9% \u2014 accelerating (+5)"
+        "ni_growth": "+64.7% YoY exceptional (+18)",
+        "leverage": "D/E=0.00 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=38.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+5.1% analyst upside (3 analysts) (+5)",
@@ -2943,13 +2914,13 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.7,
-        "bear_90d_pct": -0.7,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
         "target_30d": 160.89,
         "target_60d": 164.4,
         "target_90d": 167.91,
-        "bull_target_90d": 180.7,
-        "bear_target_90d": 155.13,
+        "bull_target_90d": 180.64,
+        "bear_target_90d": 155.19,
         "confidence": 70,
         "confidence_label": "HIGH"
       }
@@ -2969,9 +2940,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 67,
+      "fund_score": 73,
       "val_score": 47,
-      "composite": 65.0,
+      "composite": 66.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -2980,9 +2951,8 @@
         "rsi": "60.9 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+6.2% YoY positive (+5)",
-        "cfq": "OCF/NI=2.22 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.64 \u2014 moderate debt (+2)"
+        "ni_growth": "+61.5% YoY exceptional (+18)",
+        "trend": "3yr avg growth=26.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+26.2% analyst upside (16 analysts) (+10)",
@@ -3004,14 +2974,14 @@
         "base_30d_pct": 1.2,
         "base_60d_pct": 2.1,
         "base_90d_pct": 3.0,
-        "bull_90d_pct": 11.5,
-        "bear_90d_pct": -5.5,
+        "bull_90d_pct": 11.4,
+        "bear_90d_pct": -5.4,
         "target_30d": 45.64,
         "target_60d": 46.04,
         "target_90d": 46.45,
-        "bull_target_90d": 50.28,
-        "bear_target_90d": 42.61,
-        "confidence": 67,
+        "bull_target_90d": 50.23,
+        "bear_target_90d": 42.67,
+        "confidence": 68,
         "confidence_label": "HIGH"
       }
     },
@@ -3030,9 +3000,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 10,
-      "fund_score": 52,
+      "fund_score": 79,
       "val_score": 73,
-      "composite": 55.8,
+      "composite": 61.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3042,10 +3012,9 @@
         "mom": "19.5% strong rally (-20)"
       },
       "fund_signals": {
-        "ni_growth": "-91.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=1.22 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.90 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=313.0% \u2014 accelerating (+5)"
+        "ni_growth": "+92.2% YoY exceptional (+18)",
+        "leverage": "D/E=0.27 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=336.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+8.0% analyst upside (10 analysts) (+5)",
@@ -3063,17 +3032,17 @@
       "fair_price": 34.15,
       "sahmk_fair_upside_pct": 15.8,
       "forecast": {
-        "base_30d_pct": 0.9,
-        "base_60d_pct": 1.6,
-        "base_90d_pct": 2.3,
-        "bull_90d_pct": 11.7,
-        "bear_90d_pct": -7.1,
-        "target_30d": 29.75,
-        "target_60d": 29.95,
-        "target_90d": 30.15,
-        "bull_target_90d": 32.93,
-        "bear_target_90d": 27.38,
-        "confidence": 51,
+        "base_30d_pct": 1.7,
+        "base_60d_pct": 2.9,
+        "base_90d_pct": 4.2,
+        "bull_90d_pct": 13.0,
+        "bear_90d_pct": -4.7,
+        "target_30d": 29.97,
+        "target_60d": 30.34,
+        "target_90d": 30.7,
+        "bull_target_90d": 33.32,
+        "bear_target_90d": 28.09,
+        "confidence": 55,
         "confidence_label": "MEDIUM"
       }
     },
@@ -3092,9 +3061,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 57,
+      "fund_score": 79,
       "val_score": 56,
-      "composite": 64.3,
+      "composite": 68.7,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3103,10 +3072,9 @@
         "rsi": "63.4 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-1.3% YoY declining (-8)",
-        "cfq": "OCF/NI=0.94 \u2014 good cash backing (+4)",
+        "ni_growth": "+80.5% YoY exceptional (+18)",
         "leverage": "D/E=0.04 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=34.8% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=42.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+13.4% analyst upside (6 analysts) (+5)",
@@ -3124,17 +3092,17 @@
       "fair_price": 186.27,
       "sahmk_fair_upside_pct": -15.6,
       "forecast": {
-        "base_30d_pct": 2.6,
-        "base_60d_pct": 4.5,
-        "base_90d_pct": 6.4,
-        "bull_90d_pct": 15.0,
-        "bear_90d_pct": -2.2,
-        "target_30d": 226.46,
-        "target_60d": 230.71,
-        "target_90d": 234.95,
-        "bull_target_90d": 253.88,
-        "bear_target_90d": 216.03,
-        "confidence": 67,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
+        "target_30d": 227.42,
+        "target_60d": 232.39,
+        "target_90d": 237.36,
+        "bull_target_90d": 255.31,
+        "bear_target_90d": 219.41,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -3153,9 +3121,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 26,
+      "fund_score": 69,
       "val_score": 50,
-      "composite": 57.2,
+      "composite": 65.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3164,10 +3132,9 @@
         "rsi": "50.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-1027.8% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-0.06 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.16 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-364.5% \u2014 decelerating (-5)"
+        "ni_growth": "+47.6% YoY exceptional (+18)",
+        "leverage": "D/E=0.09 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=-352.1% \u2014 decelerating (-5)"
       },
       "val_signals": {},
       "trading_days": 4029,
@@ -3181,18 +3148,18 @@
       "fair_price": null,
       "sahmk_fair_upside_pct": null,
       "forecast": {
-        "base_30d_pct": 1.1,
-        "base_60d_pct": 1.9,
-        "base_90d_pct": 2.7,
-        "bull_90d_pct": 11.9,
-        "bear_90d_pct": -6.6,
-        "target_30d": 20.11,
-        "target_60d": 20.27,
-        "target_90d": 20.43,
-        "bull_target_90d": 22.28,
-        "bear_target_90d": 18.58,
-        "confidence": 62,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 1.9,
+        "base_60d_pct": 3.4,
+        "base_90d_pct": 4.8,
+        "bull_90d_pct": 13.3,
+        "bear_90d_pct": -3.6,
+        "target_30d": 20.29,
+        "target_60d": 20.57,
+        "target_90d": 20.86,
+        "bull_target_90d": 22.54,
+        "bear_target_90d": 19.19,
+        "confidence": 68,
+        "confidence_label": "HIGH"
       }
     },
     "6010": {
@@ -3210,9 +3177,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 56,
+      "fund_score": 79,
       "val_score": 86,
-      "composite": 68.6,
+      "composite": 73.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3221,10 +3188,9 @@
         "rsi": "54.5 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-49.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=1.92 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.12 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=107.9% \u2014 accelerating (+5)"
+        "ni_growth": "+79.4% YoY exceptional (+18)",
+        "leverage": "D/E=0.06 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=62.2% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+33.2% analyst upside (3 analysts) (+15)",
@@ -3246,14 +3212,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.2,
+        "bear_90d_pct": -0.2,
         "target_30d": 17.19,
         "target_60d": 17.57,
         "target_90d": 17.94,
-        "bull_target_90d": 19.3,
-        "bear_target_90d": 16.58,
-        "confidence": 70,
+        "bull_target_90d": 19.22,
+        "bear_target_90d": 16.66,
+        "confidence": 73,
         "confidence_label": "HIGH"
       }
     },
@@ -3272,9 +3238,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 26,
+      "fund_score": 79,
       "val_score": 37,
-      "composite": 55.2,
+      "composite": 65.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3283,10 +3249,9 @@
         "rsi": "63.4 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-61.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-1.87 \u2014 low cash quality (-10)",
+        "ni_growth": "+7994441.5% YoY exceptional (+18)",
         "leverage": "D/E=0.00 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-167.6% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=2664709.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pb": "P/B=11.97 premium (-5)",
@@ -3303,18 +3268,18 @@
       "fair_price": 8.69,
       "sahmk_fair_upside_pct": -30.0,
       "forecast": {
-        "base_30d_pct": 1.1,
-        "base_60d_pct": 1.9,
-        "base_90d_pct": 2.7,
-        "bull_90d_pct": 12.1,
-        "bear_90d_pct": -6.8,
-        "target_30d": 12.54,
-        "target_60d": 12.64,
-        "target_90d": 12.74,
-        "bull_target_90d": 13.92,
-        "bear_target_90d": 11.57,
-        "confidence": 61,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 1.9,
+        "base_60d_pct": 3.4,
+        "base_90d_pct": 4.8,
+        "bull_90d_pct": 13.3,
+        "bear_90d_pct": -3.6,
+        "target_30d": 12.65,
+        "target_60d": 12.83,
+        "target_90d": 13.01,
+        "bull_target_90d": 14.06,
+        "bear_target_90d": 11.97,
+        "confidence": 68,
+        "confidence_label": "HIGH"
       }
     },
     "3010": {
@@ -3332,9 +3297,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 68,
+      "fund_score": 79,
       "val_score": 63,
-      "composite": 67.5,
+      "composite": 69.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3343,9 +3308,9 @@
         "rsi": "66.7 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+3.1% YoY weak (+2)",
-        "cfq": "OCF/NI=1.54 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.01 \u2014 low debt (+6)"
+        "ni_growth": "+168.8% YoY exceptional (+18)",
+        "leverage": "D/E=0.01 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=62.2% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=5.1 cheap (+10)",
@@ -3365,14 +3330,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.7,
-        "bear_90d_pct": -0.7,
+        "bull_90d_pct": 15.5,
+        "bear_90d_pct": -0.5,
         "target_30d": 23.43,
         "target_60d": 23.94,
         "target_90d": 24.46,
-        "bull_target_90d": 26.33,
-        "bear_target_90d": 22.58,
-        "confidence": 69,
+        "bull_target_90d": 26.28,
+        "bear_target_90d": 22.63,
+        "confidence": 71,
         "confidence_label": "HIGH"
       }
     },
@@ -3391,9 +3356,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 67,
+      "fund_score": 75,
       "val_score": 77,
-      "composite": 69.5,
+      "composite": 71.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3402,9 +3367,9 @@
         "rsi": "53.8 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+14.8% YoY positive (+5)",
-        "cfq": "OCF/NI=1.24 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.37 \u2014 moderate debt (+2)"
+        "ni_growth": "+116.9% YoY exceptional (+18)",
+        "leverage": "D/E=0.37 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=56.6% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+29.4% analyst upside (4 analysts) (+10)",
@@ -3426,14 +3391,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.4,
+        "bear_90d_pct": -0.4,
         "target_30d": 25.34,
         "target_60d": 25.89,
         "target_90d": 26.45,
-        "bull_target_90d": 28.43,
-        "bear_target_90d": 24.46,
-        "confidence": 71,
+        "bull_target_90d": 28.39,
+        "bear_target_90d": 24.5,
+        "confidence": 72,
         "confidence_label": "HIGH"
       }
     },
@@ -3452,9 +3417,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 80,
-      "fund_score": 58,
+      "fund_score": 79,
       "val_score": 73,
-      "composite": 74.5,
+      "composite": 78.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3464,9 +3429,9 @@
         "bb": "low BB (+10)"
       },
       "fund_signals": {
-        "ni_growth": "-13.8% YoY declining (-8)",
-        "cfq": "OCF/NI=1.53 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.10 \u2014 low debt (+6)"
+        "ni_growth": "+68.4% YoY exceptional (+18)",
+        "leverage": "D/E=0.09 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=21.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+25.6% analyst upside (5 analysts) (+10)",
@@ -3487,14 +3452,14 @@
         "base_30d_pct": 4.0,
         "base_60d_pct": 7.0,
         "base_90d_pct": 10.0,
-        "bull_90d_pct": 17.5,
-        "bear_90d_pct": 2.5,
+        "bull_90d_pct": 17.1,
+        "bear_90d_pct": 2.9,
         "target_30d": 32.59,
         "target_60d": 33.53,
         "target_90d": 34.47,
-        "bull_target_90d": 36.84,
-        "bear_target_90d": 32.11,
-        "confidence": 82,
+        "bull_target_90d": 36.71,
+        "bear_target_90d": 32.24,
+        "confidence": 85,
         "confidence_label": "HIGH"
       }
     },
@@ -3513,9 +3478,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 57,
+      "fund_score": 79,
       "val_score": 41,
-      "composite": 62.0,
+      "composite": 66.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3524,10 +3489,9 @@
         "rsi": "66.2 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-13.7% YoY declining (-8)",
-        "cfq": "OCF/NI=0.87 \u2014 good cash backing (+4)",
+        "ni_growth": "+65.9% YoY exceptional (+18)",
         "leverage": "D/E=0.04 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=35.8% \u2014 accelerating (+5)"
+        "trend": "3yr avg growth=54.8% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-0.5% analysts negative (3 analysts) (-5)",
@@ -3548,14 +3512,14 @@
         "base_30d_pct": 0.8,
         "base_60d_pct": 1.3,
         "base_90d_pct": 1.9,
-        "bull_90d_pct": 10.7,
-        "bear_90d_pct": -6.9,
+        "bull_90d_pct": 10.3,
+        "bear_90d_pct": -6.5,
         "target_30d": 46.07,
         "target_60d": 46.33,
         "target_90d": 46.59,
-        "bull_target_90d": 50.61,
-        "bear_target_90d": 42.57,
-        "confidence": 65,
+        "bull_target_90d": 50.41,
+        "bear_target_90d": 42.77,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -3574,9 +3538,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 22,
+      "fund_score": 32,
       "val_score": 42,
-      "composite": 57.2,
+      "composite": 59.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3585,10 +3549,9 @@
         "rsi": "38.4 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "-119.9% YoY severe decline (-15)",
-        "cfq": "OCF/NI=-0.86 \u2014 low cash quality (-10)",
-        "leverage": "D/E=0.41 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=-43.4% \u2014 decelerating (-5)"
+        "ni_growth": "-91.2% YoY severe decline (-15)",
+        "leverage": "D/E=0.42 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=-62.1% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "+9.9% analyst upside (4 analysts) (+5)",
@@ -3609,15 +3572,15 @@
         "base_30d_pct": 0.0,
         "base_60d_pct": 0.0,
         "base_90d_pct": 0.0,
-        "bull_90d_pct": 9.3,
-        "bear_90d_pct": -9.2,
+        "bull_90d_pct": 9.1,
+        "bear_90d_pct": -9.0,
         "target_30d": 20.01,
         "target_60d": 20.02,
         "target_90d": 20.02,
-        "bull_target_90d": 21.88,
-        "bear_target_90d": 18.16,
-        "confidence": 64,
-        "confidence_label": "MEDIUM"
+        "bull_target_90d": 21.84,
+        "bear_target_90d": 18.2,
+        "confidence": 65,
+        "confidence_label": "HIGH"
       }
     },
     "3060": {
@@ -3635,9 +3598,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 40,
-      "fund_score": 46,
+      "fund_score": 79,
       "val_score": 58,
-      "composite": 59.9,
+      "composite": 66.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3647,10 +3610,9 @@
         "mom": "12.1% rally (-10)"
       },
       "fund_signals": {
-        "ni_growth": "-33.5% YoY severe decline (-15)",
-        "cfq": "OCF/NI=3.71 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.06 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-15.6% \u2014 decelerating (-5)"
+        "ni_growth": "+195.3% YoY exceptional (+18)",
+        "leverage": "D/E=0.03 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=64.3% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=8.4 fair (+5)",
@@ -3667,18 +3629,18 @@
       "fair_price": 16.08,
       "sahmk_fair_upside_pct": -2.9,
       "forecast": {
-        "base_30d_pct": 0.4,
-        "base_60d_pct": 0.7,
-        "base_90d_pct": 1.1,
-        "bull_90d_pct": 10.1,
-        "bear_90d_pct": -7.9,
-        "target_30d": 16.63,
-        "target_60d": 16.68,
-        "target_90d": 16.74,
-        "bull_target_90d": 18.23,
-        "bear_target_90d": 15.24,
-        "confidence": 61,
-        "confidence_label": "MEDIUM"
+        "base_30d_pct": 0.8,
+        "base_60d_pct": 1.4,
+        "base_90d_pct": 1.9,
+        "bull_90d_pct": 10.3,
+        "bear_90d_pct": -6.4,
+        "target_30d": 16.69,
+        "target_60d": 16.78,
+        "target_90d": 16.88,
+        "bull_target_90d": 18.26,
+        "bear_target_90d": 15.5,
+        "confidence": 66,
+        "confidence_label": "HIGH"
       }
     },
     "3080": {
@@ -3696,9 +3658,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 63,
+      "fund_score": 79,
       "val_score": 78,
-      "composite": 68.8,
+      "composite": 72.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3707,10 +3669,9 @@
         "rsi": "41.4 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-18.3% YoY declining (-8)",
-        "cfq": "OCF/NI=1.79 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.16 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=15.0% \u2014 accelerating (+5)"
+        "ni_growth": "+84.5% YoY exceptional (+18)",
+        "leverage": "D/E=0.17 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=30.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+31.5% analyst upside (3 analysts) (+15)",
@@ -3731,14 +3692,14 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.6,
-        "bear_90d_pct": -0.6,
+        "bull_90d_pct": 15.3,
+        "bear_90d_pct": -0.3,
         "target_30d": 25.6,
         "target_60d": 26.15,
         "target_90d": 26.71,
-        "bull_target_90d": 28.73,
-        "bear_target_90d": 24.7,
-        "confidence": 70,
+        "bull_target_90d": 28.65,
+        "bear_target_90d": 24.78,
+        "confidence": 72,
         "confidence_label": "HIGH"
       }
     },
@@ -3757,9 +3718,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 56,
+      "fund_score": 79,
       "val_score": 54,
-      "composite": 63.8,
+      "composite": 68.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3768,10 +3729,9 @@
         "rsi": "48.3 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-53.1% YoY severe decline (-15)",
-        "cfq": "OCF/NI=1.98 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.03 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=81.3% \u2014 accelerating (+5)"
+        "ni_growth": "+71.0% YoY exceptional (+18)",
+        "leverage": "D/E=0.00 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=106.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=11.2 neutral",
@@ -3789,17 +3749,17 @@
       "fair_price": 6.84,
       "sahmk_fair_upside_pct": -14.1,
       "forecast": {
-        "base_30d_pct": 0.1,
-        "base_60d_pct": 0.1,
-        "base_90d_pct": 0.2,
-        "bull_90d_pct": 8.8,
-        "bear_90d_pct": -8.4,
-        "target_30d": 7.97,
-        "target_60d": 7.97,
-        "target_90d": 7.98,
-        "bull_target_90d": 8.66,
-        "bear_target_90d": 7.29,
-        "confidence": 67,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.7,
+        "bear_90d_pct": -0.7,
+        "target_30d": 8.2,
+        "target_60d": 8.38,
+        "target_90d": 8.56,
+        "bull_target_90d": 9.21,
+        "bear_target_90d": 7.91,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -3818,9 +3778,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 72,
+      "fund_score": 75,
       "val_score": 70,
-      "composite": 71.4,
+      "composite": 72.0,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3829,10 +3789,9 @@
         "rsi": "38.0 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "+12.1% YoY positive (+5)",
-        "cfq": "OCF/NI=1.34 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.75 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=33.8% \u2014 accelerating (+5)"
+        "ni_growth": "+88443.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.68 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=29496.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+20.3% analyst upside (3 analysts) (+10)",
@@ -3852,13 +3811,13 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.4,
-        "bear_90d_pct": -0.4,
+        "bull_90d_pct": 15.3,
+        "bear_90d_pct": -0.3,
         "target_30d": 34.83,
         "target_60d": 35.6,
         "target_90d": 36.36,
-        "bull_target_90d": 39.01,
-        "bear_target_90d": 33.7,
+        "bull_target_90d": 38.99,
+        "bear_target_90d": 33.72,
         "confidence": 74,
         "confidence_label": "HIGH"
       }
@@ -3878,9 +3837,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 48,
+      "fund_score": 75,
       "val_score": 61,
-      "composite": 63.2,
+      "composite": 68.7,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3889,9 +3848,9 @@
         "rsi": "67.6 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-11.1% YoY declining (-8)",
-        "cfq": "OCF/NI=1.02 \u2014 good cash backing (+4)",
-        "leverage": "D/E=0.55 \u2014 moderate debt (+2)"
+        "ni_growth": "+77.4% YoY exceptional (+18)",
+        "leverage": "D/E=0.61 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=30.4% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "+36.1% analyst upside (4 analysts) (+15)",
@@ -3909,17 +3868,17 @@
       "fair_price": 61.11,
       "sahmk_fair_upside_pct": -19.9,
       "forecast": {
-        "base_30d_pct": 0.9,
-        "base_60d_pct": 1.6,
-        "base_90d_pct": 2.2,
-        "bull_90d_pct": 10.9,
-        "bear_90d_pct": -6.4,
-        "target_30d": 76.94,
-        "target_60d": 77.45,
-        "target_90d": 77.97,
-        "bull_target_90d": 84.58,
-        "bear_target_90d": 71.35,
-        "confidence": 66,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.6,
+        "bear_90d_pct": -0.6,
+        "target_30d": 78.54,
+        "target_60d": 80.25,
+        "target_90d": 81.97,
+        "bull_target_90d": 88.17,
+        "bear_target_90d": 75.77,
+        "confidence": 70,
         "confidence_label": "HIGH"
       }
     },
@@ -3938,9 +3897,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 80,
+      "fund_score": 75,
       "val_score": 67,
-      "composite": 70.5,
+      "composite": 69.5,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -3949,9 +3908,9 @@
         "rsi": "43.8 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+88.9% YoY exceptional (+18)",
-        "cfq": "OCF/NI=3.83 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.78 \u2014 moderate debt (+2)"
+        "ni_growth": "+81.8% YoY exceptional (+18)",
+        "leverage": "D/E=0.80 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=45.9% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-1.5% analysts negative (6 analysts) (-5)",
@@ -3973,13 +3932,13 @@
         "base_30d_pct": 3.0,
         "base_60d_pct": 5.2,
         "base_90d_pct": 7.5,
-        "bull_90d_pct": 15.4,
-        "bear_90d_pct": -0.4,
+        "bull_90d_pct": 15.5,
+        "bear_90d_pct": -0.5,
         "target_30d": 16.94,
         "target_60d": 17.31,
         "target_90d": 17.68,
-        "bull_target_90d": 18.99,
-        "bear_target_90d": 16.38,
+        "bull_target_90d": 19.01,
+        "bear_target_90d": 16.36,
         "confidence": 71,
         "confidence_label": "HIGH"
       }
@@ -3999,9 +3958,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 68,
+      "fund_score": 79,
       "val_score": 42,
-      "composite": 64.4,
+      "composite": 66.6,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4010,9 +3969,9 @@
         "rsi": "53.3 neutral"
       },
       "fund_signals": {
-        "ni_growth": "+0.2% YoY weak (+2)",
-        "cfq": "OCF/NI=1.45 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.04 \u2014 low debt (+6)"
+        "ni_growth": "+82.6% YoY exceptional (+18)",
+        "leverage": "D/E=0.04 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=30.7% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pe": "P/E=12.8 neutral",
@@ -4032,14 +3991,14 @@
         "base_30d_pct": 2.4,
         "base_60d_pct": 4.1,
         "base_90d_pct": 5.9,
-        "bull_90d_pct": 14.5,
-        "bear_90d_pct": -2.7,
+        "bull_90d_pct": 14.2,
+        "bear_90d_pct": -2.4,
         "target_30d": 79.74,
         "target_60d": 81.12,
         "target_90d": 82.5,
-        "bull_target_90d": 89.16,
-        "bear_target_90d": 75.83,
-        "confidence": 67,
+        "bull_target_90d": 88.99,
+        "bear_target_90d": 76.0,
+        "confidence": 69,
         "confidence_label": "HIGH"
       }
     },
@@ -4058,9 +4017,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 23,
-      "fund_score": 56,
+      "fund_score": 75,
       "val_score": 50,
-      "composite": 56.5,
+      "composite": 60.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4070,10 +4029,9 @@
         "bb": "upper band (-15)"
       },
       "fund_signals": {
-        "ni_growth": "-34.3% YoY severe decline (-15)",
-        "cfq": "OCF/NI=2.13 \u2014 high quality earnings (+10)",
-        "leverage": "D/E=0.27 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=453.9% \u2014 accelerating (+5)"
+        "ni_growth": "+74.5% YoY exceptional (+18)",
+        "leverage": "D/E=0.35 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=22.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-10.2% (only 1 analyst \u2014 low confidence) (-5)",
@@ -4090,17 +4048,17 @@
       "fair_price": 7.31,
       "sahmk_fair_upside_pct": -4.8,
       "forecast": {
-        "base_30d_pct": 0.7,
-        "base_60d_pct": 1.2,
-        "base_90d_pct": 1.7,
-        "bull_90d_pct": 11.1,
-        "bear_90d_pct": -7.6,
-        "target_30d": 7.73,
-        "target_60d": 7.77,
-        "target_90d": 7.81,
-        "bull_target_90d": 8.53,
-        "bear_target_90d": 7.1,
-        "confidence": 55,
+        "base_30d_pct": 1.3,
+        "base_60d_pct": 2.2,
+        "base_90d_pct": 3.2,
+        "bull_90d_pct": 12.1,
+        "bear_90d_pct": -5.8,
+        "target_30d": 7.78,
+        "target_60d": 7.85,
+        "target_90d": 7.92,
+        "bull_target_90d": 8.61,
+        "bear_target_90d": 7.23,
+        "confidence": 57,
         "confidence_label": "MEDIUM"
       }
     },
@@ -4119,9 +4077,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 58,
-      "fund_score": 46,
+      "fund_score": 79,
       "val_score": 50,
-      "composite": 63.2,
+      "composite": 69.8,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4130,10 +4088,9 @@
         "rsi": "31.8 low (+8)"
       },
       "fund_signals": {
-        "ni_growth": "-95.0% YoY severe decline (-15)",
-        "cfq": "OCF/NI=3.59 \u2014 high quality earnings (+10)",
+        "ni_growth": "+1023.4% YoY exceptional (+18)",
         "leverage": "D/E=0.00 \u2014 low debt (+6)",
-        "trend": "3yr avg growth=-35.1% \u2014 decelerating (-5)"
+        "trend": "3yr avg growth=317.9% \u2014 accelerating (+5)"
       },
       "val_signals": {},
       "trading_days": 3995,
@@ -4147,17 +4104,17 @@
       "fair_price": null,
       "sahmk_fair_upside_pct": null,
       "forecast": {
-        "base_30d_pct": 2.3,
-        "base_60d_pct": 4.0,
-        "base_90d_pct": 5.7,
-        "bull_90d_pct": 14.4,
-        "bear_90d_pct": -3.0,
-        "target_30d": 2.38,
-        "target_60d": 2.42,
-        "target_90d": 2.46,
-        "bull_target_90d": 2.67,
-        "bear_target_90d": 2.26,
-        "confidence": 68,
+        "base_30d_pct": 3.0,
+        "base_60d_pct": 5.2,
+        "base_90d_pct": 7.5,
+        "bull_90d_pct": 15.5,
+        "bear_90d_pct": -0.5,
+        "target_30d": 2.4,
+        "target_60d": 2.45,
+        "target_90d": 2.5,
+        "bull_target_90d": 2.69,
+        "bear_target_90d": 2.32,
+        "confidence": 73,
         "confidence_label": "HIGH"
       }
     },
@@ -4176,9 +4133,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 15,
-      "fund_score": 50,
+      "fund_score": 42,
       "val_score": 62,
-      "composite": 55.0,
+      "composite": 53.4,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4188,9 +4145,9 @@
         "bb": "upper band (-15)"
       },
       "fund_signals": {
-        "ni_growth": "-146.2% YoY severe decline (-15)",
-        "cfq": "OCF/NI=4.76 \u2014 high quality earnings (+10)",
-        "trend": "3yr avg growth=35.3% \u2014 accelerating (+5)"
+        "ni_growth": "-100.9% YoY severe decline (-15)",
+        "leverage": "D/E=0.98 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=20.0% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "pb": "P/B=0.07 below book (+8)",
@@ -4210,14 +4167,14 @@
         "base_30d_pct": 4.7,
         "base_60d_pct": 8.3,
         "base_90d_pct": 11.8,
-        "bull_90d_pct": 21.3,
-        "bear_90d_pct": 2.3,
+        "bull_90d_pct": 21.5,
+        "bear_90d_pct": 2.2,
         "target_30d": 2.34,
         "target_60d": 2.41,
         "target_90d": 2.49,
         "bull_target_90d": 2.71,
         "bear_target_90d": 2.28,
-        "confidence": 52,
+        "confidence": 51,
         "confidence_label": "MEDIUM"
       }
     },
@@ -4236,9 +4193,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 15,
-      "fund_score": 36,
+      "fund_score": 65,
       "val_score": 50,
-      "composite": 50.5,
+      "composite": 56.2,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4248,10 +4205,9 @@
         "bb": "upper band (-15)"
       },
       "fund_signals": {
-        "ni_growth": "-2153.5% YoY severe decline (-15)",
-        "cfq": "OCF/NI=1.01 \u2014 good cash backing (+4)",
-        "leverage": "D/E=0.68 \u2014 moderate debt (+2)",
-        "trend": "3yr avg growth=-741.1% \u2014 decelerating (-5)"
+        "ni_growth": "+61.4% YoY exceptional (+18)",
+        "leverage": "D/E=0.61 \u2014 moderate debt (+2)",
+        "trend": "3yr avg growth=-728.1% \u2014 decelerating (-5)"
       },
       "val_signals": {},
       "trading_days": 3994,
@@ -4265,17 +4221,17 @@
       "fair_price": null,
       "sahmk_fair_upside_pct": null,
       "forecast": {
-        "base_30d_pct": 0.1,
-        "base_60d_pct": 0.2,
-        "base_90d_pct": 0.3,
-        "bull_90d_pct": 10.2,
-        "bear_90d_pct": -9.7,
-        "target_30d": 29.23,
-        "target_60d": 29.25,
-        "target_90d": 29.28,
-        "bull_target_90d": 32.18,
-        "bear_target_90d": 26.37,
-        "confidence": 49,
+        "base_30d_pct": 0.4,
+        "base_60d_pct": 0.7,
+        "base_90d_pct": 1.0,
+        "bull_90d_pct": 10.3,
+        "bear_90d_pct": -8.4,
+        "target_30d": 29.31,
+        "target_60d": 29.4,
+        "target_90d": 29.48,
+        "bull_target_90d": 32.22,
+        "bear_target_90d": 26.74,
+        "confidence": 53,
         "confidence_label": "MEDIUM"
       }
     },
@@ -4354,9 +4310,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 10,
-      "fund_score": 74,
+      "fund_score": 79,
       "val_score": 40,
-      "composite": 55.3,
+      "composite": 56.3,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4366,8 +4322,9 @@
         "mom": "36.2% strong rally (-20)"
       },
       "fund_signals": {
-        "ni_growth": "+73.3% YoY exceptional (+18)",
-        "leverage": "D/E=0.22 \u2014 low debt (+6)"
+        "ni_growth": "+68.1% YoY exceptional (+18)",
+        "leverage": "D/E=0.23 \u2014 low debt (+6)",
+        "trend": "3yr avg growth=54.5% \u2014 accelerating (+5)"
       },
       "val_signals": {
         "analyst": "-15.1% (only 1 analyst \u2014 low confidence) (-5)",
@@ -4387,13 +4344,13 @@
         "base_30d_pct": 0.7,
         "base_60d_pct": 1.2,
         "base_90d_pct": 1.7,
-        "bull_90d_pct": 11.2,
-        "bear_90d_pct": -7.7,
+        "bull_90d_pct": 11.1,
+        "bear_90d_pct": -7.6,
         "target_30d": 14.7,
         "target_60d": 14.78,
         "target_90d": 14.86,
-        "bull_target_90d": 16.24,
-        "bear_target_90d": 13.47,
+        "bull_target_90d": 16.22,
+        "bear_target_90d": 13.49,
         "confidence": 51,
         "confidence_label": "MEDIUM"
       }
@@ -4413,9 +4370,9 @@
       "oil_price": 95.0,
       "env_score": 80,
       "tech_score": 50,
-      "fund_score": 45,
+      "fund_score": 30,
       "val_score": 61,
-      "composite": 62.6,
+      "composite": 59.6,
       "env_signals": {
         "rate": "stable (+20)",
         "oil": "oil uptrend (+10)"
@@ -4424,8 +4381,8 @@
         "rsi": "63.0 neutral"
       },
       "fund_signals": {
-        "ni_growth": "-33.3% YoY severe decline (-15)",
-        "cfq": "OCF/NI=2.54 \u2014 high quality earnings (+10)"
+        "ni_growth": "-131.9% YoY severe decline (-15)",
+        "trend": "3yr avg growth=-45.6% \u2014 decelerating (-5)"
       },
       "val_signals": {
         "analyst": "+42.2% analyst upside (7 analysts) (+15)",
@@ -4442,18 +4399,18 @@
       "fair_price": 72.12,
       "sahmk_fair_upside_pct": -11.0,
       "forecast": {
-        "base_30d_pct": 2.4,
-        "base_60d_pct": 4.1,
-        "base_90d_pct": 5.9,
-        "bull_90d_pct": 14.6,
-        "bear_90d_pct": -2.8,
-        "target_30d": 82.91,
-        "target_60d": 84.35,
-        "target_90d": 85.79,
-        "bull_target_90d": 92.86,
-        "bear_target_90d": 78.71,
-        "confidence": 66,
-        "confidence_label": "HIGH"
+        "base_30d_pct": 1.3,
+        "base_60d_pct": 2.3,
+        "base_90d_pct": 3.3,
+        "bull_90d_pct": 12.3,
+        "bear_90d_pct": -5.8,
+        "target_30d": 82.05,
+        "target_60d": 82.84,
+        "target_90d": 83.63,
+        "bull_target_90d": 90.95,
+        "bear_target_90d": 76.31,
+        "confidence": 64,
+        "confidence_label": "MEDIUM"
       }
     }
   }

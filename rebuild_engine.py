@@ -108,9 +108,35 @@ def load_enriched_financials(sym: str) -> tuple:
                 })
             ratios_df = pd.DataFrame(rows).sort_values("report_date").reset_index(drop=True)
 
-    # ── Merge into annual summary ──────────────────────────────────────────────
+    # ── Merge into fundamental summary ────────────────────────────────────────
+    # Use BOTH annual (Dec) AND the most recent quarter available.
+    # Never throw away the latest data just because it's not year-end.
     if not income_df.empty:
+        # Build TTM (trailing 12 months) net income from last 4 quarters
+        income_sorted = income_df.sort_values("report_date")
+
+        # Annual: December year-end records for historical trend
         annual = income_df[income_df["report_date"].dt.month == 12].copy()
+
+        # If most recent record is NOT December, append it so the latest quarter is used
+        latest_record = income_sorted.iloc[-1]
+        if latest_record["report_date"].month != 12:
+            # Calculate TTM from last 4 quarters
+            last_4 = income_sorted.tail(4)
+            ttm_ni = last_4["net_income"].dropna().sum()
+            ttm_rev = last_4["total_revenue"].dropna().sum() if "total_revenue" in last_4.columns else None
+
+            synthetic_row = latest_record.copy()
+            synthetic_row["net_income"]    = ttm_ni
+            synthetic_row["net_income_bn"] = ttm_ni / 1e9
+            if ttm_rev:
+                synthetic_row["total_revenue"] = ttm_rev
+            synthetic_row["_is_ttm"] = True   # flag so we know it's TTM not annual
+
+            annual = pd.concat([annual, pd.DataFrame([synthetic_row])], ignore_index=True)
+            annual = annual.sort_values("report_date").reset_index(drop=True)
+
+        annual["_is_ttm"] = annual.get("_is_ttm", False)
         annual["ni_yoy"] = annual["net_income"].pct_change() * 100
         annual["revenue_yoy"] = annual.get("total_revenue", pd.Series(dtype=float)).pct_change() * 100
 
