@@ -1,7 +1,7 @@
 {
   "sym": "2060",
   "name": "National Industrialization",
-  "generated": "2026-06-06T02:26:45.665356",
+  "generated": "2026-06-06T12:55:59.540704",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.87%"
     }
   ],
-  "bias": 1.21,
-  "before_accuracy": 58.5
+  "bias": 1.75,
+  "before_accuracy": 56.1
 }

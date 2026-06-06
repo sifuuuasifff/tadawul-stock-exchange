@@ -1,7 +1,7 @@
 {
   "sym": "3050",
   "name": "Southern Province Cement",
-  "generated": "2026-06-06T02:29:21.897345",
+  "generated": "2026-06-06T14:47:41.028514",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -4.5%",
-      "evidence": "Systematic overestimate: predicted=3.45%, actual=-1.09%"
+      "action": "Adjust upward by -4.2%",
+      "evidence": "Systematic overestimate: predicted=3.06%, actual=-1.09%"
     }
   ],
-  "bias": -4.54,
-  "before_accuracy": 46.3
+  "bias": -4.15,
+  "before_accuracy": 41.5
 }

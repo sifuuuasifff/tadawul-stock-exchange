@@ -1,7 +1,7 @@
 {
   "sym": "4110",
   "name": "Batic Investments",
-  "generated": "2026-06-06T02:30:06.207327",
+  "generated": "2026-06-06T14:48:31.269609",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": 7.11,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 78,
-      "avg_return_90d": 42.86,
-      "pct_positive_90d": 98.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 21.38,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 660,
-      "avg_return_90d": 8.27,
-      "pct_positive_90d": 65.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -13.21,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1177,
-      "avg_return_90d": 4.52,
-      "pct_positive_90d": 47.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -16.96,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 602,
-      "avg_return_90d": 10.27,
-      "pct_positive_90d": 52.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -11.2,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 369,
-      "avg_return_90d": 8.03,
-      "pct_positive_90d": 38.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -13.45,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

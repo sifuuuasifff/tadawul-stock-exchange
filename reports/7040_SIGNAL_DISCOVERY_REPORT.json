@@ -1,7 +1,7 @@
 {
   "sym": "7040",
   "name": "Go (formerly Etihad Atheeb)",
-  "generated": "2026-06-06T02:27:17.018299",
+  "generated": "2026-06-06T12:57:10.754769",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,50 +646,6 @@
       "avg_alpha_90d": -3.69,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 88,
-      "avg_return_90d": 3.3,
-      "pct_positive_90d": 60.2,
-      "p_value_90d": 0.003,
-      "significant_90d": true,
-      "edge_vs_base": -10.78,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 214,
-      "avg_return_90d": -0.84,
-      "pct_positive_90d": 50.5,
-      "p_value_90d": 0.324,
-      "significant_90d": false,
-      "edge_vs_base": -14.92,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 66,
-      "avg_return_90d": -11.71,
-      "pct_positive_90d": 15.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -25.8,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 66,
-      "avg_return_90d": -11.71,
-      "pct_positive_90d": 15.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -25.8,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

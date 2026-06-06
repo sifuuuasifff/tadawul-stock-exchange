@@ -1,7 +1,7 @@
 {
   "sym": "2250",
   "name": "Saudi Industrial Investment",
-  "generated": "2026-06-06T02:26:53.258911",
+  "generated": "2026-06-06T12:56:16.602154",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": -2.74,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3573,
-      "avg_return_90d": 2.87,
-      "pct_positive_90d": 55.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -2.92,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3623,
-      "avg_return_90d": 3.18,
-      "pct_positive_90d": 54.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -2.62,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3736,
-      "avg_return_90d": 6.54,
-      "pct_positive_90d": 55.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.75,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 154,
-      "avg_return_90d": -13.71,
-      "pct_positive_90d": 25.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -19.51,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 151,
-      "avg_return_90d": -14.36,
-      "pct_positive_90d": 23.8,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -20.16,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

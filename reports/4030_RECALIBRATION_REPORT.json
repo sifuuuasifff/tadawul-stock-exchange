@@ -1,7 +1,7 @@
 {
   "sym": "4030",
   "name": "BAHRI (National Shipping)",
-  "generated": "2026-06-06T02:29:39.650130",
+  "generated": "2026-06-06T14:48:01.074040",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=6.37%"
     }
   ],
-  "bias": -0.04,
+  "bias": 0.25,
   "before_accuracy": 43.9
 }

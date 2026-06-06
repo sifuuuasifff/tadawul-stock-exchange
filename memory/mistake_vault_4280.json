@@ -2,15 +2,13 @@
   "mistakes": [
     {
       "prediction_date": "2016-01-03",
-      "predicted_90d": 7.5,
+      "predicted_90d": 5.5,
       "actual_90d": -20.0,
-      "error": 27.5,
+      "error": 25.5,
       "direction_correct": "False",
-      "composite_score": 67.7,
-      "val_score": 54,
+      "composite_score": 63.3,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 25.9,
-      "pe_at_prediction": "P/E=11.7",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -19,11 +17,9 @@
       "actual_90d": -7.8,
       "error": 13.3,
       "direction_correct": "False",
-      "composite_score": 61.7,
-      "val_score": 64,
+      "composite_score": 60.1,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 36.1,
-      "pe_at_prediction": "P/E=9.0",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -32,11 +28,9 @@
       "actual_90d": -14.3,
       "error": 19.8,
       "direction_correct": "False",
-      "composite_score": 62.8,
-      "val_score": 58,
+      "composite_score": 60.4,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 53.5,
-      "pe_at_prediction": "P/E=9.4",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -45,12 +39,10 @@
       "actual_90d": 21.3,
       "error": 21.3,
       "direction_correct": "False",
-      "composite_score": 50.2,
-      "val_score": 70,
+      "composite_score": 47.8,
+      "sector": "Diversified",
       "rate_regime": "falling",
-      "rsi": 77.9,
-      "pe_at_prediction": "P/E=8.9",
-      "root_cause": "Valuation signal misleading (val=70/100, pe=P/E=8.9)"
+      "root_cause": "Model underestimated upside"
     },
     {
       "prediction_date": "2021-03-07",
@@ -58,25 +50,32 @@
       "actual_90d": 34.8,
       "error": 31.8,
       "direction_correct": "True",
-      "composite_score": 59.2,
-      "val_score": 50,
+      "composite_score": 56.0,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 67.4,
-      "pe_at_prediction": "P/E=83.5",
       "root_cause": "Model underestimated upside"
     },
     {
-      "prediction_date": "2022-02-28",
-      "predicted_90d": 7.5,
-      "actual_90d": -9.3,
-      "error": 16.8,
+      "prediction_date": "2021-06-03",
+      "predicted_90d": -3.5,
+      "actual_90d": 9.4,
+      "error": 12.9,
       "direction_correct": "False",
-      "composite_score": 71.3,
-      "val_score": 44,
+      "composite_score": 43.5,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 39.6,
-      "pe_at_prediction": "P/E=49.5",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Diversified"
+    },
+    {
+      "prediction_date": "2022-02-28",
+      "predicted_90d": 5.5,
+      "actual_90d": -9.3,
+      "error": 14.8,
+      "direction_correct": "False",
+      "composite_score": 66.5,
+      "sector": "Diversified",
+      "rate_regime": "stable",
+      "root_cause": "Sector weights may need tuning for Diversified"
     },
     {
       "prediction_date": "2024-05-19",
@@ -84,11 +83,9 @@
       "actual_90d": 43.6,
       "error": 38.1,
       "direction_correct": "True",
-      "composite_score": 66.9,
-      "val_score": 75,
+      "composite_score": 65.3,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 27.3,
-      "pe_at_prediction": "P/E=3.2",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -97,12 +94,10 @@
       "actual_90d": -17.7,
       "error": 19.7,
       "direction_correct": "False",
-      "composite_score": 58.0,
-      "val_score": 69,
+      "composite_score": 56.4,
+      "sector": "Diversified",
       "rate_regime": "falling",
-      "rsi": 27.1,
-      "pe_at_prediction": "P/E=4.5",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=4.5)"
+      "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2025-02-12",
@@ -110,25 +105,21 @@
       "actual_90d": -15.2,
       "error": 17.2,
       "direction_correct": "False",
-      "composite_score": 56.6,
-      "val_score": 69,
+      "composite_score": 57.1,
+      "sector": "Diversified",
       "rate_regime": "falling",
-      "rsi": 61.5,
-      "pe_at_prediction": "P/E=3.5",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=3.5)"
+      "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2025-05-13",
-      "predicted_90d": 7.5,
+      "predicted_90d": 5.5,
       "actual_90d": -17.1,
-      "error": 24.6,
+      "error": 22.6,
       "direction_correct": "False",
-      "composite_score": 67.5,
-      "val_score": 75,
+      "composite_score": 63.2,
+      "sector": "Diversified",
       "rate_regime": "stable",
-      "rsi": 47.2,
-      "pe_at_prediction": "P/E=3.2",
-      "root_cause": "Valuation signal misleading (val=75/100, pe=P/E=3.2)"
+      "root_cause": "Model underestimated downside"
     }
   ]
 }

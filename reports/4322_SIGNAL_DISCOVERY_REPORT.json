@@ -1,7 +1,7 @@
 {
   "sym": "4322",
   "name": "Retal Urban Dev",
-  "generated": "2026-06-06T02:27:49.610704",
+  "generated": "2026-06-06T14:45:36.504385",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -598,39 +598,6 @@
       "group": "Technical \u2014 Momentum",
       "occurrences": 4,
       "reliability_label": "INSUFFICIENT"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 140,
-      "avg_return_90d": 28.29,
-      "pct_positive_90d": 100.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 20.34,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 499,
-      "avg_return_90d": 14.93,
-      "pct_positive_90d": 67.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 6.98,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 806,
-      "avg_return_90d": 8.2,
-      "pct_positive_90d": 57.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.26,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

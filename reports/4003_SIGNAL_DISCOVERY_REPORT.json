@@ -1,7 +1,7 @@
 {
   "sym": "4003",
   "name": "United Electronics (Extra)",
-  "generated": "2026-06-06T02:27:27.376539",
+  "generated": "2026-06-06T12:57:36.583609",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": -0.11,
       "reliability_score": 0,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2464,
-      "avg_return_90d": 7.68,
-      "pct_positive_90d": 63.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.95,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3352,
-      "avg_return_90d": 6.75,
-      "pct_positive_90d": 60.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.02,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3353,
-      "avg_return_90d": 6.73,
-      "pct_positive_90d": 60.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.0,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

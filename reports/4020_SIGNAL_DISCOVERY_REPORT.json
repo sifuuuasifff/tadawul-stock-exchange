@@ -1,7 +1,7 @@
 {
   "sym": "4020",
   "name": "Saudi Real Estate Co.",
-  "generated": "2026-06-06T02:27:55.927476",
+  "generated": "2026-06-06T14:45:55.108796",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,61 +645,6 @@
       "significant_90d": true,
       "avg_alpha_90d": 3.6,
       "reliability_score": 70,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1090,
-      "avg_return_90d": 7.71,
-      "pct_positive_90d": 64.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 4.35,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2053,
-      "avg_return_90d": 3.94,
-      "pct_positive_90d": 54.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.58,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2214,
-      "avg_return_90d": 3.12,
-      "pct_positive_90d": 53.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.24,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 571,
-      "avg_return_90d": 1.54,
-      "pct_positive_90d": 52.0,
-      "p_value_90d": 0.013,
-      "significant_90d": true,
-      "edge_vs_base": -1.81,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 249,
-      "avg_return_90d": 8.59,
-      "pct_positive_90d": 71.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 5.23,
       "reliability_label": "HIGH"
     }
   ],

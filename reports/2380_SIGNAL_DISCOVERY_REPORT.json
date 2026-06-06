@@ -1,7 +1,7 @@
 {
   "sym": "2380",
   "name": "Rabigh Refining & Petrochem",
-  "generated": "2026-06-06T02:26:16.721958",
+  "generated": "2026-06-06T12:54:55.398821",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,50 +646,6 @@
       "avg_alpha_90d": -2.07,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 23,
-      "avg_return_90d": 17.78,
-      "pct_positive_90d": 91.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 16.05,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 284,
-      "avg_return_90d": 0.82,
-      "pct_positive_90d": 59.2,
-      "p_value_90d": 0.504,
-      "significant_90d": false,
-      "edge_vs_base": -0.91,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 730,
-      "avg_return_90d": 5.16,
-      "pct_positive_90d": 46.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 3.43,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 477,
-      "avg_return_90d": 11.73,
-      "pct_positive_90d": 57.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 10.0,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

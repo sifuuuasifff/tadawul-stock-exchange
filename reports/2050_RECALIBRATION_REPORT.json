@@ -1,13 +1,13 @@
 {
   "sym": "2050",
   "name": "Savola Group",
-  "generated": "2026-06-06T02:28:44.951577",
+  "generated": "2026-06-06T14:46:57.981525",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
     "fundamental": 0.25
   },
   "log": [],
-  "bias": -0.08,
+  "bias": 0.61,
   "before_accuracy": 56.1
 }

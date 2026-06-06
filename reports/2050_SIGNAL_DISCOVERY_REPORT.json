@@ -1,7 +1,7 @@
 {
   "sym": "2050",
   "name": "Savola Group",
-  "generated": "2026-06-06T02:28:44.255849",
+  "generated": "2026-06-06T14:46:57.275145",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 0.23,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3655,
-      "avg_return_90d": 3.9,
-      "pct_positive_90d": 53.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.25,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3669,
-      "avg_return_90d": 4.09,
-      "pct_positive_90d": 53.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.06,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3761,
-      "avg_return_90d": 4.65,
-      "pct_positive_90d": 54.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.5,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

@@ -1,7 +1,7 @@
 {
   "sym": "2070",
   "name": "Saudi Pharmaceutical Ind.",
-  "generated": "2026-06-06T02:28:34.211678",
+  "generated": "2026-06-06T14:46:45.208167",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": -2.34,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2389,
-      "avg_return_90d": 2.95,
-      "pct_positive_90d": 51.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.24,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2390,
-      "avg_return_90d": 2.93,
-      "pct_positive_90d": 51.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.25,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2420,
-      "avg_return_90d": 3.16,
-      "pct_positive_90d": 51.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.03,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 220,
-      "avg_return_90d": 6.98,
-      "pct_positive_90d": 74.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 3.79,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 118,
-      "avg_return_90d": 9.34,
-      "pct_positive_90d": 82.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 6.15,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

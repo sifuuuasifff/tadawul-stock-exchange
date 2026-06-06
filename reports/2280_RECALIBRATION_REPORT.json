@@ -1,7 +1,7 @@
 {
   "sym": "2280",
   "name": "Almarai",
-  "generated": "2026-06-06T02:28:40.959684",
+  "generated": "2026-06-06T14:46:52.529944",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=2.56%"
     }
   ],
-  "bias": -2.01,
-  "before_accuracy": 46.3
+  "bias": -1.0,
+  "before_accuracy": 48.8
 }

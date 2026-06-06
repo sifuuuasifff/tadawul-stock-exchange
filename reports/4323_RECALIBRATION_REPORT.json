@@ -1,7 +1,7 @@
 {
   "sym": "4323",
   "name": "SUMOU Real Estate",
-  "generated": "2026-06-06T02:27:52.444326",
+  "generated": "2026-06-06T14:45:45.584645",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -5.2%",
-      "evidence": "Systematic overestimate: predicted=2.34%, actual=-2.87%"
+      "action": "Adjust upward by -4.7%",
+      "evidence": "Systematic overestimate: predicted=1.78%, actual=-2.87%"
     }
   ],
-  "bias": -5.21,
+  "bias": -4.65,
   "before_accuracy": 31.2
 }

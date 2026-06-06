@@ -1,7 +1,7 @@
 {
   "sym": "4013",
   "name": "Dr Sulaiman Al Habib",
-  "generated": "2026-06-06T02:28:13.558890",
+  "generated": "2026-06-06T14:46:22.056681",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,8 +15,8 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 7.7%",
-      "evidence": "Systematic underestimate: predicted=2.19%, actual=9.85%"
+      "action": "Adjust upward by 8.1%",
+      "evidence": "Systematic underestimate: predicted=1.74%, actual=9.85%"
     },
     {
       "factor": "Upside capture",
@@ -24,6 +24,6 @@
       "evidence": "7/8 large errors were upside misses"
     }
   ],
-  "bias": 7.66,
+  "bias": 8.11,
   "before_accuracy": 57.1
 }

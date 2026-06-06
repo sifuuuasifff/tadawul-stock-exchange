@@ -1,7 +1,7 @@
 {
   "sym": "4015",
   "name": "Jamjoom Pharma",
-  "generated": "2026-06-06T02:28:36.016969",
+  "generated": "2026-06-06T14:46:47.153238",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -600,15 +600,14 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 231,
-      "avg_return_90d": 18.61,
-      "pct_positive_90d": 84.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 13.01,
-      "reliability_label": "HIGH"
+      "signal": "Earnings Surprise \u2014 Positive Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 6,
+      "avg_return_90d": 2.81,
+      "pct_positive_90d": 83.3,
+      "p_value_90d": 0.537,
+      "significant_90d": false,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

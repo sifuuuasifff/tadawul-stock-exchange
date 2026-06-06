@@ -1,7 +1,7 @@
 {
   "sym": "4006",
   "name": "Saudi Marketing Co.",
-  "generated": "2026-06-06T02:27:39.507320",
+  "generated": "2026-06-06T12:58:00.372694",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,39 +645,6 @@
       "significant_90d": false,
       "avg_alpha_90d": -0.09,
       "reliability_score": 0,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1214,
-      "avg_return_90d": -0.69,
-      "pct_positive_90d": 40.4,
-      "p_value_90d": 0.272,
-      "significant_90d": false,
-      "edge_vs_base": 2.13,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1590,
-      "avg_return_90d": -0.39,
-      "pct_positive_90d": 40.4,
-      "p_value_90d": 0.469,
-      "significant_90d": false,
-      "edge_vs_base": 2.43,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2266,
-      "avg_return_90d": 0.24,
-      "pct_positive_90d": 39.8,
-      "p_value_90d": 0.585,
-      "significant_90d": false,
-      "edge_vs_base": 3.06,
       "reliability_label": "LOW"
     }
   ],

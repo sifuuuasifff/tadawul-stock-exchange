@@ -1,7 +1,7 @@
 {
   "sym": "1050",
   "name": "BSF (Saudi Fransi)",
-  "generated": "2026-06-06T02:26:02.683918",
+  "generated": "2026-06-06T12:54:23.114528",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-9.01%"
     }
   ],
-  "bias": 1.98,
-  "before_accuracy": 61.0
+  "bias": 1.91,
+  "before_accuracy": 58.5
 }

@@ -2,15 +2,13 @@
   "mistakes": [
     {
       "prediction_date": "2016-01-03",
-      "predicted_90d": 5.5,
+      "predicted_90d": 3.0,
       "actual_90d": -22.6,
-      "error": 28.1,
+      "error": 25.6,
       "direction_correct": "False",
-      "composite_score": 62.0,
-      "val_score": 65,
+      "composite_score": 58.0,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 63.0,
-      "pe_at_prediction": "P/E=2.9",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -19,11 +17,9 @@
       "actual_90d": -9.8,
       "error": 15.3,
       "direction_correct": "False",
-      "composite_score": 66.0,
-      "val_score": 65,
+      "composite_score": 62.0,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 54.3,
-      "pe_at_prediction": "P/E=2.2",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -32,11 +28,9 @@
       "actual_90d": 35.8,
       "error": 28.3,
       "direction_correct": "True",
-      "composite_score": 70.0,
-      "val_score": 65,
+      "composite_score": 68.8,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 18.0,
-      "pe_at_prediction": "P/E=1.8",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -45,11 +39,9 @@
       "actual_90d": 20.8,
       "error": 17.8,
       "direction_correct": "True",
-      "composite_score": 58.6,
-      "val_score": 65,
+      "composite_score": 57.4,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 49.1,
-      "pe_at_prediction": "P/E=2.4",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -58,11 +50,20 @@
       "actual_90d": 20.4,
       "error": 17.4,
       "direction_correct": "True",
-      "composite_score": 58.6,
-      "val_score": 65,
+      "composite_score": 57.4,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 55.6,
-      "pe_at_prediction": "P/E=2.8",
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2018-09-17",
+      "predicted_90d": 5.5,
+      "actual_90d": 17.6,
+      "error": 12.1,
+      "direction_correct": "True",
+      "composite_score": 66.5,
+      "sector": "Retail",
+      "rate_regime": "stable",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -71,24 +72,20 @@
       "actual_90d": 19.5,
       "error": 14.0,
       "direction_correct": "True",
-      "composite_score": 65.5,
-      "val_score": 65,
+      "composite_score": 60.7,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 60.0,
-      "pe_at_prediction": "P/E=3.8",
       "root_cause": "Model underestimated upside"
     },
     {
       "prediction_date": "2019-06-16",
-      "predicted_90d": 5.5,
+      "predicted_90d": 3.0,
       "actual_90d": -9.1,
-      "error": 14.6,
+      "error": 12.1,
       "direction_correct": "False",
-      "composite_score": 61.2,
-      "val_score": 65,
+      "composite_score": 59.2,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 58.7,
-      "pe_at_prediction": "P/E=4.2",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -97,11 +94,20 @@
       "actual_90d": 37.7,
       "error": 37.7,
       "direction_correct": "False",
-      "composite_score": 50.5,
-      "val_score": 65,
+      "composite_score": 48.5,
+      "sector": "Retail",
       "rate_regime": "falling",
-      "rsi": 71.2,
-      "pe_at_prediction": "P/E=3.4",
+      "root_cause": "Model underestimated upside"
+    },
+    {
+      "prediction_date": "2021-03-07",
+      "predicted_90d": 5.5,
+      "actual_90d": 18.7,
+      "error": 13.2,
+      "direction_correct": "True",
+      "composite_score": 63.9,
+      "sector": "Retail",
+      "rate_regime": "stable",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -110,25 +116,21 @@
       "actual_90d": -7.0,
       "error": 12.5,
       "direction_correct": "False",
-      "composite_score": 62.6,
-      "val_score": 65,
+      "composite_score": 60.6,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 56.7,
-      "pe_at_prediction": "P/E=5.1",
       "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2022-02-28",
-      "predicted_90d": 7.5,
+      "predicted_90d": 5.5,
       "actual_90d": -28.1,
-      "error": 35.6,
+      "error": 33.6,
       "direction_correct": "False",
-      "composite_score": 71.0,
-      "val_score": 59,
+      "composite_score": 64.2,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 68.6,
-      "pe_at_prediction": "P/E=4.9",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Retail"
     },
     {
       "prediction_date": "2023-02-23",
@@ -136,11 +138,9 @@
       "actual_90d": 19.3,
       "error": 23.3,
       "direction_correct": "False",
-      "composite_score": 49.2,
-      "val_score": 59,
+      "composite_score": 52.4,
+      "sector": "Retail",
       "rate_regime": "rising",
-      "rsi": 27.3,
-      "pe_at_prediction": "P/E=3.5",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -149,11 +149,9 @@
       "actual_90d": -15.0,
       "error": 18.0,
       "direction_correct": "False",
-      "composite_score": 58.1,
-      "val_score": 59,
+      "composite_score": 56.9,
+      "sector": "Retail",
       "rate_regime": "stable",
-      "rsi": 58.0,
-      "pe_at_prediction": "P/E=4.0",
       "root_cause": "Model underestimated downside"
     }
   ]

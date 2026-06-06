@@ -7,11 +7,9 @@
       "error": 19.3,
       "direction_correct": "False",
       "composite_score": 61.0,
-      "val_score": 65,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 40.0,
-      "pe_at_prediction": "P/E=3.5",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Real Estate"
     },
     {
       "prediction_date": "2017-12-21",
@@ -20,10 +18,8 @@
       "error": 16.8,
       "direction_correct": "False",
       "composite_score": 60.8,
-      "val_score": 65,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 25.0,
-      "pe_at_prediction": "P/E=3.2",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -33,10 +29,8 @@
       "error": 12.2,
       "direction_correct": "False",
       "composite_score": 53.2,
-      "val_score": 65,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 71.9,
-      "pe_at_prediction": "P/E=2.9",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -46,10 +40,8 @@
       "error": 14.0,
       "direction_correct": "True",
       "composite_score": 55.5,
-      "val_score": 60,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 48.4,
-      "pe_at_prediction": "P/E=6.4",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -58,12 +50,10 @@
       "actual_90d": -16.6,
       "error": 22.1,
       "direction_correct": "False",
-      "composite_score": 63.7,
-      "val_score": 40,
+      "composite_score": 60.1,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 48.8,
-      "pe_at_prediction": "P/E=38.7",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Real Estate"
     },
     {
       "prediction_date": "2022-11-27",
@@ -71,12 +61,10 @@
       "actual_90d": 10.3,
       "error": 18.8,
       "direction_correct": "False",
-      "composite_score": 44.7,
-      "val_score": 40,
+      "composite_score": 41.9,
+      "sector": "Real Estate",
       "rate_regime": "rising",
-      "rsi": 33.8,
-      "pe_at_prediction": "P/E=30.4",
-      "root_cause": "Model underestimated upside"
+      "root_cause": "Sector weights may need tuning for Real Estate"
     },
     {
       "prediction_date": "2023-02-23",
@@ -84,11 +72,9 @@
       "actual_90d": 22.5,
       "error": 26.5,
       "direction_correct": "False",
-      "composite_score": 46.7,
-      "val_score": 40,
+      "composite_score": 47.1,
+      "sector": "Real Estate",
       "rate_regime": "rising",
-      "rsi": 34.6,
-      "pe_at_prediction": "P/E=21.7",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -97,12 +83,10 @@
       "actual_90d": -8.7,
       "error": 14.2,
       "direction_correct": "False",
-      "composite_score": 66.0,
-      "val_score": 40,
+      "composite_score": 65.2,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 22.5,
-      "pe_at_prediction": "P/E=24.3",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Real Estate"
     },
     {
       "prediction_date": "2023-11-20",
@@ -111,10 +95,8 @@
       "error": 37.8,
       "direction_correct": "False",
       "composite_score": 44.5,
-      "val_score": 40,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 79.2,
-      "pe_at_prediction": "P/E=23.8",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -124,10 +106,8 @@
       "error": 39.1,
       "direction_correct": "False",
       "composite_score": 42.9,
-      "val_score": 40,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 91.4,
-      "pe_at_prediction": "P/E=34.6",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -136,37 +116,31 @@
       "actual_90d": -14.4,
       "error": 17.4,
       "direction_correct": "False",
-      "composite_score": 56.9,
-      "val_score": 40,
+      "composite_score": 56.1,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 37.5,
-      "pe_at_prediction": "P/E=49.3",
       "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2024-11-14",
-      "predicted_90d": 0.0,
+      "predicted_90d": 2.0,
       "actual_90d": 19.5,
-      "error": 19.5,
-      "direction_correct": "False",
-      "composite_score": 52.4,
-      "val_score": 40,
+      "error": 17.5,
+      "direction_correct": "True",
+      "composite_score": 54.0,
+      "sector": "Real Estate",
       "rate_regime": "falling",
-      "rsi": 10.8,
-      "pe_at_prediction": "P/E=43.5",
       "root_cause": "Model underestimated upside"
     },
     {
       "prediction_date": "2025-02-12",
-      "predicted_90d": 0.0,
+      "predicted_90d": 2.0,
       "actual_90d": -17.0,
-      "error": 17.0,
-      "direction_correct": "True",
-      "composite_score": 52.3,
-      "val_score": 40,
+      "error": 19.0,
+      "direction_correct": "False",
+      "composite_score": 56.3,
+      "sector": "Real Estate",
       "rate_regime": "falling",
-      "rsi": 59.3,
-      "pe_at_prediction": "P/E=26.2",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -175,11 +149,9 @@
       "actual_90d": -12.7,
       "error": 20.2,
       "direction_correct": "False",
-      "composite_score": 72.0,
-      "val_score": 46,
+      "composite_score": 71.2,
+      "sector": "Real Estate",
       "rate_regime": "stable",
-      "rsi": 25.5,
-      "pe_at_prediction": "P/E=13.9",
       "root_cause": "Model underestimated downside"
     }
   ]

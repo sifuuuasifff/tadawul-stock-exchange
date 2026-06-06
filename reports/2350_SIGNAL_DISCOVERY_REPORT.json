@@ -1,7 +1,7 @@
 {
   "sym": "2350",
   "name": "Saudi Kayan Petrochem",
-  "generated": "2026-06-06T02:26:32.890718",
+  "generated": "2026-06-06T12:55:31.605470",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,58 +648,13 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 15,
-      "avg_return_90d": 17.75,
-      "pct_positive_90d": 100.0,
+      "signal": "Earnings Surprise \u2014 Negative Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 10,
+      "avg_return_90d": -16.47,
+      "pct_positive_90d": 0.0,
       "p_value_90d": 0.0,
       "significant_90d": true,
-      "edge_vs_base": 18.7,
-      "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 337,
-      "avg_return_90d": 12.51,
-      "pct_positive_90d": 56.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 13.46,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 495,
-      "avg_return_90d": 6.55,
-      "pct_positive_90d": 46.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 7.51,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 877,
-      "avg_return_90d": -1.39,
-      "pct_positive_90d": 36.8,
-      "p_value_90d": 0.003,
-      "significant_90d": true,
-      "edge_vs_base": -0.44,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 816,
-      "avg_return_90d": -3.24,
-      "pct_positive_90d": 32.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -2.29,
       "reliability_label": "HIGH"
     }
   ],

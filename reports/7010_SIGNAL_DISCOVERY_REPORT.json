@@ -1,7 +1,7 @@
 {
   "sym": "7010",
   "name": "STC",
-  "generated": "2026-06-06T02:27:05.365462",
+  "generated": "2026-06-06T12:56:44.714970",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,37 +648,14 @@
       "reliability_label": "MEDIUM"
     },
     {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3758,
-      "avg_return_90d": 4.95,
-      "pct_positive_90d": 59.8,
-      "p_value_90d": 0.0,
+      "signal": "Earnings Surprise \u2014 Positive Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 8,
+      "avg_return_90d": 6.93,
+      "pct_positive_90d": 87.5,
+      "p_value_90d": 0.01,
       "significant_90d": true,
-      "edge_vs_base": 0.1,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3839,
-      "avg_return_90d": 4.93,
-      "pct_positive_90d": 60.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.08,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3905,
-      "avg_return_90d": 4.85,
-      "pct_positive_90d": 60.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.0,
-      "reliability_label": "HIGH"
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

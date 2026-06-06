@@ -1,7 +1,7 @@
 {
   "sym": "7020",
   "name": "Mobily (Etihad Etisalat)",
-  "generated": "2026-06-06T02:27:10.186498",
+  "generated": "2026-06-06T12:56:55.335716",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,8 +12,13 @@
       "factor": "Rising rate penalty",
       "action": "REDUCE \u2014 rising rates help this stock",
       "evidence": "H01: rising rates help: diff=5.06%"
+    },
+    {
+      "factor": "Upside capture",
+      "action": "Model consistently underestimates upside \u2014 increase bull spread",
+      "evidence": "11/18 large errors were upside misses"
     }
   ],
-  "bias": 1.04,
-  "before_accuracy": 61.0
+  "bias": 1.86,
+  "before_accuracy": 63.4
 }

@@ -1,13 +1,13 @@
 {
   "sym": "3030",
   "name": "Saudi Cement Co.",
-  "generated": "2026-06-06T02:29:13.325855",
+  "generated": "2026-06-06T14:47:30.429180",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
     "fundamental": 0.25
   },
   "log": [],
-  "bias": -2.31,
+  "bias": -1.94,
   "before_accuracy": 46.3
 }

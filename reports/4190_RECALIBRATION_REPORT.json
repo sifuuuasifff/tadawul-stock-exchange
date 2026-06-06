@@ -1,7 +1,7 @@
 {
   "sym": "4190",
   "name": "Jarir Marketing",
-  "generated": "2026-06-06T02:27:24.361527",
+  "generated": "2026-06-06T12:57:28.954877",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.44%"
     }
   ],
-  "bias": 0.36,
+  "bias": 0.82,
   "before_accuracy": 68.3
 }

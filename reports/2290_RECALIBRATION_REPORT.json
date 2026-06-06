@@ -1,7 +1,7 @@
 {
   "sym": "2290",
   "name": "Yanbu National Petrochem",
-  "generated": "2026-06-06T02:26:29.760474",
+  "generated": "2026-06-06T12:55:24.463176",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -19,6 +19,6 @@
       "evidence": "11/18 large errors were upside misses"
     }
   ],
-  "bias": 0.94,
+  "bias": 1.45,
   "before_accuracy": 73.2
 }

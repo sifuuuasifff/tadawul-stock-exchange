@@ -1,7 +1,7 @@
 {
   "sym": "4100",
   "name": "Makkah Construction",
-  "generated": "2026-06-06T02:28:04.460732",
+  "generated": "2026-06-06T14:46:09.188701",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.78%"
     }
   ],
-  "bias": -1.4,
+  "bias": -1.3,
   "before_accuracy": 51.2
 }

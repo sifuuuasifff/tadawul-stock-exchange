@@ -1,7 +1,7 @@
 {
   "sym": "2280",
   "name": "Almarai",
-  "generated": "2026-06-06T02:28:40.178100",
+  "generated": "2026-06-06T14:46:51.667537",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 2.21,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1865,
-      "avg_return_90d": 7.73,
-      "pct_positive_90d": 68.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 4.73,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3695,
-      "avg_return_90d": 3.53,
-      "pct_positive_90d": 57.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.53,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3870,
-      "avg_return_90d": 3.14,
-      "pct_positive_90d": 56.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.14,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

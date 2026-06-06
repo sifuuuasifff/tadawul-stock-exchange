@@ -1,7 +1,7 @@
 {
   "sym": "1830",
   "name": "Leejam Sports",
-  "generated": "2026-06-06T02:30:21.705046",
+  "generated": "2026-06-06T14:48:48.205020",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=13.71%"
     }
   ],
-  "bias": 2.81,
-  "before_accuracy": 48.1
+  "bias": 2.64,
+  "before_accuracy": 44.4
 }

@@ -1,7 +1,7 @@
 {
   "sym": "6004",
   "name": "Saudi Airlines Catering",
-  "generated": "2026-06-06T02:29:43.042524",
+  "generated": "2026-06-06T14:48:05.328317",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,61 +645,6 @@
       "significant_90d": false,
       "avg_alpha_90d": -2.17,
       "reliability_score": 20,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2249,
-      "avg_return_90d": 3.27,
-      "pct_positive_90d": 57.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.02,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2324,
-      "avg_return_90d": 3.03,
-      "pct_positive_90d": 55.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.78,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2773,
-      "avg_return_90d": 1.4,
-      "pct_positive_90d": 50.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.84,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 392,
-      "avg_return_90d": 5.61,
-      "pct_positive_90d": 60.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 3.36,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 249,
-      "avg_return_90d": 0.67,
-      "pct_positive_90d": 43.8,
-      "p_value_90d": 0.346,
-      "significant_90d": false,
-      "edge_vs_base": -1.58,
       "reliability_label": "LOW"
     }
   ],

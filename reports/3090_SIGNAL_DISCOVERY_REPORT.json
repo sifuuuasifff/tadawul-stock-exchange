@@ -1,7 +1,7 @@
 {
   "sym": "3090",
   "name": "TCC (Tabuk Cement)",
-  "generated": "2026-06-06T02:29:33.537598",
+  "generated": "2026-06-06T14:47:54.675564",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": -2.24,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2130,
-      "avg_return_90d": 0.54,
-      "pct_positive_90d": 51.2,
-      "p_value_90d": 0.1,
-      "significant_90d": false,
-      "edge_vs_base": 0.33,
-      "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2380,
-      "avg_return_90d": -0.92,
-      "pct_positive_90d": 46.0,
-      "p_value_90d": 0.003,
-      "significant_90d": true,
-      "edge_vs_base": -1.13,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2875,
-      "avg_return_90d": -1.0,
-      "pct_positive_90d": 45.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -1.2,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 260,
-      "avg_return_90d": 4.72,
-      "pct_positive_90d": 71.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 4.52,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 260,
-      "avg_return_90d": 4.72,
-      "pct_positive_90d": 71.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 4.52,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

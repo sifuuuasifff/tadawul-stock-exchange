@@ -1,7 +1,7 @@
 {
   "sym": "3040",
   "name": "Qassim Cement",
-  "generated": "2026-06-06T02:29:17.698256",
+  "generated": "2026-06-06T14:47:35.210981",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-5.4%"
     }
   ],
-  "bias": -1.49,
+  "bias": -1.28,
   "before_accuracy": 48.8
 }

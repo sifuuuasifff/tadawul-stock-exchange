@@ -1,7 +1,7 @@
 {
   "sym": "4250",
   "name": "Jabal Omar Development",
-  "generated": "2026-06-06T02:28:00.413253",
+  "generated": "2026-06-06T14:46:03.966750",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,13 +12,8 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-1.29%"
-    },
-    {
-      "factor": "Base return magnitude",
-      "action": "Adjust upward by -3.4%",
-      "evidence": "Systematic overestimate: predicted=1.62%, actual=-1.75%"
     }
   ],
-  "bias": -3.37,
-  "before_accuracy": 31.7
+  "bias": -2.98,
+  "before_accuracy": 34.1
 }

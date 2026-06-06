@@ -1,7 +1,7 @@
 {
   "sym": "4110",
   "name": "Batic Investments",
-  "generated": "2026-06-06T02:30:06.972509",
+  "generated": "2026-06-06T14:48:31.761121",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-31.43%"
     }
   ],
-  "bias": -1.14,
+  "bias": -0.4,
   "before_accuracy": 48.8
 }

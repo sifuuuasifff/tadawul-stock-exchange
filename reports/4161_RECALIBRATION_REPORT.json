@@ -1,7 +1,7 @@
 {
   "sym": "4161",
   "name": "BinDawood",
-  "generated": "2026-06-06T02:27:32.585943",
+  "generated": "2026-06-06T12:57:46.568193",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -7.3%",
-      "evidence": "Systematic overestimate: predicted=0.24%, actual=-7.07%"
+      "action": "Adjust upward by -7.2%",
+      "evidence": "Systematic overestimate: predicted=0.09%, actual=-7.07%"
     }
   ],
-  "bias": -7.31,
+  "bias": -7.16,
   "before_accuracy": 52.9
 }

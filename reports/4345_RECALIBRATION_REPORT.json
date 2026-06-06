@@ -1,7 +1,7 @@
 {
   "sym": "4345",
   "name": "Alinma Retail REIT",
-  "generated": "2026-06-06T02:28:10.983535",
+  "generated": "2026-06-06T14:46:18.707545",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,10 +15,10 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by -4.1%",
-      "evidence": "Systematic overestimate: predicted=2.52%, actual=-1.56%"
+      "action": "Adjust upward by -4.2%",
+      "evidence": "Systematic overestimate: predicted=2.59%, actual=-1.56%"
     }
   ],
-  "bias": -4.08,
-  "before_accuracy": 53.6
+  "bias": -4.15,
+  "before_accuracy": 50.0
 }

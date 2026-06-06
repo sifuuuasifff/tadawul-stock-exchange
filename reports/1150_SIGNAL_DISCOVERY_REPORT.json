@@ -1,7 +1,7 @@
 {
   "sym": "1150",
   "name": "Alinma Bank",
-  "generated": "2026-06-06T02:26:06.150303",
+  "generated": "2026-06-06T12:54:30.838897",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,47 +648,13 @@
       "reliability_label": "HIGH"
     },
     {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2298,
-      "avg_return_90d": 7.46,
-      "pct_positive_90d": 68.8,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.89,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3168,
-      "avg_return_90d": 6.17,
-      "pct_positive_90d": 66.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.61,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3841,
-      "avg_return_90d": 6.22,
-      "pct_positive_90d": 62.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.65,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 14,
-      "avg_return_90d": -45.14,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -50.71,
+      "signal": "Earnings Surprise \u2014 Positive Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 7,
+      "avg_return_90d": -5.91,
+      "pct_positive_90d": 14.3,
+      "p_value_90d": 0.061,
+      "significant_90d": false,
       "reliability_label": "MEDIUM"
     }
   ],

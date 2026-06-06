@@ -1,7 +1,7 @@
 {
   "sym": "2290",
   "name": "Yanbu National Petrochem",
-  "generated": "2026-06-06T02:26:29.110722",
+  "generated": "2026-06-06T12:55:22.879216",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,59 +648,14 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2938,
-      "avg_return_90d": 2.68,
-      "pct_positive_90d": 59.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.36,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3291,
-      "avg_return_90d": 2.56,
-      "pct_positive_90d": 58.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.23,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3369,
-      "avg_return_90d": 2.42,
-      "pct_positive_90d": 58.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.1,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 437,
-      "avg_return_90d": 3.33,
-      "pct_positive_90d": 58.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.01,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 435,
-      "avg_return_90d": 3.3,
-      "pct_positive_90d": 58.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.98,
-      "reliability_label": "HIGH"
+      "signal": "Earnings Surprise \u2014 Negative Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 5,
+      "avg_return_90d": 2.64,
+      "pct_positive_90d": 80.0,
+      "p_value_90d": 0.118,
+      "significant_90d": false,
+      "reliability_label": "MEDIUM"
     }
   ],
   "baseline": {

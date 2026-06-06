@@ -1,7 +1,7 @@
 {
   "sym": "3040",
   "name": "Qassim Cement",
-  "generated": "2026-06-06T02:29:16.972378",
+  "generated": "2026-06-06T14:47:34.595499",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 3.98,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3283,
-      "avg_return_90d": 2.96,
-      "pct_positive_90d": 54.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.06,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3852,
-      "avg_return_90d": 1.85,
-      "pct_positive_90d": 51.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.05,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3904,
-      "avg_return_90d": 1.9,
-      "pct_positive_90d": 51.8,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.0,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

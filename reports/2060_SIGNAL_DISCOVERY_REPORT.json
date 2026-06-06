@@ -1,7 +1,7 @@
 {
   "sym": "2060",
   "name": "National Industrialization",
-  "generated": "2026-06-06T02:26:44.934373",
+  "generated": "2026-06-06T12:55:58.022355",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": -5.56,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1912,
-      "avg_return_90d": 0.99,
-      "pct_positive_90d": 47.6,
-      "p_value_90d": 0.051,
-      "significant_90d": false,
-      "edge_vs_base": 0.31,
-      "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2061,
-      "avg_return_90d": 0.97,
-      "pct_positive_90d": 47.3,
-      "p_value_90d": 0.042,
-      "significant_90d": true,
-      "edge_vs_base": 0.29,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2380,
-      "avg_return_90d": 1.31,
-      "pct_positive_90d": 48.6,
-      "p_value_90d": 0.003,
-      "significant_90d": true,
-      "edge_vs_base": 0.64,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 489,
-      "avg_return_90d": -11.57,
-      "pct_positive_90d": 24.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -12.24,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 130,
-      "avg_return_90d": -24.46,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -25.13,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

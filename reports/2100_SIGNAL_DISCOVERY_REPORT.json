@@ -1,7 +1,7 @@
 {
   "sym": "2100",
   "name": "Wafrah for Industry",
-  "generated": "2026-06-06T02:28:52.372297",
+  "generated": "2026-06-06T14:47:06.573336",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": 6.12,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 164,
-      "avg_return_90d": 0.02,
-      "pct_positive_90d": 40.9,
-      "p_value_90d": 0.987,
-      "significant_90d": false,
-      "edge_vs_base": -4.82,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 275,
-      "avg_return_90d": 6.35,
-      "pct_positive_90d": 49.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.51,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 423,
-      "avg_return_90d": 13.97,
-      "pct_positive_90d": 66.7,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 9.13,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1325,
-      "avg_return_90d": -2.23,
-      "pct_positive_90d": 36.4,
-      "p_value_90d": 0.006,
-      "significant_90d": true,
-      "edge_vs_base": -7.06,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1011,
-      "avg_return_90d": -9.69,
-      "pct_positive_90d": 26.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -14.52,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

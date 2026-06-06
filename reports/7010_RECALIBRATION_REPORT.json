@@ -1,7 +1,7 @@
 {
   "sym": "7010",
   "name": "STC",
-  "generated": "2026-06-06T02:27:06.256737",
+  "generated": "2026-06-06T12:56:46.652945",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,8 +12,13 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-4.21%"
+    },
+    {
+      "factor": "Upside capture",
+      "action": "Model consistently underestimates upside \u2014 increase bull spread",
+      "evidence": "7/11 large errors were upside misses"
     }
   ],
-  "bias": 0.52,
+  "bias": 1.19,
   "before_accuracy": 58.5
 }

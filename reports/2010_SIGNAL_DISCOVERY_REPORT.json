@@ -1,7 +1,7 @@
 {
   "sym": "2010",
   "name": "SABIC",
-  "generated": "2026-06-06T02:26:20.804073",
+  "generated": "2026-06-06T12:55:04.707240",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": -2.11,
       "reliability_score": 0,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3464,
-      "avg_return_90d": 1.33,
-      "pct_positive_90d": 54.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.25,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3727,
-      "avg_return_90d": 1.06,
-      "pct_positive_90d": 54.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.02,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3765,
-      "avg_return_90d": 1.07,
-      "pct_positive_90d": 54.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.01,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

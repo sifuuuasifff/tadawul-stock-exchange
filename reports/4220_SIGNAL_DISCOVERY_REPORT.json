@@ -1,7 +1,7 @@
 {
   "sym": "4220",
   "name": "Emaar The Economic City",
-  "generated": "2026-06-06T02:27:47.548738",
+  "generated": "2026-06-06T14:45:26.119718",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,28 +646,6 @@
       "avg_alpha_90d": -0.53,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1195,
-      "avg_return_90d": -2.8,
-      "pct_positive_90d": 42.8,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -3.38,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 748,
-      "avg_return_90d": -8.72,
-      "pct_positive_90d": 32.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -9.3,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

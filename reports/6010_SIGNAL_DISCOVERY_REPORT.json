@@ -1,7 +1,7 @@
 {
   "sym": "6010",
   "name": "NADEC",
-  "generated": "2026-06-06T02:28:56.466288",
+  "generated": "2026-06-06T14:47:11.411474",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,61 +645,6 @@
       "significant_90d": false,
       "avg_alpha_90d": 2.41,
       "reliability_score": 30,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 444,
-      "avg_return_90d": 0.27,
-      "pct_positive_90d": 37.4,
-      "p_value_90d": 0.733,
-      "significant_90d": false,
-      "edge_vs_base": -3.74,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 958,
-      "avg_return_90d": 1.97,
-      "pct_positive_90d": 49.9,
-      "p_value_90d": 0.002,
-      "significant_90d": true,
-      "edge_vs_base": -2.04,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1806,
-      "avg_return_90d": 1.64,
-      "pct_positive_90d": 48.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -2.38,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1045,
-      "avg_return_90d": 2.12,
-      "pct_positive_90d": 41.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -1.89,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 667,
-      "avg_return_90d": -0.85,
-      "pct_positive_90d": 35.7,
-      "p_value_90d": 0.189,
-      "significant_90d": false,
-      "edge_vs_base": -4.86,
       "reliability_label": "LOW"
     }
   ],

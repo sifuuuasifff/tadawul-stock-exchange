@@ -1,7 +1,7 @@
 {
   "sym": "2310",
   "name": "Sahara International Petrochem",
-  "generated": "2026-06-06T02:26:36.897702",
+  "generated": "2026-06-06T12:55:40.813863",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -648,58 +648,13 @@
       "reliability_label": "LOW"
     },
     {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2350,
-      "avg_return_90d": 3.02,
-      "pct_positive_90d": 50.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.04,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3517,
-      "avg_return_90d": 2.09,
-      "pct_positive_90d": 48.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.89,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3585,
-      "avg_return_90d": 2.85,
-      "pct_positive_90d": 49.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.14,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 130,
-      "avg_return_90d": -11.72,
-      "pct_positive_90d": 16.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -14.71,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 12,
-      "avg_return_90d": -21.58,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -24.56,
+      "signal": "Earnings Surprise \u2014 Negative Surprise",
+      "group": "Events \u2014 Earnings Surprise",
+      "occurrences": 7,
+      "avg_return_90d": -7.67,
+      "pct_positive_90d": 42.9,
+      "p_value_90d": 0.154,
+      "significant_90d": false,
       "reliability_label": "MEDIUM"
     }
   ],

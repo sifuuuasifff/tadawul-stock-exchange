@@ -1,7 +1,7 @@
 {
   "sym": "2030",
   "name": "SARCO",
-  "generated": "2026-06-06T02:26:49.344309",
+  "generated": "2026-06-06T12:56:07.508387",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,61 +646,6 @@
       "avg_alpha_90d": 14.52,
       "reliability_score": 70,
       "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 497,
-      "avg_return_90d": 18.9,
-      "pct_positive_90d": 64.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 14.55,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 914,
-      "avg_return_90d": 7.43,
-      "pct_positive_90d": 49.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 3.07,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1213,
-      "avg_return_90d": 6.1,
-      "pct_positive_90d": 48.6,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.74,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1868,
-      "avg_return_90d": -0.06,
-      "pct_positive_90d": 36.9,
-      "p_value_90d": 0.924,
-      "significant_90d": false,
-      "edge_vs_base": -4.41,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1012,
-      "avg_return_90d": 0.34,
-      "pct_positive_90d": 29.5,
-      "p_value_90d": 0.73,
-      "significant_90d": false,
-      "edge_vs_base": -4.02,
-      "reliability_label": "LOW"
     }
   ],
   "baseline": {

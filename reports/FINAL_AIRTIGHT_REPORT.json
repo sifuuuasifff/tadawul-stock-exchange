@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T02:19:12.312709",
+  "generated": "2026-06-06T02:31:10.053160",
   "model_layers": {
     "environment": {
       "weight": "40%",
@@ -22,303 +22,1117 @@
       "history": "reconstructed"
     }
   },
-  "results": [],
-  "failed": [
-    {
-      "sym": "1120",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1180",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1010",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1060",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1080",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1050",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1150",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1140",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2222",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2380",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2010",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2020",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2290",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2350",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2310",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2210",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2060",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2030",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2250",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1211",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2230",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "7010",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "7020",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "7030",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "7040",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "7200",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4190",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4003",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4012",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4161",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4001",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4006",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4300",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4220",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4322",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4323",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4020",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4250",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4100",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4090",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4345",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4013",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4002",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4004",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4007",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4005",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4163",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2070",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4015",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2280",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2050",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2270",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2100",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "6010",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "6020",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3010",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3020",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3030",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3040",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3050",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3060",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3080",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "3090",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4030",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "6004",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "5110",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2080",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2200",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4140",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4110",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "2180",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4082",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "4280",
-      "error": "name 'income_df' is not defined"
-    },
-    {
-      "sym": "1830",
-      "error": "name 'income_df' is not defined"
+  "results": [
+    {
+      "symbol": "1120",
+      "name": "Al Rajhi Bank",
+      "sector": "Banking",
+      "days": 4031,
+      "pe_days": "4031",
+      "accuracy": 78.0,
+      "baseline": 70.7,
+      "edge": 7.3,
+      "bias": 3.99,
+      "hyp_acc": 6,
+      "mistakes": 17,
+      "pe_cheap_acc": 82.4,
+      "pe_cheap_n": 34
+    },
+    {
+      "symbol": "1180",
+      "name": "Saudi National Bank (SNB)",
+      "sector": "Banking",
+      "days": 2918,
+      "pe_days": "2918",
+      "accuracy": 73.2,
+      "baseline": 65.9,
+      "edge": 7.3,
+      "bias": 1.04,
+      "hyp_acc": 7,
+      "mistakes": 14,
+      "pe_cheap_acc": 73.2,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "1010",
+      "name": "Riyad Bank",
+      "sector": "Banking",
+      "days": 3527,
+      "pe_days": "3527",
+      "accuracy": 68.3,
+      "baseline": 63.4,
+      "edge": 4.9,
+      "bias": 2.94,
+      "hyp_acc": 7,
+      "mistakes": 16,
+      "pe_cheap_acc": 68.3,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "1060",
+      "name": "Saudi Awwal Bank (SABB)",
+      "sector": "Banking",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 70.7,
+      "baseline": 63.4,
+      "edge": 7.3,
+      "bias": 2.01,
+      "hyp_acc": 6,
+      "mistakes": 16,
+      "pe_cheap_acc": 64.7,
+      "pe_cheap_n": 34
+    },
+    {
+      "symbol": "1080",
+      "name": "Arab National Bank",
+      "sector": "Banking",
+      "days": 3996,
+      "pe_days": "3996",
+      "accuracy": 65.9,
+      "baseline": 63.4,
+      "edge": 2.4,
+      "bias": 1.9,
+      "hyp_acc": 3,
+      "mistakes": 17,
+      "pe_cheap_acc": 65.9,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "1050",
+      "name": "BSF (Saudi Fransi)",
+      "sector": "Banking",
+      "days": 3996,
+      "pe_days": "3996",
+      "accuracy": 61.0,
+      "baseline": 56.1,
+      "edge": 4.9,
+      "bias": 1.98,
+      "hyp_acc": 5,
+      "mistakes": 18,
+      "pe_cheap_acc": 61.0,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "1150",
+      "name": "Alinma Bank",
+      "sector": "Banking",
+      "days": 4031,
+      "pe_days": "4031",
+      "accuracy": 63.4,
+      "baseline": 61.0,
+      "edge": 2.4,
+      "bias": 3.67,
+      "hyp_acc": 4,
+      "mistakes": 17,
+      "pe_cheap_acc": 63.4,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "1140",
+      "name": "Bank Albilad",
+      "sector": "Banking",
+      "days": 3995,
+      "pe_days": "3994",
+      "accuracy": 63.4,
+      "baseline": 63.4,
+      "edge": 0.0,
+      "bias": 2.16,
+      "hyp_acc": 5,
+      "mistakes": 17,
+      "pe_cheap_acc": 62.5,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "2222",
+      "name": "Saudi Aramco",
+      "sector": "Energy",
+      "days": 1619,
+      "pe_days": "1619",
+      "accuracy": 63.6,
+      "baseline": 59.1,
+      "edge": 4.5,
+      "bias": -1.46,
+      "hyp_acc": 4,
+      "mistakes": 5,
+      "pe_cheap_acc": 63.6,
+      "pe_cheap_n": 22
+    },
+    {
+      "symbol": "2380",
+      "name": "Rabigh Refining & Petrochem",
+      "sector": "Energy",
+      "days": 3995,
+      "pe_days": "1780",
+      "accuracy": 63.4,
+      "baseline": 58.5,
+      "edge": 4.9,
+      "bias": 3.6,
+      "hyp_acc": 6,
+      "mistakes": 18,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "2010",
+      "name": "SABIC",
+      "sector": "Petrochemicals",
+      "days": 4002,
+      "pe_days": "3765",
+      "accuracy": 58.5,
+      "baseline": 53.7,
+      "edge": 4.9,
+      "bias": -1.55,
+      "hyp_acc": 3,
+      "mistakes": 18,
+      "pe_cheap_acc": 57.9,
+      "pe_cheap_n": 38
+    },
+    {
+      "symbol": "2020",
+      "name": "SAFCO (Saudi Fertilizers)",
+      "sector": "Petrochemicals",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 63.4,
+      "baseline": 65.9,
+      "edge": -2.4,
+      "bias": 1.96,
+      "hyp_acc": 6,
+      "mistakes": 15,
+      "pe_cheap_acc": 64.1,
+      "pe_cheap_n": 39
+    },
+    {
+      "symbol": "2290",
+      "name": "Yanbu National Petrochem",
+      "sector": "Petrochemicals",
+      "days": 3994,
+      "pe_days": "3959",
+      "accuracy": 73.2,
+      "baseline": 63.4,
+      "edge": 9.8,
+      "bias": 0.94,
+      "hyp_acc": 5,
+      "mistakes": 18,
+      "pe_cheap_acc": 74.3,
+      "pe_cheap_n": 35
+    },
+    {
+      "symbol": "2350",
+      "name": "Saudi Kayan Petrochem",
+      "sector": "Petrochemicals",
+      "days": 3993,
+      "pe_days": "1636",
+      "accuracy": 53.7,
+      "baseline": 51.2,
+      "edge": 2.4,
+      "bias": 1.15,
+      "hyp_acc": 7,
+      "mistakes": 27,
+      "pe_cheap_acc": 60.0,
+      "pe_cheap_n": 5
+    },
+    {
+      "symbol": "2310",
+      "name": "Sahara International Petrochem",
+      "sector": "Petrochemicals",
+      "days": 3994,
+      "pe_days": "3888",
+      "accuracy": 53.7,
+      "baseline": 51.2,
+      "edge": 2.4,
+      "bias": 2.61,
+      "hyp_acc": 7,
+      "mistakes": 24,
+      "pe_cheap_acc": 54.3,
+      "pe_cheap_n": 35
+    },
+    {
+      "symbol": "2210",
+      "name": "Nama Chemicals",
+      "sector": "Petrochemicals",
+      "days": 3994,
+      "pe_days": "498",
+      "accuracy": 46.3,
+      "baseline": 41.5,
+      "edge": 4.9,
+      "bias": 7.29,
+      "hyp_acc": 8,
+      "mistakes": 28,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "2060",
+      "name": "National Industrialization",
+      "sector": "Petrochemicals",
+      "days": 3993,
+      "pe_days": "3388",
+      "accuracy": 58.5,
+      "baseline": 53.7,
+      "edge": 4.9,
+      "bias": 1.21,
+      "hyp_acc": 6,
+      "mistakes": 28,
+      "pe_cheap_acc": 66.7,
+      "pe_cheap_n": 12
+    },
+    {
+      "symbol": "2030",
+      "name": "SARCO",
+      "sector": "Petrochemicals",
+      "days": 3994,
+      "pe_days": "3637",
+      "accuracy": 53.7,
+      "baseline": 46.3,
+      "edge": 7.3,
+      "bias": 1.57,
+      "hyp_acc": 9,
+      "mistakes": 21,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 3
+    },
+    {
+      "symbol": "2250",
+      "name": "Saudi Industrial Investment",
+      "sector": "Petrochemicals",
+      "days": 3996,
+      "pe_days": "3890",
+      "accuracy": 65.9,
+      "baseline": 58.5,
+      "edge": 7.3,
+      "bias": 7.93,
+      "hyp_acc": 5,
+      "mistakes": 24,
+      "pe_cheap_acc": 67.6,
+      "pe_cheap_n": 37
+    },
+    {
+      "symbol": "1211",
+      "name": "Maaden (Saudi Mining)",
+      "sector": "Mining",
+      "days": 3997,
+      "pe_days": "3995",
+      "accuracy": 70.7,
+      "baseline": 75.6,
+      "edge": -4.9,
+      "bias": 7.19,
+      "hyp_acc": 8,
+      "mistakes": 18,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 2
+    },
+    {
+      "symbol": "2230",
+      "name": "Saudi Chemical",
+      "sector": "Chemicals",
+      "days": 3995,
+      "pe_days": "3995",
+      "accuracy": 48.8,
+      "baseline": 48.8,
+      "edge": 0.0,
+      "bias": 3.13,
+      "hyp_acc": 5,
+      "mistakes": 22,
+      "pe_cheap_acc": 55.6,
+      "pe_cheap_n": 27
+    },
+    {
+      "symbol": "7010",
+      "name": "STC",
+      "sector": "Telecom",
+      "days": 3995,
+      "pe_days": "3995",
+      "accuracy": 58.5,
+      "baseline": 58.5,
+      "edge": 0.0,
+      "bias": 0.52,
+      "hyp_acc": 5,
+      "mistakes": 10,
+      "pe_cheap_acc": 60.0,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "7020",
+      "name": "Mobily (Etihad Etisalat)",
+      "sector": "Telecom",
+      "days": 3994,
+      "pe_days": "2972",
+      "accuracy": 61.0,
+      "baseline": 68.3,
+      "edge": -7.3,
+      "bias": 1.05,
+      "hyp_acc": 3,
+      "mistakes": 19,
+      "pe_cheap_acc": 65.0,
+      "pe_cheap_n": 20
+    },
+    {
+      "symbol": "7030",
+      "name": "Zain Saudi",
+      "sector": "Telecom",
+      "days": 3994,
+      "pe_days": "1353",
+      "accuracy": 51.2,
+      "baseline": 53.7,
+      "edge": -2.4,
+      "bias": 0.82,
+      "hyp_acc": 5,
+      "mistakes": 19,
+      "pe_cheap_acc": 35.7,
+      "pe_cheap_n": 14
+    },
+    {
+      "symbol": "7040",
+      "name": "Go (formerly Etihad Atheeb)",
+      "sector": "Telecom",
+      "days": 4013,
+      "pe_days": "423",
+      "accuracy": 34.1,
+      "baseline": 31.7,
+      "edge": 2.4,
+      "bias": 14.51,
+      "hyp_acc": 4,
+      "mistakes": 25,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 1
+    },
+    {
+      "symbol": "7200",
+      "name": "Al Moammar Info Systems",
+      "sector": "Technology",
+      "days": 1782,
+      "pe_days": "1782",
+      "accuracy": 60.0,
+      "baseline": 68.0,
+      "edge": -8.0,
+      "bias": 13.08,
+      "hyp_acc": 7,
+      "mistakes": 16,
+      "pe_cheap_acc": 75.0,
+      "pe_cheap_n": 8
+    },
+    {
+      "symbol": "4190",
+      "name": "Jarir Marketing",
+      "sector": "Retail",
+      "days": 3995,
+      "pe_days": "3995",
+      "accuracy": 68.3,
+      "baseline": 65.9,
+      "edge": 2.4,
+      "bias": 0.36,
+      "hyp_acc": 8,
+      "mistakes": 12,
+      "pe_cheap_acc": 67.5,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "4003",
+      "name": "United Electronics (Extra)",
+      "sector": "Retail",
+      "days": 3443,
+      "pe_days": "3443",
+      "accuracy": 63.4,
+      "baseline": 65.9,
+      "edge": -2.4,
+      "bias": 7.63,
+      "hyp_acc": 10,
+      "mistakes": 23,
+      "pe_cheap_acc": 63.4,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "4012",
+      "name": "Thob Al Aseel",
+      "sector": "Retail",
+      "days": 1640,
+      "pe_days": "1640",
+      "accuracy": 40.9,
+      "baseline": 45.5,
+      "edge": -4.5,
+      "bias": -1.44,
+      "hyp_acc": 2,
+      "mistakes": 11,
+      "pe_cheap_acc": 42.9,
+      "pe_cheap_n": 21
+    },
+    {
+      "symbol": "4161",
+      "name": "BinDawood",
+      "sector": "Retail",
+      "days": 1276,
+      "pe_days": "1276",
+      "accuracy": 52.9,
+      "baseline": 23.5,
+      "edge": 29.4,
+      "bias": -7.31,
+      "hyp_acc": 2,
+      "mistakes": 11,
+      "pe_cheap_acc": 66.7,
+      "pe_cheap_n": 12
+    },
+    {
+      "symbol": "4001",
+      "name": "Al Othaim Markets",
+      "sector": "Retail",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 51.2,
+      "baseline": 56.1,
+      "edge": -4.9,
+      "bias": 1.49,
+      "hyp_acc": 0,
+      "mistakes": 21,
+      "pe_cheap_acc": 52.5,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "4006",
+      "name": "Saudi Marketing Co.",
+      "sector": "Retail",
+      "days": 3007,
+      "pe_days": "3007",
+      "accuracy": 39.0,
+      "baseline": 39.0,
+      "edge": 0.0,
+      "bias": -3.67,
+      "hyp_acc": 6,
+      "mistakes": 24,
+      "pe_cheap_acc": 38.1,
+      "pe_cheap_n": 21
+    },
+    {
+      "symbol": "4300",
+      "name": "Dar Al Arkan",
+      "sector": "Real Estate",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 53.7,
+      "baseline": 61.0,
+      "edge": -7.3,
+      "bias": 0.93,
+      "hyp_acc": 4,
+      "mistakes": 21,
+      "pe_cheap_acc": 60.0,
+      "pe_cheap_n": 25
+    },
+    {
+      "symbol": "4220",
+      "name": "Emaar The Economic City",
+      "sector": "Real Estate",
+      "days": 3995,
+      "pe_days": "1279",
+      "accuracy": 51.2,
+      "baseline": 41.5,
+      "edge": 9.8,
+      "bias": -4.7,
+      "hyp_acc": 5,
+      "mistakes": 23,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "4322",
+      "name": "Retal Urban Dev",
+      "sector": "Real Estate",
+      "days": 978,
+      "pe_days": "978",
+      "accuracy": 75.0,
+      "baseline": 66.7,
+      "edge": 8.3,
+      "bias": 5.37,
+      "hyp_acc": 4,
+      "mistakes": 6,
+      "pe_cheap_acc": 71.4,
+      "pe_cheap_n": 7
+    },
+    {
+      "symbol": "4323",
+      "name": "SUMOU Real Estate",
+      "sector": "Real Estate",
+      "days": 1228,
+      "pe_days": "1228",
+      "accuracy": 31.2,
+      "baseline": 37.5,
+      "edge": -6.2,
+      "bias": -5.21,
+      "hyp_acc": 6,
+      "mistakes": 10,
+      "pe_cheap_acc": 33.3,
+      "pe_cheap_n": 15
+    },
+    {
+      "symbol": "4020",
+      "name": "Saudi Real Estate Co.",
+      "sector": "Real Estate",
+      "days": 3995,
+      "pe_days": "2997",
+      "accuracy": 58.5,
+      "baseline": 51.2,
+      "edge": 7.3,
+      "bias": 1.17,
+      "hyp_acc": 3,
+      "mistakes": 23,
+      "pe_cheap_acc": 46.2,
+      "pe_cheap_n": 13
+    },
+    {
+      "symbol": "4250",
+      "name": "Jabal Omar Development",
+      "sector": "Real Estate",
+      "days": 3994,
+      "pe_days": "1357",
+      "accuracy": 31.7,
+      "baseline": 31.7,
+      "edge": 0.0,
+      "bias": -3.37,
+      "hyp_acc": 4,
+      "mistakes": 20,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "4100",
+      "name": "Makkah Construction",
+      "sector": "Real Estate",
+      "days": 3996,
+      "pe_days": "3996",
+      "accuracy": 51.2,
+      "baseline": 46.3,
+      "edge": 4.9,
+      "bias": -1.4,
+      "hyp_acc": 4,
+      "mistakes": 16,
+      "pe_cheap_acc": 44.4,
+      "pe_cheap_n": 9
+    },
+    {
+      "symbol": "4090",
+      "name": "Taiba Investments",
+      "sector": "Real Estate",
+      "days": 4030,
+      "pe_days": "4030",
+      "accuracy": 48.8,
+      "baseline": 51.2,
+      "edge": -2.4,
+      "bias": -0.45,
+      "hyp_acc": 7,
+      "mistakes": 14,
+      "pe_cheap_acc": 61.1,
+      "pe_cheap_n": 18
+    },
+    {
+      "symbol": "4345",
+      "name": "Alinma Retail REIT",
+      "sector": "Real Estate",
+      "days": 1968,
+      "pe_days": "0",
+      "accuracy": 53.6,
+      "baseline": 39.3,
+      "edge": 14.3,
+      "bias": -4.08,
+      "hyp_acc": 5,
+      "mistakes": 9,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "4013",
+      "name": "Dr Sulaiman Al Habib",
+      "sector": "Healthcare",
+      "days": 1549,
+      "pe_days": "1549",
+      "accuracy": 57.1,
+      "baseline": 61.9,
+      "edge": -4.8,
+      "bias": 7.66,
+      "hyp_acc": 6,
+      "mistakes": 8,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "4002",
+      "name": "Mouwasat Medical",
+      "sector": "Healthcare",
+      "days": 4120,
+      "pe_days": "4120",
+      "accuracy": 61.0,
+      "baseline": 61.0,
+      "edge": 0.0,
+      "bias": 2.42,
+      "hyp_acc": 5,
+      "mistakes": 18,
+      "pe_cheap_acc": 67.9,
+      "pe_cheap_n": 28
+    },
+    {
+      "symbol": "4004",
+      "name": "Dallah Healthcare",
+      "sector": "Healthcare",
+      "days": 3378,
+      "pe_days": "3378",
+      "accuracy": 53.7,
+      "baseline": 58.5,
+      "edge": -4.9,
+      "bias": 1.71,
+      "hyp_acc": 8,
+      "mistakes": 17,
+      "pe_cheap_acc": 65.0,
+      "pe_cheap_n": 20
+    },
+    {
+      "symbol": "4007",
+      "name": "Al Hammadi Hospitals",
+      "sector": "Healthcare",
+      "days": 3007,
+      "pe_days": "3007",
+      "accuracy": 53.7,
+      "baseline": 51.2,
+      "edge": 2.4,
+      "bias": -0.91,
+      "hyp_acc": 7,
+      "mistakes": 22,
+      "pe_cheap_acc": 62.5,
+      "pe_cheap_n": 24
+    },
+    {
+      "symbol": "4005",
+      "name": "National Medical Care",
+      "sector": "Healthcare",
+      "days": 3315,
+      "pe_days": "3315",
+      "accuracy": 46.3,
+      "baseline": 58.5,
+      "edge": -12.2,
+      "bias": 2.02,
+      "hyp_acc": 5,
+      "mistakes": 22,
+      "pe_cheap_acc": 46.9,
+      "pe_cheap_n": 32
+    },
+    {
+      "symbol": "4163",
+      "name": "Al Dawaa Medical (Nahdi)",
+      "sector": "Healthcare",
+      "days": 1050,
+      "pe_days": "1050",
+      "accuracy": 23.1,
+      "baseline": 38.5,
+      "edge": -15.4,
+      "bias": -3.87,
+      "hyp_acc": 4,
+      "mistakes": 8,
+      "pe_cheap_acc": 23.1,
+      "pe_cheap_n": 13
+    },
+    {
+      "symbol": "2070",
+      "name": "Saudi Pharmaceutical Ind.",
+      "sector": "Healthcare",
+      "days": 3994,
+      "pe_days": "2936",
+      "accuracy": 43.9,
+      "baseline": 46.3,
+      "edge": -2.4,
+      "bias": 1.3,
+      "hyp_acc": 4,
+      "mistakes": 15,
+      "pe_cheap_acc": 41.2,
+      "pe_cheap_n": 17
+    },
+    {
+      "symbol": "4015",
+      "name": "Jamjoom Pharma",
+      "sector": "Healthcare",
+      "days": 720,
+      "pe_days": "720",
+      "accuracy": 57.1,
+      "baseline": 28.6,
+      "edge": 28.6,
+      "bias": -2.86,
+      "hyp_acc": 4,
+      "mistakes": 3,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "2280",
+      "name": "Almarai",
+      "sector": "Food & Beverages",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 46.3,
+      "baseline": 61.0,
+      "edge": -14.6,
+      "bias": -2.01,
+      "hyp_acc": 4,
+      "mistakes": 13,
+      "pe_cheap_acc": 51.4,
+      "pe_cheap_n": 37
+    },
+    {
+      "symbol": "2050",
+      "name": "Savola Group",
+      "sector": "Food & Beverages",
+      "days": 3996,
+      "pe_days": "3996",
+      "accuracy": 56.1,
+      "baseline": 53.7,
+      "edge": 2.4,
+      "bias": -0.09,
+      "hyp_acc": 2,
+      "mistakes": 23,
+      "pe_cheap_acc": 60.5,
+      "pe_cheap_n": 38
+    },
+    {
+      "symbol": "2270",
+      "name": "SADAFCO (Saudia Dairy)",
+      "sector": "Food & Beverages",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 41.5,
+      "baseline": 58.5,
+      "edge": -17.1,
+      "bias": 0.33,
+      "hyp_acc": 3,
+      "mistakes": 25,
+      "pe_cheap_acc": 42.9,
+      "pe_cheap_n": 35
+    },
+    {
+      "symbol": "2100",
+      "name": "Wafrah for Industry",
+      "sector": "Food & Beverages",
+      "days": 4029,
+      "pe_days": "2082",
+      "accuracy": 36.6,
+      "baseline": 43.9,
+      "edge": -7.3,
+      "bias": 5.01,
+      "hyp_acc": 7,
+      "mistakes": 30,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "6010",
+      "name": "NADEC",
+      "sector": "Food & Beverages",
+      "days": 3994,
+      "pe_days": "3498",
+      "accuracy": 43.9,
+      "baseline": 51.2,
+      "edge": -7.3,
+      "bias": 2.55,
+      "hyp_acc": 7,
+      "mistakes": 23,
+      "pe_cheap_acc": 50.0,
+      "pe_cheap_n": 14
+    },
+    {
+      "symbol": "6020",
+      "name": "Al Gassim Investment",
+      "sector": "Food & Beverages",
+      "days": 3995,
+      "pe_days": "1320",
+      "accuracy": 53.7,
+      "baseline": 39.0,
+      "edge": 14.6,
+      "bias": -1.41,
+      "hyp_acc": 5,
+      "mistakes": 16,
+      "pe_cheap_acc": 83.3,
+      "pe_cheap_n": 6
+    },
+    {
+      "symbol": "3010",
+      "name": "Arabian Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 48.8,
+      "baseline": 43.9,
+      "edge": 4.9,
+      "bias": -2.08,
+      "hyp_acc": 5,
+      "mistakes": 21,
+      "pe_cheap_acc": 48.8,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "3020",
+      "name": "Yamama Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 39.0,
+      "baseline": 41.5,
+      "edge": -2.4,
+      "bias": -1.47,
+      "hyp_acc": 4,
+      "mistakes": 22,
+      "pe_cheap_acc": 40.0,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "3030",
+      "name": "Saudi Cement Co.",
+      "sector": "Cement",
+      "days": 3995,
+      "pe_days": "3995",
+      "accuracy": 46.3,
+      "baseline": 48.8,
+      "edge": -2.4,
+      "bias": -2.31,
+      "hyp_acc": 2,
+      "mistakes": 19,
+      "pe_cheap_acc": 46.3,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "3040",
+      "name": "Qassim Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 48.8,
+      "baseline": 43.9,
+      "edge": 4.9,
+      "bias": -1.49,
+      "hyp_acc": 3,
+      "mistakes": 18,
+      "pe_cheap_acc": 48.8,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "3050",
+      "name": "Southern Province Cement",
+      "sector": "Cement",
+      "days": 3993,
+      "pe_days": "3887",
+      "accuracy": 46.3,
+      "baseline": 34.1,
+      "edge": 12.2,
+      "bias": -4.54,
+      "hyp_acc": 5,
+      "mistakes": 21,
+      "pe_cheap_acc": 45.0,
+      "pe_cheap_n": 40
+    },
+    {
+      "symbol": "3060",
+      "name": "Yanbu Cement",
+      "sector": "Cement",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 48.8,
+      "baseline": 34.1,
+      "edge": 14.6,
+      "bias": -4.36,
+      "hyp_acc": 1,
+      "mistakes": 26,
+      "pe_cheap_acc": 51.3,
+      "pe_cheap_n": 39
+    },
+    {
+      "symbol": "3080",
+      "name": "Eastern Province Cement",
+      "sector": "Cement",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 56.1,
+      "baseline": 51.2,
+      "edge": 4.9,
+      "bias": -1.0,
+      "hyp_acc": 4,
+      "mistakes": 20,
+      "pe_cheap_acc": 56.1,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "3090",
+      "name": "TCC (Tabuk Cement)",
+      "sector": "Cement",
+      "days": 3994,
+      "pe_days": "3244",
+      "accuracy": 48.8,
+      "baseline": 48.8,
+      "edge": 0.0,
+      "bias": -2.94,
+      "hyp_acc": 4,
+      "mistakes": 21,
+      "pe_cheap_acc": 35.3,
+      "pe_cheap_n": 17
+    },
+    {
+      "symbol": "4030",
+      "name": "BAHRI (National Shipping)",
+      "sector": "Transport",
+      "days": 3995,
+      "pe_days": "3995",
+      "accuracy": 43.9,
+      "baseline": 58.5,
+      "edge": -14.6,
+      "bias": -0.04,
+      "hyp_acc": 3,
+      "mistakes": 20,
+      "pe_cheap_acc": 43.9,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "6004",
+      "name": "Saudi Airlines Catering",
+      "sector": "Transport",
+      "days": 3416,
+      "pe_days": "3416",
+      "accuracy": 48.8,
+      "baseline": 46.3,
+      "edge": 2.4,
+      "bias": -3.05,
+      "hyp_acc": 2,
+      "mistakes": 17,
+      "pe_cheap_acc": 56.0,
+      "pe_cheap_n": 25
+    },
+    {
+      "symbol": "5110",
+      "name": "Saudi Electricity Co.",
+      "sector": "Utilities",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 63.4,
+      "baseline": 56.1,
+      "edge": 7.3,
+      "bias": -1.74,
+      "hyp_acc": 6,
+      "mistakes": 15,
+      "pe_cheap_acc": 63.4,
+      "pe_cheap_n": 41
+    },
+    {
+      "symbol": "2080",
+      "name": "National Gas & Industrialization (GASCO)",
+      "sector": "Utilities",
+      "days": 3994,
+      "pe_days": "3994",
+      "accuracy": 56.1,
+      "baseline": 58.5,
+      "edge": -2.4,
+      "bias": 3.59,
+      "hyp_acc": 6,
+      "mistakes": 17,
+      "pe_cheap_acc": 55.6,
+      "pe_cheap_n": 36
+    },
+    {
+      "symbol": "2200",
+      "name": "Arabian Pipes Co.",
+      "sector": "Industrials",
+      "days": 3995,
+      "pe_days": "983",
+      "accuracy": 29.3,
+      "baseline": 46.3,
+      "edge": -17.1,
+      "bias": 3.24,
+      "hyp_acc": 6,
+      "mistakes": 30,
+      "pe_cheap_acc": 0.0,
+      "pe_cheap_n": 4
+    },
+    {
+      "symbol": "4140",
+      "name": "Saudi Industrial Export",
+      "sector": "Industrials",
+      "days": 3995,
+      "pe_days": "1867",
+      "accuracy": 48.8,
+      "baseline": 43.9,
+      "edge": 4.9,
+      "bias": 4.95,
+      "hyp_acc": 7,
+      "mistakes": 25,
+      "pe_cheap_acc": null,
+      "pe_cheap_n": 0
+    },
+    {
+      "symbol": "4110",
+      "name": "Batic Investments",
+      "sector": "Industrials",
+      "days": 4029,
+      "pe_days": "2264",
+      "accuracy": 48.8,
+      "baseline": 39.0,
+      "edge": 9.8,
+      "bias": -1.14,
+      "hyp_acc": 6,
+      "mistakes": 23,
+      "pe_cheap_acc": 60.0,
+      "pe_cheap_n": 10
+    },
+    {
+      "symbol": "2180",
+      "name": "Filing & Packing Materials",
+      "sector": "Industrials",
+      "days": 3994,
+      "pe_days": "2759",
+      "accuracy": 41.5,
+      "baseline": 43.9,
+      "edge": -2.4,
+      "bias": -1.14,
+      "hyp_acc": 4,
+      "mistakes": 22,
+      "pe_cheap_acc": 38.5,
+      "pe_cheap_n": 13
+    },
+    {
+      "symbol": "4082",
+      "name": "MRNA",
+      "sector": "Financial Services",
+      "days": 735,
+      "pe_days": "629",
+      "accuracy": 37.5,
+      "baseline": 37.5,
+      "edge": 0.0,
+      "bias": -7.22,
+      "hyp_acc": 2,
+      "mistakes": 3,
+      "pe_cheap_acc": 75.0,
+      "pe_cheap_n": 4
+    },
+    {
+      "symbol": "4280",
+      "name": "Kingdom Holding",
+      "sector": "Diversified",
+      "days": 3993,
+      "pe_days": "3993",
+      "accuracy": 51.2,
+      "baseline": 48.8,
+      "edge": 2.4,
+      "bias": -2.64,
+      "hyp_acc": 4,
+      "mistakes": 10,
+      "pe_cheap_acc": 52.0,
+      "pe_cheap_n": 25
+    },
+    {
+      "symbol": "1830",
+      "name": "Leejam Sports",
+      "sector": "Consumer Services",
+      "days": 1943,
+      "pe_days": "1837",
+      "accuracy": 48.1,
+      "baseline": 59.3,
+      "edge": -11.1,
+      "bias": 2.81,
+      "hyp_acc": 7,
+      "mistakes": 17,
+      "pe_cheap_acc": 56.2,
+      "pe_cheap_n": 16
     }
-  ]
+  ],
+  "failed": []
 }

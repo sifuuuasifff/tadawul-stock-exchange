@@ -1,7 +1,7 @@
 {
   "sym": "7020",
   "name": "Mobily (Etihad Etisalat)",
-  "generated": "2026-06-06T02:27:09.561319",
+  "generated": "2026-06-06T12:56:54.029960",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 4.35,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1949,
-      "avg_return_90d": -1.71,
-      "pct_positive_90d": 53.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -5.01,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2552,
-      "avg_return_90d": 0.94,
-      "pct_positive_90d": 60.7,
-      "p_value_90d": 0.007,
-      "significant_90d": true,
-      "edge_vs_base": -2.36,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2653,
-      "avg_return_90d": 1.19,
-      "pct_positive_90d": 60.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -2.11,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

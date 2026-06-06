@@ -1,7 +1,7 @@
 {
   "sym": "7030",
   "name": "Zain Saudi",
-  "generated": "2026-06-06T02:27:13.195892",
+  "generated": "2026-06-06T12:57:02.177155",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -645,39 +645,6 @@
       "significant_90d": false,
       "avg_alpha_90d": 1.73,
       "reliability_score": 20,
-      "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 431,
-      "avg_return_90d": 2.82,
-      "pct_positive_90d": 43.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.23,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 930,
-      "avg_return_90d": 0.83,
-      "pct_positive_90d": 44.0,
-      "p_value_90d": 0.094,
-      "significant_90d": false,
-      "edge_vs_base": -1.77,
-      "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 1263,
-      "avg_return_90d": 0.09,
-      "pct_positive_90d": 42.9,
-      "p_value_90d": 0.805,
-      "significant_90d": false,
-      "edge_vs_base": -2.5,
       "reliability_label": "LOW"
     }
   ],

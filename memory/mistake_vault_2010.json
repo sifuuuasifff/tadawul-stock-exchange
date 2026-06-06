@@ -1,16 +1,25 @@
 {
   "mistakes": [
     {
+      "prediction_date": "2016-03-31",
+      "predicted_90d": 3.0,
+      "actual_90d": 16.1,
+      "error": 13.1,
+      "direction_correct": "True",
+      "composite_score": 59.1,
+      "sector": "Petrochemicals",
+      "rate_regime": "stable",
+      "root_cause": "Model underestimated upside"
+    },
+    {
       "prediction_date": "2016-09-27",
       "predicted_90d": 5.5,
       "actual_90d": 18.0,
       "error": 12.5,
       "direction_correct": "True",
-      "composite_score": 62.9,
-      "val_score": 75,
+      "composite_score": 61.6,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 47.5,
-      "pe_at_prediction": "P/E=1.8",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -19,11 +28,9 @@
       "actual_90d": 18.4,
       "error": 15.4,
       "direction_correct": "True",
-      "composite_score": 59.5,
-      "val_score": 69,
+      "composite_score": 58.2,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 54.2,
-      "pe_at_prediction": "P/E=2.5",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -32,11 +39,9 @@
       "actual_90d": 20.4,
       "error": 17.4,
       "direction_correct": "True",
-      "composite_score": 58.5,
-      "val_score": 69,
+      "composite_score": 56.5,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 86.1,
-      "pe_at_prediction": "P/E=3.0",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -45,11 +50,9 @@
       "actual_90d": -7.4,
       "error": 12.9,
       "direction_correct": "False",
-      "composite_score": 64.8,
-      "val_score": 65,
+      "composite_score": 61.6,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 75.9,
-      "pe_at_prediction": "P/E=3.5",
       "root_cause": "Model underestimated downside"
     },
     {
@@ -58,12 +61,10 @@
       "actual_90d": -21.7,
       "error": 27.2,
       "direction_correct": "False",
-      "composite_score": 63.5,
-      "val_score": 69,
+      "composite_score": 61.5,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 79.3,
-      "pe_at_prediction": "P/E=3.4",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=3.4)"
+      "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2019-12-11",
@@ -71,24 +72,20 @@
       "actual_90d": -15.9,
       "error": 17.9,
       "direction_correct": "False",
-      "composite_score": 54.5,
-      "val_score": 69,
+      "composite_score": 55.3,
+      "sector": "Petrochemicals",
       "rate_regime": "falling",
-      "rsi": 45.8,
-      "pe_at_prediction": "P/E=2.8",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=2.8)"
+      "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2020-03-10",
-      "predicted_90d": 9.5,
+      "predicted_90d": 7.5,
       "actual_90d": 29.9,
-      "error": 20.4,
+      "error": 22.4,
       "direction_correct": "True",
-      "composite_score": 75.2,
-      "val_score": 75,
+      "composite_score": 70.0,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 31.6,
-      "pe_at_prediction": "P/E=2.5",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -97,24 +94,20 @@
       "actual_90d": 10.8,
       "error": 15.3,
       "direction_correct": "False",
-      "composite_score": 42.1,
-      "val_score": 69,
+      "composite_score": 40.1,
+      "sector": "Petrochemicals",
       "rate_regime": "falling",
-      "rsi": 81.2,
-      "pe_at_prediction": "P/E=3.3",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=3.3)"
+      "root_cause": "Model underestimated upside"
     },
     {
       "prediction_date": "2020-09-06",
-      "predicted_90d": 7.5,
+      "predicted_90d": 5.5,
       "actual_90d": 20.3,
-      "error": 12.8,
+      "error": 14.8,
       "direction_correct": "True",
-      "composite_score": 70.0,
-      "val_score": 69,
+      "composite_score": 64.0,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 58.3,
-      "pe_at_prediction": "P/E=3.3",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -123,11 +116,9 @@
       "actual_90d": 21.5,
       "error": 16.0,
       "direction_correct": "True",
-      "composite_score": 66.0,
-      "val_score": 69,
+      "composite_score": 61.3,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 54.5,
-      "pe_at_prediction": "P/E=3.6",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -136,11 +127,9 @@
       "actual_90d": 22.9,
       "error": 15.4,
       "direction_correct": "True",
-      "composite_score": 74.0,
-      "val_score": 65,
+      "composite_score": 71.2,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 6.1,
-      "pe_at_prediction": "P/E=5.8",
       "root_cause": "Model underestimated upside"
     },
     {
@@ -149,12 +138,10 @@
       "actual_90d": -21.7,
       "error": 29.2,
       "direction_correct": "False",
-      "composite_score": 73.5,
-      "val_score": 60,
+      "composite_score": 67.5,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 59.4,
-      "pe_at_prediction": "P/E=6.1",
-      "root_cause": "Model underestimated downside"
+      "root_cause": "Sector weights may need tuning for Petrochemicals"
     },
     {
       "prediction_date": "2022-05-29",
@@ -163,63 +150,31 @@
       "error": 14.5,
       "direction_correct": "True",
       "composite_score": 59.8,
-      "val_score": 65,
+      "sector": "Petrochemicals",
       "rate_regime": "rising",
-      "rsi": 21.9,
-      "pe_at_prediction": "P/E=5.7",
       "root_cause": "Model underestimated downside"
     },
     {
       "prediction_date": "2022-11-27",
-      "predicted_90d": -4.0,
+      "predicted_90d": -2.0,
       "actual_90d": 12.7,
-      "error": 16.7,
+      "error": 14.7,
       "direction_correct": "False",
-      "composite_score": 52.6,
-      "val_score": 69,
+      "composite_score": 53.5,
+      "sector": "Petrochemicals",
       "rate_regime": "rising",
-      "rsi": 41.6,
-      "pe_at_prediction": "P/E=4.3",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=4.3)"
-    },
-    {
-      "prediction_date": "2024-02-18",
-      "predicted_90d": 5.5,
-      "actual_90d": -6.6,
-      "error": 12.1,
-      "direction_correct": "False",
-      "composite_score": 60.1,
-      "val_score": 69,
-      "rate_regime": "stable",
-      "rsi": 59.3,
-      "pe_at_prediction": "P/E=5.2",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=5.2)"
+      "root_cause": "Model underestimated upside"
     },
     {
       "prediction_date": "2024-08-18",
-      "predicted_90d": 7.5,
+      "predicted_90d": 5.5,
       "actual_90d": -7.1,
-      "error": 14.6,
+      "error": 12.6,
       "direction_correct": "False",
-      "composite_score": 67.7,
-      "val_score": 65,
+      "composite_score": 65.7,
+      "sector": "Petrochemicals",
       "rate_regime": "stable",
-      "rsi": 24.2,
-      "pe_at_prediction": "P/E=4.9",
       "root_cause": "Model underestimated downside"
-    },
-    {
-      "prediction_date": "2024-11-14",
-      "predicted_90d": 4.5,
-      "actual_90d": -8.4,
-      "error": 12.9,
-      "direction_correct": "False",
-      "composite_score": 60.1,
-      "val_score": 69,
-      "rate_regime": "falling",
-      "rsi": 14.0,
-      "pe_at_prediction": "P/E=4.7",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=4.7)"
     },
     {
       "prediction_date": "2025-02-12",
@@ -228,11 +183,9 @@
       "error": 19.3,
       "direction_correct": "False",
       "composite_score": 55.5,
-      "val_score": 69,
+      "sector": "Petrochemicals",
       "rate_regime": "falling",
-      "rsi": 59.5,
-      "pe_at_prediction": "P/E=4.5",
-      "root_cause": "Valuation signal misleading (val=69/100, pe=P/E=4.5)"
+      "root_cause": "Model underestimated downside"
     }
   ]
 }

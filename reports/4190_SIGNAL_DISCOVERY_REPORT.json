@@ -1,7 +1,7 @@
 {
   "sym": "4190",
   "name": "Jarir Marketing",
-  "generated": "2026-06-06T02:27:23.581444",
+  "generated": "2026-06-06T12:57:26.970758",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 4.43,
       "reliability_score": 20,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3761,
-      "avg_return_90d": 6.04,
-      "pct_positive_90d": 64.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -0.05,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3867,
-      "avg_return_90d": 6.17,
-      "pct_positive_90d": 65.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.08,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3903,
-      "avg_return_90d": 6.14,
-      "pct_positive_90d": 65.2,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.05,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

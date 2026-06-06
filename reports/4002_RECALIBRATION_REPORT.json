@@ -1,7 +1,7 @@
 {
   "sym": "4002",
   "name": "Mouwasat Medical",
-  "generated": "2026-06-06T02:28:17.980093",
+  "generated": "2026-06-06T14:46:26.982144",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,11 +14,16 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.39%"
     },
     {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.2%",
+      "evidence": "Systematic underestimate: predicted=3.2%, actual=6.45%"
+    },
+    {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "11/18 large errors were upside misses"
+      "evidence": "13/20 large errors were upside misses"
     }
   ],
-  "bias": 2.43,
+  "bias": 3.25,
   "before_accuracy": 61.0
 }

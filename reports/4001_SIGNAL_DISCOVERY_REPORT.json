@@ -1,7 +1,7 @@
 {
   "sym": "4001",
   "name": "Al Othaim Markets",
-  "generated": "2026-06-06T02:27:35.996546",
+  "generated": "2026-06-06T12:57:52.855138",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 8.18,
       "reliability_score": 55,
       "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3645,
-      "avg_return_90d": 8.56,
-      "pct_positive_90d": 55.8,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.84,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3838,
-      "avg_return_90d": 8.08,
-      "pct_positive_90d": 55.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.36,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3886,
-      "avg_return_90d": 7.82,
-      "pct_positive_90d": 54.4,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.1,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

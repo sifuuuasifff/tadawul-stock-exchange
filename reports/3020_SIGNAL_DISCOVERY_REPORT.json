@@ -1,7 +1,7 @@
 {
   "sym": "3020",
   "name": "Yamama Cement",
-  "generated": "2026-06-06T02:29:08.692118",
+  "generated": "2026-06-06T14:47:25.601273",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 2.0,
       "reliability_score": 30,
       "reliability_label": "LOW"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2992,
-      "avg_return_90d": 2.54,
-      "pct_positive_90d": 53.9,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.75,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3883,
-      "avg_return_90d": 1.92,
-      "pct_positive_90d": 52.3,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.13,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3904,
-      "avg_return_90d": 1.79,
-      "pct_positive_90d": 52.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.0,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

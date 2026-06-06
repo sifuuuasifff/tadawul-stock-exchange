@@ -1,7 +1,7 @@
 {
   "sym": "2030",
   "name": "SARCO",
-  "generated": "2026-06-06T02:26:49.955742",
+  "generated": "2026-06-06T12:56:08.679788",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01 confirmed rising rates hurt: diff=-7.28%"
     }
   ],
-  "bias": 1.56,
-  "before_accuracy": 53.7
+  "bias": 2.36,
+  "before_accuracy": 56.1
 }

@@ -1,7 +1,7 @@
 {
   "sym": "2210",
   "name": "Nama Chemicals",
-  "generated": "2026-06-06T02:26:40.873385",
+  "generated": "2026-06-06T12:55:49.467712",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 5.17,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 90,
-      "avg_return_90d": -11.7,
-      "pct_positive_90d": 0.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -19.91,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >18 (expensive)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 367,
-      "avg_return_90d": -3.22,
-      "pct_positive_90d": 51.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -11.44,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E >25 (very exp)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 367,
-      "avg_return_90d": -3.22,
-      "pct_positive_90d": 51.0,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": -11.44,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

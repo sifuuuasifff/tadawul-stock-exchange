@@ -1,7 +1,7 @@
 {
   "sym": "2310",
   "name": "Sahara International Petrochem",
-  "generated": "2026-06-06T02:26:37.620664",
+  "generated": "2026-06-06T12:55:42.270826",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -12,8 +12,13 @@
       "factor": "Rising rate penalty",
       "action": "CONFIRMED \u2014 keep at -25pts",
       "evidence": "H01 confirmed rising rates hurt: diff=-10.44%"
+    },
+    {
+      "factor": "Base return magnitude",
+      "action": "Adjust upward by 3.4%",
+      "evidence": "Systematic underestimate: predicted=3.24%, actual=6.65%"
     }
   ],
-  "bias": 2.61,
-  "before_accuracy": 53.7
+  "bias": 3.41,
+  "before_accuracy": 51.2
 }

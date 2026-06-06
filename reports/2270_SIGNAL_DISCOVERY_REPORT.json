@@ -1,7 +1,7 @@
 {
   "sym": "2270",
   "name": "SADAFCO (Saudia Dairy)",
-  "generated": "2026-06-06T02:28:48.263108",
+  "generated": "2026-06-06T14:47:01.920745",
   "signals": [
     {
       "signal": "RSI Extreme Oversold (0-20)",
@@ -646,39 +646,6 @@
       "avg_alpha_90d": 3.81,
       "reliability_score": 40,
       "reliability_label": "MEDIUM"
-    },
-    {
-      "signal": "Historical P/E <6 (cheap)",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 2916,
-      "avg_return_90d": 8.19,
-      "pct_positive_90d": 69.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.79,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <9",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3513,
-      "avg_return_90d": 7.46,
-      "pct_positive_90d": 65.1,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 1.05,
-      "reliability_label": "HIGH"
-    },
-    {
-      "signal": "Historical P/E <12",
-      "group": "Valuation \u2014 P/E",
-      "occurrences": 3904,
-      "avg_return_90d": 6.41,
-      "pct_positive_90d": 62.5,
-      "p_value_90d": 0.0,
-      "significant_90d": true,
-      "edge_vs_base": 0.0,
-      "reliability_label": "HIGH"
     }
   ],
   "baseline": {

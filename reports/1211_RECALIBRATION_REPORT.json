@@ -1,7 +1,7 @@
 {
   "sym": "1211",
   "name": "Maaden (Saudi Mining)",
-  "generated": "2026-06-06T02:26:58.202164",
+  "generated": "2026-06-06T12:56:27.268908",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -15,15 +15,15 @@
     },
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 7.2%",
-      "evidence": "Systematic underestimate: predicted=2.63%, actual=9.82%"
+      "action": "Adjust upward by 7.6%",
+      "evidence": "Systematic underestimate: predicted=2.2%, actual=9.82%"
     },
     {
       "factor": "Upside capture",
       "action": "Model consistently underestimates upside \u2014 increase bull spread",
-      "evidence": "12/18 large errors were upside misses"
+      "evidence": "13/19 large errors were upside misses"
     }
   ],
-  "bias": 7.19,
-  "before_accuracy": 70.7
+  "bias": 7.62,
+  "before_accuracy": 73.2
 }

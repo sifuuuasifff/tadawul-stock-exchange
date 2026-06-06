@@ -1,7 +1,7 @@
 {
   "sym": "4004",
   "name": "Dallah Healthcare",
-  "generated": "2026-06-06T02:28:21.580294",
+  "generated": "2026-06-06T14:46:31.140664",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -14,6 +14,6 @@
       "evidence": "H01: rising rates help: diff=3.81%"
     }
   ],
-  "bias": 1.72,
+  "bias": 2.28,
   "before_accuracy": 53.7
 }

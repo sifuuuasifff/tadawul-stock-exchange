@@ -1,7 +1,7 @@
 {
   "sym": "7200",
   "name": "Al Moammar Info Systems",
-  "generated": "2026-06-06T02:27:20.293236",
+  "generated": "2026-06-06T12:57:17.542511",
   "weights": {
     "environment": 0.45,
     "technical": 0.3,
@@ -10,8 +10,8 @@
   "log": [
     {
       "factor": "Base return magnitude",
-      "action": "Adjust upward by 13.1%",
-      "evidence": "Systematic underestimate: predicted=1.34%, actual=14.42%"
+      "action": "Adjust upward by 13.8%",
+      "evidence": "Systematic underestimate: predicted=0.58%, actual=14.42%"
     },
     {
       "factor": "Upside capture",
@@ -19,6 +19,6 @@
       "evidence": "11/16 large errors were upside misses"
     }
   ],
-  "bias": 13.08,
-  "before_accuracy": 60.0
+  "bias": 13.84,
+  "before_accuracy": 52.0
 }
