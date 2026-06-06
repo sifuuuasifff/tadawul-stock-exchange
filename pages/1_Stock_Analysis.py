@@ -66,9 +66,11 @@ def load_quarterly_financials(sym: str) -> dict:
 
 
 def build_context(sym: str) -> str:
+    from config.settings import DATA_RAW, REPORTS_DIR as RPT
     states   = load_all_states()
     engine   = load_stock_engine(sym)
     info     = STOCKS.get(sym, {})
+    sector   = info.get("sector", "")
     state    = states.get(sym, {})
     hyp      = engine.get("hypotheses", {})
     bt       = engine.get("backtest", {})
@@ -77,55 +79,198 @@ def build_context(sym: str) -> str:
     mistakes = engine.get("mistakes", [])
     fin_data = load_quarterly_financials(sym)
 
-    snap = {s: {"price": states[s].get("price"),
-                "composite": states[s].get("composite"),
-                "rsi": states[s].get("rsi"),
-                "forecast_90d": states[s].get("forecast",{}).get("base_90d_pct")}
-            for s in list(states.keys())[:25]}
+    # ── All 74 stocks snapshot ────────────────────────────────────────────
+    snap = {s: {
+        "name":        STOCKS.get(s, {}).get("name", s),
+        "sector":      STOCKS.get(s, {}).get("sector", "?"),
+        "price":       states[s].get("price"),
+        "composite":   states[s].get("composite"),
+        "rsi":         states[s].get("rsi"),
+        "forecast_90d":states[s].get("forecast", {}).get("base_90d_pct"),
+        "conf":        states[s].get("forecast", {}).get("confidence_label"),
+    } for s in states}
+
+    # ── Sector ranking ─────────────────────────────────────────────────────
+    sector_peers = {s: v for s, v in snap.items()
+                    if STOCKS.get(s, {}).get("sector") == sector and v.get("composite")}
+    sector_ranked = sorted(sector_peers.items(), key=lambda x: -x[1].get("composite", 0))
+    my_rank = next((i+1 for i, (s,_) in enumerate(sector_ranked) if s == sym), None)
+    sector_avg_comp = round(sum(v.get("composite",0) for v in sector_peers.values()) / len(sector_peers), 1) if sector_peers else None
+
+    # ── Recent events with sentiment ───────────────────────────────────────
+    ev_path = DATA_RAW / ("alrajhi_events_full.json" if sym=="1120" else f"stock_{sym}/events.json")
+    recent_events = []
+    if ev_path.exists():
+        with open(ev_path, encoding="utf-8") as f:
+            ev_data = json.load(f)
+        events = ev_data.get("events", [])
+        for ev in events[:20]:
+            if ev.get("event_type") in ("FINANCIAL_REPORT","EARNINGS_SURPRISE","DIVIDEND_ANNOUNCEMENT","REGULATORY_ACTION","ANALYST_RATING_CHANGE"):
+                recent_events.append({
+                    "date":      ev.get("event_date","")[:10],
+                    "type":      ev.get("event_type"),
+                    "sentiment": ev.get("sentiment"),
+                    "importance":ev.get("importance"),
+                    "summary":   ev.get("description","")[:200],
+                })
+
+    # ── Regime memory for THIS stock ──────────────────────────────────────
+    regime_memory = []
+    if mem.get("regime_profiles"):
+        for r in mem["regime_profiles"]:
+            out90 = r.get("outcomes", {}).get("90d", {})
+            if out90.get("n", 0) >= 10:
+                regime_memory.append({
+                    "regime":    f"{r.get('type')} = {r.get('label')}",
+                    "n_days":    r.get("n_days"),
+                    "avg_90d":   out90.get("avg_pct"),
+                    "win_rate":  out90.get("pct_positive"),
+                })
+
+    # ── Recent predictions + outcomes ─────────────────────────────────────
+    recent_preds = []
+    preds = bt.get("predictions", [])
+    for p in preds[-6:]:
+        if p.get("actual_90d_pct") is not None:
+            recent_preds.append({
+                "date":      p.get("prediction_date"),
+                "predicted": p.get("base_90d_pct"),
+                "actual":    p.get("actual_90d_pct"),
+                "correct":   p.get("hit_target_90d"),
+                "composite": p.get("composite"),
+            })
+
+    # ── Current valuation plain language ──────────────────────────────────
+    pe  = state.get("pe_ratio")
+    pb  = state.get("price_to_book")
+    an_target = state.get("analyst_target_mean")
+    an_upside = state.get("analyst_upside_pct")
+    n_an = state.get("num_analysts", 0)
+    fv   = state.get("fair_price")
+    fv_upside = state.get("sahmk_fair_upside_pct")
+    price = state.get("price", 0)
+    h52  = state.get("dist_from_52w_high_pct")
+    valuation_summary = {
+        "current_price":        price,
+        "pe_ratio":             pe,
+        "price_to_book":        pb,
+        "analyst_target_mean":  an_target,
+        "analyst_upside_pct":   an_upside,
+        "num_analysts":         n_an,
+        "sahmk_fair_price":     fv,
+        "sahmk_fair_upside_pct":fv_upside,
+        "dist_from_52w_high_pct": h52,
+        "vs_sector_composite":  f"Rank {my_rank} of {len(sector_peers)} in {sector}" if my_rank else None,
+        "sector_avg_composite": sector_avg_comp,
+    }
+
+    # ── Signal report top signals ─────────────────────────────────────────
+    sig_report = engine.get("signals", {})
+    top_signals = sorted(
+        [s for s in sig_report.get("signals", []) if "avg_return_90d" in s],
+        key=lambda x: -x.get("reliability_score", 0)
+    )[:8]
 
     return f"""
 You are the AI Research Engine for a private Tadawul Stock Memory Engine.
 Today: {datetime.now().strftime('%Y-%m-%d')}
 All {len(STOCKS)} stocks are in the engine with full backtests and hypotheses.
 
-SELECTED STOCK: {info.get('name','?')} ({sym}) — {info.get('sector','?')}
+SELECTED STOCK: {info.get('name','?')} ({sym}) — {sector}
 
-CURRENT STATE (scores, forecast, signals):
-{json.dumps(state, indent=2, default=str)}
+════════════════════════════════════
+CURRENT ENGINE STATE
+════════════════════════════════════
+Composite score:  {state.get('composite','?')}/100  (30d={state.get('composite_30d','?')} | 60d={state.get('composite_60d','?')} | 90d={state.get('composite_90d','?')})
+Environment:      {state.get('env_score','?')}/100
+Technical:        {state.get('tech_score','?')}/100
+Fundamental:      {state.get('fund_score','?')}/100
+Valuation:        {state.get('val_score','?')}/100
 
-ACTUAL QUARTERLY FINANCIAL DATA (last 12 records — use these for specific questions about results):
+Forecast:  30d={state.get('forecast',{}).get('base_30d_pct','?')}%  60d={state.get('forecast',{}).get('base_60d_pct','?')}%  90d={state.get('forecast',{}).get('base_90d_pct','?')}%
+Confidence: {state.get('forecast',{}).get('confidence_label','?')}
+Rate regime: {state.get('rate_regime','?').upper()} @ {state.get('repo_rate','?')}%
+RSI: {state.get('rsi','?')}  |  Price: {price} SAR
+
+Active signals:
+  Environment: {json.dumps(state.get('env_signals',{}), default=str)}
+  Technical:   {json.dumps(state.get('tech_signals',{}), default=str)}
+  Fundamental: {json.dumps(state.get('fund_signals',{}), default=str)}
+
+════════════════════════════════════
+VALUATION & ANALYST DATA
+════════════════════════════════════
+{json.dumps(valuation_summary, indent=2, default=str)}
+
+SECTOR RANKING: {info.get('name','?')} ranks {my_rank} out of {len(sector_peers)} stocks in {sector}
+Top 3 in sector by composite:
+{json.dumps([{"rank":i+1,"sym":s,"name":STOCKS.get(s,{}).get("name",s),"composite":v.get("composite"),"forecast_90d":v.get("forecast_90d")} for i,(s,v) in enumerate(sector_ranked[:3])], indent=2, default=str)}
+
+════════════════════════════════════
+ACTUAL QUARTERLY FINANCIAL DATA
+════════════════════════════════════
+IMPORTANT: Q4/December records = FULL YEAR totals (not standalone Q4). All Saudi stocks use Dec 31 fiscal year-end.
+TTM = Full Year minus prior same quarter plus latest quarter. Not Q1+Q2+Q3+Q4 summed.
+
+Last 12 records:
 {json.dumps(fin_data.get('quarterly_records', []), indent=2, default=str)}
 
-TTM (TRAILING 12 MONTHS) SUMMARY:
+TTM Summary:
 {json.dumps(fin_data.get('ttm_summary', {}), indent=2, default=str)}
-NOTE: TTM = Full Year minus prior same quarter plus latest quarter — NOT a simple Q1+Q2+Q3+Q4 sum.
-Q4/December records = Full Year totals, not standalone Q4.
 
-PERSONALITY RULES:
+════════════════════════════════════
+REGIME MEMORY (what historically happened in each environment for THIS stock)
+════════════════════════════════════
+{json.dumps(regime_memory, indent=2, default=str)}
+
+════════════════════════════════════
+RECENT PREDICTIONS vs ACTUAL OUTCOMES (last 6)
+════════════════════════════════════
+{json.dumps(recent_preds, indent=2, default=str)}
+Backtest overall: {bt.get('validation',{}).get('directional_accuracy_pct','?')}% accuracy | {bt.get('validation',{}).get('edge_over_baseline_pct','?'):+}% edge | {bt.get('validation',{}).get('n_predictions','?')} predictions
+
+════════════════════════════════════
+RECENT EVENTS & ANNOUNCEMENTS
+════════════════════════════════════
+{json.dumps(recent_events, indent=2, default=str)}
+
+════════════════════════════════════
+TOP SIGNALS FOR THIS STOCK
+════════════════════════════════════
+{json.dumps([{{"signal":s.get("signal","")[:60],"group":s.get("group",""),"n":s.get("occurrences",0),"avg_90d":s.get("avg_return_90d"),"win_pct":s.get("pct_positive_90d"),"significant":s.get("significant_90d")}} for s in top_signals], indent=2, default=str)}
+
+════════════════════════════════════
+PERSONALITY & HYPOTHESES
+════════════════════════════════════
+Personality rules:
 {json.dumps(pers.get('personality_rules', []), indent=2, default=str)}
 
-HYPOTHESES ({hyp.get('summary',{}).get('total','?')} tested):
-Accepted={hyp.get('summary',{}).get('accepted','?')} | Rejected={hyp.get('summary',{}).get('rejected','?')}
-KEY ACCEPTED: {json.dumps([r for r in hyp.get('results',[]) if r.get('verdict')=='ACCEPTED'], default=str)}
+Hypotheses: {hyp.get('summary',{}).get('total','?')} tested | {hyp.get('summary',{}).get('accepted','?')} accepted | {hyp.get('summary',{}).get('rejected','?')} rejected
+KEY ACCEPTED:
+{json.dumps([r for r in hyp.get('results',[]) if r.get('verdict')=='ACCEPTED'], indent=2, default=str)}
+KEY REJECTED (what does NOT drive this stock):
+{json.dumps([{{"id":r.get("id"),"hyp":r.get("hypothesis","")[:80],"reason":r.get("reason","")[:80]}} for r in hyp.get('results',[]) if r.get('verdict')=='REJECTED'][:5], indent=2, default=str)}
 
-BACKTEST: {json.dumps(bt.get('validation',{}), default=str)}
+Top mistakes (root causes):
+{json.dumps(mistakes[:5], indent=2, default=str)}
 
-TOP MISTAKES: {json.dumps(mistakes[:4], default=str)}
+════════════════════════════════════
+ALL 74 STOCKS SNAPSHOT
+════════════════════════════════════
+{json.dumps(snap, indent=2, default=str)}
 
-ALL STOCKS SNAPSHOT: {json.dumps(snap, default=str)}
-
-SECTOR-SPECIFIC WEIGHTS:
-{json.dumps(state.get('sector_weights_used', {}), default=str)}
-
-INSTRUCTIONS:
-- ALWAYS respond in English. Only use Arabic if user explicitly asks.
-- Use the ACTUAL QUARTERLY DATA above when answering questions about financial results.
-- Q4/December = Full Year total (not standalone Q4). State this if relevant.
-- The TTM figure is the correct trailing income — reference it by name.
-- Be direct. Give specific numbers from the data above.
+════════════════════════════════════
+INSTRUCTIONS
+════════════════════════════════════
+- ALWAYS respond in English. Switch to Arabic only if user explicitly asks.
+- Use the ACTUAL DATA above — never say you don't have data if it appears here.
+- Q4/December = Full Year. TTM is the correct trailing figure. State this when relevant.
+- Give specific numbers. Be direct. No unnecessary disclaimers.
 - Do NOT give financial advice — research and evidence only.
-- User is non-technical — plain English, avoid jargon.
-- Never say you don't have data if it appears in the context above.
+- Plain English — user is non-technical.
+- When comparing stocks, use the all-stocks snapshot.
+- When asked about results, reference the quarterly financial data.
+- When asked about history, reference regime memory and recent predictions.
 """
 
 
