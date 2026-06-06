@@ -83,7 +83,14 @@ def build_context(sym: str) -> str:
     mem      = engine.get("memory", {})
     pers     = engine.get("personality", engine.get("personality_summary", {}))
     mistakes = engine.get("mistakes", [])
-    fin_data = load_quarterly_financials(sym)
+    # Read directly from already-loaded state (avoids double cache issue)
+    fin_data = {
+        "quarterly_records": state.get("quarterly_records", []),
+        "ttm_summary":       state.get("ttm_summary", {}),
+    }
+    # Fallback to file loader only if state has no quarterly data
+    if not fin_data["quarterly_records"]:
+        fin_data = load_quarterly_financials(sym)
 
     # ── All 74 stocks snapshot ────────────────────────────────────────────
     snap = {s: {
