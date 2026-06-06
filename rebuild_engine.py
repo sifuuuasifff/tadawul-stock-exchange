@@ -109,36 +109,65 @@ def load_enriched_financials(sym: str) -> tuple:
             ratios_df = pd.DataFrame(rows).sort_values("report_date").reset_index(drop=True)
 
     # ── Merge into fundamental summary ────────────────────────────────────────
-    # Use BOTH annual (Dec) AND the most recent quarter available.
-    # Never throw away the latest data just because it's not year-end.
+    # IMPORTANT: Q4 record = FULL YEAR total (not standalone Q4).
+    # All Saudi stocks use December 31 fiscal year-end (confirmed).
+    # Correct TTM formula: Full Year + (Latest Q - Same Q Prior Year)
+    # Never sum Q1+Q2+Q3+Q4 — that would double-count the full year.
     if not income_df.empty:
-        # Build TTM (trailing 12 months) net income from last 4 quarters
         income_sorted = income_df.sort_values("report_date")
 
-        # Annual: December year-end records for historical trend
+        # Annual: December year-end = full year records
         annual = income_df[income_df["report_date"].dt.month == 12].copy()
 
-        # If most recent record is NOT December, append it so the latest quarter is used
+        # If most recent record is a standalone quarter (not December),
+        # compute CORRECT TTM = Full Year (Dec) + Latest Q - Same Q Prior Year
         latest_record = income_sorted.iloc[-1]
         if latest_record["report_date"].month != 12:
-            # Calculate TTM from last 4 quarters
-            last_4 = income_sorted.tail(4)
-            ttm_ni = last_4["net_income"].dropna().sum()
-            ttm_rev = last_4["total_revenue"].dropna().sum() if "total_revenue" in last_4.columns else None
+            latest_q_date  = latest_record["report_date"]
+            latest_q_month = latest_q_date.month
+            latest_q_ni    = latest_record.get("net_income", np.nan)
 
-            synthetic_row = latest_record.copy()
-            synthetic_row["net_income"]    = ttm_ni
-            synthetic_row["net_income_bn"] = ttm_ni / 1e9
-            if ttm_rev:
-                synthetic_row["total_revenue"] = ttm_rev
-            synthetic_row["_is_ttm"] = True   # flag so we know it's TTM not annual
+            # Find the most recent December (full year) record before the latest quarter
+            dec_records = income_sorted[income_sorted["report_date"].dt.month == 12]
+            prior_dec   = dec_records[dec_records["report_date"] < latest_q_date]
 
-            annual = pd.concat([annual, pd.DataFrame([synthetic_row])], ignore_index=True)
-            annual = annual.sort_values("report_date").reset_index(drop=True)
+            # Find same quarter from prior year for YoY comparison
+            prior_year  = latest_q_date.year - 1
+            same_q_prior= income_sorted[
+                (income_sorted["report_date"].dt.year  == prior_year) &
+                (income_sorted["report_date"].dt.month == latest_q_month)
+            ]
 
-        annual["_is_ttm"] = annual.get("_is_ttm", False)
-        annual["ni_yoy"] = annual["net_income"].pct_change() * 100
-        annual["revenue_yoy"] = annual.get("total_revenue", pd.Series(dtype=float)).pct_change() * 100
+            if not prior_dec.empty and not pd.isna(latest_q_ni):
+                full_year_ni    = prior_dec.iloc[-1]["net_income"]
+                prior_same_q_ni = same_q_prior.iloc[-1]["net_income"] if not same_q_prior.empty else np.nan
+
+                # TTM = Full Year - Same Q Prior Year + Latest Q
+                # (removes old quarter, adds new quarter)
+                if not pd.isna(prior_same_q_ni) and prior_same_q_ni != 0:
+                    ttm_ni = full_year_ni - prior_same_q_ni + latest_q_ni
+                else:
+                    # Fallback: just use full year if can't find prior same quarter
+                    ttm_ni = full_year_ni
+
+                # Same Q YoY growth (standalone quarter vs prior year same quarter)
+                q_yoy = ((latest_q_ni / prior_same_q_ni) - 1) * 100 if (
+                    not pd.isna(prior_same_q_ni) and prior_same_q_ni > 0
+                ) else np.nan
+
+                synthetic_row = latest_record.copy()
+                synthetic_row["net_income"]    = ttm_ni
+                synthetic_row["net_income_bn"] = ttm_ni / 1e9
+                synthetic_row["_is_ttm"]       = True
+                synthetic_row["_q_yoy"]        = q_yoy   # standalone Q growth
+                synthetic_row["_latest_q_ni"]  = latest_q_ni
+
+                annual = pd.concat([annual, pd.DataFrame([synthetic_row])], ignore_index=True)
+                annual = annual.sort_values("report_date").reset_index(drop=True)
+
+        annual["_is_ttm"]    = annual.get("_is_ttm", False)
+        annual["ni_yoy"]     = annual["net_income"].pct_change() * 100
+        annual["revenue_yoy"]= annual.get("total_revenue", pd.Series(dtype=float)).pct_change() * 100
 
         # Merge balance sheet fields
         if not balance_df.empty:
