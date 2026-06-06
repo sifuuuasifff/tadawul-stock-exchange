@@ -646,163 +646,409 @@ def tab_forecast(sym: str):
                         f"(based on {n:,} trading days of data)")
 
 
-def tab_personality(sym: str):
-    info   = STOCKS.get(sym, {})
-    engine = load_stock_engine(sym)
-    st.markdown(f'<div class="main-header">🧠 Personality — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
 
-    pers  = engine.get("personality", engine.get("personality_summary", {}))
-    mem   = engine.get("memory", {})
-    rules = pers.get("personality_rules", [])
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 3 — TECHNICALS
+# ══════════════════════════════════════════════════════════════════════════════
 
-    baseline = mem.get("baseline_90d", {})
-    regimes  = [r for r in mem.get("regime_profiles", []) if r.get("type") == "Rate Regime"]
-    if baseline:
-        st.metric("Baseline 90d avg", f"{baseline.get('avg_pct','?')}%",
-                  delta=f"Win rate: {baseline.get('win_pct','?')}%", delta_color="off")
-    if regimes:
-        cols = st.columns(len(regimes))
-        for i, r in enumerate(regimes):
-            out = r.get("outcomes",{}).get("90d",{})
-            cols[i].metric(f"{r.get('label','?')} Rates",
-                           f"{out.get('avg_pct','?')}% avg",
-                           f"{out.get('pct_positive','?')}% win")
+def tab_technicals(sym: str):
+    info  = STOCKS.get(sym, {})
+    state = load_all_states().get(sym, {})
+    st.markdown(f'<div class="main-header">📈 Technicals — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Where is the stock right now? What is the price telling us?</div>', unsafe_allow_html=True)
+
+    price  = state.get("price", 0)
+    rsi    = state.get("rsi", 50)
+    bb     = state.get("bb_pct", 0.5)
+    ret20  = state.get("ret_20d_pct", 0)
+    h52pct = state.get("dist_from_52w_high_pct", 0)
+    tech   = state.get("tech_score", 50)
+
+    if tech >= 70:
+        verdict = ("🟢 Bullish Setup", "#28a745", "Technical signals are mostly positive for this stock right now.")
+    elif tech >= 55:
+        verdict = ("🟡 Neutral", "#ffc107", "Mixed signals — no strong technical direction either way.")
+    elif tech >= 40:
+        verdict = ("🟠 Mildly Bearish", "#fd7e14", "Some caution signals present.")
+    else:
+        verdict = ("🔴 Bearish Setup", "#dc3545", "Technical signals suggest caution at current levels.")
+
+    st.markdown(f"""<div style="background:{verdict[1]}22;border-left:5px solid {verdict[1]};
+    padding:0.8rem 1rem;border-radius:8px;margin-bottom:1rem">
+    <b style="color:{verdict[1]};font-size:1.1rem">{verdict[0]}</b><br>
+    <span style="color:#444">{verdict[2]}</span></div>""", unsafe_allow_html=True)
+
+    st.markdown("### 📍 Price Position")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Current Price", f"{price:.2f} SAR")
+    c2.metric("20-day Change",  f"{ret20:+.1f}%", delta_color="normal" if ret20 >= 0 else "inverse")
+    c3.metric("From 52w High",  f"{h52pct:.1f}%")
+    c4.metric("Technical Score", f"{tech:.0f}/100")
+
     st.markdown("---")
-    st.markdown("**Evidence-Based Personality Rules:**")
-    icons = {"HIGH":"🟢","MEDIUM":"🟡","LOW":"🔴"}
-    for rule in rules:
-        conf = rule.get("confidence","MEDIUM")
-        st.markdown(f"**{icons.get(conf,'⚪')} {rule.get('rule','')}**")
-        st.caption(f"Evidence: {rule.get('evidence','N/A')} | Confidence: {conf}")
-        st.markdown("")
+    st.markdown("### 🔮 RSI — Momentum Indicator")
+    if rsi < 20:
+        rsi_color, rsi_label, rsi_meaning = "#dc3545", f"EXTREME OVERSOLD ({rsi:.0f})", "Historically a very strong buying signal. Engine has seen this setup — average 90-day return in this zone is significantly above baseline."
+    elif rsi < 30:
+        rsi_color, rsi_label, rsi_meaning = "#fd7e14", f"OVERSOLD ({rsi:.0f})", "Sold down below normal range. This is the zone where mean reversions historically begin."
+    elif rsi < 40:
+        rsi_color, rsi_label, rsi_meaning = "#ffc107", f"LOW ({rsi:.0f})", "Approaching oversold territory. Not yet a strong signal but worth watching."
+    elif rsi < 60:
+        rsi_color, rsi_label, rsi_meaning = "#6c757d", f"NEUTRAL ({rsi:.0f})", "No strong signal. Stock is trading in a normal range."
+    elif rsi < 70:
+        rsi_color, rsi_label, rsi_meaning = "#ffc107", f"HIGH ({rsi:.0f})", "Approaching overbought. Some caution warranted."
+    elif rsi < 80:
+        rsi_color, rsi_label, rsi_meaning = "#fd7e14", f"OVERBOUGHT ({rsi:.0f})", "Stock has run up significantly. Historically this precedes weaker returns."
+    else:
+        rsi_color, rsi_label, rsi_meaning = "#dc3545", f"EXTREME OVERBOUGHT ({rsi:.0f})", "Extreme reading. Mean reversion risk is elevated."
+
+    rsi_pct = min(100, max(0, rsi))
+    st.markdown(f"""<div style="background:#f8f9fa;border-radius:10px;padding:1rem">
+        <b style="color:{rsi_color}">{rsi_label}</b><br>
+        <div style="background:#dee2e6;border-radius:5px;height:12px;margin:0.5rem 0">
+            <div style="background:{rsi_color};width:{rsi_pct}%;height:12px;border-radius:5px"></div>
+        </div>
+        <span style="color:#444;font-size:0.9rem">{rsi_meaning}</span>
+    </div>""", unsafe_allow_html=True)
+
+    st.markdown("---")
+    st.markdown("### 📊 Price Range Position (Bollinger Bands)")
+    if bb < 0.05:
+        bb_color, bb_label, bb_msg = "#28a745", "Near Lower Band", "Price at bottom of normal range. Historically a recovery signal."
+    elif bb < 0.25:
+        bb_color, bb_label, bb_msg = "#ffc107", "Low in Range", "Lower portion of normal range — mild positive signal."
+    elif bb < 0.75:
+        bb_color, bb_label, bb_msg = "#6c757d", "Middle of Range", "Normal trading range. No directional signal."
+    elif bb < 0.95:
+        bb_color, bb_label, bb_msg = "#fd7e14", "High in Range", "Upper portion — mild caution."
+    else:
+        bb_color, bb_label, bb_msg = "#dc3545", "Near Upper Band", "Top of normal range. Historically precedes consolidation or pullback."
+
+    bb_disp = min(100, max(0, int(bb * 100)))
+    st.markdown(f"""<div style="background:#f8f9fa;border-radius:10px;padding:1rem">
+        <b style="color:{bb_color}">{bb_label} ({bb_disp}%)</b><br>
+        <div style="background:#dee2e6;border-radius:5px;height:12px;margin:0.5rem 0">
+            <div style="background:{bb_color};width:{bb_disp}%;height:12px;border-radius:5px"></div>
+        </div>
+        <span style="color:#444;font-size:0.9rem">{bb_msg}</span>
+    </div>""", unsafe_allow_html=True)
+
+    st.markdown("---")
+    st.markdown("### 🏃 20-Day Momentum")
+    if ret20 > 15:
+        mom_color, mom_label, mom_msg = "#dc3545", f"Strong Rally (+{ret20:.1f}%)", "⚠️ After a strong rally, the engine historically sees WEAKER returns — mean reversion tends to follow."
+    elif ret20 > 5:
+        mom_color, mom_label, mom_msg = "#ffc107", f"Rising (+{ret20:.1f}%)", "Moderate upward momentum. Monitor closely."
+    elif ret20 > -5:
+        mom_color, mom_label, mom_msg = "#6c757d", f"Flat ({ret20:.1f}%)", "No strong directional momentum. Neutral signal."
+    elif ret20 > -15:
+        mom_color, mom_label, mom_msg = "#ffc107", f"Declining ({ret20:.1f}%)", "Stock has pulled back. Potential recovery setup depending on other signals."
+    else:
+        mom_color, mom_label, mom_msg = "#28a745", f"Sharp Drop ({ret20:.1f}%)", "✅ Large drops create mean reversion opportunity — needs rate regime + RSI to confirm."
+
+    st.markdown(f"""<div style="background:#f8f9fa;border-radius:10px;padding:1rem">
+        <b style="color:{mom_color}">{mom_label}</b><br>
+        <span style="color:#444;font-size:0.9rem">{mom_msg}</span>
+    </div>""", unsafe_allow_html=True)
 
 
-def tab_signals(sym: str):
-    info   = STOCKS.get(sym, {})
-    engine = load_stock_engine(sym)
-    st.markdown(f'<div class="main-header">📡 Signals — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 4 — FINANCIALS
+# ══════════════════════════════════════════════════════════════════════════════
 
-    report  = engine.get("signals", {})
-    signals = report.get("signals", [])
-    if not signals:
-        st.warning("Signal report not found.")
+def tab_financials(sym: str):
+    info  = STOCKS.get(sym, {})
+    state = load_all_states().get(sym, {})
+    st.markdown(f'<div class="main-header">💰 Financials — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">How is the business actually performing?</div>', unsafe_allow_html=True)
+
+    qr   = state.get("quarterly_records", [])
+    ttm  = state.get("ttm_summary", {})
+    fund = state.get("fund_score", 50)
+
+    if not qr and not ttm:
+        st.warning("No financial data loaded for this stock.")
         return
 
-    base_90d = report.get("baseline", {}).get("avg_90d", 6.0) or 6.0
-    c1,c2    = st.columns(2)
-    group_f  = c1.selectbox("Group", ["All"] + sorted(set(s.get("group","") for s in signals)))
-    rel_f    = c2.selectbox("Reliability", ["All","HIGH","MEDIUM","LOW"])
+    fund_color = "#28a745" if fund >= 65 else ("#ffc107" if fund >= 45 else "#dc3545")
+    fund_label = "Strong" if fund >= 65 else ("Fair" if fund >= 45 else "Weak")
+    st.markdown(f"""<div style="background:{fund_color}22;border-left:5px solid {fund_color};
+    padding:0.8rem 1rem;border-radius:8px;margin-bottom:1rem">
+    <b style="color:{fund_color}">Financial Health: {fund_label} ({fund:.0f}/100)</b><br>
+    <span style="color:#444">Based on earnings growth, cash flow quality, and balance sheet strength</span>
+    </div>""", unsafe_allow_html=True)
 
-    rows = []
-    for s in signals:
-        if "avg_return_90d" not in s: continue
-        if group_f != "All" and s.get("group") != group_f: continue
-        if rel_f   != "All" and s.get("reliability_label") != rel_f: continue
-        edge = (s.get("avg_return_90d") or 0) - base_90d
-        rows.append({"Signal": s.get("signal","")[:55], "N": s.get("occurrences",0),
-                     "Avg 30d %": s.get("avg_return_30d"), "Avg 90d %": s.get("avg_return_90d"),
-                     "Win% (90d)": s.get("pct_positive_90d"), "Edge": f"{edge:+.1f}%",
-                     "Reliability": s.get("reliability_label",""),
-                     "p-value": s.get("p_value_90d"),
-                     "Sig": "✓" if s.get("significant_90d") else ""})
-    if rows:
+    st.markdown("### 📊 Key Metrics")
+    c1, c2, c3, c4 = st.columns(4)
+    ttm_ni  = ttm.get("ttm_ni_mn", 0) or 0
+    ttm_yoy = ttm.get("ttm_yoy_pct")
+    q1_yoy  = ttm.get("q1_yoy_pct") or ttm.get("q1_standalone_yoy")
+    cfq     = ttm.get("cash_flow_quality")
+    dte     = ttm.get("debt_to_equity", 0) or 0
+    roe     = ttm.get("roe_pct")
+    roa     = ttm.get("roa_pct")
+    assets  = ttm.get("total_assets_mn", 0) or 0
+    equity  = ttm.get("equity_mn", 0) or 0
+
+    c1.metric("TTM Net Income", f"{ttm_ni:,.0f}M SAR", delta=f"{ttm_yoy:+.1f}% YoY" if ttm_yoy else None)
+    c2.metric("Latest Q Growth", f"{q1_yoy:+.1f}%" if q1_yoy else "N/A", help="Most recent quarter vs same quarter last year")
+    c3.metric("Cash Flow Quality", f"{cfq:.2f}" if cfq else "N/A", help="OCF/NI. >1 = earnings backed by cash. <0.5 = low quality")
+    c4.metric("Debt / Equity", f"{dte:.2f}x" if dte else "Zero debt", delta="Clean" if dte == 0 else ("OK" if dte < 1 else "High"), delta_color="off")
+
+    if roe or roa:
+        c1, c2, c3, c4 = st.columns(4)
+        if roe: c1.metric("ROE", f"{roe:.1f}%", help="Return on Equity")
+        if roa: c2.metric("ROA", f"{roa:.1f}%", help="Return on Assets")
+        if equity: c3.metric("Equity", f"{equity/1000:.1f}B SAR")
+        if assets: c4.metric("Total Assets", f"{assets/1000:.1f}B SAR")
+
+    st.markdown("---")
+    st.markdown("### 📝 Plain English Summary")
+    summaries = []
+    if q1_yoy is not None:
+        if q1_yoy > 20:    summaries.append(f"✅ **Earnings accelerating** — latest quarter grew **{q1_yoy:.1f}%** vs same quarter last year. Strong momentum.")
+        elif q1_yoy > 5:   summaries.append(f"✅ **Earnings growing** — latest quarter up **{q1_yoy:.1f}%** vs same quarter last year.")
+        elif q1_yoy > -5:  summaries.append(f"⚠️ **Earnings flat** — latest quarter grew only **{q1_yoy:.1f}%** vs last year. Watch for trend.")
+        else:              summaries.append(f"🔴 **Earnings declining** — latest quarter down **{q1_yoy:.1f}%** vs last year.")
+    if cfq is not None:
+        if cfq > 1.0:      summaries.append(f"✅ **High quality earnings** (CFQ {cfq:.2f}) — profits backed by real cash.")
+        elif cfq > 0.5:    summaries.append(f"✅ **Decent cash backing** (CFQ {cfq:.2f}) — earnings reasonably supported.")
+        elif cfq >= 0:     summaries.append(f"⚠️ **Low cash backing** (CFQ {cfq:.2f}) — profits may not fully convert to cash.")
+        else:              summaries.append("🔴 **Negative operating cash flow** — consuming cash despite reported profits.")
+    if dte == 0:           summaries.append("✅ **Zero debt** — very clean balance sheet.")
+    elif dte < 0.5:        summaries.append(f"✅ **Low leverage** — D/E {dte:.2f}. Conservative financing.")
+    elif dte > 2:          summaries.append(f"⚠️ **High leverage** — D/E {dte:.2f}. Monitor in rising rate environments.")
+    for s in summaries:
+        st.markdown(s)
+
+    if qr:
+        st.markdown("---")
+        st.markdown("### 📅 Recent Financial Records")
+        st.caption("Q4/December = Full Year total (not just Q4). All other quarters are standalone.")
+        rows = []
+        for r in reversed(qr):
+            rows.append({
+                "Period":     f"{r.get('date','?')} ({r.get('quarter','?')})",
+                "Type":       r.get("type",""),
+                "Net Income": f"{r.get('net_income_mn','?')} M SAR" if r.get("net_income_mn") else "N/A",
+                "Revenue":    f"{r.get('revenue_mn','?')} M SAR"    if r.get("revenue_mn")    else "N/A",
+                "Assets":     f"{r.get('total_assets_mn','?')} M"   if r.get("total_assets_mn") else "—",
+                "OCF":        f"{r.get('ocf_mn','?')} M"            if r.get("ocf_mn")          else "—",
+            })
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-        st.caption(f"Baseline (buy-and-hold): avg 90d = {base_90d}%")
 
 
-def tab_hypotheses(sym: str):
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 5 — INVESTOR VIEW
+# ══════════════════════════════════════════════════════════════════════════════
+
+def tab_investor_view(sym: str):
+    info   = STOCKS.get(sym, {})
+    state  = load_all_states().get(sym, {})
+    st.markdown(f'<div class="main-header">👁️ Investor View — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">What do professional investors and analysts think?</div>', unsafe_allow_html=True)
+
+    price      = state.get("price", 0)
+    an_target  = state.get("analyst_target_mean")
+    an_upside  = state.get("analyst_upside_pct")
+    n_analysts = state.get("num_analysts", 0) or 0
+    fv         = state.get("fair_price")
+    fv_upside  = state.get("sahmk_fair_upside_pct")
+    pe         = state.get("pe_ratio")
+    pb         = state.get("price_to_book")
+
+    st.markdown("### 👥 Professional Analyst View")
+    if n_analysts > 0 and an_target:
+        upside_color = "#28a745" if (an_upside or 0) > 5 else ("#ffc107" if (an_upside or 0) > -5 else "#dc3545")
+        verdict = "BUY" if (an_upside or 0) > 10 else ("HOLD" if (an_upside or 0) > -5 else "CAUTION")
+        st.markdown(f"""<div style="background:{upside_color}22;border-left:5px solid {upside_color};
+        padding:1rem;border-radius:8px;margin-bottom:1rem">
+        <b style="color:{upside_color};font-size:1.1rem">{verdict} — {n_analysts} analysts covering this stock</b><br>
+        Average target: <b>{an_target:.2f} SAR</b> vs current {price:.2f} SAR
+        → <b style="color:{upside_color}">{an_upside:+.1f}% upside</b>
+        </div>""", unsafe_allow_html=True)
+        c1, c2 = st.columns(2)
+        c1.metric("Mean Target", f"{an_target:.2f} SAR", delta=f"{an_upside:+.1f}%" if an_upside else None)
+        c2.metric("Analysts Covering", n_analysts)
+    else:
+        st.info(f"No analyst coverage data available ({n_analysts} analysts found).")
+
+    if fv:
+        st.markdown("---")
+        st.markdown("### 🎯 SAHMK Model Fair Value")
+        fv_color  = "#28a745" if (fv_upside or 0) > 5 else ("#dc3545" if (fv_upside or 0) < -5 else "#ffc107")
+        fv_verdict = "UNDERVALUED" if (fv_upside or 0) > 5 else ("OVERVALUED" if (fv_upside or 0) < -5 else "FAIRLY VALUED")
+        st.markdown(f"""<div style="background:{fv_color}22;border-left:5px solid {fv_color};
+        padding:0.8rem 1rem;border-radius:8px">
+        <b style="color:{fv_color}">{fv_verdict}</b> — SAHMK model fair price: <b>{fv:.2f} SAR</b>
+        vs current {price:.2f} SAR → <b style="color:{fv_color}">{fv_upside:+.1f}%</b><br>
+        <span style="font-size:0.85rem;color:#666">SAHMK's internal model estimate. Not independently backtested.</span>
+        </div>""", unsafe_allow_html=True)
+
+    if pe or pb:
+        st.markdown("---")
+        st.markdown("### 💹 Valuation Ratios")
+        c1, c2 = st.columns(2)
+        if pe and 0 < pe < 500:
+            pe_note = "Cheap" if pe < 8 else ("Fair" if pe < 15 else "Expensive")
+            c1.metric("P/E Ratio", f"{pe:.1f}x", delta=pe_note, delta_color="normal" if pe_note=="Cheap" else "off",
+                      help="Price-to-Earnings. Lower = cheaper. Saudi banks typically 6-12x.")
+        if pb and 0 < pb < 100:
+            pb_note = "Below Book" if pb < 1 else ("Fair" if pb < 2.5 else "Premium")
+            c2.metric("Price/Book", f"{pb:.2f}x", delta=pb_note, delta_color="normal" if pb_note=="Below Book" else "off")
+
+    div_summary = state.get("div_summary", {})
+    recent_divs = div_summary.get("recent_dividends", [])
+    yield_pct   = div_summary.get("trailing_12m_yield_pct")
+    if recent_divs or yield_pct:
+        st.markdown("---")
+        st.markdown("### 💵 Dividends")
+        if yield_pct:
+            st.metric("Trailing 12M Yield", f"{yield_pct:.2f}%")
+        if recent_divs:
+            rows = []
+            for d in recent_divs:
+                rows.append({"Announced": d.get("date","?"), "Amount (SAR)": d.get("value_sar","?"),
+                             "Period": d.get("period","?"), "Distribution": d.get("dist_date","?")})
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+
+    ev_path = Path(__file__).parent.parent / "data" / "raw" / (
+        "alrajhi_events_full.json" if sym == "1120" else f"stock_{sym}/events.json"
+    )
+    if ev_path.exists():
+        st.markdown("---")
+        st.markdown("### 📢 Recent Announcements")
+        with open(ev_path, encoding="utf-8") as f:
+            ev_data = json.load(f)
+        events = [e for e in ev_data.get("events", [])
+                  if e.get("event_type") in ("FINANCIAL_REPORT","EARNINGS_SURPRISE",
+                                              "DIVIDEND_ANNOUNCEMENT","REGULATORY_ACTION",
+                                              "ANALYST_RATING_CHANGE")][:8]
+        if events:
+            rows = []
+            for e in events:
+                sent = e.get("sentiment","neutral")
+                icon = {"positive":"✅","negative":"🔴","neutral":"⚪"}.get(sent,"⚪")
+                rows.append({"Date": e.get("event_date","?")[:10],
+                             "Type": e.get("event_type","").replace("_"," ").title(),
+                             "Sentiment": f"{icon} {sent.title()}",
+                             "Importance": e.get("importance","").title()})
+            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+            st.caption("Announcement details are in Arabic — use AI Chat for English interpretation")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 6 — TRACK RECORD
+# ══════════════════════════════════════════════════════════════════════════════
+
+def tab_track_record(sym: str):
     info   = STOCKS.get(sym, {})
     engine = load_stock_engine(sym)
-    st.markdown(f'<div class="main-header">🧪 Hypotheses — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="main-header">📊 Track Record — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">How well has the engine predicted this stock? Where has it been wrong?</div>', unsafe_allow_html=True)
 
-    hyp     = engine.get("hypotheses", {})
-    results = hyp.get("results", [])
-    summary = hyp.get("summary", {})
-    if not results:
-        st.warning("Hypothesis report not found.")
-        return
+    bt      = engine.get("backtest", {})
+    v       = bt.get("validation", {})
+    mistakes= engine.get("mistakes", [])
+    mem     = engine.get("memory", {})
+    pers    = engine.get("personality", engine.get("personality_summary", {}))
 
-    c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Total",        summary.get("total",0))
-    c2.metric("Accepted ✓",   summary.get("accepted",0))
-    c3.metric("Rejected ✗",   summary.get("rejected",0))
-    c4.metric("Inconclusive", summary.get("inconclusive",0))
-
-    vf = st.selectbox("Filter", ["All","ACCEPTED","REJECTED","INCONCLUSIVE"])
-    rows = []
-    for r in results:
-        if vf != "All" and r.get("verdict") != vf: continue
-        icon = {"ACCEPTED":"✓","REJECTED":"✗","INCONCLUSIVE":"~"}.get(r.get("verdict",""),"?")
-        rows.append({"ID": r.get("id"),
-                     "Verdict": f"{icon} {r.get('verdict','')}",
-                     "Hypothesis": r.get("hypothesis","")[:65],
-                     "Δ %": r.get("diff"), "p-value": r.get("p_value"),
-                     "n": r.get("n_a"), "Reason": r.get("reason","")[:70]})
-    if rows:
-        st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-
-
-def tab_backtest(sym: str):
-    info   = STOCKS.get(sym, {})
-    engine = load_stock_engine(sym)
-    st.markdown(f'<div class="main-header">📈 Backtest — {info.get("emoji","")} {info.get("name",sym)}</div>', unsafe_allow_html=True)
-
-    bt = engine.get("backtest", {})
-    v  = bt.get("validation", {})
     if not v:
-        st.warning("Backtest report not found.")
+        st.warning("Track record data not found.")
         return
 
-    c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Predictions", v.get("n_predictions",0))
-    c2.metric("Accuracy",    f"{v.get('directional_accuracy_pct',0)}%",
-              delta=f"{v.get('edge_over_baseline_pct',0):+.1f}% vs baseline", delta_color="normal")
-    c3.metric("Baseline",    f"{v.get('baseline_always_long_pct',0)}%")
-    c4.metric("MAE (90d)",   f"{v.get('mae_pct',0)}%")
+    acc      = v.get("directional_accuracy_pct", 0)
+    baseline = v.get("baseline_always_long_pct", 0)
+    edge     = v.get("edge_over_baseline_pct", 0)
+    n_preds  = v.get("n_predictions", 0)
+
+    acc_color = "#28a745" if edge > 3 else ("#ffc107" if edge > 0 else "#dc3545")
+    verdict   = "Better than random buying" if edge > 3 else ("Slightly better than random" if edge > 0 else "Not reliably better than just always buying")
+
+    st.markdown(f"""<div style="background:{acc_color}22;border-left:5px solid {acc_color};
+    padding:1rem;border-radius:8px;margin-bottom:1rem">
+    <b style="color:{acc_color};font-size:1.1rem">Engine accuracy: {acc:.0f}% correct direction</b><br>
+    vs just always buying = {baseline:.0f}% | Edge: <b>{edge:+.1f}%</b><br>
+    <span style="color:#444;font-size:0.9rem">Based on {n_preds} quarterly predictions (2016-2026). {verdict}.</span>
+    </div>""", unsafe_allow_html=True)
+
+    st.markdown("### 🎓 What This Means in Plain English")
+    st.markdown(f"""
+Out of every **10 predictions** the engine made on this stock:
+- **{acc/10:.1f} times** it correctly called the direction (up or down)
+- **{(100-acc)/10:.1f} times** it was wrong
+
+If you had just bought every time: you would have been right **{baseline/10:.1f} out of 10**.
+The engine adds **{edge/10:.1f} extra correct calls** per 10.
+""")
 
     rd = v.get("regime_breakdown", {})
     if rd:
-        st.markdown("**By Rate Regime:**")
-        cols = st.columns(len(rd))
-        for i,(regime,r) in enumerate(rd.items()):
-            cols[i].metric(f"{regime.capitalize()} Rates",
-                           f"{r.get('dir_accuracy',0)}% acc",
-                           f"error {r.get('avg_error',0):+.1f}%")
+        st.markdown("---")
+        st.markdown("### 🌡️ Accuracy by Market Environment")
+        for reg, r in rd.items():
+            regime_acc = r.get("accuracy", r.get("dir_accuracy", 0))
+            r_color = "#28a745" if regime_acc > 65 else ("#ffc107" if regime_acc > 50 else "#dc3545")
+            st.markdown(f"**{reg.capitalize()} rates:** <span style='color:{r_color}'>{regime_acc:.0f}% accurate</span> (n={r.get('n',0)} predictions)", unsafe_allow_html=True)
 
-    st.markdown("---")
-    st.markdown("### 🚨 Mistake Vault")
-    mistakes = engine.get("mistakes", [])
-    if mistakes:
+    preds  = bt.get("predictions", [])
+    recent = [p for p in preds if p.get("actual_90d_pct") is not None][-8:]
+    if recent:
+        st.markdown("---")
+        st.markdown("### 🔮 Last 8 Predictions vs What Actually Happened")
         rows = []
-        for m in sorted(mistakes, key=lambda x: -x.get("error",0)):
-            rows.append({"Date": m.get("prediction_date"),
-                         "Predicted": f"{m.get('predicted_90d',0):+.1f}%",
-                         "Actual": f"{m.get('actual_90d',0):+.1f}%",
-                         "Error": f"{m.get('error',0):.1f}%",
-                         "Dir OK": "✓" if m.get("direction_correct") else "✗",
-                         "RSI": m.get("rsi"), "Regime": m.get("rate_regime"),
-                         "Root Cause": m.get("root_cause","")[:65]})
+        for p in reversed(recent):
+            pred_val = p.get("base_90d_pct", 0)
+            actual   = p.get("actual_90d_pct", 0)
+            correct  = (pred_val > 0) == (actual > 0)
+            rows.append({"Date": p.get("prediction_date","?"),
+                         "Engine said": f"{pred_val:+.1f}%",
+                         "Actual": f"{actual:+.1f}%",
+                         "Result": f"{'✅ Correct' if correct else '❌ Wrong'}",
+                         "Score at time": f"{p.get('composite',0):.0f}/100"})
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-        st.caption(f"{len(mistakes)} large errors catalogued")
-    else:
-        st.info("No large errors recorded for this stock.")
+
+    rules = pers.get("personality_rules", [])
+    if rules:
+        st.markdown("---")
+        st.markdown("### 🧠 What the Engine Has Learned About This Stock")
+        st.caption("Rules derived purely from historical evidence — not assumptions.")
+        icons = {"HIGH":"🟢","MEDIUM":"🟡","LOW":"🔴"}
+        for rule in rules[:5]:
+            conf = rule.get("confidence","MEDIUM")
+            st.markdown(f"{icons.get(conf,'⚪')} **{rule.get('rule','')}**")
+            st.caption(f"Evidence: {rule.get('evidence','N/A')}")
+
+    if mistakes:
+        st.markdown("---")
+        st.markdown("### ⚠️ Biggest Mistakes — Where the Engine Was Wrong")
+        st.caption("Understanding failures is as important as celebrating successes.")
+        for m in sorted(mistakes, key=lambda x: -x.get("error",0))[:5]:
+            err, actual, pred, cause = m.get("error",0), m.get("actual_90d",0), m.get("predicted_90d",0), m.get("root_cause","Unknown")
+            st.markdown(f'''<div class="warning-box">
+            <b>{m.get("prediction_date","?")}</b> — predicted {pred:+.1f}%, actual was {actual:+.1f}% (error: {err:.0f}%)<br>
+            <span style="font-size:0.85rem">Root cause: {cause}</span>
+            </div>''', unsafe_allow_html=True)
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
+# ── Main ────────────────────────────────────────────────────────────────────────
 
 def main():
     sym  = render_sidebar()
     info = STOCKS.get(sym, {})
     st.markdown(f'<div class="main-header">{info.get("emoji","")} {info.get("name",sym)} ({sym})</div>', unsafe_allow_html=True)
-    st.markdown(f'<div class="sub-header">{info.get("sector","?")} · Full engine analysis</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="sub-header">{info.get("sector","?")} · Engine analysis</div>', unsafe_allow_html=True)
 
-    t1,t2,t3,t4,t5,t6 = st.tabs(["💬 AI Chat","🎯 Forecast","🧠 Personality","📡 Signals","🧪 Hypotheses","📈 Backtest"])
+    t1,t2,t3,t4,t5,t6 = st.tabs([
+        "💬 AI Chat", "🎯 Forecast", "📈 Technicals",
+        "💰 Financials", "👁️ Investor View", "📊 Track Record",
+    ])
     with t1: tab_chat(sym)
     with t2: tab_forecast(sym)
-    with t3: tab_personality(sym)
-    with t4: tab_signals(sym)
-    with t5: tab_hypotheses(sym)
-    with t6: tab_backtest(sym)
+    with t3: tab_technicals(sym)
+    with t4: tab_financials(sym)
+    with t5: tab_investor_view(sym)
+    with t6: tab_track_record(sym)
 
 
 if __name__ == "__main__":
