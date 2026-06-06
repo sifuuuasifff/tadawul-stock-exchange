@@ -237,7 +237,7 @@ RECENT EVENTS & ANNOUNCEMENTS
 ════════════════════════════════════
 TOP SIGNALS FOR THIS STOCK
 ════════════════════════════════════
-{json.dumps([{{"signal":s.get("signal","")[:60],"group":s.get("group",""),"n":s.get("occurrences",0),"avg_90d":s.get("avg_return_90d"),"win_pct":s.get("pct_positive_90d"),"significant":s.get("significant_90d")}} for s in top_signals], indent=2, default=str)}
+{json.dumps([dict(signal=s.get("signal","")[:60],group=s.get("group",""),n=s.get("occurrences",0),avg_90d=s.get("avg_return_90d"),win_pct=s.get("pct_positive_90d"),significant=s.get("significant_90d")) for s in top_signals], indent=2, default=str)}
 
 ════════════════════════════════════
 PERSONALITY & HYPOTHESES
@@ -249,7 +249,7 @@ Hypotheses: {hyp.get('summary',{}).get('total','?')} tested | {hyp.get('summary'
 KEY ACCEPTED:
 {json.dumps([r for r in hyp.get('results',[]) if r.get('verdict')=='ACCEPTED'], indent=2, default=str)}
 KEY REJECTED (what does NOT drive this stock):
-{json.dumps([{{"id":r.get("id"),"hyp":r.get("hypothesis","")[:80],"reason":r.get("reason","")[:80]}} for r in hyp.get('results',[]) if r.get('verdict')=='REJECTED'][:5], indent=2, default=str)}
+{json.dumps([dict(id=r.get("id"),hyp=r.get("hypothesis","")[:80],reason=r.get("reason","")[:80]) for r in hyp.get('results',[]) if r.get('verdict')=='REJECTED'][:5], indent=2, default=str)}
 
 Top mistakes (root causes):
 {json.dumps(mistakes[:5], indent=2, default=str)}
