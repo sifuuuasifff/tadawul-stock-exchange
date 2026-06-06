@@ -182,9 +182,10 @@ def tab_chat(sym: str):
         st.markdown(f'<div class="{css}">{icon} {msg["content"]}</div>', unsafe_allow_html=True)
 
     with st.form("chat_form", clear_on_submit=True):
-        question = st.text_input("Your question",
-            placeholder="e.g. What does the engine say about this stock right now?",
-            value=st.session_state.pop("pending_q", ""))
+        question = st.text_area("Your question",
+            placeholder="e.g. What does the engine say about this stock right now?\n\nYou can ask anything — forecast, signals, history, comparisons...",
+            value=st.session_state.pop("pending_q", ""),
+            height=100)
         submitted = st.form_submit_button("Ask →", use_container_width=True)
 
     if submitted and question.strip():
