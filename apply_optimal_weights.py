@@ -226,36 +226,144 @@ for sym, info in STOCKS.items():
     }
     # ── Embed quarterly financial records so cloud AI can access them ────────
     try:
-        income_df2, _, _, _, annual_df2 = load_enriched_financials(sym)
+        income_df2, balance_df2, cashflow_df2, ratios_df2, annual_df2 = load_enriched_financials(sym)
         quarterly_records = []
         if not income_df2.empty:
+            # Build lookup for balance sheet and cash flow by date
+            bal_lookup = {}
+            if not balance_df2.empty:
+                for _, br in balance_df2.iterrows():
+                    d = br["report_date"].date().isoformat()
+                    bal_lookup[d] = {
+                        "total_assets_mn":   round(br["total_assets"]/1e6, 0) if not pd.isna(br.get("total_assets", float("nan"))) else None,
+                        "equity_mn":         round(br["stockholders_equity"]/1e6, 0) if not pd.isna(br.get("stockholders_equity", float("nan"))) else None,
+                        "debt_mn":           round(br["total_debt"]/1e6, 0) if not pd.isna(br.get("total_debt", float("nan"))) else None,
+                        "debt_to_equity":    round(br["debt_to_equity"], 2) if not pd.isna(br.get("debt_to_equity", float("nan"))) else None,
+                    }
+            cf_lookup = {}
+            if not cashflow_df2.empty:
+                for _, cr in cashflow_df2.iterrows():
+                    d = cr["report_date"].date().isoformat()
+                    ocf = cr.get("operating_cash_flow")
+                    fcf = cr.get("free_cash_flow")
+                    cf_lookup[d] = {
+                        "ocf_mn": round(ocf/1e6, 0) if ocf and not pd.isna(ocf) else None,
+                        "fcf_mn": round(fcf/1e6, 0) if fcf and not pd.isna(fcf) else None,
+                    }
+            # ROE/ROA from ratios
+            roe_lookup = {}
+            if not ratios_df2.empty:
+                for _, rr in ratios_df2.iterrows():
+                    d = rr["report_date"].date().isoformat()
+                    roe_lookup[d] = {"roe": rr.get("roe"), "roa": rr.get("roa")}
+
             for _, r in income_df2.sort_values("report_date").tail(12).iterrows():
                 ni  = r.get("net_income")
                 rev = r.get("total_revenue")
-                quarterly_records.append({
-                    "date":    r["report_date"].date().isoformat(),
+                d   = r["report_date"].date().isoformat()
+                rec = {
+                    "date":    d,
                     "quarter": f"Q{int(r.get('fiscal_quarter',0))}" if r.get("fiscal_quarter") else "Annual",
                     "type":    "Full Year" if r["report_date"].month == 12 else "Quarterly",
                     "net_income_mn":  round(ni/1e6, 1)  if ni  and not pd.isna(ni)  else None,
                     "revenue_mn":     round(rev/1e6, 1) if rev and not pd.isna(rev) else None,
-                })
-        # TTM summary
+                }
+                # Add balance sheet if available for same date
+                if d in bal_lookup:
+                    rec.update(bal_lookup[d])
+                # Add cash flow if available
+                if d in cf_lookup:
+                    rec.update(cf_lookup[d])
+                # Add ROE/ROA
+                if d in roe_lookup:
+                    rec.update(roe_lookup[d])
+                quarterly_records.append(rec)
+        # TTM summary + balance sheet + cash flow quality
         ttm_summary = {}
         if not annual_df2.empty:
             lat = annual_df2.iloc[-1]
+            ttm_ni = lat.get("net_income_bn", 0) * 1000
+            # Cash flow quality — from full year record (not synthetic TTM)
+            annual_fy = annual_df2[annual_df2["report_date"].dt.month == 12].dropna(subset=["net_income"])
+            cfq = None
+            if not annual_fy.empty:
+                last_fy = annual_fy.iloc[-1]
+                cfq_val = last_fy.get("cfq")
+                if cfq_val and not pd.isna(cfq_val):
+                    cfq = round(cfq_val, 2)
+                elif last_fy.get("operating_cash_flow") and not pd.isna(last_fy.get("operating_cash_flow", float("nan"))):
+                    ni_fy = last_fy.get("net_income", 0)
+                    if ni_fy and ni_fy != 0:
+                        cfq = round(last_fy["operating_cash_flow"] / ni_fy, 2)
             ttm_summary = {
-                "ttm_ni_mn":       round(lat.get("net_income_bn", 0) * 1000, 1),
-                "ttm_yoy_pct":     round(lat.get("ni_yoy", 0), 1),
-                "q1_yoy_pct":      round(lat.get("_q_yoy", 0), 1) if lat.get("_q_yoy") else None,
-                "latest_q_ni_mn":  round(lat.get("_latest_q_ni", 0)/1e6, 1) if lat.get("_latest_q_ni") else None,
-                "is_ttm":          bool(lat.get("_is_ttm", False)),
-                "as_of":           lat["report_date"].date().isoformat(),
+                "ttm_ni_mn":          round(ttm_ni, 1),
+                "ttm_yoy_pct":        round(lat.get("ni_yoy", 0), 1),
+                "q1_yoy_pct":         round(lat.get("_q_yoy", 0), 1) if lat.get("_q_yoy") else None,
+                "q1_standalone_yoy":  round(lat.get("_q_yoy", 0), 1) if lat.get("_q_yoy") else None,
+                "latest_q_ni_mn":     round(lat.get("_latest_q_ni", 0)/1e6, 1) if lat.get("_latest_q_ni") else None,
+                "is_ttm":             bool(lat.get("_is_ttm", False)),
+                "as_of":              lat["report_date"].date().isoformat(),
+                "cash_flow_quality":  cfq,
+                "cfq_note":           "OCF/NI >1 = earnings backed by cash; <0.5 = low quality" if cfq else None,
             }
+            # Latest balance sheet metrics
+            if "total_assets" in lat and not pd.isna(lat.get("total_assets", float("nan"))):
+                ttm_summary["total_assets_mn"]   = round(lat["total_assets"]/1e6, 0)
+            if "stockholders_equity" in lat and not pd.isna(lat.get("stockholders_equity", float("nan"))):
+                ttm_summary["equity_mn"]         = round(lat["stockholders_equity"]/1e6, 0)
+            if "debt_to_equity" in lat and not pd.isna(lat.get("debt_to_equity", float("nan"))):
+                ttm_summary["debt_to_equity"]    = round(lat["debt_to_equity"], 2)
+            # ROE and ROA — from ratios file if available, else calculate from balance sheet
+            roe_val = roa_val = None
+            if not ratios_df2.empty and "roe" in ratios_df2.columns:
+                valid = ratios_df2.dropna(subset=["roe"])
+                if not valid.empty:
+                    roe_val = valid.iloc[-1].get("roe")
+                    roa_val = valid.iloc[-1].get("roa")
+            # Fallback: calculate from annual data
+            if roe_val is None and "stockholders_equity" in lat and "net_income" in lat:
+                eq  = lat.get("stockholders_equity")
+                ni  = lat.get("net_income")
+                ast = lat.get("total_assets")
+                if eq and not pd.isna(eq) and eq > 0 and ni and not pd.isna(ni):
+                    roe_val = round((ni / eq) * 100, 2)
+                if ast and not pd.isna(ast) and ast > 0 and ni and not pd.isna(ni):
+                    roa_val = round((ni / ast) * 100, 2)
+            if roe_val: ttm_summary["roe_pct"] = roe_val
+            if roa_val: ttm_summary["roa_pct"] = roa_val
+
+        # Dividend summary
+        div_summary = {}
+        kpi_path2 = DATA_RAW / "company_kpis.json"
+        if kpi_path2.exists():
+            with open(kpi_path2) as f2:
+                kpis2 = json.load(f2).get("stocks", {}).get(sym, {})
+            div_summary["trailing_12m_yield_pct"] = kpis2.get("trailing_12m_yield")
+
+        if sym == "1120":
+            div_raw_path = DATA_RAW / "alrajhi_dividends_sahmk.csv"
+        else:
+            div_raw_path = DATA_RAW / f"stock_{sym}" / "dividends.json"
+        if div_raw_path.exists() and str(div_raw_path).endswith(".json"):
+            with open(div_raw_path) as f2:
+                ddata = json.load(f2)
+            hist = ddata.get("history", [])
+            if hist:
+                recent_divs = sorted(hist, key=lambda x: x.get("announcement_date",""), reverse=True)[:5]
+                div_summary["recent_dividends"] = [
+                    {"date": d.get("announcement_date","")[:10],
+                     "value_sar": d.get("value"),
+                     "period": d.get("period"),
+                     "dist_date": d.get("distribution_date","")[:10]}
+                    for d in recent_divs
+                ]
         state["quarterly_records"] = quarterly_records
         state["ttm_summary"]       = ttm_summary
-    except Exception:
+        state["div_summary"]       = div_summary
+    except Exception as ex:
         state["quarterly_records"] = []
         state["ttm_summary"]       = {}
+        state["div_summary"]       = {}
 
     all_states[sym] = state
 

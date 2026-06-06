@@ -87,6 +87,7 @@ def build_context(sym: str) -> str:
     fin_data = {
         "quarterly_records": state.get("quarterly_records", []),
         "ttm_summary":       state.get("ttm_summary", {}),
+        "div_summary":       state.get("div_summary", {}),
     }
     # Fallback to file loader only if state has no quarterly data
     if not fin_data["quarterly_records"]:
@@ -230,6 +231,11 @@ Last 12 records:
 
 TTM Summary:
 {json.dumps(fin_data.get('ttm_summary', {}), indent=2, default=str)}
+
+════════════════════════════════════
+DIVIDENDS
+════════════════════════════════════
+{json.dumps(fin_data.get('div_summary', {}), indent=2, default=str)}
 
 ════════════════════════════════════
 REGIME MEMORY (what historically happened in each environment for THIS stock)
