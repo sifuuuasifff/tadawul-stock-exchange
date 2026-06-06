@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T19:54:44.021790",
+  "generated": "2026-06-06T20:40:48.173738",
   "stocks": {
     "1120": {
       "symbol": "1120",
@@ -123,6 +123,100 @@
         "bear_target_90d": 67.32,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2023-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 5191.0,
+          "revenue_mn": 13667.0
+        },
+        {
+          "date": "2023-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 5191.0,
+          "revenue_mn": 13667.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 16621.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 5.2,
+          "revenue_mn": 13667.0
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -5380.3,
+          "revenue_mn": 22040.3
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 5103.4,
+          "revenue_mn": 8439.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 19722.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 5906.0,
+          "revenue_mn": 9200.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 6151.0,
+          "revenue_mn": 9602.8
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 6000.0,
+          "revenue_mn": 22173.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 24791.8,
+          "revenue_mn": 39094.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 7440.0,
+          "revenue_mn": 10528.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 26325.7,
+        "ttm_yoy_pct": 6.2,
+        "q1_yoy_pct": 26.0,
+        "latest_q_ni_mn": 7440.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1180": {
@@ -246,6 +340,100 @@
         "bear_target_90d": 40.14,
         "confidence": 69,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 11401.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 11440.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 12668.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 18580.7,
+          "revenue_mn": 8443.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 20010.0,
+          "revenue_mn": 8922.2
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 5366.1,
+          "revenue_mn": 9533.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 21193.0,
+          "revenue_mn": 9397.8
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 6021.9,
+          "revenue_mn": 9930.4
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 6137.2,
+          "revenue_mn": 9881.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 6470.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 25013.3,
+          "revenue_mn": 10340.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 6427.4,
+          "revenue_mn": 9650.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 25418.8,
+        "ttm_yoy_pct": 1.6,
+        "q1_yoy_pct": 6.7,
+        "latest_q_ni_mn": 6427.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1010": {
@@ -370,6 +558,100 @@
         "bear_target_90d": 20.51,
         "confidence": 76,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5602.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4715.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6025.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 7019.3,
+          "revenue_mn": 3725.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 8045.8,
+          "revenue_mn": 3893.0
+        },
+        {
+          "date": "2024-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2072.8,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 2654.1,
+          "revenue_mn": 4540.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 9321.9,
+          "revenue_mn": 4399.1
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2486.0,
+          "revenue_mn": 4473.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 2596.6,
+          "revenue_mn": 4503.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10411.0,
+          "revenue_mn": 4709.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2613.5,
+          "revenue_mn": 4762.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 10538.5,
+        "ttm_yoy_pct": 1.2,
+        "q1_yoy_pct": 5.1,
+        "latest_q_ni_mn": 2613.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1060": {
@@ -495,6 +777,100 @@
         "bear_target_90d": 34.21,
         "confidence": 79,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2830.3,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -4132.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3204.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4874.2,
+          "revenue_mn": 9654.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 7002.4,
+          "revenue_mn": 12814.1
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1883.2,
+          "revenue_mn": 3552.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 8070.5,
+          "revenue_mn": 3672.8
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2135.3,
+          "revenue_mn": 3644.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 2126.6,
+          "revenue_mn": 3745.9
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 2144.7,
+          "revenue_mn": 5702.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 8452.1,
+          "revenue_mn": 3755.5
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2086.2,
+          "revenue_mn": 3672.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 8403.0,
+        "ttm_yoy_pct": -0.6,
+        "q1_yoy_pct": -2.3,
+        "latest_q_ni_mn": 2086.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1080": {
@@ -618,6 +994,100 @@
         "bear_target_90d": 21.58,
         "confidence": 71,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3023.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2072.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2176.6,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3070.4,
+          "revenue_mn": 6849.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4070.5,
+          "revenue_mn": 8544.7
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1243.1,
+          "revenue_mn": 2409.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4966.0,
+          "revenue_mn": 2415.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1303.7,
+          "revenue_mn": 2511.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1336.5,
+          "revenue_mn": 2594.1
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1350.0,
+          "revenue_mn": 11375.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5116.2,
+          "revenue_mn": 2361.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1359.0,
+          "revenue_mn": 2588.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 5171.6,
+        "ttm_yoy_pct": 1.1,
+        "q1_yoy_pct": 4.2,
+        "latest_q_ni_mn": 1359.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1050": {
@@ -741,6 +1211,100 @@
         "bear_target_90d": 19.13,
         "confidence": 77,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3115.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1546.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3449.9,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3575.1,
+          "revenue_mn": 8021.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4222.7,
+          "revenue_mn": 2183.4
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1148.1,
+          "revenue_mn": 2389.5
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4544.1,
+          "revenue_mn": 2539.1
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1337.9,
+          "revenue_mn": 2627.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1403.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1400.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5353.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1381.2,
+          "revenue_mn": 2708.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 5396.7,
+        "ttm_yoy_pct": 0.8,
+        "q1_yoy_pct": 3.2,
+        "latest_q_ni_mn": 1381.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1150": {
@@ -864,6 +1428,100 @@
         "bear_target_90d": 24.18,
         "confidence": 61,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2534.8,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1966.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2709.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3599.1,
+          "revenue_mn": 2138.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4839.2,
+          "revenue_mn": 2539.9
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1571.5,
+          "revenue_mn": 2818.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5831.7,
+          "revenue_mn": 2810.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1508.0,
+          "revenue_mn": 2813.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1573.3,
+          "revenue_mn": 2939.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1592.0,
+          "revenue_mn": 4187.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6397.1,
+          "revenue_mn": 3133.4
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1678.5,
+          "revenue_mn": 2668.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 6567.7,
+        "ttm_yoy_pct": 2.7,
+        "q1_yoy_pct": 11.3,
+        "latest_q_ni_mn": 1678.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1140": {
@@ -986,6 +1644,100 @@
         "bear_target_90d": 24.91,
         "confidence": 72,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1243.7,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1348.5,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1686.5,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2081.7,
+          "revenue_mn": 1330.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2368.9,
+          "revenue_mn": 1337.6
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 702.7,
+          "revenue_mn": 1446.3
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2806.5,
+          "revenue_mn": 1458.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 700.4,
+          "revenue_mn": 1463.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 765.8,
+          "revenue_mn": 1540.7
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 854.5,
+          "revenue_mn": 1534.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3049.4,
+          "revenue_mn": 1646.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 735.8,
+          "revenue_mn": 1529.2
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 3084.7,
+        "ttm_yoy_pct": 1.2,
+        "q1_yoy_pct": 5.0,
+        "latest_q_ni_mn": 735.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2222": {
@@ -1110,6 +1862,100 @@
         "bear_target_90d": 26.32,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 330816.0,
+          "revenue_mn": 1236785.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 184926.0,
+          "revenue_mn": 862091.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 395203.0,
+          "revenue_mn": 1501758.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 597215.0,
+          "revenue_mn": 2266373.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 452753.0,
+          "revenue_mn": 1856373.0
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 97621.0,
+          "revenue_mn": 464625.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 393891.0,
+          "revenue_mn": 1801674.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 95676.0,
+          "revenue_mn": 429612.0
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 85632.0,
+          "revenue_mn": 407142.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 105000.0,
+          "revenue_mn": 418116.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 348042.0,
+          "revenue_mn": 1671204.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 122008.0,
+          "revenue_mn": 467236.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 374374.0,
+        "ttm_yoy_pct": 7.6,
+        "q1_yoy_pct": 27.5,
+        "latest_q_ni_mn": 122008.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2380": {
@@ -1231,6 +2077,100 @@
         "bear_target_90d": 14.53,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 668.6,
+          "revenue_mn": 40998.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -544.2,
+          "revenue_mn": 34062.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -3781.1,
+          "revenue_mn": 21870.2
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2036.7,
+          "revenue_mn": 45638.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1114.9,
+          "revenue_mn": 55952.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -4692.7,
+          "revenue_mn": 44604.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -4544.5,
+          "revenue_mn": 39349.1
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -690.8,
+          "revenue_mn": 11214.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -1365.9,
+          "revenue_mn": 4051.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -1235.6,
+          "revenue_mn": 9195.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -3898.7,
+          "revenue_mn": 35008.5
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1466.0,
+          "revenue_mn": 11492.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -1741.9,
+        "ttm_yoy_pct": -55.3,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 1466.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2010": {
@@ -1354,6 +2294,100 @@
         "bear_target_90d": 53.43,
         "confidence": 70,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 21520.7,
+          "revenue_mn": 169128.3
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5563.3,
+          "revenue_mn": 139737.4
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 66.8,
+          "revenue_mn": 116949.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 23066.0,
+          "revenue_mn": 174883.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 16529.7,
+          "revenue_mn": 198466.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1304.7,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1538.5,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -1210.8,
+          "revenue_mn": 34594.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -4066.1,
+          "revenue_mn": 35565.5
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 435.5,
+          "revenue_mn": 34332.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -25779.2,
+          "revenue_mn": 116525.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 13195.0,
+          "revenue_mn": 26151.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -11373.4,
+        "ttm_yoy_pct": -55.9,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 13195.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2020": {
@@ -1478,6 +2512,100 @@
         "bear_target_90d": 130.42,
         "confidence": 70,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1473.9,
+          "revenue_mn": 3287.6
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1294.4,
+          "revenue_mn": 3327.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5228.0,
+          "revenue_mn": 9592.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10036.8,
+          "revenue_mn": 18980.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3659.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 826.5,
+          "revenue_mn": 2850.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3327.2,
+          "revenue_mn": 11061.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 984.6,
+          "revenue_mn": 3073.9
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1059.7,
+          "revenue_mn": 3287.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": 2051.1
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4322.1,
+          "revenue_mn": 13076.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1.3,
+          "revenue_mn": 1368.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 3338.7,
+        "ttm_yoy_pct": -22.8,
+        "q1_yoy_pct": -99.9,
+        "latest_q_ni_mn": 1.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2290": {
@@ -1602,6 +2730,100 @@
         "bear_target_90d": 30.94,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1089.8,
+          "revenue_mn": 6064.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 677.6,
+          "revenue_mn": 5034.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1531.3,
+          "revenue_mn": 7407.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 414.1,
+          "revenue_mn": 7024.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -485.1,
+          "revenue_mn": 4532.7
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 130.6,
+          "revenue_mn": 1627.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 420.3,
+          "revenue_mn": 6160.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 13.7,
+          "revenue_mn": 1512.1
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 44.6,
+          "revenue_mn": 1393.9
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1.1,
+          "revenue_mn": 3127.7
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 79.1,
+          "revenue_mn": 5601.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.0,
+          "revenue_mn": 0.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 65.4,
+        "ttm_yoy_pct": -17.3,
+        "q1_yoy_pct": -99.9,
+        "latest_q_ni_mn": 0.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2350": {
@@ -1724,6 +2946,100 @@
         "bear_target_90d": 5.5,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1702.2,
+          "revenue_mn": 12263.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -636.8,
+          "revenue_mn": 9536.4
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -784.7,
+          "revenue_mn": 8007.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2390.6,
+          "revenue_mn": 12656.2
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1243.9,
+          "revenue_mn": 11157.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -2136.5,
+          "revenue_mn": 8170.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1803.7,
+          "revenue_mn": 8726.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -775.8,
+          "revenue_mn": 2061.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -496.4,
+          "revenue_mn": 2231.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -336.2,
+          "revenue_mn": 2152.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -2293.9,
+          "revenue_mn": 8458.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -614.6,
+          "revenue_mn": 1.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -2132.7,
+        "ttm_yoy_pct": -7.0,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": -614.6,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2310": {
@@ -1849,6 +3165,100 @@
         "bear_target_90d": 14.69,
         "confidence": 76,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 175.9,
+          "revenue_mn": 5323.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3591.8,
+          "revenue_mn": 9981.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3595.3,
+          "revenue_mn": 10253.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1175.0,
+          "revenue_mn": 7617.9
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 121.5,
+          "revenue_mn": 1770.3
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 103.2,
+          "revenue_mn": 1626.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 426.1,
+          "revenue_mn": 7060.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 195.3,
+          "revenue_mn": 1969.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -169.2,
+          "revenue_mn": 1906.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 156.0,
+          "revenue_mn": 1800.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -860.5,
+          "revenue_mn": 6809.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -211.0,
+          "revenue_mn": 1227.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -1266.8,
+        "ttm_yoy_pct": 47.2,
+        "q1_yoy_pct": -208.0,
+        "latest_q_ni_mn": -211.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2210": {
@@ -1969,6 +3379,100 @@
         "bear_target_90d": 18.57,
         "confidence": 63,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1.2,
+          "revenue_mn": 525.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -45.2,
+          "revenue_mn": 439.2
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 27.3,
+          "revenue_mn": 554.3
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 37.0,
+          "revenue_mn": 577.2
+        },
+        {
+          "date": "2023-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -26.3,
+          "revenue_mn": 124.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -152.4,
+          "revenue_mn": 445.2
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -48.1,
+          "revenue_mn": 96.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 11.7,
+          "revenue_mn": 380.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -49.5,
+          "revenue_mn": 66.0
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 148.0,
+          "revenue_mn": 27.8
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -61.6,
+          "revenue_mn": 44.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -49.5,
+          "revenue_mn": 66.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -49.5,
+        "ttm_yoy_pct": -522.6,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": null,
+        "is_ttm": false,
+        "as_of": "2025-12-31"
       }
     },
     "2060": {
@@ -2092,6 +3596,100 @@
         "bear_target_90d": 9.43,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1202.1,
+          "revenue_mn": 11439.3
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1579.5,
+          "revenue_mn": 3018.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -446.7,
+          "revenue_mn": 2271.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1356.4,
+          "revenue_mn": 3673.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 666.3,
+          "revenue_mn": 3882.9
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 174.6,
+          "revenue_mn": 3567.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 102.8,
+          "revenue_mn": 3900.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 895.8,
+          "revenue_mn": 862.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -65.8,
+          "revenue_mn": 808.9
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -558.5,
+          "revenue_mn": 859.7
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1765.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -341.3,
+          "revenue_mn": 495.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -3002.4,
+        "ttm_yoy_pct": 70.1,
+        "q1_yoy_pct": -138.1,
+        "latest_q_ni_mn": -341.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2030": {
@@ -2215,6 +3813,100 @@
         "bear_target_90d": 43.57,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 13.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6.6,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 28.2,
+          "revenue_mn": 11.4
+        },
+        {
+          "date": "2023-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": null
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 7.7,
+          "revenue_mn": 7.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -53.5,
+          "revenue_mn": 1.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2.1,
+          "revenue_mn": 2.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -25.8,
+          "revenue_mn": 0.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1.6,
+          "revenue_mn": 0.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -60.2,
+          "revenue_mn": 0.6
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 5.7,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -56.5,
+        "ttm_yoy_pct": -6.1,
+        "q1_yoy_pct": 175.1,
+        "latest_q_ni_mn": 5.7,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2250": {
@@ -2339,6 +4031,100 @@
         "bear_target_90d": 13.81,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 91.6,
+          "revenue_mn": 6112.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1136.3,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 277.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 112.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 64.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 98.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 201.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 18.2,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 19.6,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": 0.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -103.7,
+          "revenue_mn": null
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 95.8,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -26.1,
+        "ttm_yoy_pct": -74.8,
+        "q1_yoy_pct": 425.2,
+        "latest_q_ni_mn": 95.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1211": {
@@ -2463,6 +4249,100 @@
         "bear_target_90d": 62.34,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1847.9,
+          "revenue_mn": 14170.8
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -739.5,
+          "revenue_mn": 17736.3
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -209.0,
+          "revenue_mn": 18579.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5227.7,
+          "revenue_mn": 26769.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 9319.0,
+          "revenue_mn": 40277.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1577.3,
+          "revenue_mn": 29271.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2871.5,
+          "revenue_mn": 32546.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1550.0,
+          "revenue_mn": 8510.9
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1921.8,
+          "revenue_mn": 9415.8
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 2205.1,
+          "revenue_mn": 10011.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 7347.9,
+          "revenue_mn": 38577.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.1,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 5798.0,
+        "ttm_yoy_pct": -21.1,
+        "q1_yoy_pct": -100.0,
+        "latest_q_ni_mn": 0.1,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2230": {
@@ -2586,6 +4466,100 @@
         "bear_target_90d": 8.5,
         "confidence": 63,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 114.8,
+          "revenue_mn": 2948.5
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 32.9,
+          "revenue_mn": 2949.2
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 74.0,
+          "revenue_mn": 3306.2
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 69.6,
+          "revenue_mn": 3411.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 80.2,
+          "revenue_mn": 3695.9
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 182.9,
+          "revenue_mn": 4854.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 291.2,
+          "revenue_mn": 6375.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 82.3,
+          "revenue_mn": 1643.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 69.5,
+          "revenue_mn": 1765.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 87.2,
+          "revenue_mn": 1788.1
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 335.3,
+          "revenue_mn": 6880.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 87.9,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 340.9,
+        "ttm_yoy_pct": 1.7,
+        "q1_yoy_pct": 6.8,
+        "latest_q_ni_mn": 87.9,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "7010": {
@@ -2708,6 +4682,100 @@
         "bear_target_90d": 42.54,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10779.8,
+          "revenue_mn": 51963.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10664.7,
+          "revenue_mn": 54367.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10994.9,
+          "revenue_mn": 58953.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 11311.3,
+          "revenue_mn": 63417.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 12170.5,
+          "revenue_mn": 67431.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 13295.4,
+          "revenue_mn": 72336.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10715.3,
+          "revenue_mn": 75893.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 3648.9,
+          "revenue_mn": 19209.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 3823.5,
+          "revenue_mn": 19450.9
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 4106.9,
+          "revenue_mn": 19263.7
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 14882.2,
+          "revenue_mn": 77818.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 3767.5,
+          "revenue_mn": 19938.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 15000.8,
+        "ttm_yoy_pct": 0.8,
+        "q1_yoy_pct": 3.3,
+        "latest_q_ni_mn": 3767.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "7020": {
@@ -2832,6 +4900,100 @@
         "bear_target_90d": 61.83,
         "confidence": 74,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 31.2,
+          "revenue_mn": 13450.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 783.3,
+          "revenue_mn": 14046.2
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1071.5,
+          "revenue_mn": 14834.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1656.9,
+          "revenue_mn": 15668.9
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2232.0,
+          "revenue_mn": 16762.7
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 828.5,
+          "revenue_mn": 4498.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3106.8,
+          "revenue_mn": 18206.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 766.7,
+          "revenue_mn": 4777.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 829.9,
+          "revenue_mn": 4828.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 850.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3466.4,
+          "revenue_mn": 19641.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 879748.8,
+          "revenue_mn": 5.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 882448.5,
+        "ttm_yoy_pct": 25357.0,
+        "q1_yoy_pct": 114649.3,
+        "latest_q_ni_mn": 879748.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "7030": {
@@ -2956,6 +5118,100 @@
         "bear_target_90d": 10.48,
         "confidence": 62,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 485.2,
+          "revenue_mn": 8386.2
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 259.9,
+          "revenue_mn": 7916.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 214.3,
+          "revenue_mn": 7900.6
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 549.7,
+          "revenue_mn": 9075.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1267.0,
+          "revenue_mn": 9882.6
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 150.3,
+          "revenue_mn": 2583.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 596.4,
+          "revenue_mn": 10365.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 92.8,
+          "revenue_mn": 2690.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 127.4,
+          "revenue_mn": 2653.7
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 265.0,
+          "revenue_mn": 2400.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 603.5,
+          "revenue_mn": 10983.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.2,
+          "revenue_mn": 2656.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 510.9,
+        "ttm_yoy_pct": -15.3,
+        "q1_yoy_pct": -99.8,
+        "latest_q_ni_mn": 0.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "7040": {
@@ -3080,6 +5336,100 @@
         "bear_target_90d": 101.11,
         "confidence": 74,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -40.3,
+          "revenue_mn": 479.8
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -53.3,
+          "revenue_mn": 421.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -71.6,
+          "revenue_mn": 339.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -38.3,
+          "revenue_mn": 282.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -37.4,
+          "revenue_mn": 378.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 42.5,
+          "revenue_mn": 630.3
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 58.6,
+          "revenue_mn": 346.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 194.7,
+          "revenue_mn": 1016.1
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 59.0,
+          "revenue_mn": 423.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 61.7,
+          "revenue_mn": 435.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 65.0,
+          "revenue_mn": 470.1
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 219.6,
+          "revenue_mn": 1462.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 219.6,
+        "ttm_yoy_pct": 12.8,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": null,
+        "is_ttm": false,
+        "as_of": "2025-12-31"
       }
     },
     "7200": {
@@ -3203,6 +5553,100 @@
         "bear_target_90d": 178.72,
         "confidence": 61,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 64.5,
+          "revenue_mn": 886.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 76.0,
+          "revenue_mn": 997.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 90.4,
+          "revenue_mn": 1016.7
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 56.5,
+          "revenue_mn": 638.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 95.9,
+          "revenue_mn": 789.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 14.0,
+          "revenue_mn": 1459.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 124.4,
+          "revenue_mn": 1213.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 33.8,
+          "revenue_mn": 405.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 32.3,
+          "revenue_mn": 304.2
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 25.1,
+          "revenue_mn": 280.4
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 96.1,
+          "revenue_mn": 1272.4
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 33.8,
+          "revenue_mn": 314.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 96.1,
+        "ttm_yoy_pct": 0.0,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": 33.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4190": {
@@ -3326,6 +5770,100 @@
         "bear_target_90d": 15.86,
         "confidence": 57,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 960.0,
+          "revenue_mn": 7361.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 984.7,
+          "revenue_mn": 8424.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1003.0,
+          "revenue_mn": 9305.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 991.9,
+          "revenue_mn": 9088.3
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 969.8,
+          "revenue_mn": 9391.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 973.0,
+          "revenue_mn": 10594.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 974.0,
+          "revenue_mn": 10830.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 217.3,
+          "revenue_mn": 2720.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 197.2,
+          "revenue_mn": 2648.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 324.9,
+          "revenue_mn": 2984.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1049.2,
+          "revenue_mn": 11365.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 253.5,
+          "revenue_mn": 3038.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1085.4,
+        "ttm_yoy_pct": 3.4,
+        "q1_yoy_pct": 16.7,
+        "latest_q_ni_mn": 253.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4003": {
@@ -3448,6 +5986,100 @@
         "bear_target_90d": 77.95,
         "confidence": 72,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 161.2,
+          "revenue_mn": 4394.1
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 205.6,
+          "revenue_mn": 5134.6
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 280.1,
+          "revenue_mn": 5962.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 396.8,
+          "revenue_mn": 5833.6
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 440.2,
+          "revenue_mn": 6031.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 390.5,
+          "revenue_mn": 6200.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 527.9,
+          "revenue_mn": 6781.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 103.4,
+          "revenue_mn": 1740.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 106.5,
+          "revenue_mn": 2124.7
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 142.7,
+          "revenue_mn": 1792.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 497.0,
+          "revenue_mn": 7446.1
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 50.4,
+          "revenue_mn": 1828.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 444.0,
+        "ttm_yoy_pct": -10.7,
+        "q1_yoy_pct": -51.3,
+        "latest_q_ni_mn": 50.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4012": {
@@ -3569,6 +6201,100 @@
         "bear_target_90d": 3.65,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 80.4,
+          "revenue_mn": 477.2
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 82.4,
+          "revenue_mn": 527.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 59.7,
+          "revenue_mn": 481.9
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 53.4,
+          "revenue_mn": 508.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 76.9,
+          "revenue_mn": 532.2
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 5.6,
+          "revenue_mn": 78.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 83.9,
+          "revenue_mn": 522.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 63.0,
+          "revenue_mn": 225.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 9.2,
+          "revenue_mn": 87.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 72.1,
+          "revenue_mn": 780.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 100.1,
+          "revenue_mn": 528.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 66.4,
+          "revenue_mn": 0.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 103.5,
+        "ttm_yoy_pct": 3.4,
+        "q1_yoy_pct": 5.4,
+        "latest_q_ni_mn": 66.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4161": {
@@ -3691,6 +6417,100 @@
         "bear_target_90d": 4.52,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 397.8,
+          "revenue_mn": 4554.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 419.1,
+          "revenue_mn": 4843.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 447.7,
+          "revenue_mn": 5156.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 240.6,
+          "revenue_mn": 4382.2
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 118.7,
+          "revenue_mn": 4897.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 276.5,
+          "revenue_mn": 5602.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 272.2,
+          "revenue_mn": 5677.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 67.1,
+          "revenue_mn": 1674.4
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 51.8,
+          "revenue_mn": 1474.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 42.1,
+          "revenue_mn": 1529.4
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 269.9,
+          "revenue_mn": 6348.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 70.1,
+          "revenue_mn": 1811.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 272.9,
+        "ttm_yoy_pct": 1.1,
+        "q1_yoy_pct": 4.5,
+        "latest_q_ni_mn": 70.1,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4001": {
@@ -3815,6 +6635,100 @@
         "bear_target_90d": 5.67,
         "confidence": 62,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 302.6,
+          "revenue_mn": 7515.1
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 344.7,
+          "revenue_mn": 8165.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 445.6,
+          "revenue_mn": 8811.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 303.0,
+          "revenue_mn": 8403.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1082.5,
+          "revenue_mn": 9549.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 497.3,
+          "revenue_mn": 10203.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 511.0,
+          "revenue_mn": 10715.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 76.4,
+          "revenue_mn": 3133.0
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 41.1,
+          "revenue_mn": 2535.2
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 17.5,
+          "revenue_mn": 2711.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 250.1,
+          "revenue_mn": 11088.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": 2965.2
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 173.7,
+        "ttm_yoy_pct": -30.5,
+        "q1_yoy_pct": -100.0,
+        "latest_q_ni_mn": null,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4006": {
@@ -3937,6 +6851,100 @@
         "bear_target_90d": 12.23,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3.8,
+          "revenue_mn": 1563.9
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 13.0,
+          "revenue_mn": 1580.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 38.8,
+          "revenue_mn": 1863.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 20.8,
+          "revenue_mn": 1651.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 22.8,
+          "revenue_mn": 1798.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 21.8,
+          "revenue_mn": 1813.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 25.4,
+          "revenue_mn": 1835.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 5.7,
+          "revenue_mn": 469.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 7.9,
+          "revenue_mn": 438.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 6.4,
+          "revenue_mn": 432.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 24.7,
+          "revenue_mn": 1780.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 6.3,
+          "revenue_mn": 442.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 25.3,
+        "ttm_yoy_pct": 2.4,
+        "q1_yoy_pct": 10.3,
+        "latest_q_ni_mn": 6.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4300": {
@@ -4062,6 +7070,100 @@
         "bear_target_90d": 17.11,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 508.8,
+          "revenue_mn": 6412.3
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 304.6,
+          "revenue_mn": 3491.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 18.8,
+          "revenue_mn": 1944.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 132.5,
+          "revenue_mn": 2493.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 441.7,
+          "revenue_mn": 3925.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 610.8,
+          "revenue_mn": 2707.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 787.9,
+          "revenue_mn": 3759.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 209.7,
+          "revenue_mn": 932.0
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 238.6,
+          "revenue_mn": 852.1
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 255.6,
+          "revenue_mn": 1017.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1133.9,
+          "revenue_mn": 3899.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 260.0,
+          "revenue_mn": 1163.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1184.2,
+        "ttm_yoy_pct": 4.4,
+        "q1_yoy_pct": 24.0,
+        "latest_q_ni_mn": 260.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4220": {
@@ -4185,6 +7287,100 @@
         "bear_target_90d": 9.8,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -135.1,
+          "revenue_mn": 1008.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -508.8,
+          "revenue_mn": 986.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1248.4,
+          "revenue_mn": 547.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -827.4,
+          "revenue_mn": 372.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1157.3,
+          "revenue_mn": 363.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -253.2,
+          "revenue_mn": 1031.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1134.6,
+          "revenue_mn": 426.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -123.3,
+          "revenue_mn": 203.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -43.7,
+          "revenue_mn": 118.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -134.9,
+          "revenue_mn": 358.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -8.9,
+          "revenue_mn": 1138.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.2,
+          "revenue_mn": 157.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 114.6,
+        "ttm_yoy_pct": -1387.6,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 0.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4322": {
@@ -4307,6 +7503,100 @@
         "bear_target_90d": 12.64,
         "confidence": 71,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2.7,
+          "revenue_mn": 209.0
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 59.7,
+          "revenue_mn": 456.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 98.6,
+          "revenue_mn": 587.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 193.7,
+          "revenue_mn": 1085.3
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 245.7,
+          "revenue_mn": 1106.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 207.9,
+          "revenue_mn": 1367.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 282.9,
+          "revenue_mn": 2063.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 68.1,
+          "revenue_mn": 567.1
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 66.1,
+          "revenue_mn": 488.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 55.5,
+          "revenue_mn": 676.4
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 293.3,
+          "revenue_mn": 2437.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 65.3,
+          "revenue_mn": 577.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 290.5,
+        "ttm_yoy_pct": -1.0,
+        "q1_yoy_pct": -4.2,
+        "latest_q_ni_mn": 65.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4323": {
@@ -4429,6 +7719,100 @@
         "bear_target_90d": 26.52,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 67.5,
+          "revenue_mn": 257.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 69.8,
+          "revenue_mn": 180.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 71.4,
+          "revenue_mn": 97.2
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 81.2,
+          "revenue_mn": 103.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 87.6,
+          "revenue_mn": 282.4
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 103.0,
+          "revenue_mn": 273.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 105.9,
+          "revenue_mn": 429.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 22.4,
+          "revenue_mn": 101.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 37.1,
+          "revenue_mn": 104.2
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 49.2,
+          "revenue_mn": 148.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 134.7,
+          "revenue_mn": 522.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 35.6,
+          "revenue_mn": 185.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 148.0,
+        "ttm_yoy_pct": 9.8,
+        "q1_yoy_pct": 59.3,
+        "latest_q_ni_mn": 35.6,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4020": {
@@ -4552,6 +7936,100 @@
         "bear_target_90d": 15.76,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -183.1,
+          "revenue_mn": 296.6
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -186.4,
+          "revenue_mn": 338.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -140.7,
+          "revenue_mn": 499.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 54.9,
+          "revenue_mn": 1028.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 110.5,
+          "revenue_mn": 2051.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 67.6,
+          "revenue_mn": 1814.2
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 215.1,
+          "revenue_mn": 1987.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 135.2,
+          "revenue_mn": 628.1
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 94.4,
+          "revenue_mn": 489.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 38.9,
+          "revenue_mn": 409.7
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 296.0,
+          "revenue_mn": 1880.1
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.0,
+          "revenue_mn": 319.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 160.8,
+        "ttm_yoy_pct": -45.7,
+        "q1_yoy_pct": -100.0,
+        "latest_q_ni_mn": 0.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4250": {
@@ -4676,6 +8154,100 @@
         "bear_target_90d": 14.17,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 193.8,
+          "revenue_mn": 1962.6
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -393.8,
+          "revenue_mn": 904.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1339.0,
+          "revenue_mn": 176.7
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 946.2,
+          "revenue_mn": 310.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -352.4,
+          "revenue_mn": 849.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 37.5,
+          "revenue_mn": 1326.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 200.1,
+          "revenue_mn": 1901.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 945.9,
+          "revenue_mn": 747.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -42.1,
+          "revenue_mn": 501.7
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1.1,
+          "revenue_mn": 7.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2392.8,
+          "revenue_mn": 2113.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 0.2,
+          "revenue_mn": 739.2
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1447.1,
+        "ttm_yoy_pct": -39.5,
+        "q1_yoy_pct": -100.0,
+        "latest_q_ni_mn": 0.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4100": {
@@ -4799,6 +8371,100 @@
         "bear_target_90d": 82.84,
         "confidence": 60,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 266.1,
+          "revenue_mn": 563.4
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 282.8,
+          "revenue_mn": 548.7
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -58.9,
+          "revenue_mn": 123.4
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4.2,
+          "revenue_mn": 159.6
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 103.9,
+          "revenue_mn": 253.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 334.2,
+          "revenue_mn": 730.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 411.0,
+          "revenue_mn": 836.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 150.1,
+          "revenue_mn": 235.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 144.2,
+          "revenue_mn": 388.1
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 85.4,
+          "revenue_mn": 284.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 474.1,
+          "revenue_mn": 1072.5
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 162.2,
+          "revenue_mn": 251.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 486.2,
+        "ttm_yoy_pct": 2.5,
+        "q1_yoy_pct": 8.0,
+        "latest_q_ni_mn": 162.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4090": {
@@ -4922,6 +8588,100 @@
         "bear_target_90d": 19.7,
         "confidence": 58,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 64.3,
+          "revenue_mn": 443.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 171.9,
+          "revenue_mn": 387.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 98.8,
+          "revenue_mn": 221.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -117.3,
+          "revenue_mn": 130.9
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 139.6,
+          "revenue_mn": 330.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 109.8,
+          "revenue_mn": 536.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 333.7,
+          "revenue_mn": 1315.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 131.3,
+          "revenue_mn": 357.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 107.1,
+          "revenue_mn": 370.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 60.4,
+          "revenue_mn": 276.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 364.8,
+          "revenue_mn": 1364.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 124.8,
+          "revenue_mn": 385.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 358.2,
+        "ttm_yoy_pct": -1.8,
+        "q1_yoy_pct": -5.0,
+        "latest_q_ni_mn": 124.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4345": {
@@ -5043,6 +8803,37 @@
         "bear_target_90d": 4.53,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -3.6,
+          "revenue_mn": 48.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -10.2,
+          "revenue_mn": 51.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 3.2,
+          "revenue_mn": 51.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -10.2,
+        "ttm_yoy_pct": 0.0,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 3.2,
+        "is_ttm": true,
+        "as_of": "2025-06-30"
       }
     },
     "4013": {
@@ -5166,6 +8957,100 @@
         "bear_target_90d": 207.1,
         "confidence": 62,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 870.2,
+          "revenue_mn": 5031.2
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1055.5,
+          "revenue_mn": 5861.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1376.6,
+          "revenue_mn": 7250.5
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1650.8,
+          "revenue_mn": 8310.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2046.0,
+          "revenue_mn": 9508.4
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 595.5,
+          "revenue_mn": 2976.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2315.3,
+          "revenue_mn": 11200.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 557.0,
+          "revenue_mn": 3157.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 591.0,
+          "revenue_mn": 3384.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 1070.2,
+          "revenue_mn": 3412.4
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2401.5,
+          "revenue_mn": 13706.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 503.3,
+          "revenue_mn": 3435.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 2347.8,
+        "ttm_yoy_pct": -2.2,
+        "q1_yoy_pct": -9.6,
+        "latest_q_ni_mn": 503.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4002": {
@@ -5288,6 +9173,100 @@
         "bear_target_90d": 64.45,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 360.2,
+          "revenue_mn": 1677.0
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 421.0,
+          "revenue_mn": 1857.2
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 528.2,
+          "revenue_mn": 2045.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 578.2,
+          "revenue_mn": 2144.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 599.3,
+          "revenue_mn": 2334.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 657.7,
+          "revenue_mn": 2705.5
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 645.8,
+          "revenue_mn": 2879.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 197.0,
+          "revenue_mn": 764.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 187.0,
+          "revenue_mn": 796.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 199.7,
+          "revenue_mn": 777.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 822.0,
+          "revenue_mn": 3222.6
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 201.0,
+          "revenue_mn": 833.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 826.0,
+        "ttm_yoy_pct": 0.5,
+        "q1_yoy_pct": 2.0,
+        "latest_q_ni_mn": 201.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4004": {
@@ -5412,6 +9391,100 @@
         "bear_target_90d": 105.65,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 146.9,
+          "revenue_mn": 1252.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 97.1,
+          "revenue_mn": 1318.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 258.6,
+          "revenue_mn": 2105.2
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 274.5,
+          "revenue_mn": 2488.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 360.1,
+          "revenue_mn": 2942.9
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 126.2,
+          "revenue_mn": 847.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 471.2,
+          "revenue_mn": 3205.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 155.6,
+          "revenue_mn": 832.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 124.3,
+          "revenue_mn": 1062.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 141.9,
+          "revenue_mn": 1061.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 538.3,
+          "revenue_mn": 4066.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 154.9,
+          "revenue_mn": 1013.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 537.6,
+        "ttm_yoy_pct": -0.1,
+        "q1_yoy_pct": -0.4,
+        "latest_q_ni_mn": 154.9,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4007": {
@@ -5537,6 +9610,100 @@
         "bear_target_90d": 26.06,
         "confidence": 54,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 93.0,
+          "revenue_mn": 974.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 130.8,
+          "revenue_mn": 991.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 90.1,
+          "revenue_mn": 951.9
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 257.3,
+          "revenue_mn": 1122.4
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 303.3,
+          "revenue_mn": 1176.8
+        },
+        {
+          "date": "2024-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 64.0,
+          "revenue_mn": 1010.2
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 338.8,
+          "revenue_mn": 1153.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 73.9,
+          "revenue_mn": 301.9
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 62.0,
+          "revenue_mn": 298.2
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 51.9,
+          "revenue_mn": 294.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 241.9,
+          "revenue_mn": 1234.5
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 63.2,
+          "revenue_mn": 319.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 231.1,
+        "ttm_yoy_pct": -4.4,
+        "q1_yoy_pct": -14.5,
+        "latest_q_ni_mn": 63.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4005": {
@@ -5661,6 +9828,100 @@
         "bear_target_90d": 101.33,
         "confidence": 54,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 62.2,
+          "revenue_mn": 763.8
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 80.1,
+          "revenue_mn": 708.4
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 97.3,
+          "revenue_mn": 809.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 136.4,
+          "revenue_mn": 845.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 170.1,
+          "revenue_mn": 917.9
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 240.9,
+          "revenue_mn": 1081.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 298.2,
+          "revenue_mn": 1293.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 85.4,
+          "revenue_mn": 385.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 79.9,
+          "revenue_mn": 397.9
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 82.2,
+          "revenue_mn": 412.4
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 318.5,
+          "revenue_mn": 1600.4
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 52.5,
+          "revenue_mn": 388.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 285.6,
+        "ttm_yoy_pct": -10.3,
+        "q1_yoy_pct": -38.5,
+        "latest_q_ni_mn": 52.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4163": {
@@ -5785,6 +10046,100 @@
         "bear_target_90d": 44.33,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 228.3,
+          "revenue_mn": 3797.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 233.2,
+          "revenue_mn": 3962.4
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 246.4,
+          "revenue_mn": 4962.1
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 239.1,
+          "revenue_mn": 5034.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 305.4,
+          "revenue_mn": 5372.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 329.2,
+          "revenue_mn": 5741.4
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 75.1,
+          "revenue_mn": 1634.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 370.1,
+          "revenue_mn": 6450.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 105.2,
+          "revenue_mn": 1650.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 86.6,
+          "revenue_mn": 1685.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 69.1,
+          "revenue_mn": 1702.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 105.2,
+          "revenue_mn": 1650.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 105.2,
+        "ttm_yoy_pct": -71.6,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": null,
+        "is_ttm": false,
+        "as_of": "2025-12-31"
       }
     },
     "2070": {
@@ -5908,6 +10263,100 @@
         "bear_target_90d": 27.78,
         "confidence": 64,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -435.5,
+          "revenue_mn": 1552.5
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 124.8,
+          "revenue_mn": 1559.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 26.5,
+          "revenue_mn": 1459.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -165.1,
+          "revenue_mn": 1426.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -13.7,
+          "revenue_mn": 1653.1
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -11.0,
+          "revenue_mn": 447.3
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 24.5,
+          "revenue_mn": 1682.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 70.8,
+          "revenue_mn": 484.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 32.6,
+          "revenue_mn": 400.8
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 42.1,
+          "revenue_mn": 415.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 184.4,
+          "revenue_mn": 1706.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 68.1,
+          "revenue_mn": 0.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 181.7,
+        "ttm_yoy_pct": -1.5,
+        "q1_yoy_pct": -3.8,
+        "latest_q_ni_mn": 68.1,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4015": {
@@ -6031,6 +10480,100 @@
         "bear_target_90d": 152.76,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 206.9,
+          "revenue_mn": 805.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 170.7,
+          "revenue_mn": 735.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 171.3,
+          "revenue_mn": 916.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 292.4,
+          "revenue_mn": 1100.8
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 107.0,
+          "revenue_mn": 345.7
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 95.0,
+          "revenue_mn": 327.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 356.5,
+          "revenue_mn": 1318.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 157.0,
+          "revenue_mn": 457.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 132.0,
+          "revenue_mn": 396.2
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": null,
+          "revenue_mn": 5.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 463.8,
+          "revenue_mn": null
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 168.2,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 475.0,
+        "ttm_yoy_pct": 2.4,
+        "q1_yoy_pct": 7.1,
+        "latest_q_ni_mn": 168.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2280": {
@@ -6154,6 +10697,100 @@
         "bear_target_90d": 43.52,
         "confidence": 63,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1811.8,
+          "revenue_mn": 14351.3
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1984.4,
+          "revenue_mn": 15356.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1563.5,
+          "revenue_mn": 15849.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1759.8,
+          "revenue_mn": 18722.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2049.1,
+          "revenue_mn": 19575.6
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 570.5,
+          "revenue_mn": 5208.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2313.1,
+          "revenue_mn": 20979.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 731.2,
+          "revenue_mn": 5767.1
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 646.9,
+          "revenue_mn": 5288.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 131.5,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2456.1,
+          "revenue_mn": 22064.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 732.4,
+          "revenue_mn": 6160.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 2457.3,
+        "ttm_yoy_pct": 0.1,
+        "q1_yoy_pct": 0.2,
+        "latest_q_ni_mn": 732.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2050": {
@@ -6279,6 +10916,100 @@
         "bear_target_90d": 28.12,
         "confidence": 53,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -520.4,
+          "revenue_mn": 21814.6
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 475.6,
+          "revenue_mn": 22243.4
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 910.8,
+          "revenue_mn": 21701.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 221.9,
+          "revenue_mn": 24669.2
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 742.8,
+          "revenue_mn": 28054.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 899.2,
+          "revenue_mn": 26818.3
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 9974.3,
+          "revenue_mn": 23986.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 189.2,
+          "revenue_mn": 7597.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 105.7,
+          "revenue_mn": 6061.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 385.6,
+          "revenue_mn": 6625.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 874.5,
+          "revenue_mn": 26081.1
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 315.2,
+          "revenue_mn": 91.6
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1000.5,
+        "ttm_yoy_pct": 14.4,
+        "q1_yoy_pct": 66.6,
+        "latest_q_ni_mn": 315.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2270": {
@@ -6402,6 +11133,100 @@
         "bear_target_90d": 216.83,
         "confidence": 63,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 260.9,
+          "revenue_mn": 1692.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 218.4,
+          "revenue_mn": 1813.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 266.3,
+          "revenue_mn": 2056.1
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 260.6,
+          "revenue_mn": 2105.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 207.3,
+          "revenue_mn": 2170.3
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 327.6,
+          "revenue_mn": 2111.5
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 483.7,
+          "revenue_mn": 2962.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 126.1,
+          "revenue_mn": 757.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 117.7,
+          "revenue_mn": 785.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 184.5,
+          "revenue_mn": 806.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 477.4,
+          "revenue_mn": 2999.4
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 82.0,
+          "revenue_mn": 737.6
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 433.3,
+        "ttm_yoy_pct": -9.2,
+        "q1_yoy_pct": -35.0,
+        "latest_q_ni_mn": 82.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2100": {
@@ -6522,6 +11347,100 @@
         "bear_target_90d": 19.38,
         "confidence": 63,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -26.5,
+          "revenue_mn": 80.1
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -24.6,
+          "revenue_mn": 82.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -12.4,
+          "revenue_mn": 83.8
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -10.9,
+          "revenue_mn": 65.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 19.0,
+          "revenue_mn": 135.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 21.0,
+          "revenue_mn": 161.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 5.0,
+          "revenue_mn": 161.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 4.5,
+          "revenue_mn": 57.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -15.5,
+          "revenue_mn": 12.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -9.1,
+          "revenue_mn": 28.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -46.8,
+          "revenue_mn": 123.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2.3,
+          "revenue_mn": 22.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -48.9,
+        "ttm_yoy_pct": 4.7,
+        "q1_yoy_pct": -48.7,
+        "latest_q_ni_mn": 2.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "6010": {
@@ -6647,6 +11566,100 @@
         "bear_target_90d": 16.19,
         "confidence": 67,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1.7,
+          "revenue_mn": 2096.0
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -7.3,
+          "revenue_mn": 2225.3
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 35.7,
+          "revenue_mn": 2303.1
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -285.0,
+          "revenue_mn": 2225.1
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 95.5,
+          "revenue_mn": 2694.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 302.1,
+          "revenue_mn": 3197.0
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 113.4,
+          "revenue_mn": 791.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 774.6,
+          "revenue_mn": 3220.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 103.4,
+          "revenue_mn": 1011.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 115.3,
+          "revenue_mn": 830.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 393.3,
+          "revenue_mn": 3527.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 93.7,
+          "revenue_mn": 825.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 383.6,
+        "ttm_yoy_pct": -2.5,
+        "q1_yoy_pct": -9.4,
+        "latest_q_ni_mn": 93.7,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "6020": {
@@ -6770,6 +11783,100 @@
         "bear_target_90d": 12.09,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -7.7,
+          "revenue_mn": 12.2
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -14.6,
+          "revenue_mn": 12.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -4.2,
+          "revenue_mn": 11.7
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1.1,
+          "revenue_mn": 11.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 7.5,
+          "revenue_mn": 11.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -6.8,
+          "revenue_mn": 10.5
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10.2,
+          "revenue_mn": 10.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -3.5,
+          "revenue_mn": 2.3
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 0.2,
+          "revenue_mn": 2.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 2.4,
+          "revenue_mn": 2.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 4.0,
+          "revenue_mn": 9.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 317264.3,
+          "revenue_mn": 21.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 317271.8,
+        "ttm_yoy_pct": 7994463.6,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 317264.3,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3010": {
@@ -6892,6 +11999,100 @@
         "bear_target_90d": 22.34,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 208.7,
+          "revenue_mn": 782.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 184.9,
+          "revenue_mn": 871.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 161.5,
+          "revenue_mn": 1033.2
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 181.0,
+          "revenue_mn": 970.9
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 139.6,
+          "revenue_mn": 875.8
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 45.8,
+          "revenue_mn": 224.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 160.1,
+          "revenue_mn": 857.9
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 23.6,
+          "revenue_mn": 238.1
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 20.5,
+          "revenue_mn": 232.8
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 198.0,
+          "revenue_mn": 480.0
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 165.0,
+          "revenue_mn": 1062.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 60.0,
+          "revenue_mn": 250.2
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 201.5,
+        "ttm_yoy_pct": 22.1,
+        "q1_yoy_pct": 154.8,
+        "latest_q_ni_mn": 60.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3020": {
@@ -7017,6 +12218,100 @@
         "bear_target_90d": 23.59,
         "confidence": 65,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 256.3,
+          "revenue_mn": 801.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 363.3,
+          "revenue_mn": 879.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 160.6,
+          "revenue_mn": 735.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 355.8,
+          "revenue_mn": 1022.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 304.3,
+          "revenue_mn": 935.2
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 97.9,
+          "revenue_mn": 285.2
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 420.7,
+          "revenue_mn": 1173.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 142.1,
+          "revenue_mn": 349.0
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 121.0,
+          "revenue_mn": 362.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 299.4,
+          "revenue_mn": 2724.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 482.9,
+          "revenue_mn": 1423.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 143.9,
+          "revenue_mn": 339.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 484.7,
+        "ttm_yoy_pct": 0.4,
+        "q1_yoy_pct": 1.3,
+        "latest_q_ni_mn": 143.9,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3030": {
@@ -7141,6 +12436,100 @@
         "bear_target_90d": 32.12,
         "confidence": 76,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 400.5,
+          "revenue_mn": 1119.6
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 451.4,
+          "revenue_mn": 1441.6
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 456.0,
+          "revenue_mn": 1569.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 331.9,
+          "revenue_mn": 1409.6
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 398.8,
+          "revenue_mn": 1419.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 381.0,
+          "revenue_mn": 1461.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 421.9,
+          "revenue_mn": 1675.8
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 108.5,
+          "revenue_mn": 418.2
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 95.5,
+          "revenue_mn": 431.5
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 53.2,
+          "revenue_mn": 363.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 363.7,
+          "revenue_mn": 1671.2
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 100.2,
+          "revenue_mn": 378.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 355.4,
+        "ttm_yoy_pct": -2.3,
+        "q1_yoy_pct": -7.7,
+        "latest_q_ni_mn": 100.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3040": {
@@ -7265,6 +12654,100 @@
         "bear_target_90d": 43.89,
         "confidence": 62,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 120.8,
+          "revenue_mn": 425.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 360.7,
+          "revenue_mn": 791.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 419.8,
+          "revenue_mn": 898.4
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 295.3,
+          "revenue_mn": 722.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 130.5,
+          "revenue_mn": 678.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 142.0,
+          "revenue_mn": 583.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 301.3,
+          "revenue_mn": 967.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 94.1,
+          "revenue_mn": 302.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 61.1,
+          "revenue_mn": 293.5
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 41.4,
+          "revenue_mn": 246.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 259.9,
+          "revenue_mn": 1133.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 68.7,
+          "revenue_mn": 292.8
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 234.6,
+        "ttm_yoy_pct": -9.8,
+        "q1_yoy_pct": -27.0,
+        "latest_q_ni_mn": 68.7,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3050": {
@@ -7388,6 +12871,100 @@
         "bear_target_90d": 19.01,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 194.8,
+          "revenue_mn": 887.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 462.7,
+          "revenue_mn": 1300.3
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 609.4,
+          "revenue_mn": 1653.1
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 450.2,
+          "revenue_mn": 1339.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 300.7,
+          "revenue_mn": 1222.4
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 195.4,
+          "revenue_mn": 1070.3
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 243.7,
+          "revenue_mn": 935.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 26.8,
+          "revenue_mn": 219.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 15.3,
+          "revenue_mn": 195.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 2.2,
+          "revenue_mn": 219.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -48.5,
+          "revenue_mn": 867.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 26.8,
+          "revenue_mn": 202.7
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -48.5,
+        "ttm_yoy_pct": 0.0,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": 26.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3060": {
@@ -7511,6 +13088,100 @@
         "bear_target_90d": 15.9,
         "confidence": 59,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 257.8,
+          "revenue_mn": 975.7
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 281.0,
+          "revenue_mn": 940.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 159.6,
+          "revenue_mn": 934.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 215.4,
+          "revenue_mn": 981.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 119.9,
+          "revenue_mn": 780.5
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 31.1,
+          "revenue_mn": 210.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 157.1,
+          "revenue_mn": 876.1
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 29.9,
+          "revenue_mn": 266.4
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 21.6,
+          "revenue_mn": 274.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 144.9,
+          "revenue_mn": 655.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 104.5,
+          "revenue_mn": 1084.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 37.5,
+          "revenue_mn": 254.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 112.1,
+        "ttm_yoy_pct": 7.3,
+        "q1_yoy_pct": 25.5,
+        "latest_q_ni_mn": 37.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3080": {
@@ -7634,6 +13305,100 @@
         "bear_target_90d": 23.78,
         "confidence": 65,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 69.7,
+          "revenue_mn": 565.7
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 180.7,
+          "revenue_mn": 728.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 217.2,
+          "revenue_mn": 742.4
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 200.9,
+          "revenue_mn": 757.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 143.3,
+          "revenue_mn": 784.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 197.6,
+          "revenue_mn": 984.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 247.9,
+          "revenue_mn": 1210.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 62.1,
+          "revenue_mn": 298.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 63.4,
+          "revenue_mn": 310.7
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 35.7,
+          "revenue_mn": 298.6
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 202.5,
+          "revenue_mn": 1262.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 72.0,
+          "revenue_mn": 354.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 212.4,
+        "ttm_yoy_pct": 4.9,
+        "q1_yoy_pct": 16.0,
+        "latest_q_ni_mn": 72.0,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "3090": {
@@ -7758,6 +13523,100 @@
         "bear_target_90d": 7.57,
         "confidence": 61,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -98.9,
+          "revenue_mn": 149.4
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 24.2,
+          "revenue_mn": 238.7
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 51.6,
+          "revenue_mn": 276.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 17.8,
+          "revenue_mn": 228.5
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 21.0,
+          "revenue_mn": 297.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 19.7,
+          "revenue_mn": 265.1
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 79.6,
+          "revenue_mn": 343.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 13.0,
+          "revenue_mn": 67.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 14.1,
+          "revenue_mn": 69.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 8.3,
+          "revenue_mn": 72.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 37.3,
+          "revenue_mn": 287.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 4.1,
+          "revenue_mn": 62.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 28.3,
+        "ttm_yoy_pct": -24.0,
+        "q1_yoy_pct": -68.6,
+        "latest_q_ni_mn": 4.1,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4030": {
@@ -7881,6 +13740,100 @@
         "bear_target_90d": 34.67,
         "confidence": 74,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1040.9,
+          "revenue_mn": 8582.6
+        },
+        {
+          "date": "2023-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 224.3,
+          "revenue_mn": 2026.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1613.4,
+          "revenue_mn": 8777.5
+        },
+        {
+          "date": "2024-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 452.9,
+          "revenue_mn": 2313.1
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 733.2,
+          "revenue_mn": 2712.3
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 509.0,
+          "revenue_mn": 2240.6
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2169.4,
+          "revenue_mn": 9482.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 532.8,
+          "revenue_mn": 2166.6
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 407.4,
+          "revenue_mn": 2461.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 738.2,
+          "revenue_mn": 9228.5
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2431.3,
+          "revenue_mn": 10346.7
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2149207.5,
+          "revenue_mn": 4964.2
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 2151106.1,
+        "ttm_yoy_pct": 88374.1,
+        "q1_yoy_pct": 403262.4,
+        "latest_q_ni_mn": 2149207.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "6004": {
@@ -8004,6 +13957,100 @@
         "bear_target_90d": 74.11,
         "confidence": 66,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 459.3,
+          "revenue_mn": 2035.8
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 463.9,
+          "revenue_mn": 2156.3
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -334.7,
+          "revenue_mn": 926.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 14.1,
+          "revenue_mn": 1212.5
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 257.1,
+          "revenue_mn": 1818.0
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 282.7,
+          "revenue_mn": 2133.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 352.8,
+          "revenue_mn": 2299.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 74.8,
+          "revenue_mn": 589.4
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 65.4,
+          "revenue_mn": 571.5
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 97.0,
+          "revenue_mn": 617.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 313.6,
+          "revenue_mn": 2441.0
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 80.4,
+          "revenue_mn": 664.1
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 319.3,
+        "ttm_yoy_pct": 1.8,
+        "q1_yoy_pct": 7.5,
+        "latest_q_ni_mn": 80.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "5110": {
@@ -8129,6 +14176,100 @@
         "bear_target_90d": 16.12,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1757.1,
+          "revenue_mn": 64063.6
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1387.6,
+          "revenue_mn": 65040.0
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 3025.5,
+          "revenue_mn": 68708.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 14536.3,
+          "revenue_mn": 69338.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 15196.4,
+          "revenue_mn": 72079.4
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 10249.3,
+          "revenue_mn": 75329.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6866.9,
+          "revenue_mn": 88665.6
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 968.0,
+          "revenue_mn": 19500.4
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 5284.1,
+          "revenue_mn": 27722.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 5332.0,
+          "revenue_mn": 31047.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 12974.8,
+          "revenue_mn": 102217.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 1.8,
+          "revenue_mn": 21336.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 12008.7,
+        "ttm_yoy_pct": -7.4,
+        "q1_yoy_pct": -99.8,
+        "latest_q_ni_mn": 1.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2080": {
@@ -8251,6 +14392,100 @@
         "bear_target_90d": 78.6,
         "confidence": 69,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 117.1,
+          "revenue_mn": 1896.4
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 109.8,
+          "revenue_mn": 1922.6
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 136.9,
+          "revenue_mn": 1963.0
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 201.7,
+          "revenue_mn": 1901.5
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 214.1,
+          "revenue_mn": 2080.2
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 227.3,
+          "revenue_mn": 2457.9
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 248.7,
+          "revenue_mn": 2869.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 62.0,
+          "revenue_mn": 834.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 53.9,
+          "revenue_mn": 735.3
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 69.7,
+          "revenue_mn": 793.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 249.1,
+          "revenue_mn": 3268.8
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 82.2,
+          "revenue_mn": 960.3
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 269.4,
+        "ttm_yoy_pct": 8.1,
+        "q1_yoy_pct": 32.7,
+        "latest_q_ni_mn": 82.2,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2200": {
@@ -8374,6 +14609,100 @@
         "bear_target_90d": 7.32,
         "confidence": 52,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -122.7,
+          "revenue_mn": 698.3
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 28.7,
+          "revenue_mn": 741.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -195.3,
+          "revenue_mn": 369.3
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -60.1,
+          "revenue_mn": 395.0
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 9.0,
+          "revenue_mn": 531.6
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 132.1,
+          "revenue_mn": 1076.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 168.2,
+          "revenue_mn": 1138.3
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 40.2,
+          "revenue_mn": 248.9
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 34.4,
+          "revenue_mn": 254.4
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 27.8,
+          "revenue_mn": 233.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 110.5,
+          "revenue_mn": 874.1
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 20.1,
+          "revenue_mn": 0.0
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 90.4,
+        "ttm_yoy_pct": -18.2,
+        "q1_yoy_pct": -49.9,
+        "latest_q_ni_mn": 20.1,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4140": {
@@ -8494,6 +14823,100 @@
         "bear_target_90d": 2.35,
         "confidence": 73,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -12.7,
+          "revenue_mn": 80.6
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -13.2,
+          "revenue_mn": 36.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -14.9,
+          "revenue_mn": 15.7
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -24.3,
+          "revenue_mn": null
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -15.6,
+          "revenue_mn": 13.2
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -3.3,
+          "revenue_mn": null
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -19.6,
+          "revenue_mn": 23.0
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -1.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -5.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -3.5,
+          "revenue_mn": null
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1.0,
+          "revenue_mn": null
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -1.5,
+          "revenue_mn": null
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -1.5,
+        "ttm_yoy_pct": 49.0,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": -1.5,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4110": {
@@ -8618,6 +15041,100 @@
         "bear_target_90d": 2.04,
         "confidence": 53,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6.8,
+          "revenue_mn": 463.9
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -12.9,
+          "revenue_mn": 497.9
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -9.6,
+          "revenue_mn": 474.8
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -30.8,
+          "revenue_mn": 427.5
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -13.9,
+          "revenue_mn": 480.6
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -0.8,
+          "revenue_mn": 119.8
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -56.6,
+          "revenue_mn": 482.2
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 12.4,
+          "revenue_mn": 113.7
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 1.6,
+          "revenue_mn": 147.5
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 9.4,
+          "revenue_mn": 142.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 26.1,
+          "revenue_mn": 543.9
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -37.4,
+          "revenue_mn": 417.9
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -23.6,
+        "ttm_yoy_pct": -190.4,
+        "q1_yoy_pct": -400.9,
+        "latest_q_ni_mn": -37.4,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "2180": {
@@ -8739,6 +15256,100 @@
         "bear_target_90d": 26.72,
         "confidence": 53,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -3.1,
+          "revenue_mn": 163.5
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -22.3,
+          "revenue_mn": 164.1
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -3.0,
+          "revenue_mn": 181.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -9.1,
+          "revenue_mn": 222.6
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 9.8,
+          "revenue_mn": 260.7
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 12.0,
+          "revenue_mn": 238.0
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 0.9,
+          "revenue_mn": 245.7
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": -3.6,
+          "revenue_mn": 53.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -11.5,
+          "revenue_mn": 66.1
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -2.8,
+          "revenue_mn": 62.9
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -19.1,
+          "revenue_mn": 251.6
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 2.6,
+          "revenue_mn": 64.5
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": -12.9,
+        "ttm_yoy_pct": -32.5,
+        "q1_yoy_pct": NaN,
+        "latest_q_ni_mn": 2.6,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "4082": {
@@ -8863,6 +15474,100 @@
         "bear_target_90d": 7.19,
         "confidence": 68,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2017-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 26.3,
+          "revenue_mn": null
+        },
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 29.1,
+          "revenue_mn": null
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 29.4,
+          "revenue_mn": null
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 33.9,
+          "revenue_mn": null
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 40.9,
+          "revenue_mn": null
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 42.9,
+          "revenue_mn": 158.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 25.3,
+          "revenue_mn": 169.4
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 15.1,
+          "revenue_mn": 55.5
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 4.2,
+          "revenue_mn": 52.8
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": -2.9,
+          "revenue_mn": 54.0
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -1.7,
+          "revenue_mn": 57.3
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1.0,
+          "revenue_mn": 54.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1.0,
+        "ttm_yoy_pct": -93.3,
+        "q1_yoy_pct": null,
+        "latest_q_ni_mn": null,
+        "is_ttm": false,
+        "as_of": "2025-12-31"
       }
     },
     "4280": {
@@ -8986,6 +15691,100 @@
         "bear_target_90d": 14.1,
         "confidence": 53,
         "confidence_label": "MEDIUM"
+      },
+      "quarterly_records": [
+        {
+          "date": "2018-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 681.6,
+          "revenue_mn": 2578.1
+        },
+        {
+          "date": "2019-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 420.2,
+          "revenue_mn": 2231.8
+        },
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -1466.8,
+          "revenue_mn": 1029.5
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1017.4,
+          "revenue_mn": 1508.4
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 6957.9,
+          "revenue_mn": 2492.1
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1013.2,
+          "revenue_mn": 1592.7
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 1237.0,
+          "revenue_mn": 1604.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 431.6,
+          "revenue_mn": 741.5
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 405.1,
+          "revenue_mn": 623.1
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 794.5,
+          "revenue_mn": 625.2
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 2143.3,
+          "revenue_mn": 1677.5
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 260.8,
+          "revenue_mn": 573.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 1972.5,
+        "ttm_yoy_pct": -8.0,
+        "q1_yoy_pct": -39.6,
+        "latest_q_ni_mn": 260.8,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     },
     "1830": {
@@ -9107,6 +15906,100 @@
         "bear_target_90d": 79.38,
         "confidence": 65,
         "confidence_label": "HIGH"
+      },
+      "quarterly_records": [
+        {
+          "date": "2020-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": -58.7,
+          "revenue_mn": 659.6
+        },
+        {
+          "date": "2021-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 206.0,
+          "revenue_mn": 885.3
+        },
+        {
+          "date": "2022-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 257.3,
+          "revenue_mn": 1065.8
+        },
+        {
+          "date": "2023-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 355.8,
+          "revenue_mn": 1325.4
+        },
+        {
+          "date": "2024-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 73.2,
+          "revenue_mn": 339.4
+        },
+        {
+          "date": "2024-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": 187.1,
+          "revenue_mn": 401.3
+        },
+        {
+          "date": "2024-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 457.0,
+          "revenue_mn": 1501.4
+        },
+        {
+          "date": "2025-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 70.5,
+          "revenue_mn": 368.9
+        },
+        {
+          "date": "2025-06-30",
+          "quarter": "Q2",
+          "type": "Quarterly",
+          "net_income_mn": 73.1,
+          "revenue_mn": 375.6
+        },
+        {
+          "date": "2025-09-30",
+          "quarter": "Q3",
+          "type": "Quarterly",
+          "net_income_mn": -523.8,
+          "revenue_mn": 186.8
+        },
+        {
+          "date": "2025-12-31",
+          "quarter": "Q4",
+          "type": "Full Year",
+          "net_income_mn": 304.9,
+          "revenue_mn": 1614.3
+        },
+        {
+          "date": "2026-03-31",
+          "quarter": "Q1",
+          "type": "Quarterly",
+          "net_income_mn": 48.6,
+          "revenue_mn": 369.4
+        }
+      ],
+      "ttm_summary": {
+        "ttm_ni_mn": 283.0,
+        "ttm_yoy_pct": -7.2,
+        "q1_yoy_pct": -31.0,
+        "latest_q_ni_mn": 48.6,
+        "is_ttm": true,
+        "as_of": "2026-03-31"
       }
     }
   }

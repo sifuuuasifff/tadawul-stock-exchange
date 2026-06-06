@@ -27,42 +27,48 @@ st.markdown(CSS, unsafe_allow_html=True)
 # ── AI ─────────────────────────────────────────────────────────────────────────
 
 def load_quarterly_financials(sym: str) -> dict:
-    """Load actual quarterly financial records to pass to AI."""
-    import sys
-    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-    from config.settings import DATA_RAW
-    from rebuild_engine import load_enriched_financials
+    """
+    Load quarterly records from all_current_states.json (committed to GitHub).
+    Falls back to raw files if running locally.
+    """
+    # Primary: read from all_current_states.json (always available on cloud)
+    states = load_all_states()
+    s = states.get(sym, {})
+    if s.get("quarterly_records"):
+        return {
+            "quarterly_records": s["quarterly_records"],
+            "ttm_summary":       s.get("ttm_summary", {}),
+        }
+    # Fallback: try raw files (local only)
     try:
-        income_df, balance_df, cashflow_df, _, annual_df = load_enriched_financials(sym)
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+        from rebuild_engine import load_enriched_financials
+        income_df, _, _, _, annual_df = load_enriched_financials(sym)
         records = []
         if not income_df.empty:
-            income_sorted = income_df.sort_values("report_date")
-            for _, r in income_sorted.tail(12).iterrows():
+            for _, r in income_df.sort_values("report_date").tail(12).iterrows():
                 ni  = r.get("net_income")
                 rev = r.get("total_revenue")
                 records.append({
-                    "date":       r["report_date"].date().isoformat(),
-                    "quarter":    f"Q{int(r.get('fiscal_quarter',0))}" if r.get("fiscal_quarter") else "Annual",
-                    "net_income_mn": round(ni/1e6, 1) if ni and not pd.isna(ni) else None,
+                    "date":    r["report_date"].date().isoformat(),
+                    "quarter": f"Q{int(r.get('fiscal_quarter',0))}" if r.get("fiscal_quarter") else "Annual",
+                    "type":    "Full Year" if r["report_date"].month == 12 else "Quarterly",
+                    "net_income_mn": round(ni/1e6, 1)  if ni  and not pd.isna(ni)  else None,
                     "revenue_mn":    round(rev/1e6, 1) if rev and not pd.isna(rev) else None,
-                    "type": "Full Year" if r["report_date"].month == 12 else "Quarterly"
                 })
-
-        # TTM summary
         ttm = {}
         if not annual_df.empty:
-            latest = annual_df.iloc[-1]
+            lat = annual_df.iloc[-1]
             ttm = {
-                "ttm_net_income_mn": round(latest.get("net_income_bn", 0) * 1000, 1),
-                "ttm_yoy_growth_pct": round(latest.get("ni_yoy", 0), 1),
-                "q1_standalone_yoy_pct": round(latest.get("_q_yoy", 0), 1) if latest.get("_q_yoy") else None,
-                "latest_q1_ni_mn": round(latest.get("_latest_q_ni", 0) / 1e6, 1) if latest.get("_latest_q_ni") else None,
-                "is_ttm": bool(latest.get("_is_ttm", False)),
-                "as_of_date": latest["report_date"].date().isoformat(),
+                "ttm_ni_mn":   round(lat.get("net_income_bn", 0) * 1000, 1),
+                "ttm_yoy_pct": round(lat.get("ni_yoy", 0), 1),
+                "q1_yoy_pct":  round(lat.get("_q_yoy", 0), 1) if lat.get("_q_yoy") else None,
+                "is_ttm":      bool(lat.get("_is_ttm", False)),
+                "as_of":       lat["report_date"].date().isoformat(),
             }
         return {"quarterly_records": records, "ttm_summary": ttm}
     except Exception as e:
-        return {"error": str(e)}
+        return {"quarterly_records": [], "ttm_summary": {}, "note": str(e)}
 
 
 def build_context(sym: str) -> str:

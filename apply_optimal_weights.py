@@ -224,6 +224,39 @@ for sym, info in STOCKS.items():
             "confidence_label": forecasts[90]["conf_label"],
         },
     }
+    # ── Embed quarterly financial records so cloud AI can access them ────────
+    try:
+        income_df2, _, _, _, annual_df2 = load_enriched_financials(sym)
+        quarterly_records = []
+        if not income_df2.empty:
+            for _, r in income_df2.sort_values("report_date").tail(12).iterrows():
+                ni  = r.get("net_income")
+                rev = r.get("total_revenue")
+                quarterly_records.append({
+                    "date":    r["report_date"].date().isoformat(),
+                    "quarter": f"Q{int(r.get('fiscal_quarter',0))}" if r.get("fiscal_quarter") else "Annual",
+                    "type":    "Full Year" if r["report_date"].month == 12 else "Quarterly",
+                    "net_income_mn":  round(ni/1e6, 1)  if ni  and not pd.isna(ni)  else None,
+                    "revenue_mn":     round(rev/1e6, 1) if rev and not pd.isna(rev) else None,
+                })
+        # TTM summary
+        ttm_summary = {}
+        if not annual_df2.empty:
+            lat = annual_df2.iloc[-1]
+            ttm_summary = {
+                "ttm_ni_mn":       round(lat.get("net_income_bn", 0) * 1000, 1),
+                "ttm_yoy_pct":     round(lat.get("ni_yoy", 0), 1),
+                "q1_yoy_pct":      round(lat.get("_q_yoy", 0), 1) if lat.get("_q_yoy") else None,
+                "latest_q_ni_mn":  round(lat.get("_latest_q_ni", 0)/1e6, 1) if lat.get("_latest_q_ni") else None,
+                "is_ttm":          bool(lat.get("_is_ttm", False)),
+                "as_of":           lat["report_date"].date().isoformat(),
+            }
+        state["quarterly_records"] = quarterly_records
+        state["ttm_summary"]       = ttm_summary
+    except Exception:
+        state["quarterly_records"] = []
+        state["ttm_summary"]       = {}
+
     all_states[sym] = state
 
     w90 = get_weights(sector, 90)
