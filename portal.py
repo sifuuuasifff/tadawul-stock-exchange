@@ -162,7 +162,34 @@ def render_sidebar(df: pd.DataFrame):
             col = "green" if c >= 70 else "orange"
             st.markdown(f"**:{col}[{r['emoji']} {r['name']}]** {c:.0f}/100 | {r['forecast_90d']:+.1f}%")
         st.markdown("---")
-        st.caption(f"Updated: {datetime.now().strftime('%Y-%m-%d')}")
+
+        # ── Live refresh button ───────────────────────────────────────────
+        last_refresh = "Never"
+        lr_path = Path("memory/last_refresh.json")
+        if lr_path.exists():
+            with open(lr_path) as f:
+                lr = json.load(f)
+            ts = lr.get("timestamp","")
+            if ts:
+                last_refresh = ts[:16].replace("T"," ")
+
+        st.caption(f"📅 Last refresh: {last_refresh}")
+
+        if st.button("🔄 Refresh Live Prices", use_container_width=True,
+                     help="Pulls latest prices from Yahoo Finance and recalculates all scores"):
+            with st.spinner("Pulling live prices for 74 stocks..."):
+                import subprocess, sys
+                result = subprocess.run(
+                    [sys.executable, "daily_refresh.py"],
+                    capture_output=True, text=True, timeout=300
+                )
+            if result.returncode == 0:
+                st.success("✅ Prices updated! Reloading...")
+                st.cache_data.clear()
+                st.rerun()
+            else:
+                st.error(f"Refresh failed: {result.stderr[-200:]}")
+
         st.caption("Use the page navigation above ↑ to switch pages")
 
 
