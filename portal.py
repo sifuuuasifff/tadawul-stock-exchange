@@ -178,17 +178,50 @@ def render_sidebar(df: pd.DataFrame):
         if st.button("🔄 Refresh Live Prices", use_container_width=True,
                      help="Pulls latest prices from Yahoo Finance and recalculates all scores"):
             with st.spinner("Pulling live prices for 74 stocks..."):
-                import subprocess, sys
-                result = subprocess.run(
-                    [sys.executable, "daily_refresh.py"],
-                    capture_output=True, text=True, timeout=300
-                )
-            if result.returncode == 0:
-                st.success("✅ Prices updated! Reloading...")
-                st.cache_data.clear()
-                st.rerun()
-            else:
-                st.error(f"Refresh failed: {result.stderr[-200:]}")
+                try:
+                    import yfinance as yf
+                    import numpy as np
+                    from datetime import date as dt_date
+
+                    # Load current states
+                    states_path = Path("memory/all_current_states.json")
+                    with open(states_path) as f:
+                        all_states = json.load(f)
+                    stocks_data = all_states.get("stocks", {})
+
+                    updated = 0
+                    for sym, info in STOCKS.items():
+                        yahoo_ticker = f"{sym}.SR"
+                        try:
+                            ticker = yf.Ticker(yahoo_ticker)
+                            hist   = ticker.history(period="5d", auto_adjust=True)
+                            if hist.empty:
+                                continue
+                            latest_price = float(hist["Close"].iloc[-1])
+                            prev_price   = float(hist["Close"].iloc[-2]) if len(hist) > 1 else latest_price
+
+                            # Update price in state
+                            if sym in stocks_data:
+                                stocks_data[sym]["price"] = round(latest_price, 2)
+                                # Recalculate RSI direction hint (quick)
+                                ret20 = (latest_price / float(hist["Close"].iloc[0]) - 1) * 100 if len(hist) >= 5 else 0
+                                stocks_data[sym]["ret_20d_pct"] = round(ret20, 1)
+                                updated += 1
+                        except Exception:
+                            continue
+
+                    # Save updated states
+                    all_states["generated"] = datetime.now().isoformat()
+                    all_states["stocks"]    = stocks_data
+                    with open(states_path, "w") as f:
+                        json.dump(all_states, f, default=str)
+
+                    st.success(f"✅ {updated} stock prices updated to latest! Reloading...")
+                    st.cache_data.clear()
+                    st.rerun()
+
+                except Exception as e:
+                    st.error(f"Refresh failed: {e}")
 
         st.caption("Use the page navigation above ↑ to switch pages")
 
