@@ -34,8 +34,8 @@ MEMORY_DIR.mkdir(parents=True, exist_ok=True)
 # Yahoo suffix for Saudi Exchange
 YAHOO_SUFFIX = ".SR"
 
-# How many days of history to pull for indicator calculation
-LOOKBACK_DAYS = "2y"
+# Short period ensures daily (not weekly) data from Yahoo
+LOOKBACK_DAYS = "1mo"
 
 
 def refresh_stock_prices(sym: str, info: dict) -> bool:
@@ -57,21 +57,26 @@ def refresh_stock_prices(sym: str, info: dict) -> bool:
         if new_data.empty:
             return False
 
-        new_data.index = pd.to_datetime(new_data.index).tz_localize(None)
-        new_data = new_data[["Open","High","Low","Close","Volume"]].dropna()
-        new_data.columns = ["open","high","low","close","volume"]
+        new_data.index = pd.to_datetime(new_data.index).tz_convert(None).normalize()
+        # Normalise column names — yfinance returns capitalized
+        new_data.columns = [c.lower() for c in new_data.columns]
+        if "close" not in new_data.columns:
+            return False
+        new_data = new_data[["close","volume"]].dropna()
 
         # Load existing master
         master = pd.read_csv(master_path, index_col=0, parse_dates=True)
         master.index = pd.to_datetime(master.index).tz_localize(None)
 
-        # Merge — keep all old columns, update/add price rows
-        price_cols = ["open","high","low","close","volume"]
-        for col in price_cols:
-            if col in new_data.columns:
-                master[col] = master[col].combine_first(new_data[col])
-                # Update existing rows with fresh data
-                master.loc[new_data.index, col] = new_data[col]
+        # Update existing rows and append any new dates
+        for col in ["close", "volume"]:
+            if col in new_data.columns and col in master.columns:
+                existing = new_data.index[new_data.index.isin(master.index)]
+                master.loc[existing, col] = new_data.loc[existing, col]
+
+        new_rows = new_data[~new_data.index.isin(master.index)]
+        if not new_rows.empty:
+            master = pd.concat([master, new_rows.reindex(columns=master.columns)])
 
         master = master.sort_index()
 
@@ -131,7 +136,7 @@ def run_daily_refresh(push_to_github: bool = True, verbose: bool = True) -> dict
     if verbose:
         print(f"\nDAILY PRICE REFRESH — {date.today()}")
         print(f"Stocks: {len(STOCKS)}")
-        print("─" * 50)
+        print("-" * 50)
 
     for sym, info in STOCKS.items():
         success = refresh_stock_prices(sym, info)

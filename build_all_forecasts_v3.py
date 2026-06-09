@@ -118,7 +118,7 @@ for sym, info in STOCKS.items():
     repo    = float(row.get("repo_rate", 4.25)) if not pd.isna(row.get("repo_rate", float("nan"))) else 4.25
     vix     = float(row.get("vix", 20)) if not pd.isna(row.get("vix", float("nan"))) else 20.0
     oil     = float(row.get("oil", 80)) if not pd.isna(row.get("oil", float("nan"))) else 80.0
-    oil_b   = int(row.get("oil_bull", 0))
+    oil_b   = int(row.get("oil_bull", 0)) if not pd.isna(row.get("oil_bull", float("nan"))) else 0
 
     # ── Environment score (40%) ───────────────────────────────────────────────
     env = 50; env_sigs = {}
