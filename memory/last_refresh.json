@@ -1,8 +1,6 @@
 {
-  "timestamp": "2026-06-09T20:55:09.949080",
-  "updated": [],
-  "failed": [],
-  "skipped": [
+  "timestamp": "2026-06-09T20:57:36.723112",
+  "updated": [
     "1120",
     "1180",
     "1010",
@@ -78,7 +76,9 @@
     "4280",
     "1830"
   ],
-  "duration_seconds": 27.468355,
+  "failed": [],
+  "skipped": [],
+  "duration_seconds": 41.012037,
   "latest_prices": {
     "1120": {
       "name": "Al Rajhi Bank",
